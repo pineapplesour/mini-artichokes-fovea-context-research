@@ -1,0 +1,522 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-20T05:00:00+09:00",
+  "policy": {
+    "unit": "unique ready case with a nonempty Luna prediction",
+    "plainDirectDefinition": "closed-tool Codex/Luna result: no web, shell, MCP, native agent, domain skill, public product context, or self-review",
+    "excluded": [
+      "multiple-choice runs",
+      "candidate or routed-skill arms",
+      "non-ready choice-dependent conversions",
+      "custom legal retrieval pilots from official open-response accuracy"
+    ]
+  },
+  "registry": {
+    "path": "benchmarks/open_response_v2/evaluation_registry.open_response.json",
+    "sha256": "def94d82eac7a9121f15211f044ed2636185e3efe4bf5d32fae46e2acb4adefd",
+    "registeredConvertedCases": 945,
+    "registeredReadyCases": 473,
+    "plainDirectCompletedReadyCases": 37,
+    "plainDirectReadyCoverage": 0.07822410147991543,
+    "allRegisteredReadyCasesExecuted": false,
+    "allRegisteredConvertedCasesExecuted": false
+  },
+  "benchmarks": [
+    {
+      "benchmarkId": "open_response.lawkey.leet2026.v2",
+      "sourceBenchmarkId": "mcq.lawkey.leet2026.v1",
+      "totalConvertedCases": 70,
+      "readyCases": 1,
+      "needsSemanticRewriteCases": 69,
+      "plainDirectCompletedReadyCases": 1,
+      "readySubsetComplete": true,
+      "fullConvertedBenchmarkComplete": false,
+      "directCaseIds": [
+        "lawkey-leet2026-reasoning-q027"
+      ],
+      "resultFiles": [
+        {
+          "caseId": "lawkey-leet2026-reasoning-q027",
+          "path": "runs/luna-pilot/legal-leet2026-q027-direct-v1/results/lawkey-leet2026-reasoning-q027.json",
+          "sha256": "1a0071e9bcc1e8b0f6e4b34a41a75e244019ff891ca418f217b36ec9cbb5c14d"
+        }
+      ],
+      "publicPath": "benchmarks/open_response_v2/open_response_lawkey_leet2026_70.public.json",
+      "publicSha256": "2cb9a2507405aa10001633a7bb0d7e947e992c8319bf22cd3c1365e979b556d9",
+      "privatePath": "benchmarks/open_response_v2/open_response_lawkey_leet2026_70.private.json",
+      "privateSha256": "6e759286e0206dfbc479f1376ef32ac15048d0717bfc667395fb75226e5cdcca",
+      "statusCounts": {
+        "needs_semantic_rewrite": 69,
+        "ready_semantic_rewrite": 1
+      }
+    },
+    {
+      "benchmarkId": "open_response.tcm.kuksiwon81.unique92.v2",
+      "sourceBenchmarkId": "mcq.tcm.kuksiwon81.unique92.v1",
+      "totalConvertedCases": 92,
+      "readyCases": 17,
+      "needsSemanticRewriteCases": 75,
+      "plainDirectCompletedReadyCases": 17,
+      "readySubsetComplete": true,
+      "fullConvertedBenchmarkComplete": false,
+      "directCaseIds": [
+        "tcm81-p1-q005",
+        "tcm81-p1-q014",
+        "tcm81-p1-q016",
+        "tcm81-p2-q001",
+        "tcm81-p2-q003",
+        "tcm81-p2-q006",
+        "tcm81-p2-q010",
+        "tcm81-p3-q007",
+        "tcm81-p3-q019",
+        "tcm81-p3-q020",
+        "tcm81-p3-q021",
+        "tcm81-p4-q002",
+        "tcm81-p4-q004",
+        "tcm81-p4-q008",
+        "tcm81-p4-q009",
+        "tcm81-p4-q010",
+        "tcm81-p4-q012"
+      ],
+      "resultFiles": [
+        {
+          "caseId": "tcm81-p1-q005",
+          "path": "runs/luna-pilot/tcm28-direct-valid-additions/results/tcm81-p1-q005.json",
+          "sha256": "1fcae47a5fae00d6c68049b07c0c415ca04a50a63fc2bc0e258e6c34a34711d9"
+        },
+        {
+          "caseId": "tcm81-p1-q014",
+          "path": "runs/luna-pilot/tcm28-direct-valid-additions/results/tcm81-p1-q014.json",
+          "sha256": "3359360ef3a492f27245174ccc5405b47a347d565c9e6c43630e6c4b9a58f840"
+        },
+        {
+          "caseId": "tcm81-p1-q016",
+          "path": "runs/luna-pilot/tcm28-direct-valid-additions/results/tcm81-p1-q016.json",
+          "sha256": "0cadf46871cf1e9d40387045a5dd9e4cd773efd6a684c9942881675248823b0f"
+        },
+        {
+          "caseId": "tcm81-p2-q001",
+          "path": "runs/luna-pilot/tcm28-direct-valid-additions/results/tcm81-p2-q001.json",
+          "sha256": "487c28840ff2b857c888b6024e728ef261fe85620880430e520de84e161fbfdf"
+        },
+        {
+          "caseId": "tcm81-p2-q003",
+          "path": "runs/luna-pilot/tcm12-direct-clean-additions/results/tcm81-p2-q003.json",
+          "sha256": "04c7fc7b7aa6cc44f920c149b48302caf6966146b3aca049ba48651c6a046dfd"
+        },
+        {
+          "caseId": "tcm81-p2-q006",
+          "path": "runs/luna-pilot/tcm28-direct-valid-additions/results/tcm81-p2-q006.json",
+          "sha256": "29d8306ebf9f71e747f8b0002af79db64d50883949e391dd6af4aea392f5c39c"
+        },
+        {
+          "caseId": "tcm81-p2-q010",
+          "path": "runs/luna-pilot/tcm28-direct-valid-additions/results/tcm81-p2-q010.json",
+          "sha256": "f65508d8b9e2269984a037341d4168f175922dcabbf189a24d8c6318cb872c16"
+        },
+        {
+          "caseId": "tcm81-p3-q007",
+          "path": "runs/luna-pilot/tcm12-direct-clean-additions/results/tcm81-p3-q007.json",
+          "sha256": "4376d292fe552fc9b0b0e20f983c2f06066ffc1f5432ba5ba2f3e505a20a93d1"
+        },
+        {
+          "caseId": "tcm81-p3-q019",
+          "path": "runs/luna-pilot/tcm12-direct-clean-additions/results/tcm81-p3-q019.json",
+          "sha256": "22129149ee724e28c11496bf109d22e04f30c0f885abe3427f73ac7c7ae48893"
+        },
+        {
+          "caseId": "tcm81-p3-q020",
+          "path": "runs/luna-pilot/tcm28-direct-valid-additions/results/tcm81-p3-q020.json",
+          "sha256": "dc297cb2e82826558f52d7a72edc07b183c1079db2395aef779f4ac20d88c730"
+        },
+        {
+          "caseId": "tcm81-p3-q021",
+          "path": "runs/luna-pilot/tcm28-direct-valid-additions/results/tcm81-p3-q021.json",
+          "sha256": "9e0240e7f875b0418ffdc4c65994d6363e8b1c13da2f4bdfc3f1ad9f142373e9"
+        },
+        {
+          "caseId": "tcm81-p4-q002",
+          "path": "runs/luna-pilot/tcm28-direct-valid-additions/results/tcm81-p4-q002.json",
+          "sha256": "0b8c8519b0d7f8c75e63f2d76131b305cb1abe61535d953f560af3b7fe8b9c7f"
+        },
+        {
+          "caseId": "tcm81-p4-q004",
+          "path": "runs/luna-pilot/tcm12-direct/results/tcm81-p4-q004.json",
+          "sha256": "b7566d34446132422777171133f1694594593cae97b798c6355925b060fc024a"
+        },
+        {
+          "caseId": "tcm81-p4-q008",
+          "path": "runs/luna-pilot/tcm28-direct-valid-additions/results/tcm81-p4-q008.json",
+          "sha256": "c1b6578e758e1c1c0546942ca6d8b9bddd848c59211395e8f3b1b34592b7491b"
+        },
+        {
+          "caseId": "tcm81-p4-q009",
+          "path": "runs/luna-pilot/tcm12-direct-clean-additions/results/tcm81-p4-q009.json",
+          "sha256": "5e873b9fd869769cc6ed35bf1105983d1f41f86ab137636eee83421d540d6df7"
+        },
+        {
+          "caseId": "tcm81-p4-q010",
+          "path": "runs/luna-pilot/tcm28-direct-valid-additions/results/tcm81-p4-q010.json",
+          "sha256": "481a0acaf8a0df3054592da25ae5657eded647effc5c428abea2f39f6bfee0a9"
+        },
+        {
+          "caseId": "tcm81-p4-q012",
+          "path": "runs/luna-pilot/tcm12-direct/results/tcm81-p4-q012.json",
+          "sha256": "a02c8aad87b19776e2e077531aded13a1590a682aa90998a54c14a541a774f1f"
+        }
+      ],
+      "publicPath": "benchmarks/open_response_v2/open_response_tcm_kuksiwon81_unique92.public.json",
+      "publicSha256": "6bd6a9a978dd4fd09add2d9686978e17a1c5c020296959ce7d7fc35e954de986",
+      "privatePath": "benchmarks/open_response_v2/open_response_tcm_kuksiwon81_unique92.private.json",
+      "privateSha256": "c2521364e125c6952a4270a5783e722cb6c146bf1ea56c7e068831d6ed045a7d",
+      "statusCounts": {
+        "needs_semantic_rewrite": 75,
+        "ready_hide_options": 17
+      }
+    },
+    {
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "sourceBenchmarkId": "mcq.christian.bible100.v1",
+      "totalConvertedCases": 100,
+      "readyCases": 83,
+      "needsSemanticRewriteCases": 17,
+      "plainDirectCompletedReadyCases": 4,
+      "readySubsetComplete": false,
+      "fullConvertedBenchmarkComplete": false,
+      "directCaseIds": [
+        "christian-bible100-q001",
+        "christian-bible100-q002",
+        "christian-bible100-q003",
+        "christian-bible100-q004"
+      ],
+      "resultFiles": [
+        {
+          "caseId": "christian-bible100-q001",
+          "path": "runs/luna-pilot/christian-bible100-q001-direct-v1/results/christian-bible100-q001.json",
+          "sha256": "c0d3d78533d3f4d1c0c07f9df6207d1589158069b764642b08b260312b30ae23"
+        },
+        {
+          "caseId": "christian-bible100-q002",
+          "path": "runs/luna-pilot/christian-bible100-q002-direct-v1/results/christian-bible100-q002.json",
+          "sha256": "8835333bd87d96192abefbfdcc897cf1c40d07920987dd26f663ca4d01a1629f"
+        },
+        {
+          "caseId": "christian-bible100-q003",
+          "path": "runs/luna-pilot/christian-bible100-q003-direct-v1/results/christian-bible100-q003.json",
+          "sha256": "bc9f66bca33b6193998cb99d3814d95245edbdcd41a4eb2487babf43ffb09649"
+        },
+        {
+          "caseId": "christian-bible100-q004",
+          "path": "runs/luna-pilot/christian-bible100-q004-direct-v1/results/christian-bible100-q004.json",
+          "sha256": "2eded4e78b1d3172feefd98827f275799a585f484e313d44ea14db5618e06df4"
+        }
+      ],
+      "publicPath": "benchmarks/open_response_v2/open_response_christian_bible100.public.json",
+      "publicSha256": "02b48b91c77e6de88798a044555e29dfc5dd8a564f2a4e507aab0c62680859dd",
+      "privatePath": "benchmarks/open_response_v2/open_response_christian_bible100.private.json",
+      "privateSha256": "cb52635c9272f28178aae4f94c97466abd424e3f4f035b92a5d7008231c41525",
+      "statusCounts": {
+        "needs_semantic_rewrite": 17,
+        "ready_hide_options": 83
+      }
+    },
+    {
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "sourceBenchmarkId": "mcq.christian.provao2012.v1",
+      "totalConvertedCases": 92,
+      "readyCases": 78,
+      "needsSemanticRewriteCases": 14,
+      "plainDirectCompletedReadyCases": 0,
+      "readySubsetComplete": false,
+      "fullConvertedBenchmarkComplete": false,
+      "directCaseIds": [],
+      "resultFiles": [],
+      "publicPath": "benchmarks/open_response_v2/open_response_christian_provao2012.public.json",
+      "publicSha256": "aef1f3fe0cdb72fa3fb3691ecd680a777512658e5c5c987a44a44dba7b0bd43c",
+      "privatePath": "benchmarks/open_response_v2/open_response_christian_provao2012.private.json",
+      "privateSha256": "c0efa2c26da24921fa99ca1c1865c4e6fa4c4f005db2f62b2fa78f8a9a82c1aa",
+      "statusCounts": {
+        "needs_semantic_rewrite": 14,
+        "ready_hide_options": 78
+      }
+    },
+    {
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "sourceBenchmarkId": "mcq.islam.cisi100.v1",
+      "totalConvertedCases": 100,
+      "readyCases": 69,
+      "needsSemanticRewriteCases": 31,
+      "plainDirectCompletedReadyCases": 13,
+      "readySubsetComplete": false,
+      "fullConvertedBenchmarkComplete": false,
+      "directCaseIds": [
+        "islam-cisi-q002",
+        "islam-cisi-q006",
+        "islam-cisi-q010",
+        "islam-cisi-q027",
+        "islam-cisi-q036",
+        "islam-cisi-q044",
+        "islam-cisi-q047",
+        "islam-cisi-q055",
+        "islam-cisi-q056",
+        "islam-cisi-q067",
+        "islam-cisi-q073",
+        "islam-cisi-q087",
+        "islam-cisi-q097"
+      ],
+      "resultFiles": [
+        {
+          "caseId": "islam-cisi-q002",
+          "path": "runs/luna-pilot/islam-domain-classification-skill-heldout-v1-direct/results/islam-cisi-q002.json",
+          "sha256": "7cfe082a59f00084664b8295da408c432ae47eefaecde08ee15ed02162860f4b"
+        },
+        {
+          "caseId": "islam-cisi-q006",
+          "path": "runs/luna-pilot/islam-domain-context-heldout-v1-direct/results/islam-cisi-q006.json",
+          "sha256": "9cd36f33cd336ee6777ee5e3e085964e56bcae4a9e9bfd7b1b25f99f94d86eb9"
+        },
+        {
+          "caseId": "islam-cisi-q010",
+          "path": "runs/luna-pilot/islam-promoted-domain-route-confirmatory-v1-direct/results/islam-cisi-q010.json",
+          "sha256": "629f1aa1f0f2edcebd2993d8563c5852bfcdab8f3516653c7d39c778780e82f0"
+        },
+        {
+          "caseId": "islam-cisi-q027",
+          "path": "runs/luna-pilot/islam-q027-direct-v1/results/islam-cisi-q027.json",
+          "sha256": "805fa786d00ad8e0cf4b824e394d82d668db303236a149ab53617e77d259c1c6"
+        },
+        {
+          "caseId": "islam-cisi-q036",
+          "path": "runs/luna-pilot/islam-domain-classification-skill-heldout-v1-direct/results/islam-cisi-q036.json",
+          "sha256": "4e5f03255ada56d3329708f19978e0984db0e62ec12ec9ed0afb61c8200913db"
+        },
+        {
+          "caseId": "islam-cisi-q044",
+          "path": "runs/luna-pilot/islam-promoted-domain-route-confirmatory-v1-direct/results/islam-cisi-q044.json",
+          "sha256": "5da2a1afd271340daa15e3d3d35fe5840ac7cfc9a4ba69ab9e25e6e452b27c53"
+        },
+        {
+          "caseId": "islam-cisi-q047",
+          "path": "runs/luna-pilot/islam-promoted-domain-route-completion-v1-direct/results/islam-cisi-q047.json",
+          "sha256": "2e806b8d9d2c5c51292f11f478ca959d0bedaf7941c9536afa274704637a3c6f"
+        },
+        {
+          "caseId": "islam-cisi-q055",
+          "path": "runs/luna-pilot/islam-promoted-domain-route-completion-v1-direct/results/islam-cisi-q055.json",
+          "sha256": "460bcecf4cad063c08117ec92b9fe05c411757b71257b6f673b050840051e078"
+        },
+        {
+          "caseId": "islam-cisi-q056",
+          "path": "runs/luna-pilot/islam-domain-context-heldout-v1-direct/results/islam-cisi-q056.json",
+          "sha256": "2903952f26ebdc0ba078cdce4ed5597a686f885430125f56cbbedf4a20d83f74"
+        },
+        {
+          "caseId": "islam-cisi-q067",
+          "path": "runs/luna-pilot/islam-promoted-domain-route-confirmatory-v1-direct/results/islam-cisi-q067.json",
+          "sha256": "d8d8cc6ab30a8a9c195ad45ea4b28db21eb36314c7d5a3e9ba850c033434e0ad"
+        },
+        {
+          "caseId": "islam-cisi-q073",
+          "path": "runs/luna-pilot/islam-domain-context-heldout-v1-direct/results/islam-cisi-q073.json",
+          "sha256": "ff2a2dc136ca5f3d0c7b5050b87e08b3b972fdb20c3fdd99d44a00d9f02cb36d"
+        },
+        {
+          "caseId": "islam-cisi-q087",
+          "path": "runs/luna-pilot/islam-q087-direct-v1/results/islam-cisi-q087.json",
+          "sha256": "58abaa5ca228765810e48f701736b10da4126d296d65dd900e449cf0db486e12"
+        },
+        {
+          "caseId": "islam-cisi-q097",
+          "path": "runs/luna-pilot/islam-domain-classification-skill-heldout-v1-direct/results/islam-cisi-q097.json",
+          "sha256": "5ec33a308a484fe6e5eebbd2417cbc79a5229ff345a78ceb945aed26e23d006f"
+        }
+      ],
+      "publicPath": "benchmarks/open_response_v2/open_response_islam_cisi100.public.json",
+      "publicSha256": "67de87ae5feaba6f8619264c4d882de32905ddb0f63ce9f5a9a8c3fb4b7c8947",
+      "privatePath": "benchmarks/open_response_v2/open_response_islam_cisi100.private.json",
+      "privateSha256": "a246adb788a6ccbaff9e4c56630852c46e65fdd42139c3e0027d526eeeb41141",
+      "statusCounts": {
+        "needs_semantic_rewrite": 31,
+        "ready_hide_options": 69
+      }
+    },
+    {
+      "benchmarkId": "open_response.islam.aqa4.v2",
+      "sourceBenchmarkId": "mcq.islam.aqa4.v1",
+      "totalConvertedCases": 4,
+      "readyCases": 0,
+      "needsSemanticRewriteCases": 4,
+      "plainDirectCompletedReadyCases": 0,
+      "readySubsetComplete": true,
+      "fullConvertedBenchmarkComplete": false,
+      "directCaseIds": [],
+      "resultFiles": [],
+      "publicPath": "benchmarks/open_response_v2/open_response_islam_aqa4.public.json",
+      "publicSha256": "a1dca5a09203079fe2fb53cc780f7befd84f048ade9d3ec871b3e93e4b8d2739",
+      "privatePath": "benchmarks/open_response_v2/open_response_islam_aqa4.private.json",
+      "privateSha256": "af79d0255fcca0757a9904e09a3b5f4e5772c95e104610c7647653ee468b3efb",
+      "statusCounts": {
+        "needs_semantic_rewrite": 4
+      }
+    },
+    {
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "sourceBenchmarkId": "mcq.psych.mit_sangmyung.v1",
+      "totalConvertedCases": 487,
+      "readyCases": 225,
+      "needsSemanticRewriteCases": 262,
+      "plainDirectCompletedReadyCases": 2,
+      "readySubsetComplete": false,
+      "fullConvertedBenchmarkComplete": false,
+      "directCaseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q009",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q050"
+      ],
+      "resultFiles": [
+        {
+          "caseId": "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q009",
+          "path": "runs/luna-pilot/psych-q009-direct-v1/results/psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q009.json",
+          "sha256": "7eb16c8d1c9eef2350fbde1299cc08488deed7e134c269ff55b61d7b855d98ac"
+        },
+        {
+          "caseId": "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q050",
+          "path": "runs/luna-pilot/universal-native-skill-generalization-psych-dev-v1-direct/results/psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q050.json",
+          "sha256": "0482ccbddb2fe82c8eaf30ed9bd81a9c1fc86756f5ed24f73bb53f2aa2b5c605"
+        }
+      ],
+      "publicPath": "benchmarks/open_response_v2/open_response_psych_mit_sangmyung.public.json",
+      "publicSha256": "6b057f49a2ea9babfb2f2a07bc388edbb71967d07e63bd126e81e0d6f64e9de4",
+      "privatePath": "benchmarks/open_response_v2/open_response_psych_mit_sangmyung.private.json",
+      "privateSha256": "bc799f22d8b04d7ffedf70ce7aa1a9c492266d389bcee7d647916c36df102f51",
+      "statusCounts": {
+        "needs_semantic_rewrite": 262,
+        "ready_hide_options": 225
+      }
+    }
+  ],
+  "unregisteredIntendedBenchmarks": [
+    {
+      "benchmarkId": "short_answer.buddhist.sangha3_290",
+      "cases": 290,
+      "plainDirectCompletedCases": 0,
+      "publicPath": "benchmarks/unified/short_answer_buddhist_sangha3_290.public.json",
+      "publicSha256": "cd7b408b6d97174076cf3ddf1e50ea4c93b8cde8fe81629b50a27577d12e733a",
+      "privatePath": "benchmarks/unified/short_answer_buddhist_sangha3_290.private.json",
+      "privateSha256": "eb8d3883bab690f992bf5f30478a3a28f8cad9918394ebbf5edc2316537ba93f",
+      "reason": "source exists but is not registered in open_response_v2 and has no plain Codex run"
+    }
+  ],
+  "verifiedScores": {
+    "lawReadyOne": {
+      "path": "runs/luna-pilot/legal-leet2026-q027-direct-v1/score-deterministic.json",
+      "sha256": "192dae156fe38c7dd0f27482d8d95fb13796d719a55ac5d9ef353cab52fa544d",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "unresolved": 0,
+      "accuracy": 1.0
+    },
+    "tcmReadySeventeen": {
+      "path": "runs/luna-pilot/tcm28-direct-valid-additions/score-ready17-final.json",
+      "sha256": "9f41809ea3bed438f7344a7af8cecaf6c3ea65ce95ca678e3260f8899adfd0a7",
+      "total": 17,
+      "passed": 14,
+      "failed": 3,
+      "unresolved": 0,
+      "accuracy": 0.8235294117647058
+    },
+    "psychQ009": {
+      "path": "runs/luna-pilot/psych-q009-direct-v1/score-final.json",
+      "sha256": "ecd0e67c2ac25cbb01984dfd966dfaecb9d0bc10b5d04928d88f835a1ba3adac",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "unresolved": 0,
+      "accuracy": 1.0
+    },
+    "psychQ050": {
+      "path": "runs/luna-pilot/universal-native-skill-generalization-psych-dev-v1-direct/deterministic-score.json",
+      "sha256": "c69824d3813aad2d5c09839b335125f54e43c22d058206df0ea8d4d9d664cd8a",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "unresolved": 0,
+      "accuracy": 1.0
+    },
+    "christianBibleQ001": {
+      "path": "runs/luna-pilot/christian-bible100-q001-direct-v1/score-deterministic.json",
+      "sha256": "f893f3866af3a366dcb6f263b6f2b0e8693520eacafa3eb51f250ff03baf1974",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "unresolved": 0,
+      "accuracy": 1.0
+    },
+    "christianBibleQ002": {
+      "path": "runs/luna-pilot/christian-bible100-q002-direct-v1/score-deterministic.json",
+      "sha256": "515396065083c8c93e35afc60b91545fe417677e359498708007d8c67d0dddc0",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "unresolved": 0,
+      "accuracy": 1.0
+    },
+    "christianBibleQ003": {
+      "path": "runs/luna-pilot/christian-bible100-q003-direct-v1/score-deterministic.json",
+      "sha256": "d16233ec7ef3793e983bcc084d2fac31530723fb913abee6a07410adc511dbfc",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "unresolved": 0,
+      "accuracy": 1.0
+    }
+  },
+  "scoreCaveats": {
+    "christianBibleQ004": {
+      "executionCountedInCoverage": true,
+      "currentDeterministicScore": {
+        "path": "runs/luna-pilot/christian-bible100-q004-direct-v1/score-deterministic.json",
+        "sha256": "4d18b6696bd3d6d522f81de7dbc95026b3b741b4e3cc84e07a13735630a7c23b",
+        "total": 1,
+        "passed": 0,
+        "failed": 0,
+        "unresolved": 1,
+        "accuracy": 0.0
+      },
+      "legacySemanticScorePath": "runs/luna-pilot/christian-bible100-q004-direct-v1/score-semantic.json",
+      "legacySemanticScoreSha256": "b4b73914b5b51a7588a6fb0ca63cd9b74a50e0625233742308b1fa81f983ae6e",
+      "currentVerifiedPass": null,
+      "reason": "the historical semantic pass used strict-equivalence-consensus-v2 without the current closed-trace contract, so the solver execution is frozen but its pass is not promoted"
+    }
+  },
+  "separatePilots": {
+    "suppliedRuleBusinessTax": {
+      "path": "runs/luna-pilot/calculation5-direct/score.json",
+      "sha256": "119e2170c5502432f7745baca5a9b38fbba08183ec8cb67844fe6339be5100f5",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "unresolved": 0,
+      "accuracy": 1.0
+    },
+    "customLegalTen": {
+      "summaryPath": "runs/luna-pilot/legal10-direct/summary-final.json",
+      "summarySha256": "1bcb3518661b09af49e2844985ca8f9eb0d4a2c443887070d3447dff8cc8d8ee",
+      "predicted": 10,
+      "errors": 0,
+      "officialOpenResponseAccuracy": null,
+      "reason": "the old score also requires retrieval ranking, which a Direct arm cannot satisfy"
+    }
+  },
+  "conclusion": {
+    "allPlainCodexBenchmarksComplete": false,
+    "nextMissingLargeSlices": [
+      "Christian Bible100 remaining ready 79",
+      "Christian Provao2012 ready 78",
+      "Islam CISI100 remaining ready 56",
+      "Psych remaining ready 223",
+      "Buddhist short-answer 290 registration and run",
+      "semantic rewrite of remaining 472 registered cases"
+    ]
+  }
+}

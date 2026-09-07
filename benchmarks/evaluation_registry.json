@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "registryId": "universal-engine-official-v1",
+  "comparisonArms": ["direct", "beta6", "universal"],
+  "sameModelRequired": true,
+  "canonicalExamAggregate": {
+    "expectedUniqueCases": 1235,
+    "entries": [
+      {"publicManifest": "unified/mcq_lawkey_leet2026_70.public.json", "privateManifest": "unified/mcq_lawkey_leet2026_70.private.json", "sourceAudit": "lawkey_leet_2026/source_audit.json", "expectedCases": 70},
+      {"publicManifest": "unified/mcq_tcm_kuksiwon81_unique92.public.json", "privateManifest": "unified/mcq_tcm_kuksiwon81_unique92.private.json", "expectedCases": 92},
+      {"publicManifest": "unified/mcq_christian_bible100.public.json", "privateManifest": "unified/mcq_christian_bible100.private.json", "expectedCases": 100},
+      {"publicManifest": "unified/mcq_christian_provao2012.public.json", "privateManifest": "unified/mcq_christian_provao2012.private.json", "expectedCases": 92},
+      {"publicManifest": "unified/mcq_islam_cisi100.public.json", "privateManifest": "unified/mcq_islam_cisi100.private.json", "expectedCases": 100},
+      {"publicManifest": "unified/mcq_islam_aqa4.public.json", "privateManifest": "unified/mcq_islam_aqa4.private.json", "expectedCases": 4},
+      {"publicManifest": "unified/mcq_psych_mit_sangmyung.public.json", "privateManifest": "unified/mcq_psych_mit_sangmyung.private.json", "expectedCases": 487},
+      {"publicManifest": "unified/short_answer_buddhist_sangha3_290.public.json", "privateManifest": "unified/short_answer_buddhist_sangha3_290.private.json", "expectedCases": 290}
+    ]
+  },
+  "legalEndToEnd": {
+    "expectedTasks": 3,
+    "expectedVariants": 10,
+    "variantInclusionPolicy": "all_nonempty_public_variants_including_flagged_ambiguity_cases",
+    "entries": [
+      {"publicManifest": "unified/legal_kakao_sim_access.public.json", "privateManifest": "unified/legal_kakao_sim_access.private.json"},
+      {"publicManifest": "unified/legal_military_key_management.public.json", "privateManifest": "unified/legal_military_key_management.private.json"},
+      {"publicManifest": "unified/legal_yangyang_complainant_age.public.json", "privateManifest": "unified/legal_yangyang_complainant_age.private.json"}
+    ]
+  },
+  "diagnosticSlices": [
+    {"publicManifest": "unified/mcq_tcm_kuksiwon81_p1_50.public.json", "privateManifest": "unified/mcq_tcm_kuksiwon81_p1_50.private.json", "reason": "preserve the current 50-item suite without double-counting its overlap"},
+    {"publicManifest": "unified/mcq_tcm_kuksiwon81_wikia64.public.json", "privateManifest": "unified/mcq_tcm_kuksiwon81_wikia64.private.json", "reason": "report the original Wikia 64-item suite separately"},
+    {"publicManifest": "unified/mcq_islam_cisi_wrong26.public.json", "privateManifest": "unified/mcq_islam_cisi_wrong26.private.json", "reason": "preserve the historical wrong26 slice without counting it beyond CISI100"}
+  ],
+  "databaseBindings": {
+    "tcm": "RELIGION_TCM_DB_PATH",
+    "catholic": "RELIGION_CATHOLIC_DB_PATH",
+    "islam": "RELIGION_ISLAM_DB_PATH",
+    "simli": "RELIGION_SIMLI_DB_PATH",
+    "buddhist": "RELIGION_BUDDHIST_DB_PATH",
+    "lawkey": "LAWKEY_PRECEDENT_DB_PATH"
+  },
+  "promotionGate": {
+    "exam": {
+      "universalAccuracyStrictlyGreaterThanBothBaselines": true,
+      "pairedMcNemarPValueMaximum": 0.05,
+      "allCanonicalCasesRequired": true
+    },
+    "legal": {
+      "allTasksAndVariantsMustPassEndToEnd": true,
+      "universalMustStrictlyOutperformBothBaselines": true
+    },
+    "modelParity": {"provider": true, "model": true, "decoding": true}
+  }
+}

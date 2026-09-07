@@ -1,0 +1,17 @@
+{
+ "model": "anthropic/claude-opus-5",
+ "backend": "openrouter",
+ "jobs": 5,
+ "suites": [
+  {"id": "outcome_civil",
+   "bench": "benchmarks/outcome_prediction/outcome_civil_v1_eng60.public.jsonl",
+   "private": "benchmarks/outcome_prediction/outcome_civil_v1_args.private.jsonl",
+   "profile": "outcome_civil",
+   "baseline": "runs/outcome-civil-v1-fable/answers.jsonl"},
+  {"id": "outcome_tax",
+   "bench": "benchmarks/outcome_prediction/outcome_tax_v0.public.jsonl",
+   "private": "benchmarks/outcome_prediction/outcome_tax_v0.private.jsonl",
+   "profile": "outcome_tax",
+   "baseline": "runs/outcome-tax-v0-opus/answers.jsonl"}
+ ]
+}

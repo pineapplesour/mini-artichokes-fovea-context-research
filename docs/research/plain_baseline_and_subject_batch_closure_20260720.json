@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "decisionId": "plain-baseline-and-subject-batch-closure-20260720",
+  "createdAt": "2026-07-20T04:40:00+09:00",
+  "principle": {
+    "plainCodexRole": "sealed_comparison_baseline_not_an_optimization_target",
+    "plainMutationForbidden": true,
+    "forbiddenPlainChanges": [
+      "adding a reviewer to repair plain answers",
+      "forcing retrieval to repair plain answers",
+      "adding benchmark- or domain-targeted prompt rules",
+      "promoting post-score aliases or answer-specific memories"
+    ],
+    "candidateWorkBeginsAfterPlainSeal": true
+  },
+  "sealedPlainBaselines": {
+    "legalTen": {
+      "suiteId": "legal10-direct-luna-v1",
+      "model": "gpt-5.6-luna",
+      "toolMode": "closed_direct",
+      "domainDatabase": null,
+      "cases": 10,
+      "predicted": 10,
+      "solverErrors": 0,
+      "answerPassed": 2,
+      "retrievalAndAnswerPassed": 0,
+      "totalTokens": 94413,
+      "artifact": {
+        "path": "runs/luna-pilot/legal10-direct/summary-final.json",
+        "sha256": "1bcb3518661b09af49e2844985ca8f9eb0d4a2c443887070d3447dff8cc8d8ee"
+      },
+      "scoreArtifact": {
+        "path": "runs/luna-pilot/legal10-direct/score-final.json",
+        "sha256": "78d49d7604531b863140626e9ff3a4db8a8df1989771d5f344d033c56085af65"
+      },
+      "breakdown": {
+        "kakaoVariants": {"cases": 4, "answerPassed": 0},
+        "militaryVariants": {"cases": 4, "answerPassed": 2},
+        "yangyangVariants": {"cases": 2, "answerPassed": 0}
+      }
+    },
+    "tcmReadySeventeen": {
+      "benchmarkId": "open_response.tcm.kuksiwon81.unique92.v2",
+      "model": "gpt-5.6-luna",
+      "toolMode": "closed_direct",
+      "cases": 17,
+      "passed": 14,
+      "failed": 3,
+      "accuracy": 0.8235294117647058,
+      "scoreArtifact": {
+        "path": "runs/luna-pilot/tcm28-direct-valid-additions/score-ready17-final.json",
+        "sha256": "9f41809ea3bed438f7344a7af8cecaf6c3ea65ce95ca678e3260f8899adfd0a7"
+      }
+    }
+  },
+  "candidateClosures": {
+    "tcmSubjectBatchV1": {
+      "decision": "reject",
+      "reason": "token budget, query audit, and MCP completion failures",
+      "cases": 8,
+      "predicted": 8,
+      "accepted": 0,
+      "tokens": 131752,
+      "elapsedSec": 107.872,
+      "toolEvents": {"web": 0, "database": 6, "command": 0},
+      "receipt": {
+        "path": "runs/subject-batch-tool-enabled/tcm17-ready-v1/batches/batch-0c73a6442e75534b.json",
+        "sha256": "e43f621a6463c80b6e3173a3f8e77d0d0e1f337a630a8e16e747ec2ff82c6e4a"
+      }
+    },
+    "tcmSubjectBatchV2Forward": {
+      "decision": "reject_no_promotion",
+      "reason": "large throughput gain but one accuracy regression against the same eight sealed Direct cases",
+      "cases": 8,
+      "solverCalls": 1,
+      "solverTokens": 14676,
+      "solverElapsedSec": 25.602,
+      "passed": 7,
+      "failed": 1,
+      "accuracy": 0.875,
+      "sameSlicePlainDirect": {
+        "solverCalls": 8,
+        "solverTokens": 73165,
+        "solverElapsedSumSec": 47.876,
+        "passed": 8,
+        "failed": 0,
+        "accuracy": 1.0
+      },
+      "receipt": {
+        "path": "runs/subject-batch-tool-enabled/tcm17-ready-v2-forward/batches/batch-67c2e49dc5dd2b5f.json",
+        "sha256": "20d651bb8d831bad68ad0f1f7809525cff4aa5e443342ff893cc6b755ba18f68"
+      },
+      "scoreArtifact": {
+        "path": "runs/subject-batch-tool-enabled/tcm17-ready-v2-forward/score-semantic-batch-v1.json",
+        "sha256": "86f25a1dda92de834bed754508eb12d6c482e683cceb3aa7dbd4bcda8936184e"
+      }
+    },
+    "legalTenToolEnabledDiagnostic": {
+      "decision": "stop_reject_no_completion_no_promotion",
+      "freshHeldout": false,
+      "reason": "the first six accepted items selected no tools, the next two used web but did not recover the requested precedent identifiers, and the final two were quarantined by the web-query audit",
+      "mountedLawDatabaseBytes": 7733616640,
+      "validCases": 8,
+      "quarantinedCases": 2,
+      "databaseToolEvents": 0,
+      "webToolEvents": 3,
+      "receipts": [
+        {
+          "path": "runs/subject-batch-tool-enabled/legal10-diagnostic-v3-batch1/batches/batch-248873e87673594d.json",
+          "sha256": "fc5e6fe01f24360455ee18ad37af32cf1f1d002ca211b9f9650b5c84218e4875"
+        },
+        {
+          "path": "runs/subject-batch-tool-enabled/legal10-diagnostic-v3-batch2/batches/batch-ec80b50d1dd6a73b.json",
+          "sha256": "005007d75caefb995df7b93719a1657382652727ca752acea965376e595ec623"
+        },
+        {
+          "path": "runs/subject-batch-tool-enabled/legal10-diagnostic-v4-batch3/batches/batch-d822e587bd0c0c34.json",
+          "sha256": "3d765a52915f30022b0076e21585019448e3fac1656bf402afd819cf31e7f21a"
+        },
+        {
+          "path": "runs/subject-batch-tool-enabled/legal10-diagnostic-v4-batch4/batches/batch-00fbfd8748b5fb80.json",
+          "sha256": "1a00385b44bd8b702dae2848df273b24673b23730797bccbbe853a592bc7ee86"
+        }
+      ]
+    }
+  },
+  "futureCapabilityCatalogPolicy": {
+    "catalogGenericCapabilitiesNotBenchmarkAnswers": true,
+    "allowedExamples": [
+      "bounded precedent evidence retrieval",
+      "source identifier and provenance receipt generation",
+      "deterministic Beta6 evidence frontier",
+      "self-contained calculation code in a quarantined workspace"
+    ],
+    "forbiddenMemory": [
+      "benchmark question wording",
+      "benchmark ids as routing triggers",
+      "canonical answers or distractors",
+      "case-specific solution templates derived after scoring"
+    ],
+    "promotionRequirements": [
+      "artifact-backed prior result",
+      "generic observable trigger",
+      "cost and failure envelope",
+      "disjoint fresh heldout no-regression",
+      "hash-bound implementation and rollback"
+    ]
+  },
+  "nextAction": "catalog already-verified Beta6 and universal capabilities without answer content, then compare a post-seal universal engine on fresh disjoint heldout cases"
+}

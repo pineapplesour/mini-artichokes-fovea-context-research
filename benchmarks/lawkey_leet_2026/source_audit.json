@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "benchmarkId": "mcq.lawkey.leet2026.v1",
+  "auditedAt": "2026-07-17T21:23:51+09:00",
+  "wikia": {
+    "url": "https://wikia.redberrybagel1.workers.dev",
+    "postId": "e45e028a-d6ce-400f-bc0a-7a82b5c28dd4",
+    "postTitle": "LawKey AI 2026년도 법학적성시험 벤치마킹 결과 공유",
+    "author": "강희도",
+    "createdAt": "2026-07-17T11:34:40.981Z",
+    "attachmentId": "21faf033-d63c-467c-8689-6d9ea3f78dd6",
+    "attachmentFileName": "2026년도 법학적성시험.zip",
+    "attachmentSize": 86678,
+    "attachmentSha256": "6c2e7ff3255fa0336928a52f3c5dcda7f3b58efa24fa9486359a41c100cb3828"
+  },
+  "linkedQuestionSource": {
+    "url": "https://orbi.kr/00073900683",
+    "observedTitle": "2026학년도 법학적성시험 시험지 PDF 변환본 | 오르비",
+    "verifiedAt": "2026-07-17T21:23:51+09:00"
+  },
+  "archiveFiles": [
+    {
+      "name": "2026년도 법학적성시험/2026년도 법학적성시험 언어이해.txt",
+      "size": 82321,
+      "sha256": "59ab5457a2f9667e459394ca14e7a3be1d3939517869d1f1297b3d63887ccc8b",
+      "role": "canonical_questions_and_source_provided_gold",
+      "cases": 30
+    },
+    {
+      "name": "2026년도 법학적성시험/2026년도 법학적성시험 추론논증.txt",
+      "size": 94950,
+      "sha256": "481f217c2d2faf59de68482d78869aa25be7a1df7fc1b5942fac10da1827dfb7",
+      "role": "canonical_questions_and_source_provided_gold",
+      "cases": 40
+    },
+    {
+      "name": "2026년도 법학적성시험/2026년도_법학적성시험_오답문제_통합본.txt",
+      "size": 101415,
+      "sha256": "ae56fb575e4545aae168d5ecda7e1d03b6dda72cbeccc6cd9983daf381f0e57f",
+      "role": "historical_result_diagnostic_only",
+      "cases": 36
+    }
+  ],
+  "inventory": {
+    "taskType": "mcq",
+    "product": "lawkey",
+    "language": "ko",
+    "languageComprehensionCases": 30,
+    "logicalReasoningCases": 40,
+    "totalUniqueCases": 70,
+    "optionIds": ["1", "2", "3", "4", "5"]
+  },
+  "historicalAiBaseline": {
+    "validPredictions": 68,
+    "missingPredictions": 2,
+    "correct": 34,
+    "wrongOrMissing": 36,
+    "accuracy": 0.4857142857142857,
+    "languageComprehensionCorrect": 22,
+    "languageComprehensionTotal": 30,
+    "logicalReasoningCorrect": 12,
+    "logicalReasoningTotal": 40,
+    "matchesWrongProblemCompilation": true,
+    "comparisonStatus": "historical_only_model_configuration_unknown"
+  },
+  "separationPolicy": {
+    "publicEngineInput": ["shared passage", "question", "choices"],
+    "privateScorerOnly": ["source-provided correct option ID"],
+    "excludedFromEngineInput": ["historical AI answer", "gold answer label", "wrong-problem compilation"],
+    "retrievalTargets": "private diagnostic-only correct-option text targets"
+  }
+}

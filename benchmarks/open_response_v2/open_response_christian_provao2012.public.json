@@ -1,0 +1,1524 @@
+{
+  "schemaVersion": 2,
+  "benchmarkId": "open_response.christian.provao2012.v2",
+  "sourceBenchmarkId": "mcq.christian.provao2012.v1",
+  "taskType": "open_response",
+  "product": "catholic",
+  "language": "en",
+  "conversionAudit": {
+    "sourceCases": 92,
+    "convertedCases": 92,
+    "statusCounts": {
+      "needs_semantic_rewrite": 14,
+      "ready_hide_options": 78
+    },
+    "splitMethodCounts": {
+      "circled_fallback": 56,
+      "domain_adapter": 36
+    },
+    "officialRunDefault": "ready_hide_options_only"
+  },
+  "cases": [
+    {
+      "id": "christian-provao2012-q001",
+      "prompt": "1. Com respeito à santificação é correto dizer que:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 1,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "needs_semantic_rewrite",
+          "riskReasons": [
+            "open_set_or_choice_dependent_stem"
+          ],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q001"
+    },
+    {
+      "id": "christian-provao2012-q002",
+      "prompt": "2. Sobre o Espírito Santo é correto afirmar que:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 2,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "needs_semantic_rewrite",
+          "riskReasons": [
+            "open_set_or_choice_dependent_stem"
+          ],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q002"
+    },
+    {
+      "id": "christian-provao2012-q003",
+      "prompt": "De acordo com o Concílio de Calcedônia e com o ensino bíblico teológico reformado podemos dizer que Maria é a Mãe de Deus?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 3,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q003"
+    },
+    {
+      "id": "christian-provao2012-q005",
+      "prompt": "5. Marque a única alternativa abaixo contendo a expressão correta que está faltando na afirmação cristológica: “O Filho de Deus, a Segunda Pessoa da Trindade, sendo verdadeiro e eterno Deus, da mesma substância do Pai e igual a ele, quando chegou o cumprimento do tempo, tomou sobre si a natureza humana com todas as suas propriedades essenciais e enfermidades comuns, contudo sem pecado, sendo concebido pelo poder do Espírito Santo no ventre da Virgem Maria e da substância dela. As duas naturezas, inteiras, perfeitas e distintas - a Divindade e a humanidade - foram inseparavelmente unidas em uma só - Sem conversão, composição ou confusão; essa é verdadeiro Deus e verdadeiro homem, porém, um só Cristo. o único Mediador entre Deus e o homem.”",
+      "metadata": {
+        "period": null,
+        "questionNumber": 5,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "needs_semantic_rewrite",
+          "riskReasons": [
+            "open_set_or_choice_dependent_stem",
+            "reference_answer_text_present_in_stem"
+          ],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q005"
+    },
+    {
+      "id": "christian-provao2012-q006",
+      "prompt": "Segundo a doutrina dos reformadores qual a base da Justificação?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 6,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q006"
+    },
+    {
+      "id": "christian-provao2012-q007",
+      "prompt": "7. Qual seita dos primeiros séculos defendia que o corpo de Jesus Cristo era uma ilusão e que sua crucificação foi apenas aparente.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 7,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q007"
+    },
+    {
+      "id": "christian-provao2012-q008",
+      "prompt": "8. Qual das teorias abaixo, sobre a expiação realizada por Cristo, foi desenvolvida pelos reformadores.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 8,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q008"
+    },
+    {
+      "id": "christian-provao2012-q009",
+      "prompt": "Através de quais ofícios Deus exercia sua liderança na Igreja na antiga aliança?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 9,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q009"
+    },
+    {
+      "id": "christian-provao2012-q010",
+      "prompt": "Como a Soberania de Deus e a responsabilidade humana são encontradas na Bíblia quanto a doutrina da salvação? Assinale a resposta correta.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 10,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "needs_semantic_rewrite",
+          "riskReasons": [
+            "open_set_or_choice_dependent_stem"
+          ],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q010"
+    },
+    {
+      "id": "christian-provao2012-q011",
+      "prompt": "11. Para Agostinho, a salvação do homem somente seria possível através da determinação soberana e graciosa de Deus, através da eleição. Este posicionamento ficou conhecido como:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 11,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q011"
+    },
+    {
+      "id": "christian-provao2012-q012",
+      "prompt": "12. A capacidade que todos os seres racionais têm de agir espontaneamente, sem serem coagidos de fora, a caminharem para qualquer lado, fazendo o que querem e o que lhes agrada, sendo, contudo, levados a fazer aquilo que combina com a natureza deles, também é conhecida como:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 12,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q012"
+    },
+    {
+      "id": "christian-provao2012-q013",
+      "prompt": "13. A infinitude de deus em relação ao tempo e ao espaço é chamada de:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 13,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q013"
+    },
+    {
+      "id": "christian-provao2012-q014",
+      "prompt": "14. Doutrina que ensinava que Cristo era apenas uma manifestação de Deus-Pai",
+      "metadata": {
+        "period": null,
+        "questionNumber": 14,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q014"
+    },
+    {
+      "id": "christian-provao2012-q015",
+      "prompt": "15. “Deus sustenta, dirige e governa todas as suas criaturas”. Isto se refere a:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 15,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q015"
+    },
+    {
+      "id": "christian-provao2012-q016",
+      "prompt": "Qual das frases abaixo define com mais precisão a relação entre lei e graça na Soteriologia reformada?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 16,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q016"
+    },
+    {
+      "id": "christian-provao2012-q017",
+      "prompt": "17. “É a graça de Deus pela qual Ele dá às pessoas bênçãos inumeráveis que não são partes da salvação”. Estamos falando da:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 17,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q017"
+    },
+    {
+      "id": "christian-provao2012-q019",
+      "prompt": "Qual das cosmovisões abaixo se encaixa melhor no trecho de Francis Schaeffer: *... negação de todas as raizões objetivas para a verdade. Uma crença de que a existência é basicamente sem sentido e inúti, levando, muitas vezes, para tendências destrutivas na sociedade ou no indivíduo\"?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 19,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q019"
+    },
+    {
+      "id": "christian-provao2012-q020",
+      "prompt": "Na evangelização, a confiança demasiada nos métodos, nas formas e na contextualização caracteriza qual! linha teológica?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 20,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q020"
+    },
+    {
+      "id": "christian-provao2012-q021",
+      "prompt": "Qual é o objetivo para o trabalho de visitação do pastor, segundo Richard Baxter?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 21,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q021"
+    },
+    {
+      "id": "christian-provao2012-q022",
+      "prompt": "22. Sobre a doutrina da vocação e espiritualidade dentro de uma ótica biblico-reformada é correto afirmar.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 22,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "needs_semantic_rewrite",
+          "riskReasons": [
+            "open_set_or_choice_dependent_stem"
+          ],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q022"
+    },
+    {
+      "id": "christian-provao2012-q023",
+      "prompt": "Por que não é indicado, no aconselhamento bíblico, visar o Comportamento, ou os Sentimentos ou ainda as Atitudes, tão somente?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 23,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q023"
+    },
+    {
+      "id": "christian-provao2012-q024",
+      "prompt": "Qual das alternativas abaixo não corresponde aos pressupostos da teologia reformada de evangelização?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 24,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q024"
+    },
+    {
+      "id": "christian-provao2012-q026",
+      "prompt": "Qual das caracteristicas abaixo diz respeito ao sermão expositivo?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 26,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q026"
+    },
+    {
+      "id": "christian-provao2012-q027",
+      "prompt": "27. Método de Aconselhamento cristão que estabelece a primazia da revelação bíblica no tratamento das necessidades humanas:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 27,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q027"
+    },
+    {
+      "id": "christian-provao2012-q028",
+      "prompt": "28. Quais as consequências do movimento ecumênico liderado pelo Conselho Mundial de Igrejas (CMI) no contexto missionário da Igreja.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 28,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q028"
+    },
+    {
+      "id": "christian-provao2012-q029",
+      "prompt": "Sobre a oração. qua! resposta está incorreta?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 29,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q029"
+    },
+    {
+      "id": "christian-provao2012-q031",
+      "prompt": "31. Poimênica é o exercício do ministério pastoral que inclui as seguintes atividades ministeriais, exceto:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 31,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q031"
+    },
+    {
+      "id": "christian-provao2012-q032",
+      "prompt": "Qual postura abaixo reflete o pensamento reformado sobre o resultado esperado da missão?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 32,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q032"
+    },
+    {
+      "id": "christian-provao2012-q033",
+      "prompt": "Qual é o alvo principal do aconselhamento bíblico?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 33,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q033"
+    },
+    {
+      "id": "christian-provao2012-q034",
+      "prompt": "Qual é o objetivo principal da obra missionária?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 34,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q034"
+    },
+    {
+      "id": "christian-provao2012-q035",
+      "prompt": "Em um contexto missionário, o que o pastor deve fazer na administração da Ceia. caso não haja pão e vinho?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 35,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q035"
+    },
+    {
+      "id": "christian-provao2012-q036",
+      "prompt": "Quanto à prática da piedade do pastor, no tocante ao domingo. qual deve ser o seu comportamento?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 36,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q036"
+    },
+    {
+      "id": "christian-provao2012-q038",
+      "prompt": "Qual deve ser o procedimento do pastor diante de uma crítica grave de um membro da igreja quanto ao seu pastorado?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 38,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q038"
+    },
+    {
+      "id": "christian-provao2012-q040",
+      "prompt": "O movimento eclesiástico americano denominado de “seeker -sensitive”, ou “sensivel aos interessados” concentra seus esforços em atender aos de fora da igreja, mudando a forma, o conteúdo e a linguagem do culto para atingi-los. Qual das proposições abaixo não tem relação com o movimento?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 40,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q040"
+    },
+    {
+      "id": "christian-provao2012-q041",
+      "prompt": "Qual nome foi dado à região onde aconteceu quase toda a revelação bíblica do AT & boa parte da revelação bíblica do NT?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 41,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q041"
+    },
+    {
+      "id": "christian-provao2012-q042",
+      "prompt": "42. Quanto ao verbo hebraico, qual resposta está errada:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 42,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q042"
+    },
+    {
+      "id": "christian-provao2012-q043",
+      "prompt": "Qual a principal ocupação da exegese bíblica?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 43,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q043"
+    },
+    {
+      "id": "christian-provao2012-q044",
+      "prompt": "44. Quanto aos aspectos relacionais o pacto é:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 44,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q044"
+    },
+    {
+      "id": "christian-provao2012-q045",
+      "prompt": "“Recurso estilístico que consiste numa estrutura cruzada entre dois grupos de palavras ou expressões, em que a ordem das palavras do primeiro grupo é inversa à do segundo”. Esta definição que também pode se aplicara passagens e até livros inteiros da Bíblia, define que recurso exegético?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 45,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q045"
+    },
+    {
+      "id": "christian-provao2012-q046",
+      "prompt": "Qual a divisão da Bíblia Hebraica?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 46,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q046"
+    },
+    {
+      "id": "christian-provao2012-q047",
+      "prompt": "47. Na língua hebraica, assim como na portuguesa, há o uso de conjunções para conectar palavras na construção de suas frases. Na língua hebraica, essas conjunções aparecem prefixadas por meio da consoante:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 47,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q047"
+    },
+    {
+      "id": "christian-provao2012-q048",
+      "prompt": "Com respeito aos verbos da língua hebraica, alguns se comportam de forma irregular por serem caracterizados como verbos fracos. Das opções listadas abaixo, qual não expressa verbos nessa categoria?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 48,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q048"
+    },
+    {
+      "id": "christian-provao2012-q049",
+      "prompt": "Qual dessas propostas de hermenêutica não tem relação com a hermenêutica reformada?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 49,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q049"
+    },
+    {
+      "id": "christian-provao2012-q050",
+      "prompt": "50. Na exegese, a crítica textual é recomendável devido...",
+      "metadata": {
+        "period": null,
+        "questionNumber": 50,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q050"
+    },
+    {
+      "id": "christian-provao2012-q051",
+      "prompt": "Quais os modos verbais da língua grega?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 51,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q051"
+    },
+    {
+      "id": "christian-provao2012-q052",
+      "prompt": "Quais os tempos verbais da língua grega?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 52,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q052"
+    },
+    {
+      "id": "christian-provao2012-q053",
+      "prompt": "53. O adjetivo grego sempre concorda com o substantivo em:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 53,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q053"
+    },
+    {
+      "id": "christian-provao2012-q054",
+      "prompt": "54. A chamada Escola Alegórica de interpretação das Escrituras é também conhecida como:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 54,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q054"
+    },
+    {
+      "id": "christian-provao2012-q055",
+      "prompt": "55. A estrutura dispensacionalista das Escrituras ensina que Deus se relaciona:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 55,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q055"
+    },
+    {
+      "id": "christian-provao2012-q056",
+      "prompt": "56. Na Escatologia Realizada, o reino é uma realidade:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 56,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q056"
+    },
+    {
+      "id": "christian-provao2012-q057",
+      "prompt": "57. O método que busca o significado de uma da passagem da Bíblia segundo as regras da gramática e da forma literária, os fatos da história e a estrutura do contexto é chamado:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 57,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q057"
+    },
+    {
+      "id": "christian-provao2012-q058",
+      "prompt": "O nome de Rudolf Bultmann está ligado a que metodologia exegética?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 58,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q058"
+    },
+    {
+      "id": "christian-provao2012-q059",
+      "prompt": "Do que Paulo foi chamado em Atenas, pelos filósofos epicureus?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 59,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q059"
+    },
+    {
+      "id": "christian-provao2012-q060",
+      "prompt": "Qual destas não é uma das denominadas “cartas da prisão\"?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 60,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q060"
+    },
+    {
+      "id": "christian-provao2012-q061",
+      "prompt": "61. A assembleia realizada de 1545 a 1563 que deu à Igreja Católica Romana uma declaração completa de sua doutrina, dentro do princípio de franca oposição ao protestantismo foi:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 61,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q061"
+    },
+    {
+      "id": "christian-provao2012-q062",
+      "prompt": "62. A Questão Religiosa brasileira, no final do século 19, foi basicamente:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 62,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q062"
+    },
+    {
+      "id": "christian-provao2012-q063",
+      "prompt": "William Carey, considerado por muitos o pai das missões modernas, foi precedido por qual importante movimento missionário protestante?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 63,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q063"
+    },
+    {
+      "id": "christian-provao2012-q064",
+      "prompt": "64. Movimento dentro da Igreja Católica Apostólica Romana no século 19 que se opunha à descentralização conciliar e nacionalista e defendia a centralização do poder no papado a fim de restaurar o vigor espiritual da Igreja.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 64,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q064"
+    },
+    {
+      "id": "christian-provao2012-q065",
+      "prompt": "65. Advogado convertido em 1821 tomou-se publicamente conhecido em sua campanha de reavivamento de 1830 e 1831 em Rochester, Nova Iorque. Responsável pelas “novas medidas” de reavivamento, tornou-se reitor da faculdade de Oberlin. Suas preleções sobre o reavivamento e teologia sistemática tiveram enorme influência em sua época.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 65,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q065"
+    },
+    {
+      "id": "christian-provao2012-q066",
+      "prompt": "66. O Edito de Milão, assinado em 313 pelos imperadores Constantino e Licínio...",
+      "metadata": {
+        "period": null,
+        "questionNumber": 66,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q066"
+    },
+    {
+      "id": "christian-provao2012-q067",
+      "prompt": "67. A Reforma Protestante do Século 16 foi precedida por teólogos e movimentos questionadores liderados por...",
+      "metadata": {
+        "period": null,
+        "questionNumber": 67,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q067"
+    },
+    {
+      "id": "christian-provao2012-q068",
+      "prompt": "68. Os “Cinco Pontos do Calvinismo” foram elaborados após a Reforma Protesta nte e foram escritos...",
+      "metadata": {
+        "period": null,
+        "questionNumber": 68,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q068"
+    },
+    {
+      "id": "christian-provao2012-q069",
+      "prompt": "69. O imperador que oficializou o Cristianismo como religião do império fot:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 69,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q069"
+    },
+    {
+      "id": "christian-provao2012-q070",
+      "prompt": "70. O fundador da irmandade moraviana foi:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 70,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q070"
+    },
+    {
+      "id": "christian-provao2012-q071",
+      "prompt": "71. Raciocínio dedutivo é um discurso no qual, dadas certas premissas, alguma conclusão decorre delas necessariamente, diferente dessas premissas. mas nelas fundamentada (Aristóteles, Tópicos, Livro 1. 1005). Este tipo de raciocínio também é",
+      "metadata": {
+        "period": null,
+        "questionNumber": 71,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q071"
+    },
+    {
+      "id": "christian-provao2012-q072",
+      "prompt": "72. O homem indiferente não se apega a nada, não tem certeza absoluta, adapta-se 3 tudo, suas opiniões são suscetíveis de modificações rápidas: para atingir esse grau de socialização, os burocratas do saber e do poder têm a oferecer verdadeiros tesouros de imaginação e toneladas de informações (Gilles Lipovetsky, A era do vazio). Neste pequeno excerto, o filósofo Gilles Lipovetsky apresenta algumas das principais características do...",
+      "metadata": {
+        "period": null,
+        "questionNumber": 72,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q072"
+    },
+    {
+      "id": "christian-provao2012-q073",
+      "prompt": "73. Em plena Escolástica, seu expositor maior, Tomás de Aquino, precisou fazer uma síntese entre Filosofia e Teologia. Essa síntese foi em parte necessária pelo fato de que os pensamentos de um filósofo do período clássico foram novamente introduzidos na Europa com o avanço do Islã. Esse pensador clássico foi:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 73,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q073"
+    },
+    {
+      "id": "christian-provao2012-q074",
+      "prompt": "Qual filósofo escreveu o “Mito da Caverna”?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 74,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q074"
+    },
+    {
+      "id": "christian-provao2012-q075",
+      "prompt": "Qual destes filósofos não pode ser considerado parte do existencialismo?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 75,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q075"
+    },
+    {
+      "id": "christian-provao2012-q076",
+      "prompt": "76. De acordo com a tradição histórica, a fase inaugural da filosofia grega é conhecida como:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 76,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q076"
+    },
+    {
+      "id": "christian-provao2012-q077",
+      "prompt": "77. Maiêutica é o método de chegar ao conhecimento, de acordo com:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 77,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q077"
+    },
+    {
+      "id": "christian-provao2012-q078",
+      "prompt": "78. No Criticismo a premissa filosófica é a de que “embora o conhecimento se dé na experiência, ele não nasce justamente nela”. O expoente máximo do Criticismo é:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 78,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q078"
+    },
+    {
+      "id": "christian-provao2012-q079",
+      "prompt": "79. Qual critério supremo da moralidade adota o hedonismo, identificando-o como o bem",
+      "metadata": {
+        "period": null,
+        "questionNumber": 79,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q079"
+    },
+    {
+      "id": "christian-provao2012-q080",
+      "prompt": "80. Assinale a única alternativa que corresponde corretamente ao conceito de racionalismo:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 80,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "needs_semantic_rewrite",
+          "riskReasons": [
+            "open_set_or_choice_dependent_stem"
+          ],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q080"
+    },
+    {
+      "id": "christian-provao2012-q081",
+      "prompt": "81. Cada sentença abaixo possui uma figura de linguagem. Marque aquela que não está classificada corretamente.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 81,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "needs_semantic_rewrite",
+          "riskReasons": [
+            "open_set_or_choice_dependent_stem"
+          ],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q081"
+    },
+    {
+      "id": "christian-provao2012-q082",
+      "prompt": "O plural dos substantivos compostos não está correto em qual alternativa?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 82,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "needs_semantic_rewrite",
+          "riskReasons": [
+            "open_set_or_choice_dependent_stem"
+          ],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q082"
+    },
+    {
+      "id": "christian-provao2012-q083",
+      "prompt": "83. Indique a opção onde a regência verbal não está correta.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 83,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "needs_semantic_rewrite",
+          "riskReasons": [
+            "open_set_or_choice_dependent_stem"
+          ],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q083"
+    },
+    {
+      "id": "christian-provao2012-q084",
+      "prompt": "84. “No princípio criou Deus os céus e a terra. E a terra era sem forma e vazia; e havia trevas sobre a face do abismo; e o Espírito de Deus se movia sobre a face das águas. E disse Deus: Haja luz: e houve luz. E viu Deus que era boa a luz; e fez Deus separação entre a luz e as trevas. E Deus chamou à luz Dia; e às trevas chamou Noite. E foi a tarde e a manhã, o dia primeiro”. (Gn 1:1-6) Assinale a alternativa correta a respeito da Tipologia textual do trecho acima:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 84,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "needs_semantic_rewrite",
+          "riskReasons": [
+            "open_set_or_choice_dependent_stem"
+          ],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q084"
+    },
+    {
+      "id": "christian-provao2012-q085",
+      "prompt": "A língua portuguesa possui quatro formas para a escrita dos porquês. Na fala os sons são todos iguais, mas a escrita difere de acordo com o caso. No exemplo abaixo, marque a sequência que preenche corretamente os espaços do diálogo: - ____ não veio para a reunião? - Não vim ____ não sabia o horário. - Não sabia o horário, ____? - Eu não sei o ____.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 85,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "needs_semantic_rewrite",
+          "riskReasons": [
+            "open_set_or_choice_dependent_stem"
+          ],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q085"
+    },
+    {
+      "id": "christian-provao2012-q086",
+      "prompt": "86. Leia os versos com atenção e, a seguir, responda. “A outra alma, pérola rara, Dentro da concha tranquila, Profunda, eterna e tão cara Que poucos podem possuí-la” O pronome oblíquo “a” destacado no trecho refere-se a:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 86,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q086"
+    },
+    {
+      "id": "christian-provao2012-q087",
+      "prompt": "87. Observe os substantivos abaixo e marque aquele que está corretamente classificado.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 87,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "needs_semantic_rewrite",
+          "riskReasons": [
+            "open_set_or_choice_dependent_stem"
+          ],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q087"
+    },
+    {
+      "id": "christian-provao2012-q088",
+      "prompt": "88. Leia e responda que tipo de oração subordinada existe nesta frase: “Júlia! O Bruno disse que viu você caindo num buraco!”",
+      "metadata": {
+        "period": null,
+        "questionNumber": 88,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q088"
+    },
+    {
+      "id": "christian-provao2012-q089",
+      "prompt": "89. Assinale a opção que expressa uma oração subordinada substantiva subjetiva.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 89,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "needs_semantic_rewrite",
+          "riskReasons": [
+            "open_set_or_choice_dependent_stem"
+          ],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q089"
+    },
+    {
+      "id": "christian-provao2012-q090",
+      "prompt": "90. Indique a opção que completa corretamente a frase abaixo. Ela fez ____ críticas à nova lei, pois ____, no artigo 1º, a exigência de cursos de especialização, e o artigo 2º recomenda que ____ treinamentos anuais.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 90,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "needs_semantic_rewrite",
+          "riskReasons": [
+            "open_set_or_choice_dependent_stem"
+          ],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q090"
+    },
+    {
+      "id": "christian-provao2012-q091",
+      "prompt": "91. As funções de presbítero ou de diácono cessam quando...",
+      "metadata": {
+        "period": null,
+        "questionNumber": 91,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q091"
+    },
+    {
+      "id": "christian-provao2012-q092",
+      "prompt": "Qual das ações mencionadas a seguir não é função privativa do Conselho da Igreja?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 92,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "christian-provao2012-q092"
+    },
+    {
+      "id": "christian-provao2012-q093",
+      "prompt": "93. Quanto aos candidatos ao Sagrado Ministério, a CI/IPB estabelece que:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 93,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q093"
+    },
+    {
+      "id": "christian-provao2012-q094",
+      "prompt": "94. Os oficiais da Igreja Presbiteriana do Brasil se classificam em:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 94,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q094"
+    },
+    {
+      "id": "christian-provao2012-q095",
+      "prompt": "95. Não configura atribuição da Assembléia da igreja:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 95,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q095"
+    },
+    {
+      "id": "christian-provao2012-q096",
+      "prompt": "96. Sobre o tema “transferência e admissão de membros”, não é permitido:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 96,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q096"
+    },
+    {
+      "id": "christian-provao2012-q097",
+      "prompt": "97. A assembléia poderá conceder o título de emerência aos presbíteros e diáconos que tenham servido satisfatoriamente a igreja por um período superior a:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 97,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q097"
+    },
+    {
+      "id": "christian-provao2012-q098",
+      "prompt": "98. “O presbítero regente é o representante imediato do povo, por ser este eleito e ordenado pelo Conselho, para, juntamente com o pastor, exercer o governo e a disciplina, e zelar pelos interesses da Igreja a que pertencer, bem como pelos de toda a comunidade, quando para isso eleito ou designado”. (Art. 50 da CI/IPB) Não ocorrendo a reeleição do presbítero regente:",
+      "metadata": {
+        "period": null,
+        "questionNumber": 98,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "ready_hide_options",
+          "riskReasons": [],
+          "optionCountRemoved": 5,
+          "splitMethod": "circled_fallback"
+        }
+      },
+      "graderRef": "christian-provao2012-q098"
+    }
+  ]
+}

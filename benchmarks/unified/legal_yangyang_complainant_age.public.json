@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "benchmarkId": "legal.yangyang.complainant_age.v1",
+  "taskType": "legal_retrieval_answer",
+  "product": "lawkey",
+  "cases": [
+    {
+      "id": "yangyang-complainant-age",
+      "language": "ko",
+      "variants": [
+        {
+          "id": "v1",
+          "query": "김진하 군수 민원인 나이를 추정해봐"
+        },
+        {
+          "id": "v2",
+          "query": "김진하 양양 군수 사건 민원인 나이를 추정해봐"
+        }
+      ],
+      "runtime": {
+        "candidateLimit": 50
+      },
+      "graderRef": "yangyang-complainant-age"
+    }
+  ]
+}

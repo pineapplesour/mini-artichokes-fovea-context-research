@@ -1,0 +1,208 @@
+{
+  "schema": "classeval-gemma-luna-paired-development-v1-terminal",
+  "status": {
+    "result": "complete",
+    "completed": 300,
+    "total": 300,
+    "orderedTaskIds": true,
+    "pairedTasks": 32,
+    "errorJsonPresent": false,
+    "progressStatusPreserved": "running",
+    "exitCode": 0
+  },
+  "run": {
+    "session": "36189",
+    "pid": 2932315,
+    "start": "2026-09-06 01:29:17",
+    "root": "runs/classeval-pro300-gemma-luna-paired-20260906-development-v1",
+    "contractSha256": "59477124e357180843531eea2f0b4370495880f3d6994f2f9776d70c74fbe2c4",
+    "resultSha256": "5442238ecccdd10ae1cf599641047f4d581be5fd2acaae63ce3f6eda85343292",
+    "runnerSha": "1c4cad27d85050d6a83239f578c4deb5ecdcabc90793675cb6f92753d6feb684",
+    "protocolSha": "df55c6cb5ce1f183eaf71642121f5b268b43eece30c0a69cd3c329aa367353e6",
+    "evaluatorSha": "e9f0c420409d3e61caaf2d5e3bac1b9178956c7dc8a3fb3f127e17bec51388f0",
+    "frozenTailSha": "55d00670c6b052951ba7a783bd596fa25c2b02688981a4f1bb6f1ac6d8c7855e",
+    "graphRunnerSha": "ffd1d6ec1772b2079448fec32f96a48582477dbba244eb4f110e2516816a7e81",
+    "gemmaTransportSha": "354996a324afcac957ff554e68ed904515fbf2169f85a17a7bfda12759532682",
+    "textRunnerSha": "6a8b979cc1f1b3c93c7c560ea401969f3c6c0ba5cd18c4a92af4ab1611157e03"
+  },
+  "scores": {
+    "ordinary": 268,
+    "LL_E": 278,
+    "LL_O": 278,
+    "LG_E": 277,
+    "LG_O": 278
+  },
+  "primaryComparisons": {
+    "LG_O_vs_LG_E": {
+      "left": "LG_O",
+      "right": "LG_E",
+      "rescueIds": ["ClassEval_153", "ClassEval_191", "ClassEval_241"],
+      "harmIds": ["ClassEval_239", "ClassEval_295"],
+      "rescue": 3,
+      "harm": 2,
+      "net": 1,
+      "exactTwoSidedMcNemarP": 1.0,
+      "holmComparisons": 2,
+      "holmAdjustedP": 1.0,
+      "advanceNetAtLeast4": false
+    },
+    "LG_O_vs_LL_E": {
+      "left": "LG_O",
+      "right": "LL_E",
+      "rescueIds": ["ClassEval_153", "ClassEval_241", "ClassEval_265"],
+      "harmIds": ["ClassEval_239", "ClassEval_263", "ClassEval_295"],
+      "rescue": 3,
+      "harm": 3,
+      "net": 0,
+      "exactTwoSidedMcNemarP": 1.0,
+      "holmComparisons": 2,
+      "holmAdjustedP": 1.0,
+      "advanceNetAtLeast4": false
+    }
+  },
+  "secondaryComparisons": {
+    "LG_O_vs_LL_O": {
+      "rescueIds": ["ClassEval_191"],
+      "harmIds": ["ClassEval_286"],
+      "rescue": 1,
+      "harm": 1,
+      "net": 0,
+      "exactTwoSidedMcNemarP": 1.0
+    }
+  },
+  "full300PassVectors": {
+    "ordinary": {
+      "passed": 268,
+      "passVector01ByTaskId0To299": "111111111111111111111111011111011111111111101111111011111111110111111011111111110111111111111111111111111111111111111111101101111111101111111111111011111010101111111111111111111111111111111110111011111011111111111111111111101110111011111110100111111111110101111010101111110111111111111101111111101011"
+    },
+    "LL_E": {
+      "passed": 278,
+      "passVector01ByTaskId0To299": "111111111111111111111111011111011111111111111111111011111111110111111011111111110111111111111111111111111111111111111111101101111111101111111111111011111011101111111111111111111111111111111111111011111011111111111111111111101110111011111111101111111111111101111111101111111111111111111101111111111011"
+    },
+    "LL_O": {
+      "passed": 278,
+      "passVector01ByTaskId0To299": "111111111111111111111111011111011111111111111111111011111111110111111011111111110111111111111111111111111111111111111111101101111111101111111111111011111111101111111111111111111111111111111110111011111011111111111111111111101110111011111110111111111111111101111110111111111111111111111111111111101011"
+    },
+    "LG_E": {
+      "passed": 277,
+      "passVector01ByTaskId0To299": "111111111111111111111111011111011111111111111111111011111111110111111011111111110111111111111111111111111111111111111111101101111111101111111111111011111011101111111111111111111111111111111110111011111011111111111111111111101110111011111111101111111111111101111110111111111111111111111101111111111011"
+    },
+    "LG_O": {
+      "passed": 278,
+      "passVector01ByTaskId0To299": "111111111111111111111111011111011111111111111111111011111111110111111011111111110111111111111111111111111111111111111111101101111111101111111111111011111111101111111111111111111111111111111111111011111011111111111111111111101110111011111110111111111111111101111110111111111111111111111101111111101011"
+    }
+  },
+  "freshReceipts": {
+    "totalAttempted": 96,
+    "totalValid": 96,
+    "totalInvalid": 0,
+    "routes": {
+      "E_C": {
+        "model": "gpt-5.6-luna",
+        "effort": "medium",
+        "count": 32,
+        "valid": 32,
+        "exitCode": 0,
+        "timedOut": false,
+        "durationSumSeconds": 928.321263,
+        "usage": {
+          "input_tokens": 434504,
+          "cached_input_tokens": 145920,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 42287,
+          "reasoning_output_tokens": 8286
+        }
+      },
+      "O_B": {
+        "model": "gemma-4-26b-a4b-it",
+        "thinkingLevel": "minimal",
+        "temperature": 0.6,
+        "count": 32,
+        "valid": 32,
+        "finishReason": "STOP",
+        "httpStatus": 200,
+        "modelVersionMatched": 32,
+        "durationSumSeconds": 1056.387230,
+        "usage": {
+          "promptTokenCount": 138338,
+          "candidatesTokenCount": 44361,
+          "totalTokenCount": 182699
+        }
+      },
+      "O_C": {
+        "model": "gpt-5.6-luna",
+        "effort": "medium",
+        "count": 32,
+        "valid": 32,
+        "exitCode": 0,
+        "timedOut": false,
+        "durationSumSeconds": 913.362203,
+        "usage": {
+          "input_tokens": 434058,
+          "cached_input_tokens": 150784,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 41124,
+          "reasoning_output_tokens": 7155
+        }
+      }
+    },
+    "combinedReceiptDurationSumSeconds": 2898.070696,
+    "durationIsNotEndToEnd": true
+  },
+  "evaluatorAccounting": {
+    "planned": {
+      "cacheVerification": 96,
+      "freshRaw": 96,
+      "freshCanonical": 96,
+      "total": 288
+    },
+    "actualByArm": {
+      "E": {
+        "cachedCandidateSlots": 64,
+        "plannedCacheVerification": 64,
+        "canonicalEvalCalls": 96,
+        "freshRawCandidateEvalCalls": 32,
+        "totalEvaluatorCalls": 128
+      },
+      "O": {
+        "cachedCandidateSlots": 32,
+        "plannedCacheVerification": 32,
+        "canonicalEvalCalls": 95,
+        "freshRawCandidateEvalCalls": 64,
+        "totalEvaluatorCalls": 159,
+        "canonicalProjectionRejection": "ClassEval_239 O/B; model receipt valid"
+      }
+    },
+    "actualTotalEvaluatorCalls": 287,
+    "rawEvalCallsFieldIsHistoricalForCachedCandidates": true
+  },
+  "cachePaths": {
+    "E_A": {"root": "runs/classeval-pro300-overlap-repair-tail-20260905-development-v1", "count": 32},
+    "E_B": {"root": "runs/classeval-pro300-gemma-minimal-screen-20260906-development-v1", "count": 32},
+    "O_A": {"root": "runs/classeval-pro300-dependency-separator-overlap-20260905-development-v1", "count": 32},
+    "fresh": {"E_C": 32, "O_B": 32, "O_C": 32}
+  },
+  "sharedInventoryFatal": {
+    "taskIds": ["ClassEval_24", "ClassEval_80", "ClassEval_124", "ClassEval_133", "ClassEval_147", "ClassEval_157", "ClassEval_201", "ClassEval_227"],
+    "fatalByTask": {
+      "ClassEval_24": "Test09_PerformanceBehavior: ValueError: empty or duplicate declared test-class inventory",
+      "ClassEval_80": "Test09_PerformanceBehavior: ValueError: empty or duplicate declared test-class inventory",
+      "ClassEval_124": "Test07_AnalyticalComputation: ValueError: empty or duplicate declared test-class inventory",
+      "ClassEval_133": "Test09_PerformanceBehavior: ValueError: empty or duplicate declared test-class inventory",
+      "ClassEval_147": "Test09_PerformanceBehavior: ValueError: empty or duplicate declared test-class inventory",
+      "ClassEval_157": "Test09_PerformanceBehavior: ValueError: empty or duplicate declared test-class inventory",
+      "ClassEval_201": "Test09_PerformanceBehavior: ValueError: empty or duplicate declared test-class inventory",
+      "ClassEval_227": "Test05_SpecialTokenHandling: ValueError: empty or duplicate declared test-class inventory"
+    },
+    "interpretation": "Retain all eight in the full denominator; this is shared evaluator inventory evidence, not fresh model-receipt invalidity."
+  },
+  "interpretation": {
+    "developmentOnly": true,
+    "noSuperiority": true,
+    "advancementGatePassed": false,
+    "paperOrReviewUpdated": false,
+    "freshConfirmationAuthorized": false,
+    "highScreenInitiatedCallsSeparate": 10,
+    "nonBenchmarkSmokeCallsSeparate": 2
+  }
+}

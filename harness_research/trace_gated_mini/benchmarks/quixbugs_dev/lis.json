@@ -1,0 +1,10 @@
+{
+  "task_id": "quixbugs-python-lis",
+  "instruction": "Repair the defect in python_programs/lis.py so that lis returns the correct length for every valid input while preserving its public function signature. Change only that implementation file. Run the targeted pytest file and leave the repository in a minimal final state.",
+  "base_ref": "61985e690803a41f3a3519934d631da775d1f9ec",
+  "public_test_command": "python -m pytest -q -p no:cacheprovider python_testcases/test_lis.py",
+  "evaluation_test_command": "python -m pytest -q -p no:cacheprovider python_testcases/test_lis.py",
+  "allowed_path_globs": [
+    "python_programs/lis.py"
+  ]
+}

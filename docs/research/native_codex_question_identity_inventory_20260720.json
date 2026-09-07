@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-07-20T01:36:31+09:00",
+  "scope": "Every executed universal-native-Codex development or synthetic transport gate through selective-anchor v7. Superseded unrun gates and the unexecuted psychology generalization output are excluded.",
+  "overallPassed": true,
+  "gateCount": 20,
+  "distinctFrozenQuestionCount": 20,
+  "benchmarkQuestionCount": 8,
+  "syntheticPublicQuestionCount": 12,
+  "identityPolicy": {
+    "benchmark": "Exact public-manifest bytes, source case ID, variant ID when applicable, and prompt/query SHA-256 must agree.",
+    "synthetic": "The exact public question stored in the gate must reproduce publicQuestionSha256.",
+    "pairedDirectAndCandidate": "Direct and candidate calls under one gate share the same frozen question identity and are not counted as different questions.",
+    "historicalResults": "Closed result files are not rewritten. Their gate and result hashes remain authoritative.",
+    "futureResults": "Every new open-response or calculation result records source item ID, raw public prompt hash, canonical case and manifest hashes, exact model-input hash, prompt-builder ID, and prompt-builder source hash."
+  },
+  "benchmarkQuestions": [
+    {
+      "gateId": "universal-native-codex.tcm-development.v4",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_tcm_development_v4.json",
+      "gateSha256": "e8d3179ff5e8e858d61a34e64cbf2c7dcaed33b13dbee005ff4b42e78c29e35b",
+      "publicManifest": "benchmarks/open_response_v2/open_response_tcm_kuksiwon81_unique92.public.json",
+      "publicManifestSha256": "6bd6a9a978dd4fd09add2d9686978e17a1c5c020296959ce7d7fc35e954de986",
+      "caseId": "tcm81-p1-q014",
+      "variantId": "",
+      "questionSha256": "98574be1105153a62e9409f33b6095a685ef6d40ffa0738dbcf3700c08acd5b7",
+      "identityMatchesSource": true
+    },
+    {
+      "gateId": "universal-native-codex.compact-skill.tcm-development.v1",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_compact_skill_tcm_development_v1.json",
+      "gateSha256": "19d72ac24e0c330dc80e40bf691beeb3454bad89e2593f2700b37f403d974205",
+      "publicManifest": "benchmarks/open_response_v2/open_response_tcm_kuksiwon81_unique92.public.json",
+      "publicManifestSha256": "6bd6a9a978dd4fd09add2d9686978e17a1c5c020296959ce7d7fc35e954de986",
+      "caseId": "tcm81-p1-q016",
+      "variantId": "",
+      "questionSha256": "157ecc2f62ae680653873a1b17f8d6c09ca6a85fe93e319bb1a6d22825488f87",
+      "identityMatchesSource": true
+    },
+    {
+      "gateId": "universal-native-codex.compact-skill.tcm-development.v2",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_compact_skill_tcm_development_v2.json",
+      "gateSha256": "f269311ecd601d9b88fc7e46484cc81e145049995ca266d5f7e9f932ba29f8f6",
+      "publicManifest": "benchmarks/open_response_v2/open_response_tcm_kuksiwon81_unique92.public.json",
+      "publicManifestSha256": "6bd6a9a978dd4fd09add2d9686978e17a1c5c020296959ce7d7fc35e954de986",
+      "caseId": "tcm81-p2-q010",
+      "variantId": "",
+      "questionSha256": "1621840d0ff422c5506ed94a085e8961f3e7b4b7bab687458d8c618609f5f7d4",
+      "identityMatchesSource": true
+    },
+    {
+      "gateId": "universal-native-codex.bounded-skill-evidence.legal-development.v1",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_bounded_skill_evidence_legal_dev_v1.json",
+      "gateSha256": "7533ec9b5c49b4bd62bea02c40518a88e75065fe2d8d3a777c2be2b05c6e4c77",
+      "publicManifest": "benchmarks/unified/legal_military_key_management.public.json",
+      "publicManifestSha256": "2a9a0d56c9a2738bca8684ebb0823df79795399d03c2850d33bfc55a96fd4a6a",
+      "caseId": "military-key-management",
+      "variantId": "v1",
+      "questionSha256": "78b06ec14f3ac889f3bf998ffad0001094f6006338f64b0932c0933d6706d056",
+      "identityMatchesSource": true,
+      "manifestNote": "The gate preserves the manifest hash used at freeze time; the current manifest was later extended for v2-v4 and has a different current file hash. The v1 variant query still reproduces the sealed question hash."
+    },
+    {
+      "gateId": "universal-native-codex.composite-skill-evidence.legal-development.v1",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_composite_skill_evidence_legal_dev_v1.json",
+      "gateSha256": "bb2c48d6c0d410fce0ccfc850077a9d7693123d8f846dad2f42cb21552d9a360",
+      "publicManifest": "benchmarks/unified/legal_military_key_management.public.json",
+      "publicManifestSha256": "ee1d7ee4870385bccf960b0abe5aef7526d7353068ffdb312bea006d072d30f2",
+      "caseId": "military-key-management",
+      "variantId": "v2",
+      "questionSha256": "e530bccb3576b14953497a639e5beefa5da55b7f572faa2001195e1206fddc5e",
+      "identityMatchesSource": true
+    },
+    {
+      "gateId": "universal-native-codex.structured-skill-evidence.legal-development.v1",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_structured_skill_evidence_legal_dev_v1.json",
+      "gateSha256": "ec693345b37255204d4a681f28fcab3e7925a70c9bdf6494d070f78a64a7d8a6",
+      "publicManifest": "benchmarks/unified/legal_military_key_management.public.json",
+      "publicManifestSha256": "ee1d7ee4870385bccf960b0abe5aef7526d7353068ffdb312bea006d072d30f2",
+      "caseId": "military-key-management",
+      "variantId": "v3",
+      "questionSha256": "dda15bf45790045cee7838943b988a49c998fdf9e4a26fc63dad70387e618a52",
+      "identityMatchesSource": true
+    },
+    {
+      "gateId": "universal-native-codex.novel-concept-legal.dev.v1",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_novel_concept_legal_dev_v1.json",
+      "gateSha256": "51eab58dfb93ae06709993ad42bf072f54a59d705a25f817949fb5b51c95beef",
+      "publicManifest": "benchmarks/unified/legal_mistaken_bitcoin_breach_of_trust.public.json",
+      "publicManifestSha256": "01e75ca07c5fe1f7cd1c30a8a9d6c59c7af748c5d2e554598bfd9d647dc374f6",
+      "caseId": "mistaken-bitcoin-breach-of-trust",
+      "variantId": "v1",
+      "questionSha256": "26850e564c5aea0101512644e176f5c4a497f39985e358b0d5667c6ca0835c8d",
+      "identityMatchesSource": true
+    },
+    {
+      "gateId": "universal-native-codex.balanced-grounded-legal.dev.v1",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_balanced_grounded_legal_dev_v1.json",
+      "gateSha256": "83f5c6d169a82fca9186194f4930c7d30f43c36eab54fddf88919709a187c236",
+      "publicManifest": "benchmarks/unified/legal_movable_collateral_disposal_breach_of_trust.public.json",
+      "publicManifestSha256": "3952947668477cc23c38553af01057e75b09c7a2a96f789a2cdadd96f43340bb",
+      "caseId": "movable-collateral-disposal-breach-of-trust",
+      "variantId": "v1",
+      "questionSha256": "0a528e6b7e72dd06640bc51b23d90a05ec300fc4f6d7f27cb478bb976904a773",
+      "identityMatchesSource": true
+    }
+  ],
+  "syntheticPublicQuestions": [
+    {
+      "gateId": "universal-native-codex.balanced-grounded-contrastive-skill-transport.synthetic.v1",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_balanced_grounded_contrastive_skill_transport_synthetic_v1.json",
+      "gateSha256": "2467498034acf30032c8d9fe643d15c27ffd98880e5e81e19e5c415f5dfb53fc",
+      "questionSha256": "7cbb5643d5cf57d5406c40c256f56a2e9173896e26bc86fddcda47fe9e2416f6",
+      "identityMatchesSource": true
+    },
+    {
+      "gateId": "universal-native-codex.compact-skill-transport.synthetic.v1",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_compact_skill_transport_synthetic_v1.json",
+      "gateSha256": "46b4be4dc518e5056bdf340865600c372b85d906dcba6b3dc2c62ca3bb1bedd9",
+      "questionSha256": "7b28a509135a46aa384b9f89ca48a4776186715dfd89798a6d6c1564aaea1a90",
+      "identityMatchesSource": true
+    },
+    {
+      "gateId": "universal-native-codex.contrastive-skill-transport.synthetic.v1",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_contrastive_skill_transport_synthetic_v1.json",
+      "gateSha256": "cb6d314e49f2aabacd130ba49ec79ea2da6a9541edcb1c5493aa202907ef06e9",
+      "questionSha256": "55294b3cccb2ecea724aa899060024ea602e770502bff840549bb3336ae48522",
+      "identityMatchesSource": true
+    },
+    {
+      "gateId": "universal-native-codex.grounded-contrastive-skill-transport.synthetic.v1",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_grounded_contrastive_skill_transport_synthetic_v1.json",
+      "gateSha256": "55e2591d065de12b605a6c56921eb42aa22e8b24641bcbccd6e8892ba12f6703",
+      "questionSha256": "5a62da24761cc6a655856ff7189aa8062ebbfb639ce0c56eddb1b3bf2c83a068",
+      "identityMatchesSource": true
+    },
+    {
+      "gateId": "universal-native-codex.novel-concept-transport.synthetic.v1",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_novel_concept_transport_synthetic_v1.json",
+      "gateSha256": "8530bde39db91226b29918fb67ad0fa944344787814061c4b278cd0be5bdef00",
+      "questionSha256": "23baabf17e2040d1a8490b8431d5a37e4cf81254ce0d10790eece6d734a12d3d",
+      "identityMatchesSource": true
+    },
+    {
+      "gateId": "universal-native-codex.selective-anchor-balanced-skill-transport.synthetic.v1",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_selective_anchor_balanced_skill_transport_synthetic_v1.json",
+      "gateSha256": "aa371ed70b08af07b119a900487a34e48133b5876cb051de33a77bb7676f7c85",
+      "questionSha256": "e449dc10e2e95d2b442325d7fa5d46496f9547ac66d3c3089cabf013c4a0a046",
+      "identityMatchesSource": true
+    },
+    {
+      "gateId": "universal-native-codex.selective-anchor-balanced-skill-transport.synthetic.v2",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_selective_anchor_balanced_skill_transport_synthetic_v2.json",
+      "gateSha256": "244f01ff3534f545b1b82a99fd48f01f884a03119362fc4e2273280caf6409f0",
+      "questionSha256": "e03f38da712cf6f2b24340250ed130bed3a7d33e702c72ca9ada28e197f494bf",
+      "identityMatchesSource": true
+    },
+    {
+      "gateId": "universal-native-codex.selective-anchor-balanced-skill-transport.synthetic.v3",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_selective_anchor_balanced_skill_transport_synthetic_v3.json",
+      "gateSha256": "c52189054fdbc4b46c6507b5486a24116735a5099c548b702b7d38a0a2d6e085",
+      "questionSha256": "49c3f8849176cefce6ac8730fe8bdbc699e4549fa7d4fc78f9e1a3bcdc5a6013",
+      "identityMatchesSource": true
+    },
+    {
+      "gateId": "universal-native-codex.selective-anchor-balanced-skill-transport.synthetic.v4",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_selective_anchor_balanced_skill_transport_synthetic_v4.json",
+      "gateSha256": "5b02f5efcedf3b6df98473bd05602369e35953d2ba4bc41701f379a692309cf9",
+      "questionSha256": "137fb1f59987655773d2a17f6d0c7e6ecf3a69e440ef4d9ff47b60373207283f",
+      "identityMatchesSource": true
+    },
+    {
+      "gateId": "universal-native-codex.selective-anchor-balanced-skill-transport.synthetic.v5",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_selective_anchor_balanced_skill_transport_synthetic_v5.json",
+      "gateSha256": "198a9d0d321197f70c557e274cab5f4fd1970121fe05a04cf57a71a3554260d8",
+      "questionSha256": "ab3554d143e2a148f23add7a1af8618c8a2c2f36e55b09d7f277a96012b53eea",
+      "identityMatchesSource": true
+    },
+    {
+      "gateId": "universal-native-codex.selective-anchor-balanced-skill-transport.synthetic.v6",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_selective_anchor_balanced_skill_transport_synthetic_v6.json",
+      "gateSha256": "05968c57cf0f839becb79ddb17cefb0a83f4223147e578a35972593aeb811391",
+      "questionSha256": "645b99a62d2ee68893cb9f8722426ec2eb651b7f2a0da6ed32a6c52949196d51",
+      "identityMatchesSource": true
+    },
+    {
+      "gateId": "universal-native-codex.selective-anchor-balanced-skill-transport.synthetic.v7",
+      "gatePath": "benchmarks/pilot_gates/universal_native_codex_selective_anchor_balanced_skill_transport_synthetic_v7.json",
+      "gateSha256": "a65cf13ccd29a78e308f223b1f1ad21c67fd5cecef6fc37a0d3c24b4a93e2c84",
+      "questionSha256": "7f644d8442713aaf7944f5cb090b338f5fb87d4e258e8816c704d9c46e8e671d",
+      "identityMatchesSource": true
+    }
+  ],
+  "auditNotes": [
+    "All eight benchmark question hashes reproduce from the exact source case or case/variant query.",
+    "All twelve synthetic public question hashes reproduce from the exact question stored in the corresponding gate.",
+    "The three military development gates intentionally reuse one case family with distinct v1, v2, and v3 public variants; they are not fresh independent cases.",
+    "The recent synthetic transport gates are architecture tests and must not be counted as benchmark score evidence."
+  ]
+}

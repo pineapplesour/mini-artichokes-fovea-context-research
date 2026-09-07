@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "benchmarkId": "open_response.lawkey.leet2026.v2",
+  "classification": "exact_current_prompt_item_isolated_direct",
+  "freeze": {
+    "path": "docs/research/plain_codex_baseline_freeze_20260720.json",
+    "sha256": "468d11d764407a419f4bc85dac288c23730a0e672ff4ae7edff02e5d91fd44d7"
+  },
+  "frozenCoverageInventory": {
+    "path": "docs/research/plain_codex_open_response_coverage_20260720.json",
+    "sha256": "b040f802930cf3c8f74a30c6b8c3db896faf26eb105d690a7b1ec6db567f6459"
+  },
+  "manifest": {
+    "publicPath": "benchmarks/open_response_v2/open_response_lawkey_leet2026_70.public.json",
+    "publicSha256": "2cb9a2507405aa10001633a7bb0d7e947e992c8319bf22cd3c1365e979b556d9",
+    "privatePath": "benchmarks/open_response_v2/open_response_lawkey_leet2026_70.private.json",
+    "privateSha256": "6e759286e0206dfbc479f1376ef32ac15048d0717bfc667395fb75226e5cdcca",
+    "totalCases": 70,
+    "readyCases": 1,
+    "needsSemanticRewriteCases": 69
+  },
+  "solverArtifact": {
+    "caseId": "lawkey-leet2026-reasoning-q027",
+    "resultPath": "runs/luna-pilot/legal-leet2026-q027-direct-v1/results/lawkey-leet2026-reasoning-q027.json",
+    "resultSha256": "1a0071e9bcc1e8b0f6e4b34a41a75e244019ff891ca418f217b36ec9cbb5c14d",
+    "summaryPath": "runs/luna-pilot/legal-leet2026-q027-direct-v1/summary.json",
+    "summarySha256": "ceaec004f43b4ba302918bd8379ae4eb8e7e9a01944d1c2a12e00b82d166710b",
+    "model": "gpt-5.6-luna",
+    "modelCalls": 1,
+    "tokens": 9236,
+    "elapsedSec": 5.659,
+    "webEvents": 0,
+    "mcpEvents": 0,
+    "commandEvents": 0,
+    "toolBoundaryAuditPassed": true,
+    "universalOrBeta6Exposure": false
+  },
+  "promptIdentityAudit": {
+    "promptSha256MatchesCurrent": true,
+    "casePayloadSha256MatchesCurrent": true,
+    "manifestCanonicalSha256MatchesCurrent": true,
+    "builderSourceSha256MatchesCurrent": true,
+    "exactCurrentPromptIdentityProven": true
+  },
+  "score": {
+    "path": "runs/luna-pilot/legal-leet2026-q027-direct-v1/score-deterministic.json",
+    "sha256": "192dae156fe38c7dd0f27482d8d95fb13796d719a55ac5d9ef353cab52fa544d",
+    "total": 1,
+    "passed": 1,
+    "failed": 0,
+    "unresolved": 0,
+    "accuracy": 1.0,
+    "judgeCalls": 0,
+    "solverReruns": 0
+  },
+  "interpretation": "The only currently ready Lawkey LEET open-response case has an exact current prompt/result identity and a deterministic pass. The other 69 cases remain excluded pending semantic rewrite and are not silently counted as plain failures or successes."
+}

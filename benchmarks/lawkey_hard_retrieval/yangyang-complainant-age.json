@@ -1,0 +1,60 @@
+{
+  "benchmarkVersion": "lawkey-hard-retrieval-v1",
+  "cases": [
+    {
+      "id": "yangyang-complainant-age",
+      "description": "A user asks for the complainant age in the public Kim Jin-ha/Yangyang county governor criminal case. The answer span is present in the district-court judgment only.",
+      "queries": [
+        "김진하 군수 민원인 나이를 추정해봐",
+        "김진하 양양 군수 사건 민원인 나이를 추정해봐"
+      ],
+      "primaryTarget": {
+        "fileName": "춘천지방법원속초지원-2025고합5.pdf",
+        "court": "춘천지방법원속초지원",
+        "caseNumber": "2025고합5",
+        "requiredAnswerText": "D(여, 64세)",
+        "whyPrimary": "The district-court judgment contains the victim/complainant age span. Appeal and supreme-court judgments are useful related-case signals but do not contain the required answer span."
+      },
+      "relatedTargets": [
+        {
+          "fileName": "서울고등법원춘천-2025노158.pdf",
+          "court": "서울고등법원 춘천재판부",
+          "caseNumber": "2025노158",
+          "required": false,
+          "relationship": "appeal judgment"
+        },
+        {
+          "fileName": "대법원-2026도1657.pdf",
+          "court": "대법원",
+          "caseNumber": "2026도1657",
+          "required": false,
+          "relationship": "supreme-court judgment"
+        }
+      ],
+      "rankRules": {
+        "candidateLimit": 50,
+        "primaryMustAppearWithin": 5,
+        "requiredAnswerMustAppearInPrimary": true,
+        "forbidSearchMetadataLeakTerms": true,
+        "relatedTargetsAreDiagnosticOnly": true
+      },
+      "forbiddenSearchMetadataTerms": [
+        "김진하",
+        "양양",
+        "양양군수"
+      ],
+      "antiOverfitRules": [
+        "Do not pass by returning a large candidate set that merely contains the correct judgment somewhere inside it.",
+        "Do not hard-code this benchmark id, file name, case number, or answer text in retrieval code.",
+        "Do not inject public case-name aliases such as Kim Jin-ha, Yangyang, or Yangyang governor into searchable title/case_name metadata for this benchmark.",
+        "Do not count related appeal/supreme-court judgments as the answer source unless the primary district-court judgment is also selected within the required rank window.",
+        "Additional paraphrases may be added without changing the expected target."
+      ],
+      "ingestionHints": {
+        "sourceFolder": "G:\\내 드라이브\\양양벤치",
+        "sourceDataset": "lawkey_yangyang_bench",
+        "aliasPolicy": "Do not put public case-name aliases into searchable fields for this benchmark. The point is to test whether retrieval can bridge the user wording to anonymized judgment text."
+      }
+    }
+  ]
+}

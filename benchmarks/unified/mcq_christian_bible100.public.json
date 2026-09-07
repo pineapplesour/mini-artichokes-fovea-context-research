@@ -1,0 +1,909 @@
+{
+  "schemaVersion": 1,
+  "benchmarkId": "mcq.christian.bible100.v1",
+  "taskType": "mcq",
+  "product": "catholic",
+  "language": "ko",
+  "cases": [
+    {
+      "id": "christian-bible100-q001",
+      "prompt": "1. 창세기 1장의 천지창조 일정 가운데 광명체들은 몇째 날 창조되었는가?\n\n① 둘째 날\n② 셋째 날\n③ 넷째 날\n④ 다섯째 날",
+      "metadata": {
+        "period": null,
+        "questionNumber": 1
+      },
+      "graderRef": "christian-bible100-q001"
+    },
+    {
+      "id": "christian-bible100-q002",
+      "prompt": "2. “그들이 서로 말하되 우리가 아우의 일로 말미암아 범죄하였도다 그가 우리에게 애걸할 때에 그 마음의 괴로움을 보고도 듣지 아니하였으므로 이 괴로움이 우리에게 임하도다”(창 42:21) 에서 ‘아우’는 누구인가?\n\n① 레위\n② 베냐민\n③ 르우벤\n④ 요셉",
+      "metadata": {
+        "period": null,
+        "questionNumber": 2
+      },
+      "graderRef": "christian-bible100-q002"
+    },
+    {
+      "id": "christian-bible100-q003",
+      "prompt": "3. 출애굽기 1장 5절에 따르면, 애굽에 내려간 야곱의 가족은 모두 몇 명이었나?\n\n① 70명\n② 72명\n③ 74명\n④ 75명",
+      "metadata": {
+        "period": null,
+        "questionNumber": 3
+      },
+      "graderRef": "christian-bible100-q003"
+    },
+    {
+      "id": "christian-bible100-q004",
+      "prompt": "4. 다음 본문은 출애굽기 어디에 기록되어 있는가? “너희는 여호와를 찬송하라 그는 높고 영화로우심이요 말과 그 탄 자를 바다에 던지셨음이로다”\n\n① 13:1-2\n② 14:31\n③ 15:21\n④ 40:35",
+      "metadata": {
+        "period": null,
+        "questionNumber": 4
+      },
+      "graderRef": "christian-bible100-q004"
+    },
+    {
+      "id": "christian-bible100-q005",
+      "prompt": "5. 다음 중 아들이나 딸을 출산한 여인의 정결에 관한 규정은 레위기 몇 장에 기록되어 있는가?\n\n① 11장\n② 12장\n③ 13장\n④ 14장",
+      "metadata": {
+        "period": null,
+        "questionNumber": 5
+      },
+      "graderRef": "christian-bible100-q005"
+    },
+    {
+      "id": "christian-bible100-q006",
+      "prompt": "6. 민수기에 기록된 두 차례의 인구 조사는 각각 어디에 기록되어 있는가?\n\n① 1장과 26장\n② 2장과 27장\n③ 3장과 28장\n④ 4장과 29장",
+      "metadata": {
+        "period": null,
+        "questionNumber": 6
+      },
+      "graderRef": "christian-bible100-q006"
+    },
+    {
+      "id": "christian-bible100-q007",
+      "prompt": "7. “내가 너희 지파의 수령으로 지혜가 있고 인정 받는 자들을 취하여 너희의 수령을 삼되 곧 각 지파를 따라 ( )과 ( )과 ( )과 ( )과 조장을 삼고”(신 1:15)의 괄호에 들어갈 말이 아닌 것은?\n\n① 천부장\n② 백부장\n③ 이십부장\n④ 십부장",
+      "metadata": {
+        "period": null,
+        "questionNumber": 7
+      },
+      "graderRef": "christian-bible100-q007"
+    },
+    {
+      "id": "christian-bible100-q008",
+      "prompt": "8. “너희의 하나님 여호와는 신 가운데 신이시며 주 가운데 주시요 크고 능하시며 두려우신 하나님이시라” 라는 말씀은 신명기 몇 장에 나오는가?\n\n① 8장\n② 9장\n③ 10장\n④ 11장",
+      "metadata": {
+        "period": null,
+        "questionNumber": 8
+      },
+      "graderRef": "christian-bible100-q008"
+    },
+    {
+      "id": "christian-bible100-q009",
+      "prompt": "9. “네 이웃의 곡식밭에 들어갈 때에는 네가 손으로 그 이삭을 따도 되느니라 그러나 ( )”(신 23:25)의 괄호에 들어갈 말은?\n\n① 이삭을 그릇에 담지는 말지니라\n② 다른 사람과 함께 이삭을 따지는 말지어다\n③ 이웃의 곡식 밭에 낫을 대지는 말지니라\n④ 딴 이삭은 다른 사람과 함께 먹어야 하느니라",
+      "metadata": {
+        "period": null,
+        "questionNumber": 9
+      },
+      "graderRef": "christian-bible100-q009"
+    },
+    {
+      "id": "christian-bible100-q010",
+      "prompt": "10. “그날에 여호수아가 ( )에서 백성과 더불어 언약을 맺고 그들을 위하여 율례와 법도를 제정하였더라” 에서 ( )에 들어갈 지명은 무엇인가?\n\n① 길갈\n② 헤브론\n③ 딤낫세라\n④ 세겜",
+      "metadata": {
+        "period": null,
+        "questionNumber": 10
+      },
+      "graderRef": "christian-bible100-q010"
+    },
+    {
+      "id": "christian-bible100-q011",
+      "prompt": "11. 다음 중 드보라가 가나안 왕 야빈과 싸울 때 참전하지 않은 족속은?\n\n① 잇사갈\n② 스불론\n③ 아셀\n④ 납달리",
+      "metadata": {
+        "period": null,
+        "questionNumber": 11
+      },
+      "graderRef": "christian-bible100-q011"
+    },
+    {
+      "id": "christian-bible100-q012",
+      "prompt": "12. 다음 중 사사시대에 왕이 되고자 했던 사람은 누구인가?\n\n① 옷니엘\n② 에훗\n③ 아비멜렉\n④ 기드온",
+      "metadata": {
+        "period": null,
+        "questionNumber": 12
+      },
+      "graderRef": "christian-bible100-q012"
+    },
+    {
+      "id": "christian-bible100-q013",
+      "prompt": "13. 다음 중 엘리멜렉과 나오미의 아들이자 룻의 남편이었던 사람의 이름은(룻4:10)?\n\n① 말론\n② 기룐\n③ 홉니\n④ 비느하스",
+      "metadata": {
+        "period": null,
+        "questionNumber": 13
+      },
+      "graderRef": "christian-bible100-q013"
+    },
+    {
+      "id": "christian-bible100-q014",
+      "prompt": "14. 사울과 아말렉의 전쟁이 기록된 것은 사무엘 상 몇 장인가?\n\n① 14장\n② 15장\n③ 16장\n④ 17장",
+      "metadata": {
+        "period": null,
+        "questionNumber": 14
+      },
+      "graderRef": "christian-bible100-q014"
+    },
+    {
+      "id": "christian-bible100-q015",
+      "prompt": "15. 나발의 아내였으나 나발이 죽은 후 다윗의 아내가 된 여인은?\n\n① 아히노암\n② 아비가일\n③ 학깃\n④ 에글라",
+      "metadata": {
+        "period": null,
+        "questionNumber": 15
+      },
+      "graderRef": "christian-bible100-q015"
+    },
+    {
+      "id": "christian-bible100-q016",
+      "prompt": "16. 도망하던 다윗에게 “피를 흘린 자여 사악한 자여 가거라 가거라”라고 저주한 시므이의 출신 지파는?\n\n① 베냐민\n② 에브라임\n③ 시므온\n④ 유다",
+      "metadata": {
+        "period": null,
+        "questionNumber": 16
+      },
+      "graderRef": "christian-bible100-q016"
+    },
+    {
+      "id": "christian-bible100-q017",
+      "prompt": "17. 여호와께서 나단을 통해 다윗의 왕조가 영원히 지속되리라고 약속하신 말씀은 사무엘하 몇 장에 나오는가?\n\n① 6장\n② 7장\n③ 8장\n④ 9장",
+      "metadata": {
+        "period": null,
+        "questionNumber": 17
+      },
+      "graderRef": "christian-bible100-q017"
+    },
+    {
+      "id": "christian-bible100-q018",
+      "prompt": "18. 솔로몬이 이방의 많은 여인을 사랑하여 그들이 이스라엘로 가져온 다른 신들을 따르게 하였다는 내용과 솔로몬의 죽음에 대한 기사가 기록된 장은 열왕기상 몇 장인가?\n\n① 10장\n② 11장\n③ 12장\n④ 13장",
+      "metadata": {
+        "period": null,
+        "questionNumber": 18
+      },
+      "graderRef": "christian-bible100-q018"
+    },
+    {
+      "id": "christian-bible100-q019",
+      "prompt": "19. 엘리야가 하늘로 승천하는 이야기는 열왕기하 몇 장에 기록되었는가?\n\n① 1장\n② 2장\n③ 3장\n④ 4장",
+      "metadata": {
+        "period": null,
+        "questionNumber": 19
+      },
+      "graderRef": "christian-bible100-q019"
+    },
+    {
+      "id": "christian-bible100-q020",
+      "prompt": "20. “유다는 형제보다 뛰어나고 주권자가 유다에게서 났으나 장자의 명분은 요셉에게 있느니라”는 역대상 몇 장에 나오는가?\n\n① 2장\n② 3장\n③ 4장\n④ 5장",
+      "metadata": {
+        "period": null,
+        "questionNumber": 20
+      },
+      "graderRef": "christian-bible100-q020"
+    },
+    {
+      "id": "christian-bible100-q021",
+      "prompt": "21. 다음은 어느 지파에 대한 기술인가? “그러므로 이스라엘 하나님이 앗수르 왕 불의 마음을 일으키시며 앗수르 왕 디글랏빌레셀의 마음을 일으키시매 곧 ( )과 ( )과 ( ) 지파를 사로잡아 할라와 하볼과 하라와 고산 강가에 옮긴지라 그들이 오늘까지 거기에 있으니라”의 괄호에 들어가지 않는 말은?\n\n① 르우벤\n② 시므온\n③ 갓\n④ 므낫세 반",
+      "metadata": {
+        "period": null,
+        "questionNumber": 21
+      },
+      "graderRef": "christian-bible100-q021"
+    },
+    {
+      "id": "christian-bible100-q022",
+      "prompt": "22. 야긴과 보아스는 성전의 무엇인가?\n\n① 기둥\n② 뜰\n③ 촛대\n④ 두 마당",
+      "metadata": {
+        "period": null,
+        "questionNumber": 22
+      },
+      "graderRef": "christian-bible100-q022"
+    },
+    {
+      "id": "christian-bible100-q023",
+      "prompt": "23. 에스라가 이방인과의 통혼에 대한 개혁조치가 제대로 실행될 수 있도록 위원회를 만들어 활동하게 하였을 때 그 위원회가 활동한 기간은(스 10:16-17)?\n\n① 약 1개월\n② 약 3개월\n③ 약 6개월\n④ 약 8개월",
+      "metadata": {
+        "period": null,
+        "questionNumber": 23
+      },
+      "graderRef": "christian-bible100-q023"
+    },
+    {
+      "id": "christian-bible100-q024",
+      "prompt": "24. 느헤미야 시대에 중수한 성문이 아닌 것은(느 3:1-15)?\n\n① 양문\n② 어문\n③ 골짜기문\n④ 사자문",
+      "metadata": {
+        "period": null,
+        "questionNumber": 24
+      },
+      "graderRef": "christian-bible100-q024"
+    },
+    {
+      "id": "christian-bible100-q025",
+      "prompt": "25. 아하수에로왕은 자신이 다스리는 나라의 부함과 위엄의 혁혁함을 나타내기 위해 며칠 동안 잔치를 베풀었는가 (에 1:4)?\n\n① 30일\n② 60일\n③ 120일\n④ 180일",
+      "metadata": {
+        "period": null,
+        "questionNumber": 25
+      },
+      "graderRef": "christian-bible100-q025"
+    },
+    {
+      "id": "christian-bible100-q026",
+      "prompt": "26. “그가 이르되 그대의 말이 한 어리석은 여자의 말 같도다 우리가 하나님께 ( )을 받았은즉 ( )도 받지 아니하겠느냐 하고 이 모든 일에 욥이 입술로 범죄하지 아니하니라”(욥 2:10)의 괄호에 들어갈 말은?\n\n① 복, 화\n② 빛, 어둠\n③ 명철, 은혜\n④ 사랑, 심판",
+      "metadata": {
+        "period": null,
+        "questionNumber": 26
+      },
+      "graderRef": "christian-bible100-q026"
+    },
+    {
+      "id": "christian-bible100-q027",
+      "prompt": "27. “내가 모태에서 알몸으로 나왔사온즉 또한 알 몸이 그리로 돌아가올지라 주신 이도 여호와시요 거두신 이요 여호와시오니 여호와의 이름이 ( )을 받으실지니이다 하고”(욥 1:21)에서 괄호 안에 들어갈 말은?\n\n① 찬송\n② 영광\n③ 권능\n④ 거룩히 여김",
+      "metadata": {
+        "period": null,
+        "questionNumber": 27
+      },
+      "graderRef": "christian-bible100-q027"
+    },
+    {
+      "id": "christian-bible100-q028",
+      "prompt": "28. “주께서 내 마음에 두신 기쁨은 그들의 곡식과 새 포도주가 풍성할 때보다 더하니이다 내가 평안히 눕고 자기도 하리니 나를 안전히 살게 하시는 이는 오직 여호와이시니이다”는 표현이 나오는 시편은?\n\n① 3편\n② 4편\n③ 5편\n④ 6편",
+      "metadata": {
+        "period": null,
+        "questionNumber": 28
+      },
+      "graderRef": "christian-bible100-q028"
+    },
+    {
+      "id": "christian-bible100-q029",
+      "prompt": "29. “하나님은 의로우신 재판장이심이여 매일 ( ) 하시는 하나님이시라”(시 7:11)의 괄호에 들어갈 말은?\n\n① 분노\n② 질투\n③ 사랑\n④ 심판",
+      "metadata": {
+        "period": null,
+        "questionNumber": 29
+      },
+      "graderRef": "christian-bible100-q029"
+    },
+    {
+      "id": "christian-bible100-q030",
+      "prompt": "30. “아버지가 자식을 긍휼히 여김같이 여호와께서는 자기를 ( )하는 자를 긍휼히 여시나니 이는 그가 우리의 ( )을 아시며 우리가 단지 먼지뿐임을 기억하심이로다”(시 103:13-14)의 두 괄호에 들어갈 말을 차례대로 바르게 적은 것은?\n\n① 사랑, 체질\n② 사랑, 기질\n③ 경외, 체질\n④ 경외, 기질",
+      "metadata": {
+        "period": null,
+        "questionNumber": 30
+      },
+      "graderRef": "christian-bible100-q030"
+    },
+    {
+      "id": "christian-bible100-q031",
+      "prompt": "31. “여호와를 경외함이 지혜의 근본이라 그의 계명을 지키는 자는 다 훌륭한 지각을 가진 자이니 여호와를 찬양 함이 영원히 계속되리로다”라는 표현이 나오는 시편은?\n\n① 110편\n② 111편\n③ 112편\n④ 113편",
+      "metadata": {
+        "period": null,
+        "questionNumber": 31
+      },
+      "graderRef": "christian-bible100-q031"
+    },
+    {
+      "id": "christian-bible100-q032",
+      "prompt": "32. “사람의 심령은 그의 ( )을 능히 이기려니와 심령이 상하면 그것을 누가 일으키겠느냐?”(잠 18:14)의 괄호에 들어갈 말은?\n\n① 대적\n② 욕심\n③ 병\n④ 유혹",
+      "metadata": {
+        "period": null,
+        "questionNumber": 32
+      },
+      "graderRef": "christian-bible100-q032"
+    },
+    {
+      "id": "christian-bible100-q033",
+      "prompt": "33. 잠언은 게으른 자에게 누구에게 가서 그 하는 것을 보고 지혜를 얻으라고 가르치는가?\n\n① 개미\n② 강도\n③ 사슴\n④ 노루",
+      "metadata": {
+        "period": null,
+        "questionNumber": 33
+      },
+      "graderRef": "christian-bible100-q033"
+    },
+    {
+      "id": "christian-bible100-q034",
+      "prompt": "34. “사람마다 먹고 마시는 것과 수고함으로 낙을 누리는 그것이 하나님의 ( )인 줄도 또한 알았도다”(전 3:13)에서 괄호 안에 들어갈 말은?\n\n① 선물\n② 은혜\n③ 행사\n④ 수고",
+      "metadata": {
+        "period": null,
+        "questionNumber": 34
+      },
+      "graderRef": "christian-bible100-q034"
+    },
+    {
+      "id": "christian-bible100-q035",
+      "prompt": "35. “너는 나를 ( )같이 마음에 품고 ( ) 같이 팔에 두라 사랑은 죽음 같이 강하고 질투는 스올 같이 잔인하며 불길 같이 일어나니 그 기세가 여호와의 불과 같으니라”(아 8:6)의 괄호에 들어갈 말은?\n\n① 불\n② 술\n③ 진리\n④ 도장",
+      "metadata": {
+        "period": null,
+        "questionNumber": 35
+      },
+      "graderRef": "christian-bible100-q035"
+    },
+    {
+      "id": "christian-bible100-q036",
+      "prompt": "36. “보라 처녀가 잉태하여 아들을 낳을 것이요 그의 이름을 임마누엘이라 하리라”라는 예언을 이사야로부터 들은 왕은 누구인가?\n\n① 히스기야\n② 아합\n③ 아하스\n④ 웃시야",
+      "metadata": {
+        "period": null,
+        "questionNumber": 36
+      },
+      "graderRef": "christian-bible100-q036"
+    },
+    {
+      "id": "christian-bible100-q037",
+      "prompt": "37. “너희의 하나님이 이르시되 너희는 위로하라 내 백성의 위로하라”는 이사야 몇 장에 나오는 말씀인가?\n\n① 40장\n② 41장\n③ 55장\n④ 56장",
+      "metadata": {
+        "period": null,
+        "questionNumber": 37
+      },
+      "graderRef": "christian-bible100-q037"
+    },
+    {
+      "id": "christian-bible100-q038",
+      "prompt": "38. “( )의 아들 아히감의 손이 예레미야를 도와주어 그를 백성의 손에 내어 주지 아니하여 죽이지 못하게 하니라”(렘 26:24)의 괄호에 들어갈 이름은?\n\n① 그다랴\n② 악볼\n③ 사반\n④ 그마랴",
+      "metadata": {
+        "period": null,
+        "questionNumber": 38
+      },
+      "graderRef": "christian-bible100-q038"
+    },
+    {
+      "id": "christian-bible100-q039",
+      "prompt": "39. 예레미야가 전한 말씀이 적힌 두루마리를 불 태운 왕은?\n\n① 여호야긴\n② 여호야김\n③ 요시야\n④ 시드기야",
+      "metadata": {
+        "period": null,
+        "questionNumber": 39
+      },
+      "graderRef": "christian-bible100-q039"
+    },
+    {
+      "id": "christian-bible100-q040",
+      "prompt": "40. “여호와의 인자와 긍휼이 무궁하시므로 우리가 진멸되지 아니함이니이다 이것들이 아침마다 새로우니 주의 성실하심이 크시도소이다”가 들어 있는 책은?\n\n① 시편\n② 잠언\n③ 예레미야\n④ 예레미야애가",
+      "metadata": {
+        "period": null,
+        "questionNumber": 40
+      },
+      "graderRef": "christian-bible100-q040"
+    },
+    {
+      "id": "christian-bible100-q041",
+      "prompt": "41. 다음 중 “아버지가 신 포도를 먹었으므로 그의 아들의 이가 시다”는 속담이 들어 있는 두 예언서는?\n\n① 이사야와 예레미야\n② 예레미야와 에스겔\n③ 에스겔과 다니엘\n④ 이사야와 다니엘",
+      "metadata": {
+        "period": null,
+        "questionNumber": 41
+      },
+      "graderRef": "christian-bible100-q041"
+    },
+    {
+      "id": "christian-bible100-q042",
+      "prompt": "42. “비록 노아, ( ), 욥, 이 세 사람이 거기에 있을지라도 그들은 자기의 공의로 자기의 생명만 건지리라 나 주 여호와의 말이니라”(겔 14:14) 의 괄호에 들어갈 이름은?\n\n① 다윗\n② 엘리야\n③ 다니엘\n④ 아브라함",
+      "metadata": {
+        "period": null,
+        "questionNumber": 42
+      },
+      "graderRef": "christian-bible100-q042"
+    },
+    {
+      "id": "christian-bible100-q043",
+      "prompt": "43. “여호와께서 내게 이르시되 이 문은 닫고 다시 열지 못할지니 아무도 그리로 들어오지 못할 것은 이스라엘 하나님 나 여호와가 그리로 들어왔음이라 그러므로 닫아 둘지니라 ( )은/는 ( )인 까닭에 안 길로 이 문 현관으로 들어와서 거기에 앉아서 나 여호와 앞에서 음식을 먹고 그 길로 나갈 것이니라.”(겔 44:2-3)에서 괄호에 공통으로 들어갈 말로 알맞은 것은?\n\n① 왕\n② 제사장\n③ 예언자\n④ 현자",
+      "metadata": {
+        "period": null,
+        "questionNumber": 43
+      },
+      "graderRef": "christian-bible100-q043"
+    },
+    {
+      "id": "christian-bible100-q044",
+      "prompt": "44. “( )는 궁창의 빛과 같이 빛날 것이요 많은 사람을 옳은 데로 돌아오게 한 자는 별과 같이 영원토록 빛나 리라”(단 12:3)의 괄호에 들어갈 말은?\n\n① 믿음 있는 자\n② 긍휼 있는 자\n③ 지혜 있는 자\n④ 사랑 많은 자",
+      "metadata": {
+        "period": null,
+        "questionNumber": 44
+      },
+      "graderRef": "christian-bible100-q044"
+    },
+    {
+      "id": "christian-bible100-q045",
+      "prompt": "45. “곡식과 새 포도주와 기름은 내가 그에게 준 것이요 그들이 ( ) 위하여 쓴 은과 금도 내가 그에게 더하여 준 것이거늘 그가 알지 못하도다”(호 2:8)의 괄호에 들어갈 말은?\n\n① 그모스를\n② 바알을\n③ 아세라를\n④ 밀곰을",
+      "metadata": {
+        "period": null,
+        "questionNumber": 45
+      },
+      "graderRef": "christian-bible100-q045"
+    },
+    {
+      "id": "christian-bible100-q046",
+      "prompt": "46. “너희는 ( )을 찢지 말고 ( )을 찢고 너희 하나님 여호와께로 돌아올지어다 …”(욜 2:13)의 괄호에 들어갈 말을 차례대로 바르게 적은 것은?\n\n① 마음, 옷\n② 겉옷, 속옷\n③ 사람, 짐승\n④ 옷, 마음",
+      "metadata": {
+        "period": null,
+        "questionNumber": 46
+      },
+      "graderRef": "christian-bible100-q046"
+    },
+    {
+      "id": "christian-bible100-q047",
+      "prompt": "47. “그 날에 내가 ( )의 무너진 장막을 일으키고 그것들의 틈을 막으며 그 허물어진 것을 일으켜서 옛적과 같이 세우고”(암 9:11)의 괄호에 들어갈 말은?\n\n① 이스라엘\n② 유다\n③ 야곱\n④ 다윗",
+      "metadata": {
+        "period": null,
+        "questionNumber": 47
+      },
+      "graderRef": "christian-bible100-q047"
+    },
+    {
+      "id": "christian-bible100-q048",
+      "prompt": "48. “여호와께서 이르시되 네가 … 이 박넝쿨을 아꼈거든 하물며 이 큰 성읍 ( )에는 좌우를 분변하지 못하는 자가 십이만여 명이요 가축도 많이 있나니 내가 어찌 아끼지 아니하겠느냐 하시니라“(욘 4:10-11)의 괄호에 들어갈 이름은?\n\n① 바벨론\n② 다메섹\n③ 니느웨\n④ 수산",
+      "metadata": {
+        "period": null,
+        "questionNumber": 48
+      },
+      "graderRef": "christian-bible100-q048"
+    },
+    {
+      "id": "christian-bible100-q049",
+      "prompt": "49. 예언자 미가에 따르면 “주께서 선한 것이 무엇임을 네게 보이셨나니 여호와께서 네게 구하시는 것”(미 6:8)에 속하지 않는 것은?\n\n① 정의를 행하며\n② 제사를 사랑하며\n③ 인자를 사랑하며\n④ 겸손하게 네 하나님과 함께 행하는 것",
+      "metadata": {
+        "period": null,
+        "questionNumber": 49
+      },
+      "graderRef": "christian-bible100-q049"
+    },
+    {
+      "id": "christian-bible100-q050",
+      "prompt": "50. “내 이름을 경외하는 너희에게는 공의로운 해가 떠올라서 치료하는 광선을 비추리니 너희가 나가서 외양간에서 나온 송아지같이 뛰리라”가 들어 있는 책은?\n\n① 말라기\n② 레위기\n③ 민수기\n④ 이사야",
+      "metadata": {
+        "period": null,
+        "questionNumber": 50
+      },
+      "graderRef": "christian-bible100-q050"
+    },
+    {
+      "id": "christian-bible100-q051",
+      "prompt": "51. 예수께서 애굽으로부터 돌아오신 후 공생애를 시작하기 전까지 사셨던 동네는?\n\n① 가버나움\n② 나사렛\n③ 예루살렘\n④ 베들레헴",
+      "metadata": {
+        "period": null,
+        "questionNumber": 51
+      },
+      "graderRef": "christian-bible100-q051"
+    },
+    {
+      "id": "christian-bible100-q052",
+      "prompt": "52. 예수께서 열두 살 때 성전을 방문한 일을 기록하는 복음서는?\n\n① 마태복음\n② 마가복음\n③ 누가복음\n④ 요한복음",
+      "metadata": {
+        "period": null,
+        "questionNumber": 52
+      },
+      "graderRef": "christian-bible100-q052"
+    },
+    {
+      "id": "christian-bible100-q053",
+      "prompt": "53. 예수께서 바람과 바다를 잔잔하게 하실 때 제자들을 향해 “믿음이 작은 자들아”라고 말씀하신 복음서는?\n\n① 마태복음\n② 마가복음\n③ 누가복음\n④ 요한복음",
+      "metadata": {
+        "period": null,
+        "questionNumber": 53
+      },
+      "graderRef": "christian-bible100-q053"
+    },
+    {
+      "id": "christian-bible100-q054",
+      "prompt": "54. “나는 세상의 빛이니 나를 따르는 자는 어둠에 다니지 아니하고 생명의 빛을 얻으리라”는 말씀이 있는 요한복음의 장은?\n\n① 7장\n② 8장\n③ 9장\n④ 10장",
+      "metadata": {
+        "period": null,
+        "questionNumber": 54
+      },
+      "graderRef": "christian-bible100-q054"
+    },
+    {
+      "id": "christian-bible100-q055",
+      "prompt": "55. 누가복음에 나오는 바리새인과 세리의 비유에서 세리가 기도하는 자세가 아닌 것은?\n\n① 성전 가까이에서 토색한 것의 네 갑절을 갚겠다고 기도한다\n② 감히 눈을 들어 하늘을 쳐다보지도 못한다\n③ 가슴을 치며 하나님이여 불쌍히 여기소서라고 구한다\n④ 나는 죄인이로소이다라고 고백한다",
+      "metadata": {
+        "period": null,
+        "questionNumber": 55
+      },
+      "graderRef": "christian-bible100-q055"
+    },
+    {
+      "id": "christian-bible100-q056",
+      "prompt": "56. 마가복음에서 예수를 힐난하며 그를 시험하여 “하늘로부터 오는 표적”을 구한 무리들은?\n\n① 바리새인\n② 사두개인\n③ 열심당원\n④ 제사장",
+      "metadata": {
+        "period": null,
+        "questionNumber": 56
+      },
+      "graderRef": "christian-bible100-q056"
+    },
+    {
+      "id": "christian-bible100-q057",
+      "prompt": "57. 요한복음에서 다음에 들어갈 공통적인 단어는 무엇인가? “이 날은 준비일이라 유대인들은 그 ( )이 큰 날이므로 그 ( )에 시체들을 십자가에 두지 아니하려 하여 빌라도에게 그들의 다리를 꺾어 시체를 치워 달라 하니”(요 19:31)\n\n① 유월절\n② 안식일\n③ 초막절\n④ 수전절",
+      "metadata": {
+        "period": null,
+        "questionNumber": 57
+      },
+      "graderRef": "christian-bible100-q057"
+    },
+    {
+      "id": "christian-bible100-q058",
+      "prompt": "58. 마태복음에서 다음에 들어갈 단어는 무엇인가? “떡 ( ) 개로 사천 명을 먹이고 주운 것이 몇 광주리였는지를 기억하지 못하느냐”(마 16:10)\n\n① 두\n② 네\n③ 다섯\n④ 일곱",
+      "metadata": {
+        "period": null,
+        "questionNumber": 58
+      },
+      "graderRef": "christian-bible100-q058"
+    },
+    {
+      "id": "christian-bible100-q059",
+      "prompt": "59. 예수께 “주의 영광중에서 우리를 하나는 주의 우편에, 하나는 좌편에 앉게 하여 주옵소서”라고 요구한 제자들은?\n\n① 세베대의 아들들\n② 베드로와 안드레\n③ 빌립과 나다나엘\n④ 마태와 도마",
+      "metadata": {
+        "period": null,
+        "questionNumber": 59
+      },
+      "graderRef": "christian-bible100-q059"
+    },
+    {
+      "id": "christian-bible100-q060",
+      "prompt": "60. 예수께서 “엘리 엘리 라마 사박다니”를 외치신 시간은?\n\n① 제 삼시\n② 제 오시\n③ 제 육시\n④ 제 구시",
+      "metadata": {
+        "period": null,
+        "questionNumber": 60
+      },
+      "graderRef": "christian-bible100-q060"
+    },
+    {
+      "id": "christian-bible100-q061",
+      "prompt": "61. 누가복음에서 다음에 들어갈 단어는 무엇인가? “안나스와 가야바가 대제사장으로 있을 때에 하나님의 ( )이 빈 들에서 사가랴의 아들 요한에게 임한지라”(눅 3:2)\n\n① 사랑\n② 말씀\n③ 뜻\n④ 영광",
+      "metadata": {
+        "period": null,
+        "questionNumber": 61
+      },
+      "graderRef": "christian-bible100-q061"
+    },
+    {
+      "id": "christian-bible100-q062",
+      "prompt": "62. 다음 중 마태복음 19장에 나오는 내용이 아닌 것은?\n\n① 혼인, 이혼, 독신에 관하여\n② 바리새인의 표적 요구\n③ 어린 아이를 축복하심\n④ 재물이 많은 청년의 영생에 대한 질문",
+      "metadata": {
+        "period": null,
+        "questionNumber": 62
+      },
+      "graderRef": "christian-bible100-q062"
+    },
+    {
+      "id": "christian-bible100-q063",
+      "prompt": "63. “율법과 선지자는 ( )의 때까지요 그 후부터는 하나님 나라의 복음이 전파되어 사람마다 그리로 침입하느니라”라는 말씀에서 괄호 안에 들어가는 말은?\n\n① 구약\n② 말라기\n③ 엘리야\n④ 요한",
+      "metadata": {
+        "period": null,
+        "questionNumber": 63
+      },
+      "graderRef": "christian-bible100-q063"
+    },
+    {
+      "id": "christian-bible100-q064",
+      "prompt": "64. 다음 중 “이는 진실로 하나님의 아들이었도다”라는 말을 한 사람은 누구인가?\n\n① 로마 군대의 백부장\n② 제자들\n③ 갈릴리에서부터 따라온 많은 여자들\n④ 막달라 마리아와 또 야고보와 요셉의 어머니 마리아와 또 세베대의 아들들의 어머니",
+      "metadata": {
+        "period": null,
+        "questionNumber": 64
+      },
+      "graderRef": "christian-bible100-q064"
+    },
+    {
+      "id": "christian-bible100-q065",
+      "prompt": "65. 영생에 대하여 질문한 부자 청년은 마태복음 몇 장에 나오는가?\n\n① 15장\n② 17장\n③ 19장\n④ 21장",
+      "metadata": {
+        "period": null,
+        "questionNumber": 65
+      },
+      "graderRef": "christian-bible100-q065"
+    },
+    {
+      "id": "christian-bible100-q066",
+      "prompt": "66. “예루살렘에 수전절이 이르니 때는 ( )이라”는 말씀에서 괄호 안에 들어가는 말은?\n\n① 봄\n② 여름\n③ 가을\n④ 겨울",
+      "metadata": {
+        "period": null,
+        "questionNumber": 66
+      },
+      "graderRef": "christian-bible100-q066"
+    },
+    {
+      "id": "christian-bible100-q067",
+      "prompt": "67. “작은 자야 네 죄 사함을 받았느니라”는 말씀은 예수께서 누구에게 하신 말씀인가?\n\n① 중풍병자\n② 레위\n③ 바리새인\n④ 제자",
+      "metadata": {
+        "period": null,
+        "questionNumber": 67
+      },
+      "graderRef": "christian-bible100-q067"
+    },
+    {
+      "id": "christian-bible100-q068",
+      "prompt": "68. “예수께서 이르시되 나의 ( )은/는 나를 보내신 이의 뜻을 행하며 그의 일을 온전히 이루는 이것이니라”는 요한복음 4장 34절의 말씀에서 괄호 안에 들어가야 할 낱말은?\n\n① 보람\n② 임무\n③ 양식\n④ 기쁨",
+      "metadata": {
+        "period": null,
+        "questionNumber": 68
+      },
+      "graderRef": "christian-bible100-q068"
+    },
+    {
+      "id": "christian-bible100-q069",
+      "prompt": "69. 누가복음에서 다음에 들어갈 말은 무엇인가? “내가 너희에게 이르노니 이와 같이 ( ) 한 사람이 회개하면 하나님의 사자들 앞에 기쁨이 되느니라”(눅 15:10)\n\n① 의인\n② 소자\n③ 어린아이\n④ 죄인",
+      "metadata": {
+        "period": null,
+        "questionNumber": 69
+      },
+      "graderRef": "christian-bible100-q069"
+    },
+    {
+      "id": "christian-bible100-q070",
+      "prompt": "70. 요한복음 4장에 의하면 예수께서 사마리아 여인을 만난 곳은 어디인가?\n\n① 야곱의 우물\n② 모세의 우물\n③ 베데스다 우물\n④ 마라의 우물",
+      "metadata": {
+        "period": null,
+        "questionNumber": 70
+      },
+      "graderRef": "christian-bible100-q070"
+    },
+    {
+      "id": "christian-bible100-q071",
+      "prompt": "71. 사마리아에서 빌립의 전도로 믿고 세례를 받은 후 전심으로 그를 따라다녔던 마술사는?\n\n① 시몬\n② 스게와\n③ 데메드리오\n④ 바사바",
+      "metadata": {
+        "period": null,
+        "questionNumber": 71
+      },
+      "graderRef": "christian-bible100-q071"
+    },
+    {
+      "id": "christian-bible100-q072",
+      "prompt": "72. 바울이 일년 육개월을 머물며 하나님의 말씀을 가르친 지역은?\n\n① 고린도\n② 아덴\n③ 데살로니가\n④ 빌립보",
+      "metadata": {
+        "period": null,
+        "questionNumber": 72
+      },
+      "graderRef": "christian-bible100-q072"
+    },
+    {
+      "id": "christian-bible100-q073",
+      "prompt": "73. 사도행전 15장에서 이방인 성도들이 멀리해야 할 것 네 가지에 포함되지 않는 것은?\n\n① 우상의 제물\n② 피\n③ 음행\n④ 술",
+      "metadata": {
+        "period": null,
+        "questionNumber": 73
+      },
+      "graderRef": "christian-bible100-q073"
+    },
+    {
+      "id": "christian-bible100-q074",
+      "prompt": "74. 사도행전에서 바울의 ‘다메섹 체험’ 사건을 처음 기록한 곳은?\n\n① 6장\n② 7장\n③ 8장\n④ 9장",
+      "metadata": {
+        "period": null,
+        "questionNumber": 74
+      },
+      "graderRef": "christian-bible100-q074"
+    },
+    {
+      "id": "christian-bible100-q075",
+      "prompt": "75. 다음의 로마서의 구절에서 단어의 조합이 맞는 것은? “그러므로 사람이 의롭다 하심을 얻는 것은 ( )의 행위에 있지 않고 ( )으로/로 되는 줄 우리가 인정하노라”(롬 3:28)\n\n① 은혜 – 사랑\n② 율법 – 믿음\n③ 용서 – 은혜\n④ 구제 – 실천",
+      "metadata": {
+        "period": null,
+        "questionNumber": 75
+      },
+      "graderRef": "christian-bible100-q075"
+    },
+    {
+      "id": "christian-bible100-q076",
+      "prompt": "76. 로마서 4장에 나오는 구약의 두 인물은?\n\n① 모세와 아브라함\n② 아브라함과 다윗\n③ 아브라함과 이사야\n④ 다윗과 아사야",
+      "metadata": {
+        "period": null,
+        "questionNumber": 76
+      },
+      "graderRef": "christian-bible100-q076"
+    },
+    {
+      "id": "christian-bible100-q077",
+      "prompt": "77. “또 이 선물은 범죄한 한 사람으로 말미암은 것과 같지 아니하니 심판은 한 사람으로 말미암아 정죄에 이르렀으나 ( )은/는 많은 범죄로 말미암아 의롭다 하심에 이름이니라”는 말씀에서 괄호 안에 들어가는 말은 무엇인가?\n\n① 은혜\n② 은사\n③ 선물\n④ 믿음",
+      "metadata": {
+        "period": null,
+        "questionNumber": 77
+      },
+      "graderRef": "christian-bible100-q077"
+    },
+    {
+      "id": "christian-bible100-q078",
+      "prompt": "78. 에베소 교회를 향하여 바울이 “우리 사정을 알리고 또 너희 마음을 위로하기 위하여 내가 특별히 그를 너희에게 보내었노라”고 말할 때 ‘그’는 누구인가?\n\n① 두기고\n② 디모데\n③ 디도\n④ 베드로",
+      "metadata": {
+        "period": null,
+        "questionNumber": 78
+      },
+      "graderRef": "christian-bible100-q078"
+    },
+    {
+      "id": "christian-bible100-q079",
+      "prompt": "79. 히브리서 11장 전체가 다루는 주제는?\n\n① 믿음\n② 소망\n③ 사랑\n④ 성령",
+      "metadata": {
+        "period": null,
+        "questionNumber": 79
+      },
+      "graderRef": "christian-bible100-q079"
+    },
+    {
+      "id": "christian-bible100-q080",
+      "prompt": "80. “하나님의 뜻대로 하는 ( )은 후회할 것이 없는 구원에 이르게 하는 회개를 이루는 것이요 세상 ( )은 사망을 이루는 것이니라”는 고린도후서 7장 10절의 말씀에서 괄호 안에 들어가야 할 낱말은?\n\n① 노력\n② 방언\n③ 근심\n④ 경건",
+      "metadata": {
+        "period": null,
+        "questionNumber": 80
+      },
+      "graderRef": "christian-bible100-q080"
+    },
+    {
+      "id": "christian-bible100-q081",
+      "prompt": "81. 다음 중 집사의 자격이 아닌 것은?\n\n① 정중하고 일구이언을 하지 아니한다\n② 술에 인박히지 아니하고 더러운 이를 탐하지 않는다\n③ 아름다운 지위를 얻고자 애써 노력한다\n④ 깨끗한 양심에 믿음의 비밀을 가져야 한다",
+      "metadata": {
+        "period": null,
+        "questionNumber": 81
+      },
+      "graderRef": "christian-bible100-q081"
+    },
+    {
+      "id": "christian-bible100-q082",
+      "prompt": "82. “너희가 짐을 서로 지라 그리하여 그리스도의 ( )을/를 성취하라”는 말씀에서 빈 칸에 맞는 말은?\n\n① 사랑\n② 새 계명\n③ 법\n④ 나라",
+      "metadata": {
+        "period": null,
+        "questionNumber": 82
+      },
+      "graderRef": "christian-bible100-q082"
+    },
+    {
+      "id": "christian-bible100-q083",
+      "prompt": "83. 에베소서에서 다음에 들어갈 단어는 무엇인가? “우리가 다 하나님의 아들을 믿는 것과 아는 일에 하나가 되어 온전한 사람을 이루어 ( )의 장성한 분량이 충만한 데까지 이르리니”(엡 4:13)\n\n① 십자가\n② 성령\n③ 사랑\n④ 그리스도",
+      "metadata": {
+        "period": null,
+        "questionNumber": 83
+      },
+      "graderRef": "christian-bible100-q083"
+    },
+    {
+      "id": "christian-bible100-q084",
+      "prompt": "84. “너희는 누룩 없는 자인데 새 덩어리가 되기 위하여 묵은 누룩을 내버리라 우리의 ( ) 곧 그리스도께서 희생되셨느니라”는 바울의 말씀에서 괄호 안에 들어가는 말은?\n\n① 어린 양\n② 유월절 양\n③ 구주\n④ 무교병",
+      "metadata": {
+        "period": null,
+        "questionNumber": 84
+      },
+      "graderRef": "christian-bible100-q084"
+    },
+    {
+      "id": "christian-bible100-q085",
+      "prompt": "85. “주 안에서 항상 기뻐하라 내가 다시 말하노니 기뻐하라”는 말씀이 나오는 서신은?\n\n① 에베소서\n② 빌립보서\n③ 골로새서\n④ 빌레몬서",
+      "metadata": {
+        "period": null,
+        "questionNumber": 85
+      },
+      "graderRef": "christian-bible100-q085"
+    },
+    {
+      "id": "christian-bible100-q086",
+      "prompt": "86. 바울이 “너희는 많은 환난 가운데서 성령의 기쁨으로 말씀을 받아 우리와 주를 본받은 자”가 되었다고 칭찬한 교회는?\n\n① 에베소 교회\n② 빌립보 교회\n③ 골로새 교회\n④ 데살로니가 교회",
+      "metadata": {
+        "period": null,
+        "questionNumber": 86
+      },
+      "graderRef": "christian-bible100-q086"
+    },
+    {
+      "id": "christian-bible100-q087",
+      "prompt": "87. “누구든지 일하기 싫어하거든 먹지도 말게 하라 하였더니”라는 말씀이 나오는 신약성서의 책은?\n\n① 디모데후서\n② 야고보서\n③ 데살로니가후서\n④ 히브리서",
+      "metadata": {
+        "period": null,
+        "questionNumber": 87
+      },
+      "graderRef": "christian-bible100-q087"
+    },
+    {
+      "id": "christian-bible100-q088",
+      "prompt": "88. “내가 이를 때까지 ( )과 ( )과 ( )에 전념하라”는 말씀에서 괄호 안에 들어갈 낱말이 아닌 것은?\n\n① 읽는 것\n② 권하는 것\n③ 가르치는 것\n④ 기도하는 것",
+      "metadata": {
+        "period": null,
+        "questionNumber": 88
+      },
+      "graderRef": "christian-bible100-q088"
+    },
+    {
+      "id": "christian-bible100-q089",
+      "prompt": "89. 고린도후서에서 다음에 들어갈 단어는 무엇인가? “우리의 싸우는 무기는 육신에 속한 것이 아니요 오직 어떤 견고한 진도 무너뜨리는 하나님의 능력이라 모든 ( )을/를 무너뜨리며 하나님 아는 것을 대적하여 높아진 것을 다 무너뜨리고 모든 생각을 사로잡아 그리스도에게 복종하게 하니” (고후 10:4-5)\n\n① 사상\n② 생각\n③ 논리\n④ 이론",
+      "metadata": {
+        "period": null,
+        "questionNumber": 89
+      },
+      "graderRef": "christian-bible100-q089"
+    },
+    {
+      "id": "christian-bible100-q090",
+      "prompt": "90. “나이가 많은 나 바울은 지금 또 예수 그리스도를 위하여 갇힌 자 되어 갇힌 중에서 낳은 아들 오네시모를 위하여 네게 간구하노라”는 말씀은 어디에 기록되었나?\n\n① 디모데전서\n② 디모데후서\n③ 디도서\n④ 빌레몬서",
+      "metadata": {
+        "period": null,
+        "questionNumber": 90
+      },
+      "graderRef": "christian-bible100-q090"
+    },
+    {
+      "id": "christian-bible100-q091",
+      "prompt": "91. “이 멜기세덱은 ( ) 왕이요 지극히 높으신 하나님의 제사장이라 여러 왕을 쳐서 죽이고 돌아오는 아브라함을 만나 복을 빈 자라”는 말씀에서 괄호 안에 들어가는 말은?\n\n① 이스라엘\n② 살렘\n③ 유다\n④ 시온",
+      "metadata": {
+        "period": null,
+        "questionNumber": 91
+      },
+      "graderRef": "christian-bible100-q091"
+    },
+    {
+      "id": "christian-bible100-q092",
+      "prompt": "92. 다음 중 바울이 주께로부터 받은 성만찬 본문이 나오는 고린도전서의 장은?\n\n① 9장\n② 11장\n③ 13장\n④ 15장",
+      "metadata": {
+        "period": null,
+        "questionNumber": 92
+      },
+      "graderRef": "christian-bible100-q092"
+    },
+    {
+      "id": "christian-bible100-q093",
+      "prompt": "93. “사람이 성내는 것이 하나님의 ( )을/를 이루지 못함이라”라는 야고보서 1장 20절 말씀에서 괄호 안에 들어가야 할 단어는?\n\n① 사랑\n② 용서\n③ 뜻\n④ 의",
+      "metadata": {
+        "period": null,
+        "questionNumber": 93
+      },
+      "graderRef": "christian-bible100-q093"
+    },
+    {
+      "id": "christian-bible100-q094",
+      "prompt": "94. 다음 구절에서 괄호 안에 들어갈 단어는? “맡은 자들에게 주장하는 자세를 하지 말고 ( )이/가 되라”(벧전 5:3)\n\n① 존경받는 인물\n② 양 무리의 본\n③ 섬기는 지도자\n④ 겸손한 사람",
+      "metadata": {
+        "period": null,
+        "questionNumber": 94
+      },
+      "graderRef": "christian-bible100-q094"
+    },
+    {
+      "id": "christian-bible100-q095",
+      "prompt": "95. 베드로후서의 장수는?\n\n① 3장\n② 4장\n③ 5장\n④ 6장",
+      "metadata": {
+        "period": null,
+        "questionNumber": 95
+      },
+      "graderRef": "christian-bible100-q095"
+    },
+    {
+      "id": "christian-bible100-q096",
+      "prompt": "96. “하나님께로부터 난 자마다 죄를 짓지 아니하나니 이는 하나님의 ( )가 그의 속에 거함이요 그도 범죄하지 못하는 것은 하나님께로부터 났음이라”는 요한일서 3장 9절 말씀에서 괄호 안에 들어가야 할 낱말은?\n\n① 천사\n② 권세\n③ 인도\n④ 씨",
+      "metadata": {
+        "period": null,
+        "questionNumber": 96
+      },
+      "graderRef": "christian-bible100-q096"
+    },
+    {
+      "id": "christian-bible100-q097",
+      "prompt": "97. 다음 중 유다서에 등장하는 인물이 아닌 것은?\n\n① 가브리엘\n② 야고보\n③ 아담\n④ 가인",
+      "metadata": {
+        "period": null,
+        "questionNumber": 97
+      },
+      "graderRef": "christian-bible100-q097"
+    },
+    {
+      "id": "christian-bible100-q098",
+      "prompt": "98. “요한은 아시아에 있는 ( )에 편지하노니 이제도 계시고 전에도 계셨고 …”라는 구절에서 괄호 안에 들어가야 할 낱말은?\n\n① 모든 교회\n② 일곱 교회\n③ 열두 교회\n④ 에베소 교회",
+      "metadata": {
+        "period": null,
+        "questionNumber": 98
+      },
+      "graderRef": "christian-bible100-q098"
+    },
+    {
+      "id": "christian-bible100-q099",
+      "prompt": "99. 다음 중 요한계시록에 묘사된 ‘새 예루살렘’ 성에 없는 것은?\n\n① 하나님\n② 열두 문\n③ 성전\n④ 어린 양",
+      "metadata": {
+        "period": null,
+        "questionNumber": 99
+      },
+      "graderRef": "christian-bible100-q099"
+    },
+    {
+      "id": "christian-bible100-q100",
+      "prompt": "100. “네 생물과 이십사 장로들이 그 어린 양 앞에 엎드려 각각 거문고와 향이 가득한 금 대접을 가졌으니 이 향은 성도의 ( )들이라”는 말씀에서 괄호 안에 맞는 단어는?\n\n① 눈물\n② 수고\n③ 기도\n④ 인내",
+      "metadata": {
+        "period": null,
+        "questionNumber": 100
+      },
+      "graderRef": "christian-bible100-q100"
+    }
+  ]
+}

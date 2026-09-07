@@ -1,0 +1,128 @@
+{
+  "status": "complete",
+  "experiment": "dependency-separator-overlap",
+  "dataset": "classeval-pro",
+  "denominator": {
+    "tasks": 300,
+    "orderedTaskIds": "ClassEval_0..ClassEval_299",
+    "complete": true
+  },
+  "provenance": {
+    "checkpoint": "b032ba3f1d7a13279920c981f3b152a5b0410614",
+    "runRoot": "runs/classeval-pro300-dependency-separator-overlap-20260905-development-v1",
+    "resultSha256": "a658ed01393666ca4f397dd5add4d719f65837f4eb44da64fa3ffd70465964f5",
+    "contractSha256": "7f750454dfff52e5e4b39eece441714d90f6f1e1cb53b29b1523ffbfb909a7ad",
+    "parentRoot": "runs/classeval-pro300-text-overlap-20260905-development-v2",
+    "controlRoot": "runs/classeval-pro300-overlap-repair-tail-20260905-development-v1",
+    "developmentOnly": true,
+    "controlsReused": true
+  },
+  "execution": {
+    "exitCode": 0,
+    "newArm": "O",
+    "model": "gpt-5.6-luna",
+    "effort": "medium",
+    "timeoutSeconds": 120,
+    "plannedNewModelCalls": 96,
+    "physicalModelReceipts": 96,
+    "validReceipts": 96,
+    "exitZeroReceipts": 96,
+    "timedOutReceipts": 0,
+    "rawAutoEvaluationCalls": 96,
+    "canonicalEvaluationCalls": 96,
+    "suiteEvaluationCalls": 192
+  },
+  "primaryFull300": {
+    "passCounts": {
+      "E": 278,
+      "D": 277,
+      "O": 278
+    },
+    "test": "exact two-sided paired binomial; Holm family size 2",
+    "comparisons": {
+      "O-minus-E": {
+        "rescues": 4,
+        "harms": 4,
+        "net": 0,
+        "absolutePercentagePoints": 0.0,
+        "discordant": 8,
+        "rescueIds": ["ClassEval_153", "ClassEval_241", "ClassEval_265", "ClassEval_286"],
+        "harmIds": ["ClassEval_191", "ClassEval_239", "ClassEval_263", "ClassEval_295"],
+        "exactTwoSidedP": 1.0,
+        "holmTwoSidedPComparisons2": 1.0
+      },
+      "O-minus-D": {
+        "rescues": 3,
+        "harms": 2,
+        "net": 1,
+        "absolutePercentagePoints": 0.3333333333333333,
+        "discordant": 5,
+        "rescueIds": ["ClassEval_153", "ClassEval_265", "ClassEval_286"],
+        "harmIds": ["ClassEval_191", "ClassEval_231"],
+        "exactTwoSidedP": 1.0,
+        "holmTwoSidedPComparisons2": 1.0
+      }
+    }
+  },
+  "routingDiagnostic": {
+    "ordinaryFailureCount": 32,
+    "s0EffectiveDIds": ["ClassEval_30", "ClassEval_51", "ClassEval_195", "ClassEval_223"],
+    "s0Outcomes": {
+      "ClassEval_30": "fail",
+      "ClassEval_51": "fail",
+      "ClassEval_195": "fail",
+      "ClassEval_223": "fail"
+    },
+    "s0CandidateWinIds": [],
+    "discordancePlanShared": {
+      "O-minus-E": {
+        "ClassEval_153": "nonempty",
+        "ClassEval_191": "nonempty",
+        "ClassEval_239": "nonempty",
+        "ClassEval_241": "nonempty",
+        "ClassEval_263": "nonempty",
+        "ClassEval_265": "nonempty",
+        "ClassEval_286": "nonempty",
+        "ClassEval_295": "nonempty"
+      },
+      "O-minus-D": {
+        "ClassEval_153": "nonempty",
+        "ClassEval_191": "nonempty",
+        "ClassEval_231": "nonempty",
+        "ClassEval_265": "nonempty",
+        "ClassEval_286": "nonempty"
+      }
+    },
+    "interpretation": "Static routing diagnostic only; no denominator filtering or altered primary. S0-only wins cannot attribute an effect to overlap, and none occurred here."
+  },
+  "usageAndDuration": {
+    "newOReceipts": {
+      "input_tokens": 1055815,
+      "cached_input_tokens": 413696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 132708,
+      "reasoning_output_tokens": 32715,
+      "receiptSummedDurationSeconds": 2879.9654552790744,
+      "durationIsEndToEnd": false
+    },
+    "commonPrefixComparisonReceipts": {
+      "physicalReceipts": 533,
+      "input_tokens": 4590673,
+      "cached_input_tokens": 2355456,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 834587,
+      "reasoning_output_tokens": 340599,
+      "receiptSummedDurationSeconds": 18752.24797000602,
+      "durationIsEndToEnd": false
+    }
+  },
+  "costScopes": {
+    "newOOnly": "96 physical receipts",
+    "perSystemCommonPlusNewO": "629 = common prefix 533 + new O 96; this is not the entire three-way comparison",
+    "fullThreeWayComparison": "821 = common prefix 533 + old E 96 + old D 96 + new O 96",
+    "parentPlusNewGraph": "635 = parent 539 + new O 96; this is not historical cumulative",
+    "historicalParentPlusOldTailPlusNewGraph": "923 = parent 539 + old tail 288 + new O 96",
+    "oldOOutsideCurrentEDNewOComparison": "old O 96 remains historical and is outside the current E/D/new-O comparison"
+  },
+  "conclusion": "Valid full-300 development result, but no superiority: O ties E and is +1 task versus D before exact two-sided Holm-2 adjustment, with both adjusted p-values 1.0. Reused development controls are not a fresh confirmation; MAC remains 3/6 and the paper is unchanged."
+}

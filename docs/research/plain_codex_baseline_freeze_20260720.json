@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "freezeId": "plain-codex-luna-subject-batch-v1-20260720",
+  "frozenAt": "2026-07-20T05:20:00+09:00",
+  "status": "frozen_before_further_solver_calls",
+  "purpose": "immutable comparison baseline; failures are measurements and must not be repaired inside the plain arm",
+  "solver": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "low",
+    "verbosity": "low",
+    "sameHomeTransportAttempts": 1,
+    "defaultTimeoutSeconds": 300.0,
+    "hardRealtimeLimitSecondsPerBatch": 600.0,
+    "batchSize": 8,
+    "maximumBatchSize": 12,
+    "maximumPromptCharacters": 24000,
+    "maximumTotalTokensPerBatch": 80000,
+    "sequentialModelCallsOnly": true,
+    "internalToolLoopAllowedUntilCodexReturns": true,
+    "independentSolverReviewer": false,
+    "postAnswerRepair": false
+  },
+  "toolBoundary": {
+    "webSearch": {
+      "enabled": true,
+      "maximumEventsPerBatch": 2
+    },
+    "ephemeralWorkspaceCode": {
+      "enabled": true,
+      "maximumCommandEventsPerBatch": 2,
+      "generatedArtifacts": "quarantined_not_promoted"
+    },
+    "readOnlySubjectDatabase": {
+      "enabled": true,
+      "maximumEventsPerBatch": 2,
+      "allowedTools": [
+        "search_domain_evidence",
+        "get_domain_source"
+      ],
+      "beta6FrontierEnabled": false,
+      "databaseMustMatchPublicSubject": true
+    },
+    "customSkills": false,
+    "evaluatedExperienceMemory": false,
+    "universalEngine": false,
+    "beta6Engine": false,
+    "independentReviewerDuringSolving": false
+  },
+  "antiCheating": {
+    "policy": "general research is allowed; problem, exam, benchmark, choices, and answers are not searchable targets",
+    "forbidden": [
+      "exact or near-exact problem lookup",
+      "question or benchmark id lookup",
+      "exam paper or quiz mirror lookup",
+      "removed choice or option phrase lookup",
+      "answer key or historical prediction lookup",
+      "querying the database or web for what answer matches the supplied case"
+    ],
+    "toolArgumentsAudited": true,
+    "auditFailureDisposition": "quarantine_entire_batch"
+  },
+  "acceptance": {
+    "codexJsonlTraceRequired": true,
+    "positiveTokenUsageRequired": true,
+    "invalidJsonlLinesAllowed": 0,
+    "allToolCallsMustComplete": true,
+    "strictJsonAnswerIdsInInputOrder": true,
+    "resourceOverrunDisposition": "quarantine_entire_batch",
+    "answerQualityIsNotAnExecutionAcceptanceCondition": true
+  },
+  "accountFailover": {
+    "preferredOrder": [
+      ".codex-7",
+      ".codex-6",
+      ".codex-new-account"
+    ],
+    "deduplicateCopiedAuth": true,
+    "advanceOnlyOnQuotaClassFailure": true,
+    "persistAuthSecretsOrDigests": false
+  },
+  "evaluatorBoundary": {
+    "runsOnlyAfterSolverOutputsAndReceiptsAreFrozen": true,
+    "mayRepairSolverAnswer": false,
+    "model": "gpt-5.6-luna",
+    "tools": "closed",
+    "policy": "strict semantic equivalence; two independent judgments, with a third only for disagreement",
+    "closedCodexTraceAndPositiveUsageRequired": true,
+    "artifactErrorsRemainUnresolved": true
+  },
+  "mountedDatabaseIdentities": {
+    "lawkey": {
+      "attestationStatus": "verified_before_freeze",
+      "sizeBytes": 7733616640,
+      "identity": {
+        "mode": "sampled_sha256_v1",
+        "sampleBytes": 262144,
+        "sampleOffsets": [0, 2577872213, 5155744426, 7733354496],
+        "sha256": "bdaf54e42ec6832b9f19cb933468fa3592ab9a9a425d2776e4c030f64ee3f8ec"
+      }
+    },
+    "tcm": {
+      "attestationStatus": "verified_before_freeze",
+      "sizeBytes": 17287352320,
+      "identity": {
+        "mode": "sampled_sha256_v1",
+        "sampleBytes": 262144,
+        "sampleOffsets": [0, 5762450773, 11524901546, 17287090176],
+        "sha256": "460f6faa0668639d5e803cc8d8fb26a06a91e48ccd01ed47259f1b6f75f2fa72"
+      }
+    },
+    "simli": {
+      "attestationStatus": "required_immediately_before_first_subject_run",
+      "previouslyObservedSizeBytes": 12357181440
+    },
+    "islam": {
+      "attestationStatus": "required_immediately_before_first_subject_run",
+      "previouslyObservedSizeBytes": 2065780736
+    },
+    "buddhist": {
+      "attestationStatus": "required_immediately_before_first_subject_run",
+      "previouslyObservedSizeBytes": 7518101504
+    },
+    "catholic": {
+      "attestationStatus": "required_immediately_before_first_subject_run",
+      "previouslyObservedSizeBytes": 1139322880
+    }
+  },
+  "databaseIdentityPolicy": {
+    "attestBeforeEverySubjectRun": true,
+    "recordFullAttestationInEveryBatchReceipt": true,
+    "fixtureSizedDatabaseRejected": true,
+    "lawkeyAndTcmPinnedAtFreeze": true,
+    "otherSubjectsMayNotStartUntilTheirFirstRunAttestationIsRecorded": true
+  },
+  "implementation": {
+    "mode": "codex_native_subject_batch_plain_v5_no_beta6",
+    "builderId": "subject_batch_open_response_query_v5_plain_no_beta6",
+    "files": [
+      {
+        "path": "tools/run_subject_batch_benchmark.py",
+        "sha256": "727c950f972bcd56204f0dbd7faf9944cf97bc0f668b9a1d313392092563f005"
+      },
+      {
+        "path": "tools/benchmark_provider.py",
+        "sha256": "8c54b4915ae534dc083e23efa6b21495b9995b6c8b910406034653d639aede2c"
+      },
+      {
+        "path": "tools/codex_home_failover.py",
+        "sha256": "da706fd23c0a3208b3a5dc2922d7cda9541c65cb13752b607c5fec46fdee9619"
+      },
+      {
+        "path": "tools/domain_evidence_mcp_server.py",
+        "sha256": "3a5c7084d8190b429615687baf12fa9d6ed27531e51ba90fa5d9fc58d238e4a8"
+      },
+      {
+        "path": "tools/score_open_responses.py",
+        "sha256": "20f445d09b90f4c3f65b8b87cc1932938ee739becaf9c3167051fbc651256081"
+      },
+      {
+        "path": "tools/score_subject_batch_semantic.py",
+        "sha256": "f44eff28ee8d2dc69cd11288623362df27608fbe172b4a85ee17a9c6d1cf2f0c"
+      }
+    ]
+  },
+  "benchmarkInventory": {
+    "registryPath": "benchmarks/open_response_v2/evaluation_registry.open_response.json",
+    "registrySha256": "def94d82eac7a9121f15211f044ed2636185e3efe4bf5d32fae46e2acb4adefd",
+    "registeredReadyCases": 473,
+    "plainDirectCompletedReadyCasesAtFreeze": 37,
+    "allRegisteredReadyCasesExecuted": false,
+    "inventoryPath": "docs/research/plain_codex_open_response_coverage_20260720.json",
+    "inventorySha256": "b040f802930cf3c8f74a30c6b8c3db896faf26eb105d690a7b1ec6db567f6459",
+    "unregisteredBuddhistShortAnswerCases": 290,
+    "buddhistPublicSha256": "cd7b408b6d97174076cf3ddf1e50ea4c93b8cde8fe81629b50a27577d12e733a",
+    "buddhistPrivateSha256": "eb8d3883bab690f992bf5f30478a3a28f8cad9918394ebbf5edc2316537ba93f"
+  },
+  "historicalPlainBaselines": {
+    "closurePath": "docs/research/plain_baseline_and_subject_batch_closure_20260720.json",
+    "closureSha256": "9b9f55618f4dfedc9c0b8a0e23c717de5c0984a664503f157566ada2f14d42da",
+    "legalTen": {
+      "toolMode": "closed_direct",
+      "cases": 10,
+      "answerPassed": 2,
+      "summaryPath": "runs/luna-pilot/legal10-direct/summary-final.json",
+      "summarySha256": "1bcb3518661b09af49e2844985ca8f9eb0d4a2c443887070d3447dff8cc8d8ee",
+      "scorePath": "runs/luna-pilot/legal10-direct/score-final.json",
+      "scoreSha256": "78d49d7604531b863140626e9ff3a4db8a8df1989771d5f344d033c56085af65"
+    },
+    "tcmReadySeventeen": {
+      "toolMode": "closed_direct",
+      "cases": 17,
+      "passed": 14,
+      "scorePath": "runs/luna-pilot/tcm28-direct-valid-additions/score-ready17-final.json",
+      "scoreSha256": "9f41809ea3bed438f7344a7af8cecaf6c3ea65ce95ca678e3260f8899adfd0a7"
+    }
+  },
+  "immutability": {
+    "noAnswerDrivenPromptOrAliasChanges": true,
+    "noAddingUniversalBeta6SkillsMemoryOrReviewer": true,
+    "noRerunToReplaceAValidAcceptedFailure": true,
+    "incompleteCasesMayRunOnceUnderThisExactFreeze": true,
+    "anyImplementationChangeRequiresANewFreezeId": true
+  },
+  "deferredPostPlainArchitecture": {
+    "topLevelDecisionMaker": "Codex",
+    "optionalSubordinateTools": [
+      "call_universal_engine",
+      "call_beta6_engine"
+    ],
+    "subordinateReturnContract": [
+      "proposed answer",
+      "evidence and source identifiers",
+      "tool and provenance receipt",
+      "token and latency cost",
+      "warnings and failure state"
+    ],
+    "codexMay": [
+      "accept",
+      "revise",
+      "reject"
+    ],
+    "activation": "only after the plain baseline run is sealed; never retroactively exposed to plain artifacts"
+  }
+}

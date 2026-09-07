@@ -1,0 +1,6 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = /home/pineapple/bunjum2/mini-artichokes-universal-experiments/runs/aider-cpp26-tov-v2-extension-20260902/freeze/source

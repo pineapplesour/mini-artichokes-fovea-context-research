@@ -1,0 +1,210 @@
+{
+  "completed": 94,
+  "benchmarkTotal": 300,
+  "completeInventory": false,
+  "diagnosticOnly": true,
+  "inferenceScope": "exposed development; task-conditional summaries, not fresh-session confirmation",
+  "modelCostPerComparedSystem": {
+    "logicalCalls": 157,
+    "durationSeconds": 4384.084381381981,
+    "availableInputTokens": 1292080,
+    "availableOutputTokens": 187410,
+    "receiptsMissingUsage": 0
+  },
+  "parentCampaignPhysicalCallsForTheseTasks": 160,
+  "otherParentCampaignCallsNotUsedByTheseSystems": 3,
+  "curve": [
+    {
+      "maximumProgramTrials": 1,
+      "ordinarySolved": 87,
+      "genericSolved": 87,
+      "overlapSolved": 87,
+      "comparisons": {
+        "versusRandom": {
+          "rescues": 0,
+          "harms": 0,
+          "net": 0,
+          "differencePercentagePoints": 0.0,
+          "conditionalOneSidedP": 1.0,
+          "conditionalTwoSidedP": 1.0,
+          "holmOneSidedPAllTenComparisons": 1.0
+        },
+        "versusOrdinary": {
+          "rescues": 0,
+          "harms": 0,
+          "net": 0,
+          "differencePercentagePoints": 0.0,
+          "conditionalOneSidedP": 1.0,
+          "conditionalTwoSidedP": 1.0,
+          "holmOneSidedPAllTenComparisons": 1.0
+        }
+      },
+      "addedVerifierCosts": {
+        "generic": {
+          "programTrials": 5,
+          "trialWallSeconds": 0.2744739990157541
+        },
+        "overlap": {
+          "programTrials": 5,
+          "trialWallSeconds": 0.2683678570610937
+        }
+      },
+      "overlapOnlyVsRandom": [],
+      "randomOnlyVsOverlap": []
+    },
+    {
+      "maximumProgramTrials": 2,
+      "ordinarySolved": 87,
+      "genericSolved": 87,
+      "overlapSolved": 87,
+      "comparisons": {
+        "versusRandom": {
+          "rescues": 0,
+          "harms": 0,
+          "net": 0,
+          "differencePercentagePoints": 0.0,
+          "conditionalOneSidedP": 1.0,
+          "conditionalTwoSidedP": 1.0,
+          "holmOneSidedPAllTenComparisons": 1.0
+        },
+        "versusOrdinary": {
+          "rescues": 0,
+          "harms": 0,
+          "net": 0,
+          "differencePercentagePoints": 0.0,
+          "conditionalOneSidedP": 1.0,
+          "conditionalTwoSidedP": 1.0,
+          "holmOneSidedPAllTenComparisons": 1.0
+        }
+      },
+      "addedVerifierCosts": {
+        "generic": {
+          "programTrials": 10,
+          "trialWallSeconds": 0.5443708719976712
+        },
+        "overlap": {
+          "programTrials": 10,
+          "trialWallSeconds": 0.5295702000730671
+        }
+      },
+      "overlapOnlyVsRandom": [],
+      "randomOnlyVsOverlap": []
+    },
+    {
+      "maximumProgramTrials": 4,
+      "ordinarySolved": 87,
+      "genericSolved": 87,
+      "overlapSolved": 87,
+      "comparisons": {
+        "versusRandom": {
+          "rescues": 0,
+          "harms": 0,
+          "net": 0,
+          "differencePercentagePoints": 0.0,
+          "conditionalOneSidedP": 1.0,
+          "conditionalTwoSidedP": 1.0,
+          "holmOneSidedPAllTenComparisons": 1.0
+        },
+        "versusOrdinary": {
+          "rescues": 0,
+          "harms": 0,
+          "net": 0,
+          "differencePercentagePoints": 0.0,
+          "conditionalOneSidedP": 1.0,
+          "conditionalTwoSidedP": 1.0,
+          "holmOneSidedPAllTenComparisons": 1.0
+        }
+      },
+      "addedVerifierCosts": {
+        "generic": {
+          "programTrials": 18,
+          "trialWallSeconds": 0.9529407090158202
+        },
+        "overlap": {
+          "programTrials": 18,
+          "trialWallSeconds": 0.9164543960941955
+        }
+      },
+      "overlapOnlyVsRandom": [],
+      "randomOnlyVsOverlap": []
+    },
+    {
+      "maximumProgramTrials": 8,
+      "ordinarySolved": 87,
+      "genericSolved": 87,
+      "overlapSolved": 87,
+      "comparisons": {
+        "versusRandom": {
+          "rescues": 0,
+          "harms": 0,
+          "net": 0,
+          "differencePercentagePoints": 0.0,
+          "conditionalOneSidedP": 1.0,
+          "conditionalTwoSidedP": 1.0,
+          "holmOneSidedPAllTenComparisons": 1.0
+        },
+        "versusOrdinary": {
+          "rescues": 0,
+          "harms": 0,
+          "net": 0,
+          "differencePercentagePoints": 0.0,
+          "conditionalOneSidedP": 1.0,
+          "conditionalTwoSidedP": 1.0,
+          "holmOneSidedPAllTenComparisons": 1.0
+        }
+      },
+      "addedVerifierCosts": {
+        "generic": {
+          "programTrials": 34,
+          "trialWallSeconds": 1.7474176410469227
+        },
+        "overlap": {
+          "programTrials": 34,
+          "trialWallSeconds": 1.6673961290798616
+        }
+      },
+      "overlapOnlyVsRandom": [],
+      "randomOnlyVsOverlap": []
+    },
+    {
+      "maximumProgramTrials": 16,
+      "ordinarySolved": 87,
+      "genericSolved": 87,
+      "overlapSolved": 88,
+      "comparisons": {
+        "versusRandom": {
+          "rescues": 1,
+          "harms": 0,
+          "net": 1,
+          "differencePercentagePoints": 1.0638297872340425,
+          "conditionalOneSidedP": 0.5,
+          "conditionalTwoSidedP": 1.0,
+          "holmOneSidedPAllTenComparisons": 1.0
+        },
+        "versusOrdinary": {
+          "rescues": 1,
+          "harms": 0,
+          "net": 1,
+          "differencePercentagePoints": 1.0638297872340425,
+          "conditionalOneSidedP": 0.5,
+          "conditionalTwoSidedP": 1.0,
+          "holmOneSidedPAllTenComparisons": 1.0
+        }
+      },
+      "addedVerifierCosts": {
+        "generic": {
+          "programTrials": 66,
+          "trialWallSeconds": 3.4140046720858663
+        },
+        "overlap": {
+          "programTrials": 63,
+          "trialWallSeconds": 3.1619355020520743
+        }
+      },
+      "overlapOnlyVsRandom": [
+        "ClassEval_43"
+      ],
+      "randomOnlyVsOverlap": []
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "benchmarkId": "official.islam.cambridge2068.2025_specimen.v1",
+  "taskType": "constructed_response",
+  "product": "islam",
+  "language": "en",
+  "cases": [
+    {
+      "id": "islam-cambridge-2068-p1-q1a",
+      "prompt": "State four types of trade practised in Makkah during the pre-Islamic period. [4 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 1,
+        "questionPart": "1(a)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 4
+      },
+      "graderRef": "islam-cambridge-2068-p1-q1a"
+    },
+    {
+      "id": "islam-cambridge-2068-p1-q1b",
+      "prompt": "Explain how pilgrimage took place in Makkah during the pre-Islamic period. [10 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 1,
+        "questionPart": "1(b)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 10
+      },
+      "graderRef": "islam-cambridge-2068-p1-q1b"
+    },
+    {
+      "id": "islam-cambridge-2068-p1-q1c",
+      "prompt": "To what extent were trading practices the biggest weakness of pre- Islamic society? Give reasons for your answer. [6 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 1,
+        "questionPart": "1(c)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 6
+      },
+      "graderRef": "islam-cambridge-2068-p1-q1c"
+    },
+    {
+      "id": "islam-cambridge-2068-p1-q2a",
+      "prompt": "State four events from Musa’s childhood. [4 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 1,
+        "questionPart": "2(a)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 4
+      },
+      "graderRef": "islam-cambridge-2068-p1-q2a"
+    },
+    {
+      "id": "islam-cambridge-2068-p1-q2b",
+      "prompt": "Explain the opposing beliefs of prophet Musa (AS) and Pharaoh at their first meeting. [10 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 1,
+        "questionPart": "2(b)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 10
+      },
+      "graderRef": "islam-cambridge-2068-p1-q2b"
+    },
+    {
+      "id": "islam-cambridge-2068-p1-q2c",
+      "prompt": "Discuss the importance of miracles in the story of Musa (AS). [6 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 1,
+        "questionPart": "2(c)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 6
+      },
+      "graderRef": "islam-cambridge-2068-p1-q2c"
+    },
+    {
+      "id": "islam-cambridge-2068-p1-q3a",
+      "prompt": "Describe what happened when the Prophet (pbuh) made his first public speech at Safa. [4 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 1,
+        "questionPart": "3(a)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 4
+      },
+      "graderRef": "islam-cambridge-2068-p1-q3a"
+    },
+    {
+      "id": "islam-cambridge-2068-p1-q3b",
+      "prompt": "Outline the persecution faced by Prophet Muhammad (pbuh) and the early Muslims in Makkah. [10 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 1,
+        "questionPart": "3(b)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 10
+      },
+      "graderRef": "islam-cambridge-2068-p1-q3b"
+    },
+    {
+      "id": "islam-cambridge-2068-p1-q3c",
+      "prompt": "Assess the significance of the Prophet’s patience for the early Muslims. [6 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 1,
+        "questionPart": "3(c)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 6
+      },
+      "graderRef": "islam-cambridge-2068-p1-q3c"
+    },
+    {
+      "id": "islam-cambridge-2068-p1-q4a",
+      "prompt": "State four reasons why the Quraysh wanted to fight the Muslims at Uhud. [4 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 1,
+        "questionPart": "4(a)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 4
+      },
+      "graderRef": "islam-cambridge-2068-p1-q4a"
+    },
+    {
+      "id": "islam-cambridge-2068-p1-q4b",
+      "prompt": "Describe the events of the Battle of Uhud. [10 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 1,
+        "questionPart": "4(b)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 10
+      },
+      "graderRef": "islam-cambridge-2068-p1-q4b"
+    },
+    {
+      "id": "islam-cambridge-2068-p1-q4c",
+      "prompt": "Evaluate the lessons learned from the defeat at Uhud. [6 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 1,
+        "questionPart": "4(c)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 6
+      },
+      "graderRef": "islam-cambridge-2068-p1-q4c"
+    },
+    {
+      "id": "islam-cambridge-2068-p1-q5a",
+      "prompt": "Source: Surah 63:9–11 (Yusuf Ali). O you who believe, do not let your riches or children divert you from the remembrance of God; those who do so are the losers. Spend in charity from what God has bestowed before death comes and a person asks for a short respite to give charity and do good. God grants no soul respite once its appointed time has come and knows all that people do.\n\nExplain the teachings in Surah 63: 9–11 on how a Muslim should lead their life on Earth. [12 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 1,
+        "questionPart": "5(a)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 12
+      },
+      "graderRef": "islam-cambridge-2068-p1-q5a"
+    },
+    {
+      "id": "islam-cambridge-2068-p1-q5b",
+      "prompt": "Source: Surah 63:9–11 (Yusuf Ali). O you who believe, do not let your riches or children divert you from the remembrance of God; those who do so are the losers. Spend in charity from what God has bestowed before death comes and a person asks for a short respite to give charity and do good. God grants no soul respite once its appointed time has come and knows all that people do.\n\nEvaluate different ways Muslims today can avoid becoming greedy. [8 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 1,
+        "questionPart": "5(b)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 8
+      },
+      "graderRef": "islam-cambridge-2068-p1-q5b"
+    },
+    {
+      "id": "islam-cambridge-2068-p1-q6a",
+      "prompt": "Source: Hadith No. 12, 'Not interfering with others' (An-Nawawi's Forty Hadith): 'Part of someone's being a good Muslim is his leaving alone that which does not concern him.'\n\nExplain the teachings of this hadith and how they reflect Islamic values. [12 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 1,
+        "questionPart": "6(a)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 12
+      },
+      "graderRef": "islam-cambridge-2068-p1-q6a"
+    },
+    {
+      "id": "islam-cambridge-2068-p1-q6b",
+      "prompt": "Source: Hadith No. 12, 'Not interfering with others' (An-Nawawi's Forty Hadith): 'Part of someone's being a good Muslim is his leaving alone that which does not concern him.'\n\nTo what extent should Muslims be careful what they say to other people? Give reasons for your answer. [8 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 1,
+        "questionPart": "6(b)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 8
+      },
+      "graderRef": "islam-cambridge-2068-p1-q6b"
+    },
+    {
+      "id": "islam-cambridge-2068-p2-q1a",
+      "prompt": "Outline how Abu Bakr came to follow Islam. [4 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 2,
+        "questionPart": "1(a)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 4
+      },
+      "graderRef": "islam-cambridge-2068-p2-q1a"
+    },
+    {
+      "id": "islam-cambridge-2068-p2-q1b",
+      "prompt": "Explain the circumstances in which Abu Bakr came to lead the Muslims as Caliph. [10 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 2,
+        "questionPart": "1(b)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 10
+      },
+      "graderRef": "islam-cambridge-2068-p2-q1b"
+    },
+    {
+      "id": "islam-cambridge-2068-p2-q1c",
+      "prompt": "Discuss the importance of Abu Bakr’s rule for the three Caliphs who came after him. [6 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 2,
+        "questionPart": "1(c)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 6
+      },
+      "graderRef": "islam-cambridge-2068-p2-q1c"
+    },
+    {
+      "id": "islam-cambridge-2068-p2-q2a",
+      "prompt": "Give two examples of piety shown by ʿAli. [4 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 2,
+        "questionPart": "2(a)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 4
+      },
+      "graderRef": "islam-cambridge-2068-p2-q2a"
+    },
+    {
+      "id": "islam-cambridge-2068-p2-q2b",
+      "prompt": "Describe one difficulty ʿAli faced as Caliph and how he responded to it. [10 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 2,
+        "questionPart": "2(b)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 10
+      },
+      "graderRef": "islam-cambridge-2068-p2-q2b"
+    },
+    {
+      "id": "islam-cambridge-2068-p2-q2c",
+      "prompt": "Discuss the significance of issues Muslims faced at the end of ʿAli’s caliphate. [6 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 2,
+        "questionPart": "2(c)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 6
+      },
+      "graderRef": "islam-cambridge-2068-p2-q2c"
+    },
+    {
+      "id": "islam-cambridge-2068-p2-q3a",
+      "prompt": "State four categories of hadith. [4 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 2,
+        "questionPart": "3(a)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 4
+      },
+      "graderRef": "islam-cambridge-2068-p2-q3a"
+    },
+    {
+      "id": "islam-cambridge-2068-p2-q3b",
+      "prompt": "Explain two ways in which the Prophet (pbuh) received revelations. [10 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 2,
+        "questionPart": "3(b)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 10
+      },
+      "graderRef": "islam-cambridge-2068-p2-q3b"
+    },
+    {
+      "id": "islam-cambridge-2068-p2-q3c",
+      "prompt": "Discuss the different ways in which the Qurʾan is significant in a Muslim’s life today. [6 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 2,
+        "questionPart": "3(c)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 6
+      },
+      "graderRef": "islam-cambridge-2068-p2-q3c"
+    },
+    {
+      "id": "islam-cambridge-2068-p2-q4a",
+      "prompt": "Describe four conditions necessary for fasting to be properly carried out. [4 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 2,
+        "questionPart": "4(a)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 4
+      },
+      "graderRef": "islam-cambridge-2068-p2-q4a"
+    },
+    {
+      "id": "islam-cambridge-2068-p2-q4b",
+      "prompt": "Explain how Muslims observe the Night of Power (Laylat al-Qadr). [10 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 2,
+        "questionPart": "4(b)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 10
+      },
+      "graderRef": "islam-cambridge-2068-p2-q4b"
+    },
+    {
+      "id": "islam-cambridge-2068-p2-q4c",
+      "prompt": "Discuss the significance of Ramadan for communities today. [6 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 2,
+        "questionPart": "4(c)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 6
+      },
+      "graderRef": "islam-cambridge-2068-p2-q4c"
+    },
+    {
+      "id": "islam-cambridge-2068-p2-q5a",
+      "prompt": "Explain the preparations for burial and the funeral service (janazah). [12 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 2,
+        "questionPart": "5(a)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 12
+      },
+      "graderRef": "islam-cambridge-2068-p2-q5a"
+    },
+    {
+      "id": "islam-cambridge-2068-p2-q5b",
+      "prompt": "Evaluate the importance of Muslim traditions for remembering the dead. [8 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 2,
+        "questionPart": "5(b)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 8
+      },
+      "graderRef": "islam-cambridge-2068-p2-q5b"
+    },
+    {
+      "id": "islam-cambridge-2068-p2-q6a",
+      "prompt": "Describe what happens when ʿId al-Fitr is announced. [12 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 2,
+        "questionPart": "6(a)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 12
+      },
+      "graderRef": "islam-cambridge-2068-p2-q6a"
+    },
+    {
+      "id": "islam-cambridge-2068-p2-q6b",
+      "prompt": "Evaluate the importance of charity on the occasion of ʿId al-Fitr. [8 marks]",
+      "metadata": {
+        "sourceFamily": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+        "paper": 2,
+        "questionPart": "6(b)",
+        "responseFormat": "constructed_response",
+        "maxMarks": 8
+      },
+      "graderRef": "islam-cambridge-2068-p2-q6b"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "benchmarkId": "mcq.islam.aqa4.v1",
+  "taskType": "mcq",
+  "product": "islam",
+  "language": "ko",
+  "cases": [
+    {
+      "id": "islam-aqa-q001",
+      "prompt": "01. [AQA 2022, 01.1, Beliefs]\n다음 중 이슬람에서 거룩한 책에 해당하지 않는 것은?\n\nA. 지브릴\nB. 쿠란\nC. 이브라힘의 두루마리\nD. 토라",
+      "metadata": {
+        "period": null,
+        "questionNumber": 1
+      },
+      "graderRef": "islam-aqa-q001"
+    },
+    {
+      "id": "islam-aqa-q002",
+      "prompt": "02. [AQA 2022, 02.1, Practices]\n다음 중 이슬람에서 악에 맞서는 투쟁을 뜻하는 말은?\n\nA. 아슈라\nB. 지하드\nC. 라카\nD. 우두",
+      "metadata": {
+        "period": null,
+        "questionNumber": 2
+      },
+      "graderRef": "islam-aqa-q002"
+    },
+    {
+      "id": "islam-aqa-q003",
+      "prompt": "03. [AQA 2023, 01.1, Beliefs]\n다음 중 하나님이 세상에 관여하신다는 뜻을 가진 용어는?\n\nA. 영원한\nB. 내재적인\nC. 초월적인\nD. 변하지 않는",
+      "metadata": {
+        "period": null,
+        "questionNumber": 3
+      },
+      "graderRef": "islam-aqa-q003"
+    },
+    {
+      "id": "islam-aqa-q004",
+      "prompt": "04. [AQA 2023, 02.1, Practices]\n다음 중 이슬람에서 금요일 예배를 가리키는 이름은?\n\nA. 아슈라\nB. 하즈\nC. 이드 알피트르\nD. 주무아",
+      "metadata": {
+        "period": null,
+        "questionNumber": 4
+      },
+      "graderRef": "islam-aqa-q004"
+    }
+  ]
+}

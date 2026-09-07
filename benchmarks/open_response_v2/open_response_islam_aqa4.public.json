@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 2,
+  "benchmarkId": "open_response.islam.aqa4.v2",
+  "sourceBenchmarkId": "mcq.islam.aqa4.v1",
+  "taskType": "open_response",
+  "product": "islam",
+  "language": "ko",
+  "conversionAudit": {
+    "sourceCases": 4,
+    "convertedCases": 4,
+    "statusCounts": {
+      "needs_semantic_rewrite": 4
+    },
+    "splitMethodCounts": {
+      "domain_adapter": 4
+    },
+    "officialRunDefault": "ready_hide_options_only"
+  },
+  "cases": [
+    {
+      "id": "islam-aqa-q001",
+      "prompt": "[AQA 2022, 01.1, Beliefs]\n다음 중 이슬람에서 거룩한 책에 해당하지 않는 것은?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 1,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "needs_semantic_rewrite",
+          "riskReasons": [
+            "open_set_or_choice_dependent_stem"
+          ],
+          "optionCountRemoved": 4,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "islam-aqa-q001"
+    },
+    {
+      "id": "islam-aqa-q002",
+      "prompt": "[AQA 2022, 02.1, Practices]\n다음 중 이슬람에서 악에 맞서는 투쟁을 뜻하는 말은?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 2,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "needs_semantic_rewrite",
+          "riskReasons": [
+            "open_set_or_choice_dependent_stem"
+          ],
+          "optionCountRemoved": 4,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "islam-aqa-q002"
+    },
+    {
+      "id": "islam-aqa-q003",
+      "prompt": "[AQA 2023, 01.1, Beliefs]\n다음 중 하나님이 세상에 관여하신다는 뜻을 가진 용어는?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 3,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "needs_semantic_rewrite",
+          "riskReasons": [
+            "open_set_or_choice_dependent_stem"
+          ],
+          "optionCountRemoved": 4,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "islam-aqa-q003"
+    },
+    {
+      "id": "islam-aqa-q004",
+      "prompt": "[AQA 2023, 02.1, Practices]\n다음 중 이슬람에서 금요일 예배를 가리키는 이름은?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 4,
+        "openResponseConversion": {
+          "sourceTaskType": "mcq",
+          "status": "needs_semantic_rewrite",
+          "riskReasons": [
+            "open_set_or_choice_dependent_stem"
+          ],
+          "optionCountRemoved": 4,
+          "splitMethod": "domain_adapter"
+        }
+      },
+      "graderRef": "islam-aqa-q004"
+    }
+  ]
+}

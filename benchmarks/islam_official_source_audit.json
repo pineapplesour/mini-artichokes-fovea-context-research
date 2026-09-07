@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "auditDate": "2026-07-24",
+  "status": "source_inventory_and_manifests_built_solver_bundle_preflight_passed_execution_not_started",
+  "canonicalSourceRootWindows": "D:\\Downloads\\이슬람 벤치마크\\공식 문제집",
+  "canonicalSourceRootWsl": "/mnt/d/Downloads/이슬람 벤치마크/공식 문제집",
+  "countingPolicy": {
+    "questionPartsAreCases": true,
+    "diagnosticOrDerivedSubsetsAreNotDoubleCounted": true,
+    "requiresOfficialAnswerKeyOrOfficialMarkScheme": true,
+    "unkeyedStudyGuidesAndCoursePagesAreSourceOnly": true
+  },
+  "confirmedScorableUniqueCases": 168,
+  "previouslyRegisteredUniqueCases": 104,
+  "confirmedMissingFromPreviousRegistry": 64,
+  "scorableSources": [
+    {
+      "family": "CISI Islamic Finance Qualification",
+      "questionFile": "CISI_이슬람금융_공식샘플_100문항.txt",
+      "sha256": "2b2dd5575fc07c86b9c320c366c2a3c2c5ca80a309eda986f446013891e774c6",
+      "cases": 100,
+      "answerBasis": "answer labels embedded in the official sample transcription",
+      "batchClass": "compact"
+    },
+    {
+      "family": "AQA GCSE Religious Studies A 8062/15 Islam",
+      "questionFiles": [
+        {
+          "file": "출처/AQA_원본_AQA-806215-QP-JUN22.PDF",
+          "sha256": "83a930600ffe91ae1a8321b1cbc0c5af3c49e616656cf93de269887994a3b3f4"
+        },
+        {
+          "file": "출처/AQA_원본_AQA-806215-QP-JUN23.PDF",
+          "sha256": "6f05cc90088f8b5f0ec6c465412d5994647f224df134a1f8d63b3485e2b32fd0"
+        }
+      ],
+      "markSchemeFiles": [
+        {
+          "file": "출처/AQA_원본_AQA-806215-MS-JUN22.PDF",
+          "sha256": "303360b22016709337dfaade6169c4540359447a97f37d31272ba692e63cdca0"
+        },
+        {
+          "file": "출처/AQA_원본_AQA-806215-MS-JUN23.PDF",
+          "sha256": "fa0715930877f449607df88bb02419861b841f379ee805b31114017803cb7bc2"
+        }
+      ],
+      "cases": 20,
+      "caseBreakdown": {
+        "multipleChoice": 4,
+        "constructedResponse": 16
+      },
+      "answerBasis": "official AQA mark schemes",
+      "batchClass": "mixed_compact_and_extended",
+      "supersedesDerivedSubset": {
+        "file": "AQA_객관식만_문제_정답_한국어번역.txt",
+        "sha256": "8d19e479667ba4fa2ea965ea64da028b15ba306eb66c2c61c907cf7ef62a8c6f",
+        "cases": 4
+      }
+    },
+    {
+      "family": "BYU official Islam multiple-choice quiz",
+      "questionFile": "출처/해외공식_BYU_Official_Islam_Multiple_Choice_Quiz.pdf",
+      "sha256": "07faac9365d97cfd0e580529a03bbd901d105eabbf65fa82e83e4648b0a3f92b",
+      "cases": 16,
+      "answerBasis": "answer key printed in the source PDF",
+      "batchClass": "compact"
+    },
+    {
+      "family": "Cambridge O Level Islamic Studies 2068 2025 specimen",
+      "questionFiles": [
+        {
+          "file": "출처/해외공식_Cambridge_2068_2025_Specimen_Paper_1.pdf",
+          "sha256": "e1549be5512c25cbb7a299f8cb50be6074253099b670633fb14f7c19877f8355"
+        },
+        {
+          "file": "출처/해외공식_Cambridge_2068_2025_Specimen_Paper_2.pdf",
+          "sha256": "225e9fb45ca8010e158363c60e268abf949dde188e9d4af9373ce431e6bd971f"
+        }
+      ],
+      "markSchemeFiles": [
+        {
+          "file": "출처/해외공식_Cambridge_2068_2025_Specimen_Paper_1_Mark_Scheme.pdf",
+          "sha256": "7c689fae82ebaca8a6cb37d0af6ba0e60a5f58d755d9bb74e8683c147164c022"
+        },
+        {
+          "file": "출처/해외공식_Cambridge_2068_2025_Specimen_Paper_2_Mark_Scheme.pdf",
+          "sha256": "166cd306c7d0fce8f5e9b1d1d4f0f3effd5aa5ad16e43b372547503c3cea2c74"
+        }
+      ],
+      "cases": 32,
+      "caseBreakdown": {
+        "paper1QuestionParts": 16,
+        "paper2QuestionParts": 16
+      },
+      "answerBasis": "official Cambridge mark schemes",
+      "batchClass": "extended"
+    }
+  ],
+  "nonCanonicalDuplicate": {
+    "file": "CISI_이슬람금융_공식샘플_100문항 틀린 문제.txt",
+    "sha256": "19c460615358eb0fb088afb58fbb6061b3390d2a483449a7800ddcb15407cf85",
+    "cases": 26,
+    "reason": "hard slice of CISI100"
+  },
+  "sourceOnlyPendingGold": [
+    {
+      "file": "출처/해외공식_MIT_OCW_4_605_Early_Islam_800CE_Quiz.pdf",
+      "sha256": "6c4c4efe9d0a25cc102aed0ffe5274c5984f657820b410af14dc53a61528ec9d",
+      "observedQuestionCount": 6,
+      "reason": "saved source has no official answer key"
+    },
+    {
+      "files": [
+        "출처/해외공식_MIT_OCW_21H601_Final_Map_Quiz.pdf",
+        "출처/해외공식_MIT_OCW_21H601_Final_Quiz_Sheet.pdf"
+      ],
+      "sha256": [
+        "d97c48c2cd1b3d64a37d0f0756d73e711e1473624392681c648762e0f47ebc89",
+        "02eb5a425c7d6d5050f221d2e27085fe1630ddcbd7b26624390f60189d21cea9"
+      ],
+      "reason": "map-based composite assessment with no saved official answer key"
+    },
+    {
+      "file": "출처/해외공식_UCSD_HINE118_Middle_East_Study_Guide.pdf",
+      "sha256": "00df97740c242263342851e10a64ba24ce1cc03cac1ada0b3a7b0d57be3659ba",
+      "reason": "study prompts without an official grading key"
+    },
+    {
+      "file": "출처/해외공식_UNLV_HIST478A_Course_Page.html",
+      "sha256": "01a4cb1323d45f441de140de1180a89fa1b378097f13f73af36cd244aeca8d5e",
+      "reason": "course/source index rather than a locally preserved keyed question paper"
+    }
+  ],
+  "aggregateImpact": {
+    "legacyRegisteredExamCases": 1235,
+    "replaceAqa4WithAqa20": 16,
+    "addByu16": 16,
+    "addCambridge32": 32,
+    "confirmedRebuiltExamCases": 1299,
+    "legalEndToEndVariantsSeparate": 10
+  },
+  "generatedManifests": {
+    "builder": {
+      "file": "../tools/build_islam_official_source_manifests.py",
+      "sha256": "9a13b9dd4b99c04633eeff9f7499b2a65a700753cda72a34ed1e72d4fd40dfef"
+    },
+    "aqa20": {
+      "public": "unified/official_islam_aqa20.public.json",
+      "publicSha256": "2ab5adecb7e86483895ed5e55a03e1aa4741df71185aac516a9820a6aed717ac",
+      "private": "unified/official_islam_aqa20.private.json",
+      "privateSha256": "4eb145a3a3869315efff8e699c37ead39a753a420f987dba22c8eaf612a91fb2"
+    },
+    "byu16": {
+      "public": "unified/official_islam_byu16.public.json",
+      "publicSha256": "0ad4b400afadd85dcba4d943a42be5a425cf0bdd323b277dd974be9c229eec51",
+      "private": "unified/official_islam_byu16.private.json",
+      "privateSha256": "1200c8a005c872afc50e21ac817d6d0a2e89831f380d2e2cb5134b9a6b2be2d9"
+    },
+    "cambridge32": {
+      "public": "unified/official_islam_cambridge32.public.json",
+      "publicSha256": "38221a8af6016490a6e7a5bc6053474621d13f280546a0cc4a47ffbeee7e5a37",
+      "private": "unified/official_islam_cambridge32.private.json",
+      "privateSha256": "7eddf42dd9a66e4c41b046e3f88df1714b4201cfc95e185c60c933fa752e116a"
+    }
+  },
+  "oneCallHarness": {
+    "registry": {
+      "file": "plain_codex_visible_options_registry.json",
+      "sha256": "b761dbcc274b034bfcc13c666b79e0235d8d6d092d2f53e9cc5343fc86c712f3"
+    },
+    "bundleAndValidationTool": {
+      "file": "../tools/prepare_plain_codex_file_benchmark.py",
+      "sha256": "4122003412bce92d99f387e72dcc9dd76dac3779b9b8b47106f312ef5ef19103"
+    },
+    "isolatedAgentRunner": {
+      "file": "../tools/run_plain_codex_file_agent.py",
+      "sha256": "c7c963afb108bfe11ba1f1aa8fd0a144ed0df604096c1289d4df82406ccc450e"
+    },
+    "structuralTest": {
+      "file": "../tests/test_plain_codex_file_benchmark.py",
+      "sha256": "e1a26c71089e670ceeb08f81b7796e330ba5426e45a89f6f44d2ff9be38d57d8",
+      "result": "4 passed"
+    },
+    "relatedFocusedTests": "56 passed, 1 unrelated stale-hash test deselected",
+    "solverPublicRows": 1309,
+    "solverPublicBytes": 937297,
+    "placeholderGraderRows": 1309,
+    "placeholderGraderBytes": 1288377,
+    "solverIsolationProbe": "pass_no_model_call",
+    "graderIsolationProbe": "pass_no_model_call"
+  },
+  "preparedCampaign": {
+    "path": "../runs/plain-codex-visible-options-one-agent-20260724-v1",
+    "status": "solver_frozen_and_isolation_dry_run_passed_no_model_calls",
+    "embeddedFreezeSha256": "9cdfabf932e44cbfd2cfb2831f20cfbb7b4df0a7de6d1daad45129fc512c2cef",
+    "freezeFileSha256": "9c225b8c5bad2e71baee0d4aeef60e1795f205e60c2cc07887b4cb001abd2260",
+    "questionsSha256": "f2d92bbdd6f0ea30693dcd70ff1846f5c0b2fe50e42f1e71705a398cc0ad9d5e"
+  },
+  "executionBlockers": [
+    "the one-call solver has not been launched",
+    "the single-call grader packet is generated only after a complete accepted solver answer file exists"
+  ]
+}

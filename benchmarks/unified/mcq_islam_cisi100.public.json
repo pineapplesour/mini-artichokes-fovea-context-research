@@ -1,0 +1,909 @@
+{
+  "schemaVersion": 1,
+  "benchmarkId": "mcq.islam.cisi100.v1",
+  "taskType": "mcq",
+  "product": "islam",
+  "language": "ko",
+  "cases": [
+    {
+      "id": "islam-cisi-q001",
+      "prompt": "001. 샤리아 하에서 다음 중 일방적 계약과 관련하여 거짓인 것은 무엇입니까?\n\nA. 일방적인 계약은 수령인의 사전 동의가 필요합니다.\nB. 일방적 계약에는 가라르의 요소가 포함될 수 있습니다.\nC. 선물은 일방적인 계약이다\nD. 고인의 재산을 수혜자에게 주는 유언장은 일방적인 계약이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 1
+      },
+      "graderRef": "islam-cisi-q001"
+    },
+    {
+      "id": "islam-cisi-q002",
+      "prompt": "002. 가라르는 일반적으로 기존 보험 정책에 따라 어떻게 발생합니까?\n\nA. 보험사는 청구 풀이 얼마나 빨리 소진될지 알지 못한 채 청구 풀을 생성합니다.\nB. 보험회사는 보험계약자에게 알리지 않고 위험의 일부를 재보험회사에 이전합니다.\nC. 피보험자는 자신이 어떤 혜택을 받을지 예측할 수 없는 상태에서 보험료를 지불합니다.\nD. 피보험자는 향후 보험료가 오를지 여부도 모르고 보험료를 납부합니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 2
+      },
+      "graderRef": "islam-cisi-q002"
+    },
+    {
+      "id": "islam-cisi-q003",
+      "prompt": "003. A와 B는 무샤라카 계약의 파트너이며, A는 자본금의 60%를, B는 40%를 기여합니다. 이익은 각각 55% / 45% 비율로 공유됩니다. 미화 80,000달러의 손실이 발생한 경우, 이 손실 중 A가 일반적으로 부담하게 되는 금액은 얼마입니까?\n\nA. 없음\nB. US$44,000\nC. US$48,000\nD. US$80,000",
+      "metadata": {
+        "period": null,
+        "questionNumber": 3
+      },
+      "graderRef": "islam-cisi-q003"
+    },
+    {
+      "id": "islam-cisi-q004",
+      "prompt": "004. 특정 종류의 파생상품 거래가 샤리아법에 따라 어떤 주요 금지 영역에 속할 가능성이 있습니까?\n\nA. 리바 알 나시야\nB. 리바 알 파들\nC. 키마르\nD. 사르프",
+      "metadata": {
+        "period": null,
+        "questionNumber": 4
+      },
+      "graderRef": "islam-cisi-q004"
+    },
+    {
+      "id": "islam-cisi-q005",
+      "prompt": "005. AAOIFI 프레임워크에서 회계 단위 개념은 특히 이슬람 은행이 다음을 수행할 수 있음을 의미합니다.\n\nA. 하나의 특수 목적 차량에 자산을 유지하고 다른 특수 목적 차량에 부채를 유지합니다.\nB. 관련 부채를 자동으로 이전하지 않고 조직의 한 부분에서 다른 부분으로 자금을 이동합니다.\nC. 자산과 부채를 소유자와 별도의 실체로 운영합니다.\nD. 일련의 운영 부서로 구성되며, 각 부서는 서로 직접적인 재정적 연결을 갖지 않습니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 5
+      },
+      "graderRef": "islam-cisi-q005"
+    },
+    {
+      "id": "islam-cisi-q006",
+      "prompt": "006. 제한된 투자 계좌 보유자에게 제공되는 것과 동일한 수준의 정보를 무제한 투자 계좌 보유자에게 제공하는 것은 주로 다음 문제로 인해 어렵습니다.\n\nA. 자금 혼합\nB. 고객의 기밀 유지\nC. 상업적 위험\nD. 기업 지배구조",
+      "metadata": {
+        "period": null,
+        "questionNumber": 6
+      },
+      "graderRef": "islam-cisi-q006"
+    },
+    {
+      "id": "islam-cisi-q007",
+      "prompt": "007. Arboon의 주요 목적은 다음과 같은 역할을 하는 것입니다.\n\nA. 환불 가능한 보증금\nB. 환불 불가능한 보증금\nC. 이익의 배분\nD. 손실 배분",
+      "metadata": {
+        "period": null,
+        "questionNumber": 7
+      },
+      "graderRef": "islam-cisi-q007"
+    },
+    {
+      "id": "islam-cisi-q008",
+      "prompt": "008. 다음 중 매매계약이 아닌 것은 무엇입니까?\n\nA. 살람\nB. 이스티나\nC. 무다라바\nD. 무라바하",
+      "metadata": {
+        "period": null,
+        "questionNumber": 8
+      },
+      "graderRef": "islam-cisi-q008"
+    },
+    {
+      "id": "islam-cisi-q009",
+      "prompt": "009. 일반적인 무라바하 상품 거래에서 이슬람 은행은 다른 은행에 자금을 예치하는 동안 다음을 수행합니다.\n\nA. 처음에는 본인 역할로 시작하여 최종적으로는 대리인 역할을 합니다.\nB. 처음에는 대리인으로 시작하여 최종적으로 본인으로 활동합니다.\nC. 전체 과정에서 주체 역할을 합니다.\nD. 전체 과정에서 대리인 역할을 합니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 9
+      },
+      "graderRef": "islam-cisi-q009"
+    },
+    {
+      "id": "islam-cisi-q010",
+      "prompt": "010. 재무 심사와 관련하여, 이자부 예금을 나타내는 재무 비율은 총 시가총액의 몇 퍼센트보다 낮아야 한다는 것이 일반적으로 인정됩니까?\n\nA. 5%\nB. 10 %\nC. 25 %\nD. 30 %",
+      "metadata": {
+        "period": null,
+        "questionNumber": 10
+      },
+      "graderRef": "islam-cisi-q010"
+    },
+    {
+      "id": "islam-cisi-q011",
+      "prompt": "011. 일련의 단기 역상품 무라바하와 장기 고정 금리 상품 무라바하를 사용하여 두 당사자 간에 이익률 스왑이 이루어지고 있습니다. Wa'd에 따른 의무는 일반적으로 언제 종료됩니까?\n\nA. 첫 번째 단기 무라바하 종료일에\nB. 첫 번째 단기 무라바하 종료일 직전\nC. 오랜만의 무라바하 시작일에\nD. 오랜만의 무라바하 종료일에",
+      "metadata": {
+        "period": null,
+        "questionNumber": 11
+      },
+      "graderRef": "islam-cisi-q011"
+    },
+    {
+      "id": "islam-cisi-q012",
+      "prompt": "012. 필요한 초기 자본금이 총 $400,000인 무다라바 계약이 체결되고 있습니다. 이익을 Rab al Mal(70%)과 무다리브(30%) 사이에 분배하는 경우. 무다리브은 초기 자본의 어느 정도를 제공해야 합니까?\n\nA. 없음\nB. 최소 30%\nC. 최소 40%\nD. 최소 70%",
+      "metadata": {
+        "period": null,
+        "questionNumber": 12
+      },
+      "graderRef": "islam-cisi-q012"
+    },
+    {
+      "id": "islam-cisi-q013",
+      "prompt": "013. 타카풀의 인수 잉여금을 계산할 때 기술 조항과 관련하여 $620,000가 공제되었습니다. 이는 주로 다음 비용을 충당하기 위한 것입니다.\n\nA. 향후 청구\nB. 재보험 시설\nC. 자본 준비금\nD. 투자 서비스",
+      "metadata": {
+        "period": null,
+        "questionNumber": 13
+      },
+      "graderRef": "islam-cisi-q013"
+    },
+    {
+      "id": "islam-cisi-q014",
+      "prompt": "014. 수쿠크 al 이스티스나에 따른 임대 계약에는 금융리스 외에 선도리스도 포함됩니다. 이는 선도리스를 통해 다음에 대한 지불이 가능하기 때문입니다.\n\nA. 자산이 완성되기 전에 투자자\nB. 할부로 건설회사\nC. 정기적인 분배일에 지정된 거래상대방\nD. 배송 전에 상품 판매자",
+      "metadata": {
+        "period": null,
+        "questionNumber": 14
+      },
+      "graderRef": "islam-cisi-q014"
+    },
+    {
+      "id": "islam-cisi-q015",
+      "prompt": "015. 다음 시나리오 중 Wa'd의 가장 좋은 예는 무엇입니까?\n\nA. X는 Y가 컴퓨터를 세탁기로 교환하는 데 동의하면 자신의 컴퓨터를 Y에게 주겠다고 약속합니다.\nB. Y가 6개월 안에 US$20,000를 지불하겠다고 약속하면 X는 자신의 주식을 Y에게 팔겠다고 약속합니다.\nC. X는 자신의 집을 8주 이내에 Y에게 US$200,000의 가격에 팔겠다고 일방적으로 약속합니다.\nD. X는 한 달 안에 Y에게 자신의 차를 미화 5,000달러에 판매하기로 쌍방 약속하고 Y는 그 시점에 그 차를 구입하기로 약속합니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 15
+      },
+      "graderRef": "islam-cisi-q015"
+    },
+    {
+      "id": "islam-cisi-q016",
+      "prompt": "016. 이슬람 은행이 샤리아 감독 위원회(SSB)를 임명할 때 SSB가 수행하지 않는 활동은 무엇입니까?\n\nA. 은행업무에 관한 파타와 발행\nB. 은행 상품의 샤리아 준수 모니터링\nC. 은행 감사위원회와 협력하여 계약 문서 검토\nD. 투자 계좌 보유자 자금의 수익성 모니터링",
+      "metadata": {
+        "period": null,
+        "questionNumber": 16
+      },
+      "graderRef": "islam-cisi-q016"
+    },
+    {
+      "id": "islam-cisi-q017",
+      "prompt": "017. 무다리브과 같은 은행이 투자 계약에 따라 행동한다고 ​​가정하면 투자 제한 계좌 보유자는 다음과 같은 점에서 기존 집합 투자 계획의 구성원과 동일한 위치에 있습니다.\n\nA. 현금 흐름 권리는 항상 문제가 될 것입니다\nB. 예비금은 항상 요청됩니다\nC. 통제권은 발생하지 않을 것이다\nD. 정보 권리에는 총 수익 명세서가 포함되지 않습니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 17
+      },
+      "graderRef": "islam-cisi-q017"
+    },
+    {
+      "id": "islam-cisi-q018",
+      "prompt": "018. 다우존스 이슬람 시장 지수에 따른 재무 심사에 적용되는 후행 24개월 평균 시가총액은 어떤 특정 목적으로 적용됩니까?\n\nA. 변동성을 줄이기 위해\nB. 통화 움직임을 흡수하기 위해\nC. 인플레이션을 허용하려면\nD. 세금 부채를 분산하려면",
+      "metadata": {
+        "period": null,
+        "questionNumber": 18
+      },
+      "graderRef": "islam-cisi-q018"
+    },
+    {
+      "id": "islam-cisi-q019",
+      "prompt": "019. 신용장은 다음 중 어떤 유형의 이슬람 계약에 일반적으로 사용됩니까?\n\nA. 무샤라카\nB. 이자라 모수파 빌 티마\nC. 병렬 이스티나\nD. 살람",
+      "metadata": {
+        "period": null,
+        "questionNumber": 19
+      },
+      "graderRef": "islam-cisi-q019"
+    },
+    {
+      "id": "islam-cisi-q020",
+      "prompt": "020. 수쿠크 al 이자라 프로젝트는 정부가 보충 구매 계약에 설명된 특정 자산에 대한 권리, 이익, 소유권 및 혜택을 판매하는 단계에 도달했습니다. 프로세스의 다음 단계는 다음과 같습니다.\n\nA. 신탁계약에 따라 신탁재산을 등록한다.\nB. 임대 계약에 따라 자산을 다시 임대\nC. 서비스 대행 계약에 따라 투자자에게 자산을 판매합니다.\nD. 구매 계약에 따라 자산을 관리합니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 20
+      },
+      "graderRef": "islam-cisi-q020"
+    },
+    {
+      "id": "islam-cisi-q021",
+      "prompt": "021. 정부는 인프라 구축을 위해 자금을 모으고 싶어합니다. 수쿠크 al 이자라 하에서는 어떻게 진행되나요?\n\nA. 개인투자자에게 직접 연락합니다.\nB. 은행이 투자자를 대신하여 투자자에게 연락하도록 요청합니다.\nC. 은행에 해당 문제를 인수해 달라고 요청합니다.\nD. 자금을 관리하기 위해 수탁자를 고용합니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 21
+      },
+      "graderRef": "islam-cisi-q021"
+    },
+    {
+      "id": "islam-cisi-q022",
+      "prompt": "022. Ijtihad를 기반으로 어려운 문제가 해결된 경우 이는 다음을 사용하여 솔루션을 찾았음을 의미합니다.\n\nA. 꾸란의 주요 언급\nB. 독립 법학자들의 합의\nC. 기존 규칙 할당\nD. 텍스트 증거에 대한 학문적 해석",
+      "metadata": {
+        "period": null,
+        "questionNumber": 22
+      },
+      "graderRef": "islam-cisi-q022"
+    },
+    {
+      "id": "islam-cisi-q023",
+      "prompt": "023. 한 이슬람 금융 기관은 자신이 투자한 회사가 전략을 재조정하여 해당 투자를 부적격하게 만들었다는 사실을 방금 발견했습니다. 기관은 어느 기관에 즉시 통보해야 합니까?\n\nA. 이슬람 금융 기관의 회계 및 감사 조직\nB. 이슬람 은행 및 금융 기관 총회\nC. 펀드의 샤리아 감독위원회\nD. 이슬람 금융 서비스위원회",
+      "metadata": {
+        "period": null,
+        "questionNumber": 23
+      },
+      "graderRef": "islam-cisi-q023"
+    },
+    {
+      "id": "islam-cisi-q024",
+      "prompt": "024. 이슬람법의 계약에 적용되는 일반 원칙은 다음과 같습니다.\n\nA. 행동은 결과로 판단된다\nB. 허용되는 거래는 피크흐의 고전 텍스트에 명시된 거래로 제한됩니다.\nC. 특정 거래가 허용된다는 증거를 확보하는 것이 항상 필요합니다.\nD. 책임은 반환을 정당화한다",
+      "metadata": {
+        "period": null,
+        "questionNumber": 24
+      },
+      "graderRef": "islam-cisi-q024"
+    },
+    {
+      "id": "islam-cisi-q025",
+      "prompt": "025. IFRS를 준수하기 위해 이슬람 은행은 특정 비용을 결제일이 아닌 발생한 날짜를 기준으로 회계 처리했습니다. 이러한 유형의 접근 방식은 일반적으로 다음과 같이 설명됩니다.\n\nA. 단일 항목 회계\nB. 복식 회계\nC. 발생주의 회계\nD. 현금 회계",
+      "metadata": {
+        "period": null,
+        "questionNumber": 25
+      },
+      "graderRef": "islam-cisi-q025"
+    },
+    {
+      "id": "islam-cisi-q026",
+      "prompt": "026. 자본이 기초 자산에 의해 담보로 제공되는 경우 이는 수쿠크가 다음과 같다는 것을 나타냅니다.\n\nA. 자산보장\nB. 자산강화형\nC. 자산담보형\nD. 자산기반형",
+      "metadata": {
+        "period": null,
+        "questionNumber": 26
+      },
+      "graderRef": "islam-cisi-q026"
+    },
+    {
+      "id": "islam-cisi-q027",
+      "prompt": "027. 일반적으로 두 번의 판매 개념은 다음을 금지한다는 데 동의합니다.\n\nA. 모순되는 계약을 결합하다\nB. 별도의 계약을 결합\nC. 부가가치 계약 분리\nD. 제3자와 별도의 거래",
+      "metadata": {
+        "period": null,
+        "questionNumber": 27
+      },
+      "graderRef": "islam-cisi-q027"
+    },
+    {
+      "id": "islam-cisi-q028",
+      "prompt": "028. 할부 신용 판매로 설정된 무라바하 계약에 따라 구매자는 만기일로부터 28일까지 지불을 하지 못하여 추가 비용이 £150에 불과함에도 불구하고 은행이 £200의 추가 수수료를 부과하게 되었습니다. 따라서 £50 초과 금액은 다음과 같아야 합니다.\n\nA. 향후 거래에 대한 신용으로 보유\nB. 원래 판매자에게 전달됨\nC. 추가 마크업으로 처리됨\nD. 자선 단체에 기부했습니다",
+      "metadata": {
+        "period": null,
+        "questionNumber": 28
+      },
+      "graderRef": "islam-cisi-q028"
+    },
+    {
+      "id": "islam-cisi-q029",
+      "prompt": "029. 다음과 같은 이유로 트윈 판매가 금지됩니다.\n\nA. are speculative\nB. 가격 불확실성 조장\nC. 대출과 비슷하다\nD. 연기 payment",
+      "metadata": {
+        "period": null,
+        "questionNumber": 29
+      },
+      "graderRef": "islam-cisi-q029"
+    },
+    {
+      "id": "islam-cisi-q030",
+      "prompt": "030. 제한된 투자 계좌 보유자(RIAH)에게는 처음부터 위험 관련 정보가 제공되는 반면, 무제한 투자 계좌 보유자(UIAH)에게는 제공되지 않는 이유는 무엇입니까?\n\nA. RIAH는 훨씬 더 높은 수준의 위험에 노출되어 있습니다.\nB. RIAH만이 자산 배분을 미리 알고 있습니다.\nC. UIAH는 위험을 덜 회피하는 것으로 간주됩니다.\nD. UIAH만이 다양한 자산 배분을 갖고 있습니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 30
+      },
+      "graderRef": "islam-cisi-q030"
+    },
+    {
+      "id": "islam-cisi-q031",
+      "prompt": "031. 부채에 대한 부채에는 다음이 포함됩니다.\n\nA. 하나의 부채를 상환하고 다른 부채를 발행하는 것\nB. 여러 당사자가 동일인에게 발행한 여러 부채\nC. 하나의 빚이 사람에게서 사람으로 넘어가는 것\nD. 기존 부채를 ​​늘리기 위해 새로운 부채를 발행하는 것",
+      "metadata": {
+        "period": null,
+        "questionNumber": 31
+      },
+      "graderRef": "islam-cisi-q031"
+    },
+    {
+      "id": "islam-cisi-q032",
+      "prompt": "032. 다음 중 Loan-리바의 가장 좋은 예는 무엇입니까?\n\nA. X는 Y에게 $5,000를 빌려주고 Y는 6개월 후 X에게 $5,500를 갚습니다.\nB. X는 Y에게 대추야자 50박스를 주고, Y는 3개월 후 X에게 건포도 60박스를 갚는다.\nC. X는 Y에게 일정량의 금을 주고, 그 대가로 Y는 X에게 일정량의 은을 줍니다.\nD. X는 Y에게 자신의 차를 빌려주고 Y는 Z에게 밴을 빌려준다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 32
+      },
+      "graderRef": "islam-cisi-q032"
+    },
+    {
+      "id": "islam-cisi-q033",
+      "prompt": "033. 개인 X는 은행 Y를 사용하여 이자라 계약 운영을 통해 회사 Z로부터 자동차를 구입하고 있습니다. 그러므로:\n\nA. X는 공유 기반으로 이 자동차의 소유권을 획득합니다.\nB. Y는 X로부터 수입원을 받게 됩니다.\nC. X는 Z에게 임대료를 지불할 것이다\nD. Z는 자동차의 소유권을 보유합니다",
+      "metadata": {
+        "period": null,
+        "questionNumber": 33
+      },
+      "graderRef": "islam-cisi-q033"
+    },
+    {
+      "id": "islam-cisi-q034",
+      "prompt": "034. 샤리아를 준수하는 제품은 다음과 같습니다.\n\nA. 전 세계적으로 완전히 이용 가능\nB. 이슬람 국가에서만 사용 가능\nC. 비무슬림 국가에서는 엄격히 금지되어 있습니다.\nD. 비무슬림 국가에서 개발 중",
+      "metadata": {
+        "period": null,
+        "questionNumber": 34
+      },
+      "graderRef": "islam-cisi-q034"
+    },
+    {
+      "id": "islam-cisi-q035",
+      "prompt": "035. 판매자 S는 구매자 B와 Medina Sale을 체결했습니다. 구매자 B는 판매자 S에게 보증금을 제공했습니다. 판매자 S가 구매자 B에게 상품을 배송하기 전에 판매자 S가 상품을 배송해야 할 시간에 맞춰 병에 걸려 병원에 입원했습니다. 법에 따라 계약은 어떻게 되나요?\n\nA. 판매자 S는 상품 배송을 수행할 의무가 있으며, 구매자 B가 다른 곳에서 상품을 조달하는 데 따른 불편에 대해 책임을 집니다.\nB. 구매자 B는 판매자 S가 병원에서 퇴원할 때까지 다른 곳에서 물품을 조달해야 함에도 불구하고 판매자 S로부터 구매해야 합니다.\nC. 이 상황에서는 어느 당사자도 구매 또는 판매할 의무가 없으며 구매자 B는 예치금을 돌려받을 권리가 있습니다.\nD. 양 당사자는 병원에 있음에도 불구하고 계약 조건을 이행할 의무가 있으며 판매자 S는 구매자 B에게 상품을 전달할 사람을 지정해야 합니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 35
+      },
+      "graderRef": "islam-cisi-q035"
+    },
+    {
+      "id": "islam-cisi-q036",
+      "prompt": "036. X는 다음 달에 자신의 차를 Y에게 20,000디나르에 판매하기로 약속합니다. Y는 다음 달에 이 차를 20,000디나르에 구입할 것을 약속합니다. 이러한 유형의 배열은 다음과 같이 가장 잘 설명됩니다.\n\nA. 일방적인 약속\nB. 합작 투자\nC. 양도 계약\nD. 양자 약속",
+      "metadata": {
+        "period": null,
+        "questionNumber": 36
+      },
+      "graderRef": "islam-cisi-q036"
+    },
+    {
+      "id": "islam-cisi-q037",
+      "prompt": "037. 20년간의 감소하는 무샤라카 계약에 따라 은행과 고객이 처음에 각각 70%와 30%를 지불하고 주택을 $200,000에 구입한 후 고객이 임대료를 지불합니다. 5년 후 고객은 더 이상 임대료 지불을 거부합니다. 이러한 상황에서 은행은 일반적으로 다음과 같은 권리를 갖습니다.\n\nA. 감소하는 무샤라카를 무다라바로 교체합니다.\nB. 고객을 퇴거시킨 후 해당 부동산을 다른 고객에게 임대\nC. 고객을 퇴거시킨 후 해당 부동산을 매각하고 모든 이익을 보유합니다.\nD. 고객을 쫓아낸 다음 부동산을 팔고 고객에게 이익의 일부를 제공합니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 37
+      },
+      "graderRef": "islam-cisi-q037"
+    },
+    {
+      "id": "islam-cisi-q038",
+      "prompt": "038. 다음 계약상의 특징 중 살람 계약이 아닌 이스티스나 계약임을 나타내는 것은 무엇입니까?\n\nA. 인도되는 물품은 구리와 아연의 형태입니다.\nB. 계약 조건은 변경할 수 없습니다.\nC. 배송은 특정 날짜에 이루어집니다\nD. 가격은 6회에 걸쳐 분할 지불됩니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 38
+      },
+      "graderRef": "islam-cisi-q038"
+    },
+    {
+      "id": "islam-cisi-q039",
+      "prompt": "039. 보험 계약자 X를 위한 타카풀 사업의 기업 지배구조는 자산 관리 성과보다 인수 성과에 더 중점을 두고 있습니다. 이는 정책이 다음과 같음을 나타냅니다.\n\nA. 무다라바 계약에 따라 작성됨\nB. 일반 보험\nC. 위험도가 높은 투자\nD. 샤리아를 준수하지 않음",
+      "metadata": {
+        "period": null,
+        "questionNumber": 39
+      },
+      "graderRef": "islam-cisi-q039"
+    },
+    {
+      "id": "islam-cisi-q040",
+      "prompt": "040. X는 오늘 건물을 Y에게 $50,000에 판매하는 데 동의하고 Y는 동시에 3개월 후에 $55,000를 지불하고 X에게 건물을 다시 판매하는 데 동의합니다. 샤리아에 따르면 이러한 유형의 합의는 다음과 같습니다.\n\nA. 자동으로 금지 항목으로 분류됩니다.\nB. 제3자 보유 계좌를 사용해야 합니다.\nC. 별도의 양자 협정을 사용해야 함\nD. 자동으로 유효한 양자간 계약으로 분류됩니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 40
+      },
+      "graderRef": "islam-cisi-q040"
+    },
+    {
+      "id": "islam-cisi-q041",
+      "prompt": "041. 다음 중 거래하는 제품 중 일반적으로 하람으로 분류되는 것은 무엇입니까?\n\nA. 자동차\nB. 취하게 하는 물질\nC. 화장품\nD. 스포츠웨어",
+      "metadata": {
+        "period": null,
+        "questionNumber": 41
+      },
+      "graderRef": "islam-cisi-q041"
+    },
+    {
+      "id": "islam-cisi-q042",
+      "prompt": "042. 이슬람 헤지펀드는 살람 계약을 사용해 다음과 같이 매도 포지션에 상응하는 성과를 달성했습니다.\n\nA. 지연 판매에 대한 즉시 판매 상쇄\nB. 즉시 구매를 연기 구매로 상쇄\nC. 선물자산매입에 대한 선지급\nD. 합성판매에 대한 선지급",
+      "metadata": {
+        "period": null,
+        "questionNumber": 42
+      },
+      "graderRef": "islam-cisi-q042"
+    },
+    {
+      "id": "islam-cisi-q043",
+      "prompt": "043. 와칼라 펀드 관리 구조를 사용하는 펀드 매니저는 제공된 투자 서비스에 대한 수수료 외에 보수도 받았습니다. 이는 다음을 나타냅니다.\n\nA. 주식형 펀드에 투자할 때 수수료를 지불했습니다.\nB. 이익이 사전 합의된 예상 비율을 초과했습니다.\nC. 무다립 수수료가 인상되었습니다.\nD. 투자자에게 법률 서비스가 제공되었습니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 43
+      },
+      "graderRef": "islam-cisi-q043"
+    },
+    {
+      "id": "islam-cisi-q044",
+      "prompt": "044. 주요 자본 프로젝트에 진행 중인 자금 조달을 제공할 때 일반적으로 어떤 계약이 사용됩니까?\n\nA. 살람\nB. 이스티나\nC. 이자라 wa 익티나\nD. 무샤라카",
+      "metadata": {
+        "period": null,
+        "questionNumber": 44
+      },
+      "graderRef": "islam-cisi-q044"
+    },
+    {
+      "id": "islam-cisi-q045",
+      "prompt": "045. 알리는 이슬람 보험 그룹이 관리하는 생명 타카풀 펀드의 보험 계약자가 되는 것을 고려하고 있습니다. 그렇다면 다음 중 거짓은 무엇입니까?\n\nA. 그의 기여도는 나이, 직업 및 기타 요인에 따라 결정됩니다.\nB. 그의 기여금은 그가 지정한 사망 보험금과 개인적 특성에 따라 인수 자금과 투자 자금으로 나누어집니다.\nC. 그의 투자 계좌의 잔액은 투자 기금에 적립된 그의 기여금과 기금에서 얻은 이익의 지분을 반영합니다.\nD. 퇴직일에 보험 만기가 되면 미리 합의한 금액의 퇴직연금을 받게 됩니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 45
+      },
+      "graderRef": "islam-cisi-q045"
+    },
+    {
+      "id": "islam-cisi-q046",
+      "prompt": "046. 병렬 살람의 주요 기능 중 하나는 금융가가 다음을 방지하는 것입니다.\n\nA. 원래 살람을 포기하다\nB. 배송 위험이 있음\nC. 대리인으로 활동\nD. 소유권 위험을 겪고 있음",
+      "metadata": {
+        "period": null,
+        "questionNumber": 46
+      },
+      "graderRef": "islam-cisi-q046"
+    },
+    {
+      "id": "islam-cisi-q047",
+      "prompt": "047. 펀드매니저 X는 선물과 옵션을 사용할 수 있지만 펀드매니저 Y는 그렇게 할 수 없습니다. 이는 펀드매니저 Y만이 다음을 관리하고 있기 때문입니다.\n\nA. an 지분 펀드\nB. an Islamic 펀드\nC. 해외펀드\nD. 원자재 기금",
+      "metadata": {
+        "period": null,
+        "questionNumber": 47
+      },
+      "graderRef": "islam-cisi-q047"
+    },
+    {
+      "id": "islam-cisi-q048",
+      "prompt": "048. 타카풀은 다음과 같은 일반 원칙을 기반으로 합니다.\n\nA. co- 보험\nB. 상호성\nC. 손실 제한\nD. 손해보상",
+      "metadata": {
+        "period": null,
+        "questionNumber": 48
+      },
+      "graderRef": "islam-cisi-q048"
+    },
+    {
+      "id": "islam-cisi-q049",
+      "prompt": "049. 농업 장비 구입과 관련하여 이자라 마우수파 Bil Thimma에 따라 임대 계약이 체결된 경우 다음과 같은 경우 임대 가격이 중간에 재조정될 수 있습니다.\n\nA. 일반 인플레이션의 상당한 증가\nB. 임차인의 부실한 지불 기록\nC. 농기계 가격 하락\nD. 동일한 두 당사자 사이에 두 번째 임대차 계약이 체결되었습니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 49
+      },
+      "graderRef": "islam-cisi-q049"
+    },
+    {
+      "id": "islam-cisi-q050",
+      "prompt": "050. 이자라 계약에는 다음 판매가 포함됩니다.\n\nA. 일시불 채무\nB. 자산의 용익권\nC. 하나의 통화를 다른 통화로 교환\nD. 시차를 두고 부동산을 소유하다",
+      "metadata": {
+        "period": null,
+        "questionNumber": 50
+      },
+      "graderRef": "islam-cisi-q050"
+    },
+    {
+      "id": "islam-cisi-q051",
+      "prompt": "051. 기업 거버넌스가 기존 은행과 비교할 때 이슬람 은행에 추가적인 과제를 제시하는 주요 이유 중 하나는 다음과 같습니다.\n\nA. 그러한 모든 문제는 IFSB의 사전 개별 승인을 받아야 합니다.\nB. 이해상충을 피하는 것이 최우선 과제로 다뤄져야 합니다.\nC. 다른 유형의 이해관계자를 수용해야 함\nD. 투명성이 훨씬 적습니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 51
+      },
+      "graderRef": "islam-cisi-q051"
+    },
+    {
+      "id": "islam-cisi-q052",
+      "prompt": "052. 샤리아 준수를 달성하기 위해 다음 중 공식적인 통화 시장 거래의 대안으로 사용할 수 있는 가장 좋은 계약은 무엇입니까?\n\nA. 이자라 wa 익티나\nB. 이자라 문타히아 비탐리크\nC. 무라바하\nD. 이스티나",
+      "metadata": {
+        "period": null,
+        "questionNumber": 52
+      },
+      "graderRef": "islam-cisi-q052"
+    },
+    {
+      "id": "islam-cisi-q053",
+      "prompt": "053. 중앙은행이 설립한 최초의 중앙 샤리아 감독위원회가 어느 나라에 있었습니까?\n\nA. 파키스탄\nB. Dubai\nC. 말레이시아\nD. Oman",
+      "metadata": {
+        "period": null,
+        "questionNumber": 53
+      },
+      "graderRef": "islam-cisi-q053"
+    },
+    {
+      "id": "islam-cisi-q054",
+      "prompt": "054. 샤리아 감독 위원회의 자문 역할은 해당 기관이 이미 다음 사항에 문제를 회부한 경우 더욱 효과적입니다.\n\nA. 사내 샤리아 전문가\nB. 내부감사인\nC. 현지 AAOIFI 전문가\nD. 외부감사인",
+      "metadata": {
+        "period": null,
+        "questionNumber": 54
+      },
+      "graderRef": "islam-cisi-q054"
+    },
+    {
+      "id": "islam-cisi-q055",
+      "prompt": "055. 재무 심사와 관련하여, 총 이자에 비준수 활동으로 인한 소득을 더한 재무 비율이 총 소득의 몇 퍼센트 미만이어야 하는지 일반적으로 인정됩니다.\n\nA. 5%\nB. 10 %\nC. 25 %\nD. 30 %",
+      "metadata": {
+        "period": null,
+        "questionNumber": 55
+      },
+      "graderRef": "islam-cisi-q055"
+    },
+    {
+      "id": "islam-cisi-q056",
+      "prompt": "056. Y에게 US$100,000의 빚을 지고 있는 X는 이 채무를 보증하기 위해 제3자와 계약을 체결했습니다. 이러한 유형의 계약은 일반적으로 무엇으로 알려져 있나요?\n\nA. 라흔\nB. 사르프\nC. 하왈라\nD. 카팔라",
+      "metadata": {
+        "period": null,
+        "questionNumber": 56
+      },
+      "graderRef": "islam-cisi-q056"
+    },
+    {
+      "id": "islam-cisi-q057",
+      "prompt": "057. 이스티스나 계약의 인도가 지연되면 다음 중 어떤 조치가 취해질 수 있습니까?\n\nA. 제조업체를 상대로 한 고객의 법원 소송\nB. 사전 합의된 벌금 지불\nC. 계약의 취소\nD. 제조업체를 다른 제조업체로 교체",
+      "metadata": {
+        "period": null,
+        "questionNumber": 57
+      },
+      "graderRef": "islam-cisi-q057"
+    },
+    {
+      "id": "islam-cisi-q058",
+      "prompt": "058. 무라바하 판매와 자금 대출의 주요 차이점 중 하나는 무라바하만이 다음과 같다는 것입니다.\n\nA. 은행가가 소유권을 갖는 것과 관련된다\nB. 제3자에게 양도 가능\nC. 손해배상 보증을 사용하는 것과 관련이 있습니다.\nD. 한 국가에서 다른 국가로 이전될 수 있습니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 58
+      },
+      "graderRef": "islam-cisi-q058"
+    },
+    {
+      "id": "islam-cisi-q059",
+      "prompt": "059. 수쿠크 발행 시 특수 목적 차량을 사용하는 주요 이유 중 하나는 다음을 방지하는 것입니다.\n\nA. 보유자는 시장 위험에 노출되지 않습니다.\nB. 소득 흐름이 지나치게 불안정해짐\nC. 채권자가 자산에 대한 청구권을 행사하지 못하도록 거래\nD. 자산이 자카트 의무의 대상이 되는 것을 방지",
+      "metadata": {
+        "period": null,
+        "questionNumber": 59
+      },
+      "graderRef": "islam-cisi-q059"
+    },
+    {
+      "id": "islam-cisi-q060",
+      "prompt": "060. 이슬람 회계기준이 이슬람 금융산업에 유익한 이유는 무엇입니까?\n\nA. 그들은 이슬람 금융의 독특한 성격을 충족시킵니다.\nB. 이해하기가 더 쉽습니다.\nC. 보고된 위험 수준은 더 낮습니다.\nD. 이는 IFRS 표준을 무시할 수 있음을 의미합니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 60
+      },
+      "graderRef": "islam-cisi-q060"
+    },
+    {
+      "id": "islam-cisi-q061",
+      "prompt": "061. 다음 중 리바 알 파들의 가장 좋은 예는 무엇입니까?\n\nA. £1,000를 빌리고 한 달 안에 £1,200를 갚음\nB. 일정량의 금을 더 많은 양의 금으로 교환\nC. 친구에게 자동차 선물하기\nD. 친척에게 10시간 노동을 무료로 제공",
+      "metadata": {
+        "period": null,
+        "questionNumber": 61
+      },
+      "graderRef": "islam-cisi-q061"
+    },
+    {
+      "id": "islam-cisi-q062",
+      "prompt": "062. John은 아파트 블록을 짓고 있으며 Khalid를 신용으로 Hassan으로부터 크레인을 구매하는 대리인으로 임명했습니다. 다음 중 사실인 진술은 무엇입니까?\n\nA. Khalid가 Hassan에게 자신이 John의 대리인 역할을 하고 있음을 알리지 않더라도 Hassan은 여전히 ​​John에게 돈을 청구할 수 있습니다.\nB. Khalid가 Hassan에게 자신이 John의 대리인 역할을 하고 있음을 알리지 않는 경우 Hassan은 Khalid에게만 돈을 청구할 수 있습니다.\nC. Khalid가 Hassan에게 자신이 John의 대리인 역할을 하고 있음을 알리더라도 Hassan은 여전히 ​​Khalid로부터 돈을 청구할 수 있습니다.\nD. Khalid가 Hassan에게 자신이 John의 대리인 역할을 하고 있음을 알린 경우 John이 채무를 불이행하는 경우 Hassan은 여전히 ​​Khalid에게 지불을 요구할 수 있습니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 62
+      },
+      "graderRef": "islam-cisi-q062"
+    },
+    {
+      "id": "islam-cisi-q063",
+      "prompt": "063. 한 투자 펀드가 기존 부채가 2,600만 달러이고 총 시가총액이 7,400만 달러인 회사에 투자하는 것을 고려하고 있습니다. AAOIFI 표준에 따르면 이는 일반적으로 기금이 다음을 의미합니다.\n\nA. 확장된 샤리아 감독위원회와 함께 운영해야 합니다.\nB. 제3자 보증이나 신용장을 받아야 합니다.\nC. 완전한 재정 심사 허가를 받을 것입니다\nD. 받아들일 수 없는 투자를 한 것으로 간주됩니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 63
+      },
+      "graderRef": "islam-cisi-q063"
+    },
+    {
+      "id": "islam-cisi-q064",
+      "prompt": "064. 다음 중 이슬람 은행 및 금융 산업에서 AAOIFI의 업무를 가장 잘 설명하는 것은 무엇입니까? 이들의 역할은 다음과 같습니다.\n\nA. 은행 및 금융 부문이 이슬람 원칙에 의해 규제될 수 있음을 증명합니다.\nB. 업계 전반에 걸쳐 공통 문서를 소개합니다.\nC. 업계를 위한 통일된 샤리아, 거버넌스 및 회계 표준 개발\nD. 현대 은행 및 금융 개념을 이슬람 은행 및 금융에 적용",
+      "metadata": {
+        "period": null,
+        "questionNumber": 64
+      },
+      "graderRef": "islam-cisi-q064"
+    },
+    {
+      "id": "islam-cisi-q065",
+      "prompt": "065. 총 수익이 £100m인 회사의 경우 이슬람 금융 심사에서 샤리아 준수를 허용하려면 일반적으로 이자 소득을 포함하여 다음 금액 이하의 하람 소득을 받아야 합니까?\n\nA. £33m\nB. £20m\nC. £10m\nD. £5m",
+      "metadata": {
+        "period": null,
+        "questionNumber": 65
+      },
+      "graderRef": "islam-cisi-q065"
+    },
+    {
+      "id": "islam-cisi-q066",
+      "prompt": "066. 다음 중 이슬람의 성실성 원칙을 가장 위반할 가능성이 가장 높은 행동은 무엇입니까?\n\nA. 구매자가 제품의 장점을 판단할 수 있도록 허용\nB. 제품을 판매하기 위해 거짓말을 하는 행위\nC. 사회에 부정적인 영향을 미치는 제품을 판매하는 행위\nD. 부적절한 자선 분배",
+      "metadata": {
+        "period": null,
+        "questionNumber": 66
+      },
+      "graderRef": "islam-cisi-q066"
+    },
+    {
+      "id": "islam-cisi-q067",
+      "prompt": "067. 부채 거래에 대한 부채는 다음 사항 없이 체결되므로 금지됩니다.\n\nA. 유형의 소유\nB. 조건부 의무\nC. a 지급일\nD. a 인도일",
+      "metadata": {
+        "period": null,
+        "questionNumber": 67
+      },
+      "graderRef": "islam-cisi-q067"
+    },
+    {
+      "id": "islam-cisi-q068",
+      "prompt": "068. 이슬람 자금은 다음을 기준으로 관리되어야 합니다.\n\nA. 무다라바 계약만 해당\nB. 와칼라 계약 전용\nC. 무다라바와 와칼라의 공동 계약\nD. 무다라바 또는 와칼라 계약 중 하나",
+      "metadata": {
+        "period": null,
+        "questionNumber": 68
+      },
+      "graderRef": "islam-cisi-q068"
+    },
+    {
+      "id": "islam-cisi-q069",
+      "prompt": "069. 타카풀 자금이 부족한 경우 다음 중 어떤 조치가 허용됩니까?\n\nA. 보험 계약자는 항상 추가 자금을 기부해야 합니다.\nB. 보험 가입자는 손실의 일부만 받습니다.\nC. 타카풀 펀드는 시장에서 돈을 빌린다.\nD. 타카풀 운영자는 무이자 대출을 제공할 것으로 예상됩니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 69
+      },
+      "graderRef": "islam-cisi-q069"
+    },
+    {
+      "id": "islam-cisi-q070",
+      "prompt": "070. 수쿠크 al 무라바하에서 관련 상품 구매가 완료되면 수탁자는 어떤 즉각적인 조치를 취해야 합니까?\n\nA. 지불연기 조건으로 채무자에게 상품을 판매하겠다는 제안\nB. 채무자로부터 물품을 구매하기로 약속합니다.\nC. 지정된 은행을 보증인으로 지정\nD. 보험업자의 구매 요구 사항을 확인하십시오.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 70
+      },
+      "graderRef": "islam-cisi-q070"
+    },
+    {
+      "id": "islam-cisi-q071",
+      "prompt": "071. 은행이 무라바하 매각에 따라 자금을 제공하는 경우 이것이 기존 대출과 다른 주요 방식 중 하나는 채권자가 다음과 같다는 점입니다.\n\nA. 지불 마감일을 지정할 수 없습니다\nB. 이 부채를 계정에 반영할 수 없습니다.\nC. 연체료로 인한 이익을 얻을 수 없습니다.\nD. 제3자 징수 대리인을 이용하는 것이 허용되지 않습니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 71
+      },
+      "graderRef": "islam-cisi-q071"
+    },
+    {
+      "id": "islam-cisi-q072",
+      "prompt": "072. AAOIFI 거버넌스 표준 1에 따라 샤리아 감독위원회의 의무적 판결 및 결정은 다음에 대해 구속력을 갖습니다.\n\nA. 기관만\nB. 주주들만\nC. 기관과 고객\nD. 주주 및 고객",
+      "metadata": {
+        "period": null,
+        "questionNumber": 72
+      },
+      "graderRef": "islam-cisi-q072"
+    },
+    {
+      "id": "islam-cisi-q073",
+      "prompt": "073. 사람 Y의 대리인 역할을 하는 사람 X는 사람 Z에게 상품을 판매할 때 자신의 권한을 초과했습니다. 이 경우 판매 계약은 다음과 같이 가장 잘 설명됩니다.\n\nA. 유효하고 집행 가능\nB. 유효하지만 시행할 수 없음\nC. 취소 가능\nD. 무효",
+      "metadata": {
+        "period": null,
+        "questionNumber": 73
+      },
+      "graderRef": "islam-cisi-q073"
+    },
+    {
+      "id": "islam-cisi-q074",
+      "prompt": "074. 수쿠크 al 살람은 일반적으로 중앙 은행에서 다음을 제공하는 수단으로 적용됩니다.\n\nA. 단기 유동성 관리\nB. 중기 변동성 관리\nC. 중기 상품 수익률\nD. 장기 부동산 수익",
+      "metadata": {
+        "period": null,
+        "questionNumber": 74
+      },
+      "graderRef": "islam-cisi-q074"
+    },
+    {
+      "id": "islam-cisi-q075",
+      "prompt": "075. 공장 개발 자금을 조달하기 위해 2단계 무다라바가 설립되었습니다. 첫 번째 계약에서 투자자는 수익을 70%(Rab al Mal)와 30% 이슬람 은행(무다리브)으로 나누어 500,000달러를 예치합니다. 두 번째 계약에 따라 무다리브은 수익의 30%를 부여받습니다. 만약 공장이 56만달러에 팔리면 무다리브가 두 번째 계약에서 얻는 이익은 얼마나 될까?\n\nA. $12,60 0\nB. $18,00 0\nC. $42,00 0\nD. $60,00 0",
+      "metadata": {
+        "period": null,
+        "questionNumber": 75
+      },
+      "graderRef": "islam-cisi-q075"
+    },
+    {
+      "id": "islam-cisi-q076",
+      "prompt": "076. 한 펀드매니저는 무다라바 펀드 관리 구조를 채택하고 있습니다. 따라서 펀드 매니저는 다음을 수행합니다.\n\nA. Rab al Mal을 대신하여 대리인 역할을 하게 됩니다.\nB. 자신이 관리하는 펀드에 투자하지 않음\nC. 첫 해에만 계약을 종료할 수 있습니다.\nD. 이익분배금을 받을 자격이 없습니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 76
+      },
+      "graderRef": "islam-cisi-q076"
+    },
+    {
+      "id": "islam-cisi-q077",
+      "prompt": "077. 타카풀 사업과 관련하여 샤리아 감독 위원회가 운영되는 경우 주요 역할은 무엇입니까?\n\nA. 카르드 시설을 유지하기 위해\nB. 리타카풀 요구 사항을 정량화하려면\nC. To issue 파트와\nD. To act as 와킬",
+      "metadata": {
+        "period": null,
+        "questionNumber": 77
+      },
+      "graderRef": "islam-cisi-q077"
+    },
+    {
+      "id": "islam-cisi-q078",
+      "prompt": "078. 카르드 계약의 주요 목적은 다음과 같습니다.\n\nA. 자산의 안전한 보관을 확보하다\nB. 구체적인 노력에 대한 보상\nC. 임대차를 설정하다\nD. 자비를 베풀다",
+      "metadata": {
+        "period": null,
+        "questionNumber": 78
+      },
+      "graderRef": "islam-cisi-q078"
+    },
+    {
+      "id": "islam-cisi-q079",
+      "prompt": "079. 다음 중 통화 판매에 관한 AAOIFI의 샤리아 표준에 따라 허용되는 추정적 점유 형태는 무엇입니까?\n\nA. 현금 대 현금 직접 배달\nB. 적어도 한 당사자에 의한 부분 배송\nC. 미지급 자금 수표\nD. 연기 없이 납부된 신용카드 전표",
+      "metadata": {
+        "period": null,
+        "questionNumber": 79
+      },
+      "graderRef": "islam-cisi-q079"
+    },
+    {
+      "id": "islam-cisi-q080",
+      "prompt": "080. 이슬람 금융 계약에서는 보증 비용을 지불하는 것이 다음과 관련된 규칙을 위반하므로 기피됩니다.\n\nA. 마이시르\nB. 리바\nC. 가라르\nD. 사르프",
+      "metadata": {
+        "period": null,
+        "questionNumber": 80
+      },
+      "graderRef": "islam-cisi-q080"
+    },
+    {
+      "id": "islam-cisi-q081",
+      "prompt": "081. 무다리브으로서 타카풀 펀드의 투자를 관리하는 보험 운영자의 보수에 관한 다음 설명 중 참인 것은 무엇입니까?\n\nA. 무다리브은 타카풀 펀드의 자본 손실에 대해 책임을 집니다.\nB. 위법 행위나 과실이 없는 한, 기금 손실의 어떤 부분도 무다리브이 부담하지 않습니다.\nC. 타카풀 자금 관리에 대한 총 무다리브 수수료는 인수 잉여의 일부에 불과합니다.\nD. 타카풀 펀드의 수익이 기대에 미치지 못하는 경우, 보험 계약자는 무다리브으로 인해 수수료의 일부를 유보할 수 있습니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 81
+      },
+      "graderRef": "islam-cisi-q081"
+    },
+    {
+      "id": "islam-cisi-q082",
+      "prompt": "082. 가족 타카풀은 다음과 같이 가장 잘 설명됩니다.\n\nA. 특정 기간 내에 보유자가 사망하는 경우에만 사망 혜택을 제공하는 기간 보장 형태\nB. 종신보험으로, 보유자가 사망할 때마다 사망보험금만 제공\nC. 만기일이 있는 저축 플랜으로, 보유자가 해당 날짜 이전에 사망할 경우 사망 혜택이 포함됩니다.\nD. 다양한 수준의 사망 혜택을 통합하고 만기일이 무제한인 저축 계획",
+      "metadata": {
+        "period": null,
+        "questionNumber": 82
+      },
+      "graderRef": "islam-cisi-q082"
+    },
+    {
+      "id": "islam-cisi-q083",
+      "prompt": "083. 이슬람 기업은 기업 지배구조 원칙이 샤리아를 준수함을 다음과 같이 입증합니다.\n\nA. 경쟁업체와의 경쟁 제한\nB. 고객 만족보다 수익성을 우선시\nC. 주주들에게 연간 배당금을 늘린다\nD. 직원들이 공정하게 대우받도록 보장",
+      "metadata": {
+        "period": null,
+        "questionNumber": 83
+      },
+      "graderRef": "islam-cisi-q083"
+    },
+    {
+      "id": "islam-cisi-q084",
+      "prompt": "084. 수쿠크 al 와칼라에 따라 인증서 보유자에게 정기적으로 배포하려면 와칼라 포트폴리오에서 생성된 수익을 반영하는 금액을 다음 사람이 지불해야 합니다.\n\nA. 투자 대행사에서 서비스 대행사로\nB. 수탁자에게 서비스 대리인\nC. 임대인에 대한 수탁자\nD. 투자 대리인에게 임대인",
+      "metadata": {
+        "period": null,
+        "questionNumber": 84
+      },
+      "graderRef": "islam-cisi-q084"
+    },
+    {
+      "id": "islam-cisi-q085",
+      "prompt": "085. 이자라 wa 익티나 계약에 관한 다음 중 사실인 것은 무엇입니까?\n\nA. 임차인은 계약 종료 시 자산을 매입할 의무가 있습니다.\nB. 임대인은 계약 종료 시 자산을 매각할 의무가 있습니다.\nC. 임대인과 임차인은 계약 만기일에 자산을 판매하고 구매하기로 약속할 수 있습니다.\nD. 자산 구매에 대한 언급이 임대 계약에 포함됩니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 85
+      },
+      "graderRef": "islam-cisi-q085"
+    },
+    {
+      "id": "islam-cisi-q086",
+      "prompt": "086. 특정 회사에 컴퓨터를 제공하기 위해 병렬 이스티스나 계약이 사용되고 있습니다. 이러한 유형의 배열을 사용하는 주된 이유는 다음과 같습니다.\n\nA. 은행은 전체 프로젝트에 자금을 조달할 수 없다고 생각합니다\nB. 은행은 제조 후 컴퓨터를 보관할 의사가 없습니다.\nC. 클라이언트는 단계적 배송 방식으로만 컴퓨터를 구입하기를 원합니다.\nD. 고객은 몇 달 전에 보장된 배송을 위해 지금 보장된 가격을 원합니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 86
+      },
+      "graderRef": "islam-cisi-q086"
+    },
+    {
+      "id": "islam-cisi-q087",
+      "prompt": "087. 건축업자는 명시된 제조사, 유형, 색상 및 크기의 타일 4,000개를 구매하는 계약을 체결했습니다. 가격은 처음에 합의되고 지불되지만 배송은 60일 이내에 이루어집니다. 이것은 어떤 종류의 계약인가요?\n\nA. 살람\nB. 무라바하\nC. 무샤라카\nD. 이자라",
+      "metadata": {
+        "period": null,
+        "questionNumber": 87
+      },
+      "graderRef": "islam-cisi-q087"
+    },
+    {
+      "id": "islam-cisi-q088",
+      "prompt": "088. 일정 금액 이상의 재산을 소유한 무슬림은 종교세를 납부해야 합니다. 이 세금은 다음과 같이 알려져 있습니다.\n\nA. 사다카\nB. 자카트\nC. 와크프\nD. 타바루",
+      "metadata": {
+        "period": null,
+        "questionNumber": 88
+      },
+      "graderRef": "islam-cisi-q088"
+    },
+    {
+      "id": "islam-cisi-q089",
+      "prompt": "089. 하람으로 간주되는 투자는 매출액이 미미한 수준으로 간주되는 경우에도 허용될 수 있습니다. 일반적으로 합의된 최대 허용 비율은 얼마입니까?\n\nA. 1%\nB. 5%\nC. 10 %\nD. 25 %",
+      "metadata": {
+        "period": null,
+        "questionNumber": 89
+      },
+      "graderRef": "islam-cisi-q089"
+    },
+    {
+      "id": "islam-cisi-q090",
+      "prompt": "090. 어떤 상황에서 판매자가 특정 판매와 관련하여 '취소 옵션'을 사용할 수 없습니까?\n\nA. 구매자는 미성년자였으며 아버지의 동의를 얻었습니다.\nB. 판매자가 판매 프로세스를 시작했습니다.\nC. 계약 체결일 이후에 옵션이 행사된 경우\nD. 금 매매에 관한 계약",
+      "metadata": {
+        "period": null,
+        "questionNumber": 90
+      },
+      "graderRef": "islam-cisi-q090"
+    },
+    {
+      "id": "islam-cisi-q091",
+      "prompt": "091. 이슬람 계약법의 어떤 기본 원칙에 따라 이자 지급 계약을 중단하기 위해 즉각적인 접근 방식이 아닌 점진적인 접근 방식을 취하는 것이 허용됩니까?\n\nA. 계약의 자유\nB. 행동은 목표에 따라 판단된다\nC. 관습과 관습\nD. 어려움이 닥쳤을 때의 유연성",
+      "metadata": {
+        "period": null,
+        "questionNumber": 91
+      },
+      "graderRef": "islam-cisi-q091"
+    },
+    {
+      "id": "islam-cisi-q092",
+      "prompt": "092. 다음 중 고정 수입 유형의 계약이 아닌 것은 무엇입니까?\n\nA. 살람\nB. 무라바하\nC. 무샤라카\nD. 이스티나",
+      "metadata": {
+        "period": null,
+        "questionNumber": 92
+      },
+      "graderRef": "islam-cisi-q092"
+    },
+    {
+      "id": "islam-cisi-q093",
+      "prompt": "093. 한 사업가가 프로젝트 자금이 필요하고 이를 달성하기 위해 XYZ 이슬람 은행과 무다라바 계약을 체결합니다. A, B, C, D 개인은 이 자본 조달을 돕기 위해 은행에 투자합니다. 이 합의와 관련하여 일반적으로 누가 무다라바 인증서를 받게 됩니까?\n\nA. 무다리브만\nB. Rab al Mal 전용\nC. 무다리브과 Rab al Mal 모두\nD. A, B, C, D 사람",
+      "metadata": {
+        "period": null,
+        "questionNumber": 93
+      },
+      "graderRef": "islam-cisi-q093"
+    },
+    {
+      "id": "islam-cisi-q094",
+      "prompt": "094. 재보험에 대한 필요성이 기존 금융보다 이슬람 금융에서 더 큰 경향이 있는 이유는 무엇입니까?\n\nA. 위험을 양도하는 능력이 훨씬 더 쉬워졌습니다.\nB. 사업은 훨씬 더 복잡합니다.\nC. 사업 규모가 현저히 작아졌습니다.\nD. 인수를 수행하는 능력이 훨씬 더 어렵습니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 94
+      },
+      "graderRef": "islam-cisi-q094"
+    },
+    {
+      "id": "islam-cisi-q095",
+      "prompt": "095. 이슬람개발은행 출범 이후 최초로 현대 이슬람 상업은행을 출범시킨 국가는 어디입니까?\n\nA. Dubai\nB. Oman\nC. 바레인\nD. Qatar",
+      "metadata": {
+        "period": null,
+        "questionNumber": 95
+      },
+      "graderRef": "islam-cisi-q095"
+    },
+    {
+      "id": "islam-cisi-q096",
+      "prompt": "096. 자카트을 계산하는 두 가지 방법은 다음과 같습니다.\n\nA. 지분법과 비지분법\nB. 무라바하 방식과 무다라바 방식\nC. 현금기준법과 자산기준법\nD. 순자산법과 순투자법",
+      "metadata": {
+        "period": null,
+        "questionNumber": 96
+      },
+      "graderRef": "islam-cisi-q096"
+    },
+    {
+      "id": "islam-cisi-q097",
+      "prompt": "097. Bill은 Mary에게 자신의 차를 팔겠다고 제안했지만 가격을 명시하는 것을 거부합니다. 이는 다음의 예입니다.\n\nA. 리바\nB. 마이시르\nC. 가라르\nD. 키마르",
+      "metadata": {
+        "period": null,
+        "questionNumber": 97
+      },
+      "graderRef": "islam-cisi-q097"
+    },
+    {
+      "id": "islam-cisi-q098",
+      "prompt": "098. 피보험자와 상호 인수 풀 간의 관계를 다루기 위해 타카풀에서 사용하는 피크흐 계약은 다음의 핵심 원칙을 기반으로 합니다.\n\nA. 책임성\nB. 손해보상\nC. 양도\nD. 대리",
+      "metadata": {
+        "period": null,
+        "questionNumber": 98
+      },
+      "graderRef": "islam-cisi-q098"
+    },
+    {
+      "id": "islam-cisi-q099",
+      "prompt": "099. 다음 중 이슬람 은행에서는 자동으로 수행되지만 일반 은행에서는 수행되지 않는 서비스/시설은 무엇입니까?\n\nA. 국제 연락 서비스\nB. 지역사회 복지 서비스\nC. 신용카드 시설\nD. 자금 이체 시설",
+      "metadata": {
+        "period": null,
+        "questionNumber": 99
+      },
+      "graderRef": "islam-cisi-q099"
+    },
+    {
+      "id": "islam-cisi-q100",
+      "prompt": "100. 좋은 청구 경험의 결과로 타카풀의 보험 계약자는 생성된 인수 잉여금을 받을 자격을 갖게 되었습니다. 이러한 유형의 권리는 기존의 독점 보험 기금과 기존의 상호 보험 기금에서 발생할 수 있습니까?\n\nA. 두 경우 모두 아니요\nB. 기존의 자기보험펀드의 경우에만 해당\nC. 기존 상호보험펀드의 경우에만 해당\nD. 네, 두 경우 모두요",
+      "metadata": {
+        "period": null,
+        "questionNumber": 100
+      },
+      "graderRef": "islam-cisi-q100"
+    }
+  ]
+}

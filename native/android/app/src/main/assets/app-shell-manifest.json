@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "contract": "shared-beta6-app-shell",
+  "web": {
+    "serviceWorker": "/sw.js",
+    "pwaManifest": "/static/manifest.webmanifest"
+  },
+  "nativeShell": {
+    "mode": "thin-webview",
+    "routesSource": "app-shell-manifest.json",
+    "featureSource": "app-shell-manifest.json",
+    "networkPolicy": "same-origin-api",
+    "storagePolicy": "shared-session-token-and-outbox"
+  },
+  "sharedAssets": [
+    "/static/app-shell-manifest.json",
+    "/static/manifest.webmanifest",
+    "/static/chat-store.js",
+    "/static/job-events.js",
+    "/static/job-progress.js",
+    "/static/job-cancel.js",
+    "/static/ui-i18n.js",
+    "/static/merian-chat.css",
+    "/static/merian-chat.js",
+    "/static/gallery-canvas.css",
+    "/static/gallery-canvas.js",
+    "/static/gallery-chat.js"
+  ],
+  "optionalAssets": [],
+  "products": {
+    "islam": {
+      "key": "islam",
+      "name": "Hikmah AI",
+      "theme": "merian",
+      "serverPort": 8061,
+      "defaultLanguage": "en",
+      "languages": ["en", "ko", "ar", "pa", "ur", "bn", "id", "ms", "fa", "tr", "sw"],
+      "landingRoute": "/islam-merian-chat.html",
+      "chatRoute": "/islam-merian-chat.html",
+      "clientScript": "/static/merian-chat.js",
+      "exposedPages": ["islam", "islam-chat", "islam-bayyinah", "islam-bayyinah-chat", "islam-gallery", "islam-gallery-chat", "islam-merian-chat", "islam-buylow-chat"],
+      "capabilities": ["landing", "chat", "jobs", "jobEvents", "jobProgress", "jobCancel", "sourceWindow", "citationSourceWindow", "localChatStore", "offlineOutbox", "anonymousSessionToken", "accountSubjectBinding"],
+      "api": {"jobs": "/api/islam/jobs", "sourceWindow": "/api/islam/source-window", "jobStatus": "/api/islam/jobs/{jobId}", "jobEvents": "/api/islam/jobs/{jobId}/events", "jobResult": "/api/islam/jobs/{jobId}/result", "jobCancel": "/api/islam/jobs/{jobId}/cancel"},
+      "native": {"displayName": "Hikmah AI Merian", "entryRoute": "/islam-merian-chat.html", "chatRoute": "/islam-merian-chat.html", "offlineStore": "indexeddb-outbox-compatible", "sessionTokenStore": "product-local-secret", "accountSubjectStore": "product-account-subject"}
+    },
+    "buddhist": {
+      "key": "buddhist",
+      "name": "Buddhist AI",
+      "theme": "merian",
+      "serverPort": 8064,
+      "defaultLanguage": "ko",
+      "languages": ["ko", "en"],
+      "landingRoute": "/buddhist-merian-chat.html",
+      "chatRoute": "/buddhist-merian-chat.html",
+      "clientScript": "/static/merian-chat.js",
+      "exposedPages": ["buddhist-gallery", "buddhist-gallery-chat", "buddhist-merian-chat", "buddhist-buylow-chat"],
+      "capabilities": ["landing", "chat", "jobs", "jobEvents", "jobProgress", "jobCancel", "sourceWindow", "citationSourceWindow", "localChatStore", "offlineOutbox", "anonymousSessionToken", "accountSubjectBinding"],
+      "api": {"jobs": "/api/buddhist/jobs", "sourceWindow": "/api/buddhist/source-window", "jobStatus": "/api/buddhist/jobs/{jobId}", "jobEvents": "/api/buddhist/jobs/{jobId}/events", "jobResult": "/api/buddhist/jobs/{jobId}/result", "jobCancel": "/api/buddhist/jobs/{jobId}/cancel"},
+      "native": {"displayName": "Buddhist AI Merian", "entryRoute": "/buddhist-merian-chat.html", "chatRoute": "/buddhist-merian-chat.html", "offlineStore": "indexeddb-outbox-compatible", "sessionTokenStore": "product-local-secret", "accountSubjectStore": "product-account-subject"}
+    },
+    "catholic": {
+      "key": "catholic",
+      "name": "Christian AI",
+      "theme": "merian",
+      "serverPort": 8065,
+      "defaultLanguage": "ko",
+      "languages": ["ko", "en"],
+      "landingRoute": "/catholic-merian-chat.html",
+      "chatRoute": "/catholic-merian-chat.html",
+      "clientScript": "/static/merian-chat.js",
+      "exposedPages": ["catholic-gallery", "catholic-gallery-chat", "catholic-merian-chat", "catholic-buylow-chat"],
+      "capabilities": ["landing", "chat", "jobs", "jobEvents", "jobProgress", "jobCancel", "sourceWindow", "citationSourceWindow", "localChatStore", "offlineOutbox", "anonymousSessionToken", "accountSubjectBinding"],
+      "api": {"jobs": "/api/catholic/jobs", "sourceWindow": "/api/catholic/source-window", "jobStatus": "/api/catholic/jobs/{jobId}", "jobEvents": "/api/catholic/jobs/{jobId}/events", "jobResult": "/api/catholic/jobs/{jobId}/result", "jobCancel": "/api/catholic/jobs/{jobId}/cancel"},
+      "native": {"displayName": "Christian AI Merian", "entryRoute": "/catholic-merian-chat.html", "chatRoute": "/catholic-merian-chat.html", "offlineStore": "indexeddb-outbox-compatible", "sessionTokenStore": "product-local-secret", "accountSubjectStore": "product-account-subject"}
+    },
+    "hindu": {
+      "key": "hindu",
+      "name": "Hindu AI",
+      "theme": "merian",
+      "serverPort": 8066,
+      "defaultLanguage": "ko",
+      "languages": ["ko", "en"],
+      "landingRoute": "/hindu-merian-chat.html",
+      "chatRoute": "/hindu-merian-chat.html",
+      "clientScript": "/static/merian-chat.js",
+      "exposedPages": ["hindu-gallery", "hindu-gallery-chat", "hindu-merian-chat", "hindu-buylow-chat"],
+      "capabilities": ["landing", "chat", "jobs", "jobEvents", "jobProgress", "jobCancel", "sourceWindow", "citationSourceWindow", "localChatStore", "offlineOutbox", "anonymousSessionToken", "accountSubjectBinding"],
+      "api": {"jobs": "/api/hindu/jobs", "sourceWindow": "/api/hindu/source-window", "jobStatus": "/api/hindu/jobs/{jobId}", "jobEvents": "/api/hindu/jobs/{jobId}/events", "jobResult": "/api/hindu/jobs/{jobId}/result", "jobCancel": "/api/hindu/jobs/{jobId}/cancel"},
+      "native": {"displayName": "Hindu AI Merian", "entryRoute": "/hindu-merian-chat.html", "chatRoute": "/hindu-merian-chat.html", "offlineStore": "indexeddb-outbox-compatible", "sessionTokenStore": "product-local-secret", "accountSubjectStore": "product-account-subject"}
+    },
+    "tcm": {
+      "key": "tcm",
+      "name": "Hanui AI",
+      "theme": "merian",
+      "serverPort": 8062,
+      "defaultLanguage": "ko",
+      "languages": ["ko", "en"],
+      "landingRoute": "/tcm-merian-chat.html",
+      "chatRoute": "/tcm-merian-chat.html",
+      "clientScript": "/static/merian-chat.js",
+      "exposedPages": ["tcm", "tcm-chat", "tcm-vertical", "tcm-gallery", "tcm-gallery-chat", "tcm-merian-chat"],
+      "capabilities": ["landing", "chat", "jobs", "jobEvents", "jobProgress", "jobCancel", "sourceWindow", "citationSourceWindow", "localChatStore", "offlineOutbox", "anonymousSessionToken", "accountSubjectBinding"],
+      "api": {"jobs": "/api/tcm/jobs", "sourceWindow": "/api/tcm/source-window", "jobStatus": "/api/tcm/jobs/{jobId}", "jobEvents": "/api/tcm/jobs/{jobId}/events", "jobResult": "/api/tcm/jobs/{jobId}/result", "jobCancel": "/api/tcm/jobs/{jobId}/cancel"},
+      "native": {"displayName": "Hanui AI Merian", "entryRoute": "/tcm-merian-chat.html", "chatRoute": "/tcm-merian-chat.html", "offlineStore": "indexeddb-outbox-compatible", "sessionTokenStore": "product-local-secret", "accountSubjectStore": "product-account-subject"}
+    },
+    "simli": {
+      "key": "simli",
+      "name": "PsyKey AI",
+      "theme": "simli",
+      "serverPort": 8063,
+      "defaultLanguage": "ko",
+      "languages": ["ko", "en"],
+      "landingRoute": "/simli.html",
+      "chatRoute": "/simli-chat.html",
+      "clientScript": "/static/simli-chat.js",
+      "exposedPages": ["simli", "simli-chat"],
+      "capabilities": ["landing", "chat", "jobs", "jobEvents", "jobProgress", "jobCancel", "sourceWindow", "citationSourceWindow", "localChatStore", "offlineOutbox", "anonymousSessionToken", "accountSubjectBinding"],
+      "api": {"jobs": "/api/simli/jobs", "sourceWindow": "/api/simli/source-window", "jobStatus": "/api/simli/jobs/{jobId}", "jobEvents": "/api/simli/jobs/{jobId}/events", "jobResult": "/api/simli/jobs/{jobId}/result", "jobCancel": "/api/simli/jobs/{jobId}/cancel"},
+      "native": {"displayName": "PsyKey AI", "entryRoute": "/simli.html", "chatRoute": "/simli-chat.html", "offlineStore": "indexeddb-outbox-compatible", "sessionTokenStore": "product-local-secret", "accountSubjectStore": "product-account-subject"}
+    }
+  }
+}

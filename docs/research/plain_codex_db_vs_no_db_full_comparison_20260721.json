@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "reportId": "plain-codex-db-vs-no-db-full-comparison-20260721",
+  "createdAt": "2026-07-21T02:54:39+09:00",
+  "status": "complete",
+  "design": {
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "high",
+    "pairedCaseSet": true,
+    "freshRuns": true,
+    "oneModelCallPerBatch": true,
+    "batchCountPerArm": 80,
+    "caseCountPerArm": 619,
+    "onlyIntendedSolverCapabilityDifference": "optional allowlisted read-only subject database access in the DB arm",
+    "commonClosedCapabilities": [
+      "web",
+      "shell_or_code",
+      "non_database_mcp",
+      "skills",
+      "universal_engine",
+      "beta6_engine"
+    ],
+    "independentScoring": "two closed judges per semantic batch; third closed judge only on disagreement",
+    "rerunOnSemanticFailure": false
+  },
+  "input": {
+    "registryPath": "runs/luna-pilot/semantic-rewrite-all-v1/combined/evaluation_registry.open_response.staging.json",
+    "registrySha256": "9102c91556c2caa6ece407776b4dcb8174c3255952e079149265759f088c0221",
+    "convertedCases": 945,
+    "readyCases": 619,
+    "rewriteRequiredCases": 326,
+    "newlyApprovedSemanticRewritesIncluded": 146,
+    "canonicalPromotionPerformed": false
+  },
+  "arms": {
+    "noDb": {
+      "freezePath": "docs/research/plain_codex_no_db_full_freeze_20260721.json",
+      "freezeSha256": "c33d50e00eeb38046fa30894cb45859cb468121983a9f63a2555d2f2242735c8",
+      "outputRoot": "runs/luna-pilot/plain-no-db-full-v2",
+      "solverLedgerSha256": "e0a94fdec88183335cbd6d80c9be9dfe39fdb8a47c3af31970d980da168d81cd",
+      "scoreLedgerSha256": "a8c431673472ce9bdc20c61b9df33d34a5fc38bcba882a1e8488834d8abbd23b",
+      "aggregateSha256": "90bf09473da15667fc2890570abb3d34d4052d40f862e7d2cdc1fe9b235f3be2",
+      "passed": 393,
+      "failed": 218,
+      "unresolved": 8,
+      "accuracy": 0.6348949919224556,
+      "resolvedOnlyAccuracy": 0.6432078559738135,
+      "solverCalls": 80,
+      "solverTokens": 817390,
+      "judgeCalls": 162,
+      "judgeTokens": 1691323
+    },
+    "dbOnly": {
+      "freezePath": "docs/research/plain_codex_db_only_full_freeze_20260721.json",
+      "freezeSha256": "2c297575297a43b414808dde274587c5ce069562801d7120531096484fd7a1f4",
+      "outputRoot": "runs/luna-pilot/plain-db-only-full-v2",
+      "solverLedgerSha256": "8d77295ca5cf777c177e02d812873105c8f3542460805d9ab782f602c30603df",
+      "scoreLedgerSha256": "cdc0abbf46daceb26d8c178bd8650b0b763584111d999b376bd091dc5858dd44",
+      "aggregateSha256": "9428ab541d1dff2702afd937e923060bd9e1c3df26364385537cf27f1cbaed14",
+      "passed": 364,
+      "failed": 226,
+      "unresolved": 29,
+      "accuracy": 0.5880452342487884,
+      "resolvedOnlyAccuracy": 0.6169491525423729,
+      "solverCalls": 80,
+      "solverTokens": 948774,
+      "judgeCalls": 150,
+      "judgeTokens": 1567962
+    }
+  },
+  "headlineComparison": {
+    "passedDeltaDbMinusNoDb": -29,
+    "failedDeltaDbMinusNoDb": 8,
+    "unresolvedDeltaDbMinusNoDb": 21,
+    "accuracyDeltaDbMinusNoDb": -0.04684975767366717,
+    "accuracyDeltaPercentagePoints": -4.684975767366717,
+    "resolvedOnlyAccuracyDeltaDbMinusNoDb": -0.026258703431440544,
+    "resolvedOnlyAccuracyDeltaPercentagePoints": -2.6258703431440544,
+    "solverTokenDeltaDbMinusNoDb": 131384,
+    "solverTokenRatioDbOverNoDb": 1.16073600117447
+  },
+  "byBenchmark": [
+    {
+      "benchmarkId": "open_response.lawkey.leet2026.v2",
+      "total": 16,
+      "noDb": {"passed": 11, "failed": 5, "unresolved": 0, "accuracy": 0.6875},
+      "dbOnly": {"passed": 10, "failed": 6, "unresolved": 0, "accuracy": 0.625},
+      "accuracyDeltaPercentagePoints": -6.25
+    },
+    {
+      "benchmarkId": "open_response.tcm.kuksiwon81.unique92.v2",
+      "total": 37,
+      "noDb": {"passed": 26, "failed": 11, "unresolved": 0, "accuracy": 0.7027027027027027},
+      "dbOnly": {"passed": 24, "failed": 13, "unresolved": 0, "accuracy": 0.6486486486486487},
+      "accuracyDeltaPercentagePoints": -5.405405405405406
+    },
+    {
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "total": 91,
+      "noDb": {"passed": 86, "failed": 5, "unresolved": 0, "accuracy": 0.945054945054945},
+      "dbOnly": {"passed": 86, "failed": 5, "unresolved": 0, "accuracy": 0.945054945054945},
+      "accuracyDeltaPercentagePoints": 0.0
+    },
+    {
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "total": 85,
+      "noDb": {"passed": 54, "failed": 31, "unresolved": 0, "accuracy": 0.6352941176470588, "resolvedOnlyAccuracy": 0.6352941176470588},
+      "dbOnly": {"passed": 46, "failed": 26, "unresolved": 13, "accuracy": 0.5411764705882353, "resolvedOnlyAccuracy": 0.6388888888888888},
+      "accuracyDeltaPercentagePoints": -9.411764705882353,
+      "resolvedOnlyAccuracyDeltaPercentagePoints": 0.35947712418300526
+    },
+    {
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "total": 86,
+      "noDb": {"passed": 39, "failed": 39, "unresolved": 8, "accuracy": 0.45348837209302323, "resolvedOnlyAccuracy": 0.5},
+      "dbOnly": {"passed": 40, "failed": 46, "unresolved": 0, "accuracy": 0.46511627906976744, "resolvedOnlyAccuracy": 0.46511627906976744},
+      "accuracyDeltaPercentagePoints": 1.1627906976744207,
+      "resolvedOnlyAccuracyDeltaPercentagePoints": -3.4883720930232565
+    },
+    {
+      "benchmarkId": "open_response.islam.aqa4.v2",
+      "total": 3,
+      "noDb": {"passed": 3, "failed": 0, "unresolved": 0, "accuracy": 1.0},
+      "dbOnly": {"passed": 3, "failed": 0, "unresolved": 0, "accuracy": 1.0},
+      "accuracyDeltaPercentagePoints": 0.0
+    },
+    {
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "total": 301,
+      "noDb": {"passed": 174, "failed": 127, "unresolved": 0, "accuracy": 0.5780730897009967, "resolvedOnlyAccuracy": 0.5780730897009967},
+      "dbOnly": {"passed": 155, "failed": 130, "unresolved": 16, "accuracy": 0.5149501661129569, "resolvedOnlyAccuracy": 0.543859649122807},
+      "accuracyDeltaPercentagePoints": -6.312292358803984,
+      "resolvedOnlyAccuracyDeltaPercentagePoints": -3.421344057818965
+    }
+  ],
+  "caseLevelTransitions": {
+    "passToPass": 338,
+    "failToFail": 175,
+    "passToFail": 45,
+    "failToPass": 24,
+    "passToUnresolved": 10,
+    "failToUnresolved": 19,
+    "unresolvedToPass": 2,
+    "unresolvedToFail": 6,
+    "changedVerdictCases": 106,
+    "bothArmsResolvedCases": 582,
+    "exactlyIdenticalPredictionsAmongBothResolved": 163,
+    "differentPredictionStringsAmongBothResolved": 419,
+    "exactPredictionMatchRateAmongBothResolved": 0.2800687285223368
+  },
+  "databaseUsage": {
+    "attemptedCalls": 6,
+    "batchesWithAnyDatabaseCall": 3,
+    "batchUsageRate": 0.0375,
+    "casesInDatabaseCallingBatches": 21,
+    "casesInZeroCallBatches": 598,
+    "zeroCallCaseRate": 0.9660743134087237,
+    "policyValidDatabaseUseBatches": 1,
+    "policyValidDatabaseUseCases": 8,
+    "policyValidUseBatchRate": 0.0125,
+    "policyValidUseCaseVerdictTransitions": {"passToPass": 3, "failToFail": 5},
+    "policyQuarantinedDatabaseUseBatches": 2,
+    "policyQuarantinedDatabaseUseCases": 13,
+    "policyQuarantineReasons": [
+      "domain evidence call budget exceeded",
+      "database query token limit exceeded",
+      "database query length limit exceeded",
+      "failed database calls"
+    ],
+    "responseQuarantinedZeroCallBatches": 2,
+    "responseQuarantinedZeroCallCases": 16,
+    "responseQuarantineReasons": [
+      "invalid answer value",
+      "batch answer IDs did not match requested IDs"
+    ]
+  },
+  "audit": {
+    "errors": 0,
+    "noDbSolver": {"artifacts": 80, "results": 619, "webEvents": 0, "commandEvents": 0, "mcpEvents": 0, "skillEvents": 0, "invalidJsonlLines": 0},
+    "dbOnlySolver": {"artifacts": 80, "results": 619, "webEvents": 0, "commandEvents": 0, "databaseMcpEvents": 6, "otherMcpEvents": 0, "skillEvents": 0, "invalidJsonlLines": 0, "dbAuditPassArtifacts": 78, "dbAuditFailArtifacts": 2},
+    "noDbJudges": {"artifacts": 66, "calls": 162, "thirdRepeatGroups": 30, "allClosedAuditPassed": true, "allToolEventCounts": 0, "invalidJsonlLines": 0},
+    "dbOnlyJudges": {"artifacts": 64, "calls": 150, "thirdRepeatGroups": 22, "allClosedAuditPassed": true, "allToolEventCounts": 0, "invalidJsonlLines": 0},
+    "postRunDryRunValidationPassed": true,
+    "artifactHashesAndLinksPassed": true
+  },
+  "interpretation": {
+    "primaryFinding": "In this single fresh paired-case execution, optional DB access did not improve the benchmark and the DB arm scored lower overall.",
+    "successfulDatabaseUseFinding": "The only policy-valid DB-using batch preserved all eight case verdicts relative to no-DB: three remained pass and five remained fail.",
+    "operationalFinding": "The model declined DB access in 77 of 80 batches; two of the three DB-using batches were policy-quarantined.",
+    "causalLimit": "This is one fresh run per arm without fixed sampling seeds. Prompt/tool-schema exposure and ordinary model sampling differ between arms, so the full score delta cannot be attributed solely to retrieved DB content.",
+    "recommendation": "Keep no-DB and DB-access benchmarks separate. Use the no-DB arm as the primary baseline; treat DB as a targeted, gated ablation until repeated runs show a reliable gain and client-side query/call validation prevents policy quarantines."
+  }
+}

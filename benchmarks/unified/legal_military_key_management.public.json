@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "benchmarkId": "legal.military_key_management.v1",
+  "taskType": "legal_retrieval_answer",
+  "product": "lawkey",
+  "cases": [
+    {
+      "id": "military-key-management",
+      "language": "ko",
+      "variants": [
+        {
+          "id": "v1",
+          "query": "군대에서 키는 어캐 관리해야함?",
+          "evaluationStatus": "needs_clarification_rewrite",
+          "riskReasons": [
+            "lexically_ambiguous_physical_key_vs_height"
+          ]
+        },
+        {
+          "id": "v2",
+          "query": "군부대 탄약고나 무기고 열쇠 관리 기준을 판례 근거로 알려줘"
+        },
+        {
+          "id": "v3",
+          "query": "부대 시설 열쇠를 한 사람이 계속 보관해도 되는지, 인계나 점검은 어떻게 해야 하는지 궁금해"
+        },
+        {
+          "id": "v4",
+          "query": "군 보안구역 출입키 관리 소홀로 징계받은 사건에서 법원이 본 기준은 뭐야?"
+        }
+      ],
+      "runtime": {
+        "candidateLimit": 50
+      },
+      "graderRef": "military-key-management"
+    }
+  ]
+}

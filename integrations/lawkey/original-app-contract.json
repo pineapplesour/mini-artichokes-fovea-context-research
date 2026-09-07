@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "productKey": "lawkey",
+  "mode": "external-original-app",
+  "sourceRoot": "external/lawkey-original",
+  "serverModule": "apps.lawkey.server:app",
+  "defaultPort": 8037,
+  "frontend": {
+    "kind": "original-expo-dist",
+    "kernelIntegrationStatus": "hook-level-capability-boundary-not-full-shared-browser-runtime",
+    "route": "/",
+    "distPath": "external/lawkey-original/dist",
+    "sourceEntrypoint": "external/lawkey-original/app/index.tsx",
+    "primaryWorkspace": "external/lawkey-original/components/lawkey/workspace.tsx",
+    "universalKernelAdapter": "external/lawkey-original/lib/universal-ui-kernel.ts"
+  },
+  "backend": {
+    "module": "backend.server:app",
+    "source": "external/lawkey-original/backend/server.py",
+    "health": "/api/health",
+    "jobs": "/api/jobs",
+    "jobStatus": "/api/jobs/{jobId}",
+    "jobResult": "/api/jobs/{jobId}/result",
+    "precedentDetail": "/api/jobs/{jobId}/precedents/{precedentId}"
+  },
+  "engine": {
+    "module": "backend.jobs.LawkeyJobManager",
+    "source": "external/lawkey-original/backend/jobs.py",
+    "workspaceScriptEnv": "LAWKEY_LEGAL_RAG_SCRIPT",
+    "defaultWorkspaceRoot": "/var/lib/lawkey"
+  },
+  "db": {
+    "canonicalEnv": "LAWKEY_PRECEDENT_DB_PATH",
+    "universalAliasEnv": "RELIGION_LAWKEY_DB_PATH",
+    "defaultPath": "/var/lib/universal-artichoke/lawkey/precedents.sqlite3",
+    "releaseTag": "db-full-20260514",
+    "releaseManifestAsset": "lawkey.release-manifest.json"
+  },
+  "invariants": {
+    "preserveOriginalDesign": true,
+    "preserveOriginalEngine": true,
+    "doNotCreateUniversalHtmlShells": true,
+    "doNotModifyOriginalSourceDuringAdapterWork": true
+  }
+}

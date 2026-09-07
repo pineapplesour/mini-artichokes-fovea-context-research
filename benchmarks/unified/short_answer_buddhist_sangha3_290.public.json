@@ -1,0 +1,2619 @@
+{
+  "schemaVersion": 1,
+  "benchmarkId": "short_answer.buddhist.sangha3_290.v1",
+  "taskType": "short_answer",
+  "product": "buddhist",
+  "language": "ko",
+  "cases": [
+    {
+      "id": "buddhist-sangha3-q001",
+      "prompt": "음 문장은 무엇에 대한 설명인가? 이 용어는 대승불교 시대에는 깨달음을 구하면서 중생을 제도하는 이상적인 인간상을 지칭하는 말이다. 또한 초기경전에서도 부처님의 과거 인행(因行)시의 자신을 일컫는 말이기도 하다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 1
+      },
+      "graderRef": "buddhist-sangha3-q001"
+    },
+    {
+      "id": "buddhist-sangha3-q002",
+      "prompt": "경전의 상윳따니까야 괴로움경에서는 괴로움을 세 가지로 나누어서 설명한다. 이 세 가지 괴로움(三苦)은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 2
+      },
+      "graderRef": "buddhist-sangha3-q002"
+    },
+    {
+      "id": "buddhist-sangha3-q003",
+      "prompt": "경전의 장아함에 해당하는 것으로 경의 길이가 긴 것을 모아놓은 빠알리 니까야의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 3
+      },
+      "graderRef": "buddhist-sangha3-q003"
+    },
+    {
+      "id": "buddhist-sangha3-q004",
+      "prompt": "경전의 잡아함에 해당하는 빠알리 니까야의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 4
+      },
+      "graderRef": "buddhist-sangha3-q004"
+    },
+    {
+      "id": "buddhist-sangha3-q005",
+      "prompt": "님 초전법륜시의 5비구 중에서 가장 먼저 깨달음을 얻은 비구의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 5
+      },
+      "graderRef": "buddhist-sangha3-q005"
+    },
+    {
+      "id": "buddhist-sangha3-q006",
+      "prompt": "다국의 빔비사라왕이 부처님이 우기(雨期)동안 머무시며 가르침을 펴실 수 있도록 라즈기르(왕사성)에 건립하여 승단에 기증한 최초의 사원의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 6
+      },
+      "graderRef": "buddhist-sangha3-q006"
+    },
+    {
+      "id": "buddhist-sangha3-q007",
+      "prompt": "님께서 열반 하신 후 1차 결집에서 아난존자가 경을 송출했다. 그때 계율을 송출한 스님은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 7
+      },
+      "graderRef": "buddhist-sangha3-q007"
+    },
+    {
+      "id": "buddhist-sangha3-q008",
+      "prompt": "은 사념처(四念處)를 설명하는 문장이다. ( )에 들어갈 알맞은 용어를 쓰시오. 사념처는 ( )을 더러움으로, 느낌을 괴로움으로, 마음을 무상으로, 현상을 무아로 관찰하는 것을 말한다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 8
+      },
+      "graderRef": "buddhist-sangha3-q008"
+    },
+    {
+      "id": "buddhist-sangha3-q009",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어를 차례대로 기술하시오. 12연기 가운데 무명, ( ), 애, 취, 유는 원인의 고리이고 나머지 식, ( ), 육입, 촉, 수, 생, 노·사·우·비·고·뇌는 결과(과보)의 고리이다. 이와 같이 12연기를 과거 현재 미래세의 인과로 설명하는 것을 삼세양중인과(三世兩重因果)라고 한다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 9
+      },
+      "graderRef": "buddhist-sangha3-q009"
+    },
+    {
+      "id": "buddhist-sangha3-q010",
+      "prompt": "르타가 부처님이 될 수 있었던 것은 아득한 전생에 수메다(善慧) 바라문이었을 때 이 부처님 앞에서 서원을 세우고 수기를 받았기 때문이다. 수메다 바라문에게 수기를 준 부처님은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 10
+      },
+      "graderRef": "buddhist-sangha3-q010"
+    },
+    {
+      "id": "buddhist-sangha3-q011",
+      "prompt": "도의 정견(正見)과 정사유(正思惟)는 계정혜(戒定慧) 중 어디에 해당하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 11
+      },
+      "graderRef": "buddhist-sangha3-q011"
+    },
+    {
+      "id": "buddhist-sangha3-q012",
+      "prompt": "문장에서 말하는 인도의 왕은 누구인가? 부처님 열반 후 200여년 뒤의 인도의 왕으로써 인도 전역에 불법을 널리 전파하였다. 인도의 주요 도시마다 불교와 관련된 기념 석주(石柱)를 세웠다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 12
+      },
+      "graderRef": "buddhist-sangha3-q012"
+    },
+    {
+      "id": "buddhist-sangha3-q013",
+      "prompt": "님 당시 수닷타(급고독)장자가 기타태자의 토지를 얻어 부처님을 위해 사위국에 정사를 지어 승단에 기증하였다. 이 정사의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 13
+      },
+      "graderRef": "buddhist-sangha3-q013"
+    },
+    {
+      "id": "buddhist-sangha3-q014",
+      "prompt": "님께서 성도 직후 녹야원에서 교진여 등 5비구에게 처음으로 중도, 팔정도 등을 설법하신 내용을 담고 있는 경전의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 14
+      },
+      "graderRef": "buddhist-sangha3-q014"
+    },
+    {
+      "id": "buddhist-sangha3-q015",
+      "prompt": "의 내용은 부처님에게만 있는 공덕을 설명하고 있다. 이 공덕의 이름은 무엇인가? 이 공덕은 일체를 아는 10가지 능력(十力), 네 가지 두려움이 없는 마음(四無所畏), 다른 사람들의 칭찬 등 평가에 마음이 동요함이 없는 마음(三念住), 대자비(大慈悲) 등을 모두 갖춘 것을 말한다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 15
+      },
+      "graderRef": "buddhist-sangha3-q015"
+    },
+    {
+      "id": "buddhist-sangha3-q016",
+      "prompt": "제(四聖諦) 중에서 ‘괴로움이 일어나는 원인’을 밝히는 진리는 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 16
+      },
+      "graderRef": "buddhist-sangha3-q016"
+    },
+    {
+      "id": "buddhist-sangha3-q017",
+      "prompt": "은 불교에서 말하는 ‘8가지 괴로움(8苦)’이다. ( )에 들어갈 알맞은 말을 기술하시오. 생, 노, 병, 사, 애별리고, 원증회고, ( ), 오음성고",
+      "metadata": {
+        "period": null,
+        "questionNumber": 17
+      },
+      "graderRef": "buddhist-sangha3-q017"
+    },
+    {
+      "id": "buddhist-sangha3-q018",
+      "prompt": "불교에서 말하는 ‘37가지의 불교수행(37조도품)’은 사념처, 사정근, 사여의족, 오근, 오력, 칠각지, 팔정도이다. 다음의 내용은 이 중 무엇을 설명하는 것인가? 아직 발생하지 않은 ‘선하지 않은 법(不善法)’을 발생하지 않게 하고, 이미 일어난 ‘선하지 않은 법’은 소멸시킨다. 그리고 아직 발생하지 않은 ‘선한 법(善法)’은 발생하게 하고, 이미 발생한 ‘선한 법’은 더욱 증장시킨다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 18
+      },
+      "graderRef": "buddhist-sangha3-q018"
+    },
+    {
+      "id": "buddhist-sangha3-q019",
+      "prompt": "인(三法印) 가운데 ‘일체의 모든 현상은 생멸 변화하는 것으로 고정불변하는 것이 없다’고 하는 것을 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 19
+      },
+      "graderRef": "buddhist-sangha3-q019"
+    },
+    {
+      "id": "buddhist-sangha3-q020",
+      "prompt": "인(三法印) 가운데 ‘모든 것은 인연 따라 생기고 인연이 다하면 흩어져 고정불변하는 실체가 없는 것’을 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 20
+      },
+      "graderRef": "buddhist-sangha3-q020"
+    },
+    {
+      "id": "buddhist-sangha3-q021",
+      "prompt": "님의 사촌이며 제자였으나 부처님 대신 승단의 대표자가 되려고 했지만 실패하고, 승단을 탈퇴하여 라자가하(왕사성)에서 독립교단을 만들기 위해 시도한 사람은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 21
+      },
+      "graderRef": "buddhist-sangha3-q021"
+    },
+    {
+      "id": "buddhist-sangha3-q022",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어를 기술하시오 구마라집이 번역한 좌선삼매경에 의하면 좌선의 방법으로 오정심관(五停心觀)을 설하고 있다. 오정심관이란 부정관, ( ), 자비관, 인연관, 염불관이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 22
+      },
+      "graderRef": "buddhist-sangha3-q022"
+    },
+    {
+      "id": "buddhist-sangha3-q023",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어를 기술하시오.초기경전에서 말하는 사무량심(四無量心)은 자, ( ), 희, 사이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 23
+      },
+      "graderRef": "buddhist-sangha3-q023"
+    },
+    {
+      "id": "buddhist-sangha3-q024",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 고대 인도의 바라문들은 네 가지 생활 단계에 따라 살아가야 했다. 첫째 범행기(梵行期), 둘째 가주기(家住期), 셋째 임서기(林棲期), 넷째 ( )이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 24
+      },
+      "graderRef": "buddhist-sangha3-q024"
+    },
+    {
+      "id": "buddhist-sangha3-q025",
+      "prompt": "문장에서 설명하는 사람은 누구인가? 부처님의 사촌동생으로 출가하여 부처님의 제자가 되신 분이다. 부처님이 열반에 드실 때까지 25년간 보필하였으며, 여성의 출가를 세 번이나 간청하여 허락을 얻었다. 그리고 부처님 열반 후 제 1차 결집회의에서 경(經)을 송출한 분이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 25
+      },
+      "graderRef": "buddhist-sangha3-q025"
+    },
+    {
+      "id": "buddhist-sangha3-q026",
+      "prompt": "은 맛지마니까야 어리석은 자와 현명한 자의 경이다. 아래에서 설명하는 내용을 사자성어로 무엇이라 하는가? “비구들이여, 어떤 사람이 구멍이 뚫린 나무판자를 바다에 던져 넣는다. 마침 바다에서 눈먼 거북이가 백년 마다 한 번씩 떠오른다 하자. 그 눈먼 거북이가 백년 마다 한 번씩 물위로 떠올라서 뚫린 나무판자의 구멍 속으로 목을 끼워 넣을 수가 있겠는가?” “세존이시여, 그것은 참으로 오랜 세월이 흐른 뒤 어느 시절 어느 날에 가능할지도 모르겠습니다.” “비구들이여, 눈먼 거북이가 백년 마다 한 번씩 물위로 떠올라서 나무판자의 구멍 속으로 목을 끼워 넣는 것이 한번 악도에 떨어진 어리석은 자가 인간의 몸을 다시 받는 것보다 더 빠르다고 나는 말한다.” 쌍윳따니까야 중에서",
+      "metadata": {
+        "period": null,
+        "questionNumber": 26
+      },
+      "graderRef": "buddhist-sangha3-q026"
+    },
+    {
+      "id": "buddhist-sangha3-q027",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 비구들이여, ( )의 길을 떠나라. 많은 사람의 이익을 위하고 많은 사람의 행복을 위하고 세상을 연민하고 신과 인간의 이상과 이익과 행복을 위하여 유행을 떠나라. 둘이서 같은 길로 가지 말라. 비구들이여, 법을 설하라. 시작도 훌륭하고 중간도 훌륭하고 끝도 훌륭한 법을 설하고, 의미와 표현을 구족하여 법을 설하여, 더할 나위 없이 완벽하고 지극히 청정한 범행(梵行)을 드러내어라.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 27
+      },
+      "graderRef": "buddhist-sangha3-q027"
+    },
+    {
+      "id": "buddhist-sangha3-q028",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 초기경전에서 말하는 37조도품이란 사념처(四念處), 사정근(四正勤), 사여의족(四如意足), 오근(五根), 오력(五力), ( ), 팔정도(八正道)이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 28
+      },
+      "graderRef": "buddhist-sangha3-q028"
+    },
+    {
+      "id": "buddhist-sangha3-q029",
+      "prompt": "은 초전법륜경의 일부이다. ( )에 들어갈 알맞은 용어는 무엇인가? 비구들이여, 양 극단을 여의고 고요함과 최상의 지혜와 바른 깨달음과 열반으로 인도하는 ( )의 길을 가야하느니라. 그것은 바로 팔정도이니 바른 견해(正見), 바른 사유(正思惟), 바른 말(正語), 바른 행위(正業), 바른 생업(正命), 바른 정진(正精進), 바른 기억(正念), 바른 삼매(正定)이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 29
+      },
+      "graderRef": "buddhist-sangha3-q029"
+    },
+    {
+      "id": "buddhist-sangha3-q030",
+      "prompt": "은 앙굿따라니까야 영지(靈知)의 일부경의 내용이다. ( )에 들어갈 알맞은 용어는 무엇인가? 비구들이여, 사마타를 닦으면 어떤 이로움을 경험하는가? 마음이 계발된다. 마음이 계발되면 어떤 이로움을 경험하는가? 욕망이 제거된다. 비구들이여, ( )를 닦으면 어떤 이로움을 경험하는가? 통찰지가 계발된다. 통찰지가 계발되면 어떤 이로움을 경험하는가? 무명이 제거된다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 30
+      },
+      "graderRef": "buddhist-sangha3-q030"
+    },
+    {
+      "id": "buddhist-sangha3-q031",
+      "prompt": "은 앙굿따라니까야의 일부이다. ( )에 들어갈 알맞은 용어는 무엇인가? 비구들이여, ( )와 지계를 행하면 5가지 이익이 있다. 무엇이 5가지인가? 많은 사람들이 좋아하고, 마음에 들어 하고, 선하고 참된 사람들이 가까이 하고, 좋은 명성이 따르고, 좋은 곳(善處)에 태어난다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 31
+      },
+      "graderRef": "buddhist-sangha3-q031"
+    },
+    {
+      "id": "buddhist-sangha3-q032",
+      "prompt": "은 앙굿따라니까야 증오경의 12연기에 대한 설명이다. ( )에 들어갈 알맞은 용어는 무엇인가? 비구들이여, ( )을 조건으로 행(行)이, 행을 조건으로 식(識)이, 식을 조건으로 명색(明色)이, 명색을 조건으로 육입(六入)이, 육입을 조건으로 촉(觸)이, 촉을 조건으로 수(受)가, 수를 조건으로 애(愛)가, 애를 조건으로 취(取)가, 취를 조건으로 유(有)가, 유를 조건으로 생(生)이, 생을 조건으로 늙음, 죽음과 근심, 탄식, 육체적 고통, 정신적 고통, 절망이 생긴다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 32
+      },
+      "graderRef": "buddhist-sangha3-q032"
+    },
+    {
+      "id": "buddhist-sangha3-q033",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 여래의 십호(十號)는 응공, 정변지, 명행족, 선서, ( ), 무상사, 조어장부, 천인사, 불, 세존이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 33
+      },
+      "graderRef": "buddhist-sangha3-q033"
+    },
+    {
+      "id": "buddhist-sangha3-q034",
+      "prompt": "은 상윳따니까야 왁깔리경의 일부분이다. ( )에 공통으로 들어갈 알맞은 용어는? 왁깔리여, 그만 하여라. 그대가 이 썩어문드러질 이 몸을 봐서 무엇을 하겠는가? 왁깔리여, ( )을 보는 자는 여래를 보고, 여래를 보는 자는 ( )을 본다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 34
+      },
+      "graderRef": "buddhist-sangha3-q034"
+    },
+    {
+      "id": "buddhist-sangha3-q035",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 빠알리어로 된 5부 니까야는 디가니까야, ( ), 상윳따니까야, 앙굿따라니까야, 쿳따까니까야이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 35
+      },
+      "graderRef": "buddhist-sangha3-q035"
+    },
+    {
+      "id": "buddhist-sangha3-q036",
+      "prompt": "구들이여, 어떻게 생각하느냐? 색은 영원한가, 무상한가?” “무상합니다. 세존이시여!” “그러면 무상한 것은 괴로운 것인가, 즐거운 것인가?” “괴로운 것입니다. 세존이시여!” “무상하고 괴롭고 변화하는 것을 두고 ‘이것은 내 것이고, 이것은 나이며, 이것은 나의 자아다’라고 한다면 옳은 것인가?” “그렇지 않습니다, 세존이시여!” 쌍윳따니까야 무아상경 다음과 같이 부처님께서 다섯 비구에게 설하신 세 가지 가르침은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 36
+      },
+      "graderRef": "buddhist-sangha3-q036"
+    },
+    {
+      "id": "buddhist-sangha3-q037",
+      "prompt": "은 남전 대반열반경에 나오는 구절이다. ( )에 들어갈 알맞은 말은 무엇인가? “아난다여, 그런데 아마 그대들에게 ‘스승의 가르침은 이제 끝나버렸다. 이제 스승은 계시지 않는다.’라는 이런 생각이 들지도 모른다. 아난다여, 그러나 그렇게 봐서는 안 된다. 아난다여, 내가 가고난 후에는 내가 그대들에게 가르치고 천명한 법(法)과 ( )이 그대들의 스승이 될 것이다.”",
+      "metadata": {
+        "period": null,
+        "questionNumber": 37
+      },
+      "graderRef": "buddhist-sangha3-q037"
+    },
+    {
+      "id": "buddhist-sangha3-q038",
+      "prompt": ", 12처, 18계는 인간 및 존재에 대한 불교적 설명방식이다. 그 가운데 18계(十八界)는 무엇으로 구성되어 있는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 38
+      },
+      "graderRef": "buddhist-sangha3-q038"
+    },
+    {
+      "id": "buddhist-sangha3-q039",
+      "prompt": "은 한역아함경과 빨리4부 니까야를 연결한 것이다. ( )에 알맞은 용어? 장아함 ― 디가니까야, 중 아 함 ― 맛지마니까야, 잡아함 ― 상윳다니까야, 증일아함 ― ( )",
+      "metadata": {
+        "period": null,
+        "questionNumber": 39
+      },
+      "graderRef": "buddhist-sangha3-q039"
+    },
+    {
+      "id": "buddhist-sangha3-q040",
+      "prompt": "은 37조도품 가운데 칠각지(七覺支)이다. ( )에 알맞은 용어를 기술하시오. 택법각지(擇法覺支), 정진각지(精進覺支), 희각지(喜覺支), 경안각지(輕安覺支), 사각지(捨覺支), 정각지(定覺支), ( )",
+      "metadata": {
+        "period": null,
+        "questionNumber": 40
+      },
+      "graderRef": "buddhist-sangha3-q040"
+    },
+    {
+      "id": "buddhist-sangha3-q041",
+      "prompt": "문장에서 말하고 있는 인물은 누구인가? 이 사람은 20세기 초 인도의 사람으로서 불가촉천민 출신이다. 그는 신불교운동을 제창함으로써 불가촉천민의 삶을 향상시키고 인도사회의 불평등을 해결하는데 많은 노력을 기울였다. 그로 인해 1956년에는 불가촉천민 60만 명이 집단적으로 불교로 개종하기도 했다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 41
+      },
+      "graderRef": "buddhist-sangha3-q041"
+    },
+    {
+      "id": "buddhist-sangha3-q042",
+      "prompt": "경전에서는 6바라밀 또는 10바라밀을 설하고 있다. 10바라밀은 6바라밀에 4바라밀을 더한 것이다. 추가된 4바라밀의 명칭을 기술하시오.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 42
+      },
+      "graderRef": "buddhist-sangha3-q042"
+    },
+    {
+      "id": "buddhist-sangha3-q043",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어를 기술하시오. 화엄경 십지품에서 말하는 십지(十地)는 환희지, 이구지, 발광지, 염혜지, 난승지, 현전지, 원행지, ( ), 선혜지, 법운지이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 43
+      },
+      "graderRef": "buddhist-sangha3-q043"
+    },
+    {
+      "id": "buddhist-sangha3-q044",
+      "prompt": "용수보살의 저술로서 대품반야경(2만5천송반야)을 주석한 논서의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 44
+      },
+      "graderRef": "buddhist-sangha3-q044"
+    },
+    {
+      "id": "buddhist-sangha3-q045",
+      "prompt": "삼부경이란 아미타경, 무량수경, 관무량수경을 말한다. 이 가운데 법장비구의 보살행과 48대원의 내용을 담고 있는 경은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 45
+      },
+      "graderRef": "buddhist-sangha3-q045"
+    },
+    {
+      "id": "buddhist-sangha3-q046",
+      "prompt": "의 삼론종, 천태종, 화엄종, 유식종, 정토종, 선종, 밀종, 율종 등 팔종(八宗)이 모두 자신의 종파를 개창한 조사로 받드는 인도의 대승논사는 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 46
+      },
+      "graderRef": "buddhist-sangha3-q046"
+    },
+    {
+      "id": "buddhist-sangha3-q047",
+      "prompt": "수나라 때 형성된 종파로서 중론(中論), 백론(百論), 십이문론(十二門論)을 소의경전으로 형성된 종파의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 47
+      },
+      "graderRef": "buddhist-sangha3-q047"
+    },
+    {
+      "id": "buddhist-sangha3-q048",
+      "prompt": "문장의 내용이 들어 있는 대승경전의 이름은 무엇인가? 어리석음 때문에 애착이 있어 내 병이 났습니다. 모든 중생들이 병을 앓기 때문에 제가 병이 났습니다. …… 중생이 아프면 보살이 아프고, 중생이 병이 나으면 보살의 병도 났습니다. 이 병은 무엇 때문에 생겼느냐고 물으셨지요? 보살의 병은 대비심(大悲心)에서 생겨나는 것입니다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 48
+      },
+      "graderRef": "buddhist-sangha3-q048"
+    },
+    {
+      "id": "buddhist-sangha3-q049",
+      "prompt": "유(火宅喩), 궁자유(窮子喩), 약초유(藥草喩), 화성유(化城喩), 의주유(衣珠喩), 계주유(髻珠喩), 의사유(醫師喩) 등 7가지 비유를 담고 있는 대승경전의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 49
+      },
+      "graderRef": "buddhist-sangha3-q049"
+    },
+    {
+      "id": "buddhist-sangha3-q050",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 대지도론, 섭대승론 등에서는 불타(佛陀)를 삼신불(三身佛)로 설하기도 한다. 삼신불은 법신불(法身佛), ( ), 화신불(化身佛)이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 50
+      },
+      "graderRef": "buddhist-sangha3-q050"
+    },
+    {
+      "id": "buddhist-sangha3-q051",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 중론(中論)에서 말하는 팔불중도는 ( ), 불상부단(不常不斷), 불일불이(不一不異), 불거불래(不去不來)이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 51
+      },
+      "graderRef": "buddhist-sangha3-q051"
+    },
+    {
+      "id": "buddhist-sangha3-q052",
+      "prompt": "부인의 10대원의 내용을 담고 있는 여래장 계통의 경전의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 52
+      },
+      "graderRef": "buddhist-sangha3-q052"
+    },
+    {
+      "id": "buddhist-sangha3-q053",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 정토교에서는 4종의 염불을 말하고 있다. 4종의 염불은 ( ), 관상염불(觀像念佛), 관상염불(觀想念佛), 실상염불(實相念佛)이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 53
+      },
+      "graderRef": "buddhist-sangha3-q053"
+    },
+    {
+      "id": "buddhist-sangha3-q054",
+      "prompt": "은 중론의 삼제게(三諦偈)의 내용이다. ( )에 들어갈 알맞은 용어? 因緣所生法, 我說卽是( ), 亦爲是( )名, 亦是( )道義",
+      "metadata": {
+        "period": null,
+        "questionNumber": 54
+      },
+      "graderRef": "buddhist-sangha3-q054"
+    },
+    {
+      "id": "buddhist-sangha3-q055",
+      "prompt": "의 친형으로 섭대승론을 저술한 인도의 논사는 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 55
+      },
+      "graderRef": "buddhist-sangha3-q055"
+    },
+    {
+      "id": "buddhist-sangha3-q056",
+      "prompt": "삼십송을 저술한 인도의 논사는 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 56
+      },
+      "graderRef": "buddhist-sangha3-q056"
+    },
+    {
+      "id": "buddhist-sangha3-q057",
+      "prompt": "에서 말하는 경전의 이름은 무엇인가? 이 경전은 유식 계통의 대표적인 경전이며, 경 전체의 내용이 유가사지론에 편입되어 있다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 57
+      },
+      "graderRef": "buddhist-sangha3-q057"
+    },
+    {
+      "id": "buddhist-sangha3-q058",
+      "prompt": "사상을 담고 있는 경전과 논서를 바탕으로 성립된 중국의 종파는 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 58
+      },
+      "graderRef": "buddhist-sangha3-q058"
+    },
+    {
+      "id": "buddhist-sangha3-q059",
+      "prompt": "의 유식삼십송을 주석한 책으로 호법 논사가 중심이 되어 편찬한 가장 주요한 유식 논서는 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 59
+      },
+      "graderRef": "buddhist-sangha3-q059"
+    },
+    {
+      "id": "buddhist-sangha3-q060",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 유식불교에서는 모든 존재를 오위백법(五位百法)으로 분류하고 있다. 오위는 심왕법, 심소법, 색법, 심불상응행법, ( )이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 60
+      },
+      "graderRef": "buddhist-sangha3-q060"
+    },
+    {
+      "id": "buddhist-sangha3-q061",
+      "prompt": "불교에서는 존재 양태를 변계소집성, 의타기성, 원성실성의 삼성(三性)으로 크게 나누어 설명하고 있다. 이 삼성 중에서 ‘새끼줄을 뱀으로 오인’하는 것을 무엇이라고 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 61
+      },
+      "graderRef": "buddhist-sangha3-q061"
+    },
+    {
+      "id": "buddhist-sangha3-q062",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 중국의 천태종에서 말하는 삼종지관(三種止觀)은 점차지관(漸次止觀), 부정지관(不定止觀), ( )이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 62
+      },
+      "graderRef": "buddhist-sangha3-q062"
+    },
+    {
+      "id": "buddhist-sangha3-q063",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 천태의 사종삼매는 상좌삼매(常坐三昧), ( ), 반행반좌삼매(半行半坐三昧), 비행비좌삼매(非行非坐三昧)이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 63
+      },
+      "graderRef": "buddhist-sangha3-q063"
+    },
+    {
+      "id": "buddhist-sangha3-q064",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 대승기신론에서는 육바라밀을 오행(五行)으로 표현하고 있다. 오행이란 보시행, 지계행, 인욕행, 정진행, ( )이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 64
+      },
+      "graderRef": "buddhist-sangha3-q064"
+    },
+    {
+      "id": "buddhist-sangha3-q065",
+      "prompt": "화엄경에는 40화엄, 60화엄, 80화엄 등 세 가지 본이 있다. 이 세 가지 화엄 중 반야삼장이 번역한 경전으로 입법계품만을 다루고 있는 것은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 65
+      },
+      "graderRef": "buddhist-sangha3-q065"
+    },
+    {
+      "id": "buddhist-sangha3-q066",
+      "prompt": "화엄종의 제 5조로 호칭되며, 원각경 및 금강경에 대한 해설과 선과 교를 비교 연구한 선원제전집 100권을 저술한 스님은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 66
+      },
+      "graderRef": "buddhist-sangha3-q066"
+    },
+    {
+      "id": "buddhist-sangha3-q067",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 중국의 화엄종에서 말하는 사법계(四法界)는 이법계, 사법계, 이사무애법계, ( )이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 67
+      },
+      "graderRef": "buddhist-sangha3-q067"
+    },
+    {
+      "id": "buddhist-sangha3-q068",
+      "prompt": "동자의 구법행을 다루고 있는 화엄경의 한 품으로서, 중국의 이통현(李通玄) 장자는 이 품을 화엄경의 정종분(正宗分)으로 보기도 했다. 이 품의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 68
+      },
+      "graderRef": "buddhist-sangha3-q068"
+    },
+    {
+      "id": "buddhist-sangha3-q069",
+      "prompt": "의 균여대사가 지은 향가로서 보현보살의 10대행원(十大行願)을 담고 있다. 이 향가의 제목은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 69
+      },
+      "graderRef": "buddhist-sangha3-q069"
+    },
+    {
+      "id": "buddhist-sangha3-q070",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 중국 천태종의 소의경전인 천태삼대부(天台三大部)는 법화문구, 법화현의, ( )이다. 다음 문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 중국 천태종의 소의경전인 천태삼대부(天台三大部)는 법화문구, 법화현의, ( )이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 70
+      },
+      "graderRef": "buddhist-sangha3-q070"
+    },
+    {
+      "id": "buddhist-sangha3-q071",
+      "prompt": "문장에서 설명하는 책의 제목은 무엇인가? 이 책은 중국 수나라 때의 천태지의의 저작으로 약칭하여 천태소지관(天台小止觀)으로도 불린다. 또한 좌선 수행에 필요한 25방편문이 들어 있어서 중국 선종에도 많은 영향을 주었다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 71
+      },
+      "graderRef": "buddhist-sangha3-q071"
+    },
+    {
+      "id": "buddhist-sangha3-q072",
+      "prompt": "불교에서는 모든 존재를 색법, 심왕법, 심소법, 심불상응행법, 무위법등 오위(五位)로 분류하고 있다. 그렇다면 ‘촉(觸), 작의(作意), 수(受), 상(想), 사(思)’는 오위 중 어디에 해당하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 72
+      },
+      "graderRef": "buddhist-sangha3-q072"
+    },
+    {
+      "id": "buddhist-sangha3-q073",
+      "prompt": "불교에서는 모든 존재를 색법, 심왕법, 심소법, 심불상응행법, 무위법등 오위(五位)로 분류하고 있다. 그렇다면 ‘시(時), 방(方), 수(數)’는 오위(五位) 중 어디에 해당하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 73
+      },
+      "graderRef": "buddhist-sangha3-q073"
+    },
+    {
+      "id": "buddhist-sangha3-q074",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 유식삼십송에서는 수행의 단계를 다섯으로 나뉜다. 이 다섯은 자량위(資糧位), 가행위(加行位), 통달위(通達位), 수습위(修習位), ( )이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 74
+      },
+      "graderRef": "buddhist-sangha3-q074"
+    },
+    {
+      "id": "buddhist-sangha3-q075",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 유식불교에서는 전오식(前五識)을 바꾸어 성소작지(成所作智)를 만들고, 제6식을 바꾸어 묘관찰지(妙觀察智)를 만들고, 제7식을 바꾸어 ( )를 만들고, 제8식을 바꾸어 대원경지(大圓鏡智)를 이뤄야 한다고 한다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 75
+      },
+      "graderRef": "buddhist-sangha3-q075"
+    },
+    {
+      "id": "buddhist-sangha3-q076",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 대승기신론에서 말하는 삼세육추(三細六麤)는 업상(業相), 전상(轉相), 현상(現相), ( ), 상속상(相續相), 집취상(執取相), 계명자상(計名字相), 조업상(造業相), 수보상(受報相)이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 76
+      },
+      "graderRef": "buddhist-sangha3-q076"
+    },
+    {
+      "id": "buddhist-sangha3-q077",
+      "prompt": "문장에서 말하는 중국 교파의 이름은 무엇인가? 중국 수나라 때 신행스님이 제창한 불교로써 시대적 위기의식과 강한 말법사상에 의하여 시간, 공간, 근기라는 세 가지 단계(三階)의 교행체계를 담고 있다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 77
+      },
+      "graderRef": "buddhist-sangha3-q077"
+    },
+    {
+      "id": "buddhist-sangha3-q078",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 화엄경에서 말하는 삼종회향(三種廻向)은 보리회향, 실제회향, ( )이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 78
+      },
+      "graderRef": "buddhist-sangha3-q078"
+    },
+    {
+      "id": "buddhist-sangha3-q079",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어를 기술하시오. 보현보살의 십종대원은 예경제불원, 칭찬여래원, 광수공양원, ( ), 수희공덕원, 청전법륜원, 청불주세원, 상수불학원, 항순중생원, 보개회향원이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 79
+      },
+      "graderRef": "buddhist-sangha3-q079"
+    },
+    {
+      "id": "buddhist-sangha3-q080",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어를 차례대로 기술하시오. 대승열반경에는 열반의 3덕과 4덕을 이야기하고 있다. 열반3덕은 법신, 반야, ( )이며, 열반4덕은 상, 락, 아, ( )이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 80
+      },
+      "graderRef": "buddhist-sangha3-q080"
+    },
+    {
+      "id": "buddhist-sangha3-q081",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 말을 기술하시오. 부파불교에서는 삼등지(三等持)라고 하여 세 가지의 삼매를 말하고 있는데 그것은 공(空), 무상(無相), ( )이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 81
+      },
+      "graderRef": "buddhist-sangha3-q081"
+    },
+    {
+      "id": "buddhist-sangha3-q082",
+      "prompt": "문장에서 설명하는 삼매의 이름을 기술하시오. 이 삼매는 화엄경에서 말하는 여러 삼매 중의 대표적인 삼매이다. 깊은 선정의 경지로서 큰 바다가 모든 사물을 비춰내는 것에 비유하고 있다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 82
+      },
+      "graderRef": "buddhist-sangha3-q082"
+    },
+    {
+      "id": "buddhist-sangha3-q083",
+      "prompt": "은 보현행원품에 나오는 보현보살의 10대원을 나열한 것이다. ( )에 각각 들어갈 말은 무엇인가? 예경제불원(禮敬諸佛願), 칭찬여래원(稱讚如來願), 광수공양원(廣修供養願), 참회업장원(懺悔業障願), ( ㉠ ), 청전법륜원(請轉法輪願), 청불주세원(請佛住世願), 상수불학원(常隨佛學願), ( ㉡ ), 보개회향원(普皆廻向願)",
+      "metadata": {
+        "period": null,
+        "questionNumber": 83
+      },
+      "graderRef": "buddhist-sangha3-q083"
+    },
+    {
+      "id": "buddhist-sangha3-q084",
+      "prompt": "문장에서 중 ( )에 들어갈 경전명은 무엇인가? ‘법화삼부경’이란 ( ), 묘법연화경, 관보현보살행법경을 말한다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 84
+      },
+      "graderRef": "buddhist-sangha3-q084"
+    },
+    {
+      "id": "buddhist-sangha3-q085",
+      "prompt": "은 법화경의 법화칠유(法華七喩) 중 하나이다. 이 내용을 담고 있는 품의 이름은 무엇인가? 가섭이여, 이를테면 삼천대천세계의 산천과 골짜기와 대지에 나는 풀이나 관목, 수목, 약초는, 여러 가지 종류가 있고 이름도 형태도 각각이지만, 이것들 위에 짙은 구름이 널리 퍼져 두루 삼천대천세계를 뒤덮은 끝에, 일시에 고루고루 비가 내리며,……같은 구름에서 내리는 비이건만 각기 다르게 받아들여 그 본성에 따라 자라고 꽃을 피우고 열매를 맺는 까닭이다. 같은 대지에서 나고 같은 비에 젖어도, 여러 초목들에는 각기 차별이 있는 것이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 85
+      },
+      "graderRef": "buddhist-sangha3-q085"
+    },
+    {
+      "id": "buddhist-sangha3-q086",
+      "prompt": "계통의 경전으로서 중국의 선종 초조인 달마스님이 혜가스님에게 전하는 등 초기선종사에서 중요하게 전승되어 온 경전의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 86
+      },
+      "graderRef": "buddhist-sangha3-q086"
+    },
+    {
+      "id": "buddhist-sangha3-q087",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 말을 기술하시오. 중국 선불교에 깊은 영향을 미친 능가경은 선(禪)을 4가지로 나누어 설명하고 있다. 그 4가지는 우부소행선(愚夫所行禪), 관찰의선(觀察義禪), 반연여선(攀緣如禪), ( )이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 87
+      },
+      "graderRef": "buddhist-sangha3-q087"
+    },
+    {
+      "id": "buddhist-sangha3-q088",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 말을 기술하시오. 대지도론에서는 선을 외도선, 성문선, ( )의 3종으로 분류하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 88
+      },
+      "graderRef": "buddhist-sangha3-q088"
+    },
+    {
+      "id": "buddhist-sangha3-q089",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 말을 기술하시오. 규봉종밀스님이 저술한 선원제전집도서에는 선을 5가지로 분류하고 있다. 그 5가지는 외도선, 범부선, 소승선, 대승선, ( )이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 89
+      },
+      "graderRef": "buddhist-sangha3-q089"
+    },
+    {
+      "id": "buddhist-sangha3-q090",
+      "prompt": "내용에서 말하는 이 책의 이름은 무엇인가? 이 책은 마명보살이 저술한 대표적인 대승논서이다. 선종(禪宗)에 많은 영향을 끼쳤으며 깨달음의 세계를 체계적으로 밝히고 있다. 또한 이 책에서는 번뇌와 진여와의 관계를 일심(一心), 이문(二門), 삼대(三大), 사신(四信), 오행(五行)이라는 조직으로 나타내고 있다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 90
+      },
+      "graderRef": "buddhist-sangha3-q090"
+    },
+    {
+      "id": "buddhist-sangha3-q091",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 말을 차례대로 기술하시오. 달마스님의 이입사행론(二入四行論)에서 말하는 이입(二入)은 이입(理入)과 ( )이며, 사행(四行)은 보원행, ( ), 무소구행, 칭법행이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 91
+      },
+      "graderRef": "buddhist-sangha3-q091"
+    },
+    {
+      "id": "buddhist-sangha3-q092",
+      "prompt": "문장에서 말하는 책의 이름은 무엇인가? 이 책은 중국 당나라 정각(淨覺)스님이 초기 선종의 역사를 기록한 것이다. 북종선(北宗禪)을 중심으로 제1조 구나발타라(求那跋陀羅)에서 제8조 보적(普寂)에 이르는 선사 8대에 관한 전기를 기록하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 92
+      },
+      "graderRef": "buddhist-sangha3-q092"
+    },
+    {
+      "id": "buddhist-sangha3-q093",
+      "prompt": "문장에서 말하는 책의 이름은 무엇인가? 이 책은 중국 선종의 3조 승찬스님의 저술로서 “지극한 도는 어렵지 않다. 다만 간택(揀擇)하는 일을 싫어한다네. 미움도 사랑도 없으면 통연히 명백하리라.”라는 구절로 시작된다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 93
+      },
+      "graderRef": "buddhist-sangha3-q093"
+    },
+    {
+      "id": "buddhist-sangha3-q094",
+      "prompt": "문장에서 말하는 삼매의 이름은 무엇인가? 중국 선종의 제4조 도신스님이 강조한 삼매로서 수행자로 하여금 마음을 정(定)하고 하나의 행(一行)에 전념하도록 한다. 육조 혜능스님의 육조단경에서도 이 삼매를 강조하고 있다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 94
+      },
+      "graderRef": "buddhist-sangha3-q094"
+    },
+    {
+      "id": "buddhist-sangha3-q095",
+      "prompt": "문장에서 말하는 책의 이름은 무엇인가? 이 책은 한 때 달마스님의 저술로 알려졌으나 신수스님의 저술로 밝혀졌다. 선불교에 많은 영향을 끼친 이 책은 “관심일법총섭제행(觀心一法總攝諸行)”을 강조하는 내용으로 시작한다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 95
+      },
+      "graderRef": "buddhist-sangha3-q095"
+    },
+    {
+      "id": "buddhist-sangha3-q096",
+      "prompt": "은 육조단경 내용의 일부이다. ( )에 들어갈 알맞은 말을 차례대로 기술하시오. 心地無非自性( ), 心地無亂自性( ), 心地無痴自性( )",
+      "metadata": {
+        "period": null,
+        "questionNumber": 96
+      },
+      "graderRef": "buddhist-sangha3-q096"
+    },
+    {
+      "id": "buddhist-sangha3-q097",
+      "prompt": "에서 말하는 스님의 이름은 무엇인가? 이 스님은 마조스님의 제자이다. 오늘날 대한불교조계종의 종조인 도의스님이 중국에 가서 이 스님에게 법을 구하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 97
+      },
+      "graderRef": "buddhist-sangha3-q097"
+    },
+    {
+      "id": "buddhist-sangha3-q098",
+      "prompt": "문장에서 설명하는 스님의 이름은 무엇인가? 이 스님은 육조 혜능스님의 제자로서 혜능스님의 “무슨 물건이 이렇게 왔는가?” 라는 질문에 “설사 한 물건이라고 하여도 맞지 않습니다.” 라고 대답했다. 그리고 후에 도일스님이 좌선을 하는 모습을 보고 벽돌을 갈아 거울을 만들 수 있겠는가(磨磚作鏡)?”라는 법문을 한 것으로도 유명하다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 98
+      },
+      "graderRef": "buddhist-sangha3-q098"
+    },
+    {
+      "id": "buddhist-sangha3-q099",
+      "prompt": "문장에서 말하는 중국 선종의 종파 이름은 무엇인가? 이 종파는 신라의 왕자로서 당나라에 들어가 선승이 된 무상(無相)스님으로부터 비롯되었다. 무상스님은 ‘무억(無憶)’, ‘무념(無念)’, ‘막망(莫妄)’의 삼구로 제자들을 지도하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 99
+      },
+      "graderRef": "buddhist-sangha3-q099"
+    },
+    {
+      "id": "buddhist-sangha3-q100",
+      "prompt": "계산에서 하룻밤 자고 갔다’ 하여 일숙각(一宿覺)이라고 불리며 옛적부터 선가에서 애송되고 있는 증도가(證道歌)를 지은 분은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 100
+      },
+      "graderRef": "buddhist-sangha3-q100"
+    },
+    {
+      "id": "buddhist-sangha3-q101",
+      "prompt": "하남성 활대(滑台)의 대운사(大雲寺)에서 무차대회를 열고 “보리달마의 제6대의 정법조사는 조계혜능이다.”라고 선언한 스님은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 101
+      },
+      "graderRef": "buddhist-sangha3-q101"
+    },
+    {
+      "id": "buddhist-sangha3-q102",
+      "prompt": "종밀은 선원제전집도서(禪源諸詮集都序)에서 선종을 식망수심종(息妄修心宗), 민절무기종(泯絶無寄宗), 직현심성종(直顯心性宗) 등 3가지로 분류하고 있다. 홍주종과 하택종은 이 3가지 중 어느 종에 해당하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 102
+      },
+      "graderRef": "buddhist-sangha3-q102"
+    },
+    {
+      "id": "buddhist-sangha3-q103",
+      "prompt": "스님의 제자로서 완릉록, 전심법요 등의 법어를 남겼으며, 임제스님의 스승이기도 한 스님은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 103
+      },
+      "graderRef": "buddhist-sangha3-q103"
+    },
+    {
+      "id": "buddhist-sangha3-q104",
+      "prompt": "문장에서 말하는 스님은 누구인가? 이 스님은 남전보원스님의 제자로서 무자화두를 처음 제시한 스님이기도 하다. 관음원이라는 절에 머물면서 120세까지 행화를 펼쳐 고불(古佛)이라는 별명을 얻었다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 104
+      },
+      "graderRef": "buddhist-sangha3-q104"
+    },
+    {
+      "id": "buddhist-sangha3-q105",
+      "prompt": "문장에서 말하는 스님은 누구인가? 이 스님은 황벽희운에게 법을 이어받았다. 그는 ‘무위진인(無位眞人)’, ‘수처작주(隨處作主)를 제창하면서 절대적 관념이나 대상의 권위를 타파하고 일상 속에서 자신의 본성을 자각하는 주체적 자유의 실현을 강조하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 105
+      },
+      "graderRef": "buddhist-sangha3-q105"
+    },
+    {
+      "id": "buddhist-sangha3-q106",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 말은 무엇인가? 중국의 선종은 크게 5가7종으로 나뉘고 있다. 그 중 5가(家)는 임제종, ( ), 법안종, 운문종, 조동종이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 106
+      },
+      "graderRef": "buddhist-sangha3-q106"
+    },
+    {
+      "id": "buddhist-sangha3-q107",
+      "prompt": "문장은 육조단경의 일부이다. ( )에 들어갈 알맞은 말은 무엇인가? 무념을 종(宗)으로 삼고, ( )을 체(體)로 삼고, 무주를 근본(本)으로 삼는다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 107
+      },
+      "graderRef": "buddhist-sangha3-q107"
+    },
+    {
+      "id": "buddhist-sangha3-q108",
+      "prompt": "라 때 스님으로 48칙으로 이루어진 무문관을 저술한 스님은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 108
+      },
+      "graderRef": "buddhist-sangha3-q108"
+    },
+    {
+      "id": "buddhist-sangha3-q109",
+      "prompt": "스님의 송고백칙에 원오선사가 수시(垂示)와 평창(評唱)을 더하여 편찬한 책의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 109
+      },
+      "graderRef": "buddhist-sangha3-q109"
+    },
+    {
+      "id": "buddhist-sangha3-q110",
+      "prompt": "문장에서 말하는 책의 이름은 무엇인가? 이 책은 영명연수 선사의 저술로 교종과 선종을 융화회통하는 교선일치 사상의 입장에서 총 100권으로 편찬되었다. 경전과 논서 등 폭넓은 인용으로 불교의 백과사전이라는 평을 받고 있으며 당나라와 송나라 시대의 불교연구에 귀중한 자료를 제공해주고 있다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 110
+      },
+      "graderRef": "buddhist-sangha3-q110"
+    },
+    {
+      "id": "buddhist-sangha3-q111",
+      "prompt": "명나라 때의 스님으로 선, 염불, 계율에 두루 통달하여 선정쌍수(禪淨雙修)를 주장하고, 참법, 염불, 방생을 통해 많은 교화를 행했다. 죽창수필 선관책진등의 저술을 남겼으며 연지대사(蓮池大師)라는 별호를 가지고 있는 이 스님은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 111
+      },
+      "graderRef": "buddhist-sangha3-q111"
+    },
+    {
+      "id": "buddhist-sangha3-q112",
+      "prompt": "송나라 때에 스님으로 종경록, 만선동귀집, 선원청규, 좌선의를 편찬한 스님은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 112
+      },
+      "graderRef": "buddhist-sangha3-q112"
+    },
+    {
+      "id": "buddhist-sangha3-q113",
+      "prompt": "문장에서 말하는 책의 이름은 무엇인가? 이 책은 중국 명말청초(明末淸初) 계현스님의 저술이다. 당시 침체된 선풍을 일으키기 위하여 손자병법의 체제를 따라 13편으로 나누어 수선납자와 조실의 올바른 역할을 강조하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 113
+      },
+      "graderRef": "buddhist-sangha3-q113"
+    },
+    {
+      "id": "buddhist-sangha3-q114",
+      "prompt": "문장에서 말하는 책의 이름은 무엇인가? 이 책은 중국 송나라 도원스님이 엮은 선종사서(禪宗史書)로 석가모니이래 여러 조사들의 법맥과 법어를 모아 30권으로 편찬하였다. 총 1,701인의 기록이 수록되어 있으며, 1,700공안이라는 말도 이 책에서 유래되었다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 114
+      },
+      "graderRef": "buddhist-sangha3-q114"
+    },
+    {
+      "id": "buddhist-sangha3-q115",
+      "prompt": "문장에서 말하는 스님은 누구인가? 이 스님은 중국 송나라 때의 선사로 지관타좌(只管打坐)의 수행법을 중시하였다. 288자로 되어있는 묵조명(黙照銘)이라는 저서를 남겼으며 간화선을 제창한 대혜스님과 동시대인으로 대조적인 선풍을 펼쳤다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 115
+      },
+      "graderRef": "buddhist-sangha3-q115"
+    },
+    {
+      "id": "buddhist-sangha3-q116",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 말은 무엇인가? 고봉스님의 법어집 선요(禪要)에서는 간화선의 세 가지 요점(三要)에 대하여 말하고 있다. 그 3가지는 대신심, 대분심, ( )이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 116
+      },
+      "graderRef": "buddhist-sangha3-q116"
+    },
+    {
+      "id": "buddhist-sangha3-q117",
+      "prompt": "원대(元代)의 스님으로서 산방야화(山房夜話)를 저술하여 독자적인 선의 정신을 설하고 있는 스님은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 117
+      },
+      "graderRef": "buddhist-sangha3-q117"
+    },
+    {
+      "id": "buddhist-sangha3-q118",
+      "prompt": "문장에서 설명하고 있는 스님은 누구인가? 중국스님 원나라 때의 스님으로서 석옥청공과 평산처림의 동문이다. 남송의 간화선 사상을 계승하면서 무자화두를 참구하는 간화선 일문(一門)을 확립하였다. 고균비구, 휴휴암주라고 자칭한 스님은 육조단경을 다시 편집하여 간행하였고, 이 책의 간행으로 중국 선 사상사뿐만 아니라 고려 후기 선풍의 형성에 지대한 영향을 끼쳤다. 중국에서보다 고려불교계에 더 잘 알려진 그는 고려 말 고승들이 그의 유적을 탐방할 정도로 고려 말 교계에 끼친 영향은 매우 컸다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 118
+      },
+      "graderRef": "buddhist-sangha3-q118"
+    },
+    {
+      "id": "buddhist-sangha3-q119",
+      "prompt": "진(晋)나라와 동진(東晋)시대에 걸쳐 나타난 불교 해설법으로서, 노장의 무(無)의 사상을 빌려서 불교의 공(空)을 해석하고 설명한 불교를 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 119
+      },
+      "graderRef": "buddhist-sangha3-q119"
+    },
+    {
+      "id": "buddhist-sangha3-q120",
+      "prompt": "문장에서 설명하고 있는 스님은 누구인가? 이 스님은 중앙아시아의 구자국(龜玆國,kucīna) 출신이다. 후진의 왕인 요흥이 장안(長安)으로 초빙하여 국사로 예우하고 서명각과 소요원에서 경전을 번역하게 하였다. 이 스님이 번역한 것으로는 금강경, 유마경, 무량수경, 대품반야경, 백론, 중론, 십이문론, 대지도론, 법화경, 십지경 등 74부 384권이 있다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 120
+      },
+      "graderRef": "buddhist-sangha3-q120"
+    },
+    {
+      "id": "buddhist-sangha3-q121",
+      "prompt": "문장에서 설명하고 있는 스님은 누구인가? 이 스님은 도안(道安)스님의 제자로 여산의 동림사에서 30년간 불교홍포에 주력하였다. 역경가이자 백련결사를 이끌기도 하였으며, 특히 ‘승려는 세속 군주를 경배하지 않는다’는 주장을 담은 사문불경왕자론을 저술한 것으로도 유명하다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 121
+      },
+      "graderRef": "buddhist-sangha3-q121"
+    },
+    {
+      "id": "buddhist-sangha3-q122",
+      "prompt": "문장에서 설명하고 있는 스님은 누구인가? 이 스님은 7세기 초 중국 당나라 때의 스님이다. 국가적 차원의 후원을 받아 인도로 16년간 유학하여 많은 불교 전적을 수집하여 귀국하였다. 이후 장안(長安)에서 인도 범본의 경전과 논서를 한문으로 번역하는데 평생의 노력을 기울였다. 삼장법사로도 호칭되는 이 분은 인도 구법 여행기인 대당서역기를 저술하기도 했다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 122
+      },
+      "graderRef": "buddhist-sangha3-q122"
+    },
+    {
+      "id": "buddhist-sangha3-q123",
+      "prompt": "에 불교가 전래된 이후 수, 당을 거쳐 오대(五代)에 이르기까지 왕실에 의한 불교 박해 사건이 크게 네 번 있었다. 첫 번째는 북위의 태무제 시절, 두 번째는 북주의 무제 시절, 세 번째는 당의 무종 시절, 네 번째는 후주의 세종 시절 때였다. 이러한 네 차례의 법난을 통칭하여 무엇이라고 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 123
+      },
+      "graderRef": "buddhist-sangha3-q123"
+    },
+    {
+      "id": "buddhist-sangha3-q124",
+      "prompt": "문장은 육조단경 참회품 오분법신향의 일부이다. 오분법신향 중 어떤 것에 대한 설명인가? 자기의 마음에 반연하는 바가 없어서 선도 생각하지 않고 악도 생각하지 않으며 자재하여 걸림이 없다(自心無所攀緣 不思善 不思惡 自在無礙).",
+      "metadata": {
+        "period": null,
+        "questionNumber": 124
+      },
+      "graderRef": "buddhist-sangha3-q124"
+    },
+    {
+      "id": "buddhist-sangha3-q125",
+      "prompt": "신회가 활대(滑臺)에서 무차대회를 열어 신수 등의 선풍을 비판하고 혜능을 육조로서 현창한 그 논쟁과정의 내용을 담은 저술은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 125
+      },
+      "graderRef": "buddhist-sangha3-q125"
+    },
+    {
+      "id": "buddhist-sangha3-q126",
+      "prompt": "화엄종의 제5조로 알려진 스님이며, 선(禪)과 교(敎)를 융통한 선원제전집 100권을 저술한 스님은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 126
+      },
+      "graderRef": "buddhist-sangha3-q126"
+    },
+    {
+      "id": "buddhist-sangha3-q127",
+      "prompt": "율에 의하면 비구계는 몇 개의 계(戒)로 이루어져 있는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 127
+      },
+      "graderRef": "buddhist-sangha3-q127"
+    },
+    {
+      "id": "buddhist-sangha3-q128",
+      "prompt": "율에 의하면 비구니계는 몇 개의 계(戒)로 이루어져 있는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 128
+      },
+      "graderRef": "buddhist-sangha3-q128"
+    },
+    {
+      "id": "buddhist-sangha3-q129",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어를 기술하시오. 구족계의 4바라이는 ( ), 불살생, 불투도, 불망어이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 129
+      },
+      "graderRef": "buddhist-sangha3-q129"
+    },
+    {
+      "id": "buddhist-sangha3-q130",
+      "prompt": "계에서 말하는 4 가지 바라이(불음, 불살, 불도, 불망어) 중에서 가장 먼저 제정된 계(戒)는 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 130
+      },
+      "graderRef": "buddhist-sangha3-q130"
+    },
+    {
+      "id": "buddhist-sangha3-q131",
+      "prompt": "계를 수계할 때 출가자를 대상으로 자격을 심사하여 문제가 있을 경우, 출가자의 승가입단을 차단하는 법을 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 131
+      },
+      "graderRef": "buddhist-sangha3-q131"
+    },
+    {
+      "id": "buddhist-sangha3-q132",
+      "prompt": "(經藏)은 아난존자의 송출(誦出)에 의해 결집되었다. 그렇다면 율장(律藏)은 누구의 송출에 의해 결집되었는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 132
+      },
+      "graderRef": "buddhist-sangha3-q132"
+    },
+    {
+      "id": "buddhist-sangha3-q133",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어를 기술하시오. 오늘날까지 완전한 형태로 전래되고 있는 율장은 빨리율, ( ), 오분율, 십송율, 근본설일체유부율, 마하승기율 등 여섯 종류가 있다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 133
+      },
+      "graderRef": "buddhist-sangha3-q133"
+    },
+    {
+      "id": "buddhist-sangha3-q134",
+      "prompt": ", 포살, 안거, 자자, 멸쟁 등 승가운영의 갈마를 위한 절차와 규정을 담고 있는 부분을 율장에서는 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 134
+      },
+      "graderRef": "buddhist-sangha3-q134"
+    },
+    {
+      "id": "buddhist-sangha3-q135",
+      "prompt": "에 의하면, 출가하여 처음 수계한 승려에게는 일정기간동안 같이 지내면서 법과 율에 대해 지도해 주는 스승이 필요하다. 오늘날의 은사(恩師)에 해당되는 스승을 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 135
+      },
+      "graderRef": "buddhist-sangha3-q135"
+    },
+    {
+      "id": "buddhist-sangha3-q136",
+      "prompt": "출가하여 수계한 승려에게는 반드시 일정기간 동안 법과 율에 대해 지도해 주는 스승인 ‘화상’(오늘날의 ‘은사’)이 있어야 한다. 그러나 화상이 제자를 가르칠만한 상황이 아니거나, 일찍 입적한 경우에는 별도의 훌륭한 스승을 정하여 지도를 받아야 한다. 이 스승을 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 136
+      },
+      "graderRef": "buddhist-sangha3-q136"
+    },
+    {
+      "id": "buddhist-sangha3-q137",
+      "prompt": "(sīla, śīla)의 한역(漢譯)으로, ‘좋은 행위 또는 도덕적 행위’을 가리키는 용어는 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 137
+      },
+      "graderRef": "buddhist-sangha3-q137"
+    },
+    {
+      "id": "buddhist-sangha3-q138",
+      "prompt": "야(vinaya)의 한역(漢譯)으로 각종 절차나, 규칙, 행위 규범 등의 의미를 내포하고 있는 용어는 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 138
+      },
+      "graderRef": "buddhist-sangha3-q138"
+    },
+    {
+      "id": "buddhist-sangha3-q139",
+      "prompt": "들이 수계, 포살, 징계 등 각종 갈마를 시행하기 위해 일정한 지역의 경계를 획정하는 것을 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 139
+      },
+      "graderRef": "buddhist-sangha3-q139"
+    },
+    {
+      "id": "buddhist-sangha3-q140",
+      "prompt": "에 의하면 인도 전역에 분산되어 있는 승가를 가리켜 ‘사방승가(四方僧伽)’라 한다. 이에 비해 일정한 지역에 결계(結界)하여 공주(共住)하는 승가를 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 140
+      },
+      "graderRef": "buddhist-sangha3-q140"
+    },
+    {
+      "id": "buddhist-sangha3-q141",
+      "prompt": "승가(現前僧伽)의 대중들이 수계, 포살, 징계 등을 위해 논의하고 결정하는 것을 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 141
+      },
+      "graderRef": "buddhist-sangha3-q141"
+    },
+    {
+      "id": "buddhist-sangha3-q142",
+      "prompt": "많이 내리는 3개월 동안 승가가 유행하지 않고 한 곳에 모여 수행하는 것을 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 142
+      },
+      "graderRef": "buddhist-sangha3-q142"
+    },
+    {
+      "id": "buddhist-sangha3-q143",
+      "prompt": "가 끝나는 마지막 날에 안거를 보낸 전원이 모여 3개월 동안의 규칙 위반을 서로 지적하며 반성하는 것을 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 143
+      },
+      "graderRef": "buddhist-sangha3-q143"
+    },
+    {
+      "id": "buddhist-sangha3-q144",
+      "prompt": "의 가장 중요한 행사 가운데 하나로, 안거기간 중에 특정한 날을 정해 현전승가 대중들이 다함께 모여 바라제목차(계목)를 합송하는 행사를 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 144
+      },
+      "graderRef": "buddhist-sangha3-q144"
+    },
+    {
+      "id": "buddhist-sangha3-q145",
+      "prompt": "가 지켜야할 계율에 관한 조항을 모아둔 것으로 ‘해탈하게 만드는 지침’이라는 뜻을 가진 이 용어는 한역(漢譯)으로 ‘학처(學處)’ 또는 ‘별해탈계(別解脫戒)’라 부른다. 이를 인도어(산스끄리트, 또는 빠알리)로는 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 145
+      },
+      "graderRef": "buddhist-sangha3-q145"
+    },
+    {
+      "id": "buddhist-sangha3-q146",
+      "prompt": "율에서 말하는 비구의 승잔죄(승가바시사)의 계목은 총 몇 개인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 146
+      },
+      "graderRef": "buddhist-sangha3-q146"
+    },
+    {
+      "id": "buddhist-sangha3-q147",
+      "prompt": "율에서 말하는 비구니의 승잔죄(승가바시사)의 계목은 총 몇 개인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 147
+      },
+      "graderRef": "buddhist-sangha3-q147"
+    },
+    {
+      "id": "buddhist-sangha3-q148",
+      "prompt": "에서 영구 축출되는 바라이죄 보다는 약하지만, 별주(別住) 등의 근신처분을 받으며 교단에 남아있을 수 있는 죄 가운데서 가장 중한 죄는 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 148
+      },
+      "graderRef": "buddhist-sangha3-q148"
+    },
+    {
+      "id": "buddhist-sangha3-q149",
+      "prompt": "율에는 승단 안에서 일어났거나 일으키려는 분쟁을 해결하는 방법을 ‘멸쟁(滅諍)’이라 하여 여러 가지로 설하고 있다. 사분율에서 말하는 멸쟁법은 총 몇 가지인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 149
+      },
+      "graderRef": "buddhist-sangha3-q149"
+    },
+    {
+      "id": "buddhist-sangha3-q150",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 구족계의 내용은 5편(五篇)이라 하여 크게 다섯 가지로 분류된다. 그 다섯 가지는 바라이, 승잔죄, ( ), 바라제제사니, 돌길라이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 150
+      },
+      "graderRef": "buddhist-sangha3-q150"
+    },
+    {
+      "id": "buddhist-sangha3-q151",
+      "prompt": "과 종단제도에 의하면, 처음 출가한 여성은 사미니가 되어 출가자로서의 기본교육을 4년간 받고 난 뒤 비구니계(구족계)를 받게 된다. 그런데 사미니는 사미와 달리 비구니계를 받기 전에 2년 간 불음, 불도, 불살, 불허광어, 불음주, 불비시식의 6법을 행하는 별도의 수련 기간을 갖는다. 이 수련 기간을 갖는 여성출가자를 무엇이라 부르는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 151
+      },
+      "graderRef": "buddhist-sangha3-q151"
+    },
+    {
+      "id": "buddhist-sangha3-q152",
+      "prompt": ", 사미니가 되고자 하는 자는 몇 가지의 계를 수지해야 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 152
+      },
+      "graderRef": "buddhist-sangha3-q152"
+    },
+    {
+      "id": "buddhist-sangha3-q153",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 초기불교 이후로 일반인이 불교에 귀의하여 재가불자가 되는 기본절차는 삼귀의를 하고 ( )를 수지하면 된다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 153
+      },
+      "graderRef": "buddhist-sangha3-q153"
+    },
+    {
+      "id": "buddhist-sangha3-q154",
+      "prompt": "대중(四部大衆)은 비구, 비구니, 우바새, 우바이를 말한다. 이러한 사부대중에 세 가지 대중을 추가하면 칠부대중(七部大衆)이라고 하는데, 그 세 가지 대중의 명칭은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 154
+      },
+      "graderRef": "buddhist-sangha3-q154"
+    },
+    {
+      "id": "buddhist-sangha3-q155",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 팔관재계(팔재계)에서 말하는 여덟 가지 계는 불살생, 불투도, 불사음, 불망어, ( ), 불비시식(不非時食), 부좌와고광대상(不坐臥高廣大床), 불착향화만불향도신(不着香華鬘不香塗身)이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 155
+      },
+      "graderRef": "buddhist-sangha3-q155"
+    },
+    {
+      "id": "buddhist-sangha3-q156",
+      "prompt": "에는 비구가 입어아 하는 ‘세 가지 옷(三衣)’를 말하고 있다. 이 세 가지 옷 중에서 ‘하의(下衣)’ 또는 ‘내의(內衣)’를 뜻하는 말로 실내에서 생활할 때 주로 착용하는 옷을 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 156
+      },
+      "graderRef": "buddhist-sangha3-q156"
+    },
+    {
+      "id": "buddhist-sangha3-q157",
+      "prompt": "에는 비구가 입어야 하는 ‘세 가지 옷(三衣)’를 말하고 있다. 이 세 가지 옷 중에서 ‘상의(上衣)’ 또는 ‘외의(外衣)’라 하며 포살 등의 집회에 출석할 때 안타회 위에 입는 옷을 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 157
+      },
+      "graderRef": "buddhist-sangha3-q157"
+    },
+    {
+      "id": "buddhist-sangha3-q158",
+      "prompt": "에는 비구가 입어야 하는 ‘세 가지 옷(三衣)’을 말하고 있다. 이 세 가지 옷 중에서 ‘대의(大衣)’ 또는 ‘중의(重衣)’라고 하며 외출할 때 입는 옷을 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 158
+      },
+      "graderRef": "buddhist-sangha3-q158"
+    },
+    {
+      "id": "buddhist-sangha3-q159",
+      "prompt": "계를 받기 위해선 화상, 갈마사, 교수사, 기타 증명할 스님 등 기본적으로 총 몇 명의 스님을 필요로 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 159
+      },
+      "graderRef": "buddhist-sangha3-q159"
+    },
+    {
+      "id": "buddhist-sangha3-q160",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 율장에 의하면 수계사가 수계를 한 비구에게 ‘네 가지 의지할 원칙(四依)’을 일러주어 일상생활에서 준수하게 하였다. 이 ‘네 가지 원칙’ 이란 분소의(糞掃衣), ( ), 수하좌(樹下坐), 진기약(陳棄藥)이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 160
+      },
+      "graderRef": "buddhist-sangha3-q160"
+    },
+    {
+      "id": "buddhist-sangha3-q161",
+      "prompt": "님 열반 후 100년 경, 교단의 분열을 초래한 2차 결집은 율장 해석의 차이에서 기인한다. 이 때 율장 해석의 차이를 보인 내용은 총 몇 가지인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 161
+      },
+      "graderRef": "buddhist-sangha3-q161"
+    },
+    {
+      "id": "buddhist-sangha3-q162",
+      "prompt": "님 열반 후 100년 경, 율장의 해석 차이로 인해 교단이 두 개의 부파로 나눠지는데, 그 두 부파교단의 명칭은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 162
+      },
+      "graderRef": "buddhist-sangha3-q162"
+    },
+    {
+      "id": "buddhist-sangha3-q163",
+      "prompt": "하는 율장은 빨리율, 마하승기율, 오분율, 사분율, 십송율 등이 있다. 이 중에서 한국불교가 전승해온 율장은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 163
+      },
+      "graderRef": "buddhist-sangha3-q163"
+    },
+    {
+      "id": "buddhist-sangha3-q164",
+      "prompt": "가 갈마를 통해 의결하는 절차법을 뜻하는 용어로서, 전원이 출석한 화합승가의 자리에서 대중이 이미 알고 있는 내용을 대중 앞에서 한번 고지(告知)하는 것을 무엇이라 하는가? (예: 갈마사가 “승가의 대덕들이여, 제 말씀을 들어주십시오. 오늘은 자자일입니다. 승가에 준비가 되어 있으면 자자를 행하고자 합니다.”라고 한번 선언하면 자자가 성립되는 것)",
+      "metadata": {
+        "period": null,
+        "questionNumber": 164
+      },
+      "graderRef": "buddhist-sangha3-q164"
+    },
+    {
+      "id": "buddhist-sangha3-q165",
+      "prompt": "가 각종 갈마를 행할 때 갈마사(사회)가 한 번 의안(議案)내용을 대중 앞에 말하고, 그 찬반을 물어 결정내용을 대중 앞에 또 한 번 말하는 것으로서 전체적으로 갈마사가 대중 앞에서 두 번의 발언을 통해 의사 결정하는 것을 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 165
+      },
+      "graderRef": "buddhist-sangha3-q165"
+    },
+    {
+      "id": "buddhist-sangha3-q166",
+      "prompt": "가 각종 갈마를 행할 때 갈마사(사회)가 대중 앞에서 한번 의안(議案)내용을 말하고, 그 찬반을 세 번 물음으로써 도합 네 번의 발언을 통해 의사를 결정하는 이 절차를 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 166
+      },
+      "graderRef": "buddhist-sangha3-q166"
+    },
+    {
+      "id": "buddhist-sangha3-q167",
+      "prompt": "죄(승가바시사)를 저지른 비구가 다른 사람의 고발에 의해서든 혹은 자신의 고백에 의해서든 그 사실이 알려졌을 경우, 숨긴 날짜만큼 승가의 한쪽 구석에 있는 방사에서 생활하며 참회의 기간을 보내는 징벌을 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 167
+      },
+      "graderRef": "buddhist-sangha3-q167"
+    },
+    {
+      "id": "buddhist-sangha3-q168",
+      "prompt": "에 의하면, 승잔죄를 저지른 비구가 잘못을 범한 기간만큼 대중과 따로 떨어져 살면서 참회하는 ‘별주(別住, 바리바사)’의 징계기간이 끝나면, 추가로 묵언(黙言)하며 6일간의 근신기간을 가져야 한다. 이 6일간의 근신처분을 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 168
+      },
+      "graderRef": "buddhist-sangha3-q168"
+    },
+    {
+      "id": "buddhist-sangha3-q169",
+      "prompt": "의 조문은 그대로 둔 채 몇 가지 방법을 사용하여 합법적으로 만드는 것을 통해 그 적용 범위를 다소 넓히려 하는 일종의 편법을 승가에서는 무엇이라고 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 169
+      },
+      "graderRef": "buddhist-sangha3-q169"
+    },
+    {
+      "id": "buddhist-sangha3-q170",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어를 5계 가운데서 선택하여 차례대로 기술하시오. 자기 수행을 강조하는 구족계의 바라제목차에는 ( )계가 맨 앞에 있지만, 자비를 강조하는 범망계 속 보살계의 바라제목차에는 ( )계가 제일 앞에 있다.(신라 의적스님 보살계본소 중에서)",
+      "metadata": {
+        "period": null,
+        "questionNumber": 170
+      },
+      "graderRef": "buddhist-sangha3-q170"
+    },
+    {
+      "id": "buddhist-sangha3-q171",
+      "prompt": "의 문장에서 ( )에 들어갈 알맞은 말을 기술하시오. 대승경전에서 말하는 보살의 삼취정계(三聚淨戒)는 율의계, 선법계, ( )이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 171
+      },
+      "graderRef": "buddhist-sangha3-q171"
+    },
+    {
+      "id": "buddhist-sangha3-q172",
+      "prompt": "경에서는 보살의 바라제목차에 대해 총 58개를 설하며, 이를 ‘무거운 계(重戒)’와 ‘가벼운 계(輕戒)’로 나눈다. 이 58개의 계 중에서 ‘무거운 계(重戒)’는 몇 개인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 172
+      },
+      "graderRef": "buddhist-sangha3-q172"
+    },
+    {
+      "id": "buddhist-sangha3-q173",
+      "prompt": "경에서는 보살의 바라제목차에 대해 총 58개를 설하며, 이를 ‘무거운 계(重戒)’와 ‘가벼운 계(輕戒)’로 나눈다. 이 58개의 계 중에서 ‘가벼운 계(輕戒)’는 몇 개인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 173
+      },
+      "graderRef": "buddhist-sangha3-q173"
+    },
+    {
+      "id": "buddhist-sangha3-q174",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 율장의 구성은 두 가지로 나뉘는데, 첫째는 바라제목차 및 경분별(바라제목차 해설)이며, 둘째는 승단운영에 필요한 행사집행 메뉴얼에 해당하는 ( )이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 174
+      },
+      "graderRef": "buddhist-sangha3-q174"
+    },
+    {
+      "id": "buddhist-sangha3-q175",
+      "prompt": "님 열반 직후 제자들에 의해 경장(經藏)과 율장(律藏)이 결집되었다. 이 경장과 율장 중 어느 것이 먼저 결집되었는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 175
+      },
+      "graderRef": "buddhist-sangha3-q175"
+    },
+    {
+      "id": "buddhist-sangha3-q176",
+      "prompt": "불교 수행법에는 수식관, 인연관, 부정관, 자비관 등이 있다. 이 가운데 ‘사람의 생명을 해쳐서는 안 된다’는 구족계의 불살생계와 연관이 있는 수행법은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 176
+      },
+      "graderRef": "buddhist-sangha3-q176"
+    },
+    {
+      "id": "buddhist-sangha3-q177",
+      "prompt": "의 불교승단에서 최초의 비구니는 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 177
+      },
+      "graderRef": "buddhist-sangha3-q177"
+    },
+    {
+      "id": "buddhist-sangha3-q178",
+      "prompt": "의 불교승단에서 최초의 사미(沙彌)는 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 178
+      },
+      "graderRef": "buddhist-sangha3-q178"
+    },
+    {
+      "id": "buddhist-sangha3-q179",
+      "prompt": "은 과거와 현재의 일곱 부처님이 공통적으로 가르친 내용인 칠불통계(七佛通誡)의 내용이다. ( )에 들어갈 정확한 내용을 기술하시오. 제악막작(諸惡莫作), 중선봉행(衆善奉行), ( ), 시제불교(是諸佛敎)",
+      "metadata": {
+        "period": null,
+        "questionNumber": 179
+      },
+      "graderRef": "buddhist-sangha3-q179"
+    },
+    {
+      "id": "buddhist-sangha3-q180",
+      "prompt": "문장에서 ( )에 들어갈 용어는 무엇인가? 범망경에서 다음과 같은 ‘열 가지 큰 계(十重大戒)’를 설하고 있는데 그 중 아홉 가지는 다음과 같다. 첫째, 중생을 죽이지 말라. 둘째, 주지 않는 것을 훔치지 말라. 셋째, 음행하지 말라. 넷째, 거짓말을 하지 말라. 다섯째, 술을 팔지 말라. 여섯째, 사부대중의 죄과(罪過)를 말하지 말라. 일곱째, 자기를 칭찬하지 말며, 남을 비방하지 말라. 여덟째, 자기 것을 아끼려고 남을 욕하지 말라. 아홉째, 성내지 말고, 참회하면 잘 받아주어라. 마지막 열 번째는 ( )이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 180
+      },
+      "graderRef": "buddhist-sangha3-q180"
+    },
+    {
+      "id": "buddhist-sangha3-q181",
+      "prompt": "은 어떤 서적의 내용을 설명하는 내용이다. 이 서적의 제목은 무엇인가? 수계법단에서 행한 육조 혜능스님의 법문을 기록하여 편찬한 책으로 선종(禪宗)의 올바른 정신을 제시했을 뿐만 아니라 삼귀의, 참회, 무상계(無相戒), 사홍서원에 대해 반야의 입장으로 설함으로써 선불교의 신앙적 입장과 계율에 대한 정신을 잘 드러내고 있다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 181
+      },
+      "graderRef": "buddhist-sangha3-q181"
+    },
+    {
+      "id": "buddhist-sangha3-q182",
+      "prompt": "문장에서 말하는 경전의 이름은 무엇인가? 보살계를 설하고 있는 대승경전으로서, 종단의 각 사찰에서 포살행사 때에 낭송본으로 사용하고 있다. 우리나라의 원효, 의적, 태현스님 등이 이 경전에 대한 주석(註釋)을 단 저술을 남기기도 했다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 182
+      },
+      "graderRef": "buddhist-sangha3-q182"
+    },
+    {
+      "id": "buddhist-sangha3-q183",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어를 기술하시오. 경전에서 말하는 십선계(十善戒)란 불살생, ( ), 불사음, 불망어, 불기어, 불양설, 불악어, 불탐, 부진, 불치(불사견)이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 183
+      },
+      "graderRef": "buddhist-sangha3-q183"
+    },
+    {
+      "id": "buddhist-sangha3-q184",
+      "prompt": "의 문장은 ‘육식을 해서는 안 된다’는 가르침을 담고 있는 한 대승경전의 내용이다. 중국 선종 초기에 금강경과 함께 존중되어온 이 경전의 명칭은 무엇인가? 보살은 마땅히 모든 고기를 부모의 피와 살로 생각하고, 그와 같이 관찰해야 한다. 세상의 모든 고기 중에는 생명 아닌 것이 없으니 죽이거나 먹지 말아야 한다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 184
+      },
+      "graderRef": "buddhist-sangha3-q184"
+    },
+    {
+      "id": "buddhist-sangha3-q185",
+      "prompt": "기(AD)의 중국스님으로서 초기승단이 전승해온 사분율을 ‘부처님의 계율을 잘 지켜 악을 물리치고, 선을 행하고, 중생을 교화한다.’는 대승불교의 정신으로 해석하여 중국 남산율종의 개창자가 된 스님은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 185
+      },
+      "graderRef": "buddhist-sangha3-q185"
+    },
+    {
+      "id": "buddhist-sangha3-q186",
+      "prompt": "의 남산율종과 한국불교는 여러 율장 중에서 사분율을 존중하여 따르고 있다. 이 사분율은 인도 부파불교 중 어느 부파에서 전승되어진 율장인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 186
+      },
+      "graderRef": "buddhist-sangha3-q186"
+    },
+    {
+      "id": "buddhist-sangha3-q187",
+      "prompt": "불교는 초기에 율종 중심의 사찰이 많았는데, 그 후 선종(禪宗)이 대두되면서 참선하는 스님들이 거주하는 선종사찰이 늘어나게 되었다. 이에 따라 선종사찰의 운영원칙과 직제 등을 규정하는 청규(淸規)를 최초로 제정한 스님은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 187
+      },
+      "graderRef": "buddhist-sangha3-q187"
+    },
+    {
+      "id": "buddhist-sangha3-q188",
+      "prompt": "의 스님으로서 526년에 인도로 가서 수학한 후 530년에 귀국하여 범본아담장오부율문을 번역하여 백제 율종(律宗)을 개창하였고 일본 율종의 성립에도 많은 영향을 끼친 분은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 188
+      },
+      "graderRef": "buddhist-sangha3-q188"
+    },
+    {
+      "id": "buddhist-sangha3-q189",
+      "prompt": "기(AD)에 활동한 신라스님으로서 당나라로 유학하였다. 이후 오대산에서 문수보살을 참배하고, 이후 도선율사에게 계율을 배우고 귀국하여 황룡사를 창건하고, 통도사 금강계단을 건립하신 분은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 189
+      },
+      "graderRef": "buddhist-sangha3-q189"
+    },
+    {
+      "id": "buddhist-sangha3-q190",
+      "prompt": "김제 모악산 금산사에는 미륵부처님의 십선계와 계율적 연관이 있는 방등계단(方等戒壇)이 조성되어있다. 이 계단을 건립한 통일신라시대 초기의 율사는 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 190
+      },
+      "graderRef": "buddhist-sangha3-q190"
+    },
+    {
+      "id": "buddhist-sangha3-q191",
+      "prompt": "문장에서 설명하는 법회의 이름은 무엇인가? 불교에서 하루 동안 8가지의 계율을 엄격하게 지키는 불교 의식에 기반하여 신라 진흥왕 때 나라의 발전과 안녕을 지키기 위해 처음 국가적인 법회로 행해졌다. 고려 태조 왕건은 훈요십조에서 이 법회를 중시하라는 말을 남겼으며 이에 따라 고려시대에서는 정기적인 국가 행사로 자리를 잡았다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 191
+      },
+      "graderRef": "buddhist-sangha3-q191"
+    },
+    {
+      "id": "buddhist-sangha3-q192",
+      "prompt": "시대의 스님으로서 처음 불문에 들어온 사람을 위해 우리나라의 사원생활에 필요한 청규인 계초심학인문(誡初心學人文)을 저술한 스님은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 192
+      },
+      "graderRef": "buddhist-sangha3-q192"
+    },
+    {
+      "id": "buddhist-sangha3-q193",
+      "prompt": "은 2012년에 전국선원수좌회가 중심이 되어 교육원과 함께 선원(禪院)의 수좌스님들이 현대사회에서 준수할 청규를 제정한 바 있다. 이 청규의 명칭은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 193
+      },
+      "graderRef": "buddhist-sangha3-q193"
+    },
+    {
+      "id": "buddhist-sangha3-q194",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 용어는 무엇인가? 승단 안에서 일어났거나 일으키려는 분쟁을 해결하는 방법으로 사분율에서는 7멸쟁(滅諍)을 현전비니(現前毘尼), 억념비니(憶念毘尼), 불치비니(不癡毘尼), 자언치비니(自言治毘尼), 다인어비니(多人語毘尼), 멱죄상비니(覓罪相毘尼), ( )로 분류하고 있다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 194
+      },
+      "graderRef": "buddhist-sangha3-q194"
+    },
+    {
+      "id": "buddhist-sangha3-q195",
+      "prompt": "은 초기승단에서 불교수행자가 생활 속에서 지켜야 될 네 가지 원칙인 사의법(四依法)이다. ( ) 속에 들어갈 용어를 기술하시오. 분소의, ( ), 수하좌, 진기약",
+      "metadata": {
+        "period": null,
+        "questionNumber": 195
+      },
+      "graderRef": "buddhist-sangha3-q195"
+    },
+    {
+      "id": "buddhist-sangha3-q196",
+      "prompt": "불교조계종의 종조(宗祖)이고 가지산문의 개창조로 신라에 남종선을 처음으로 전래한 스님은?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 196
+      },
+      "graderRef": "buddhist-sangha3-q196"
+    },
+    {
+      "id": "buddhist-sangha3-q197",
+      "prompt": "국사 지눌에 의해 전개된 참선을 위주로 한 결사운동을 무엇이라 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 197
+      },
+      "graderRef": "buddhist-sangha3-q197"
+    },
+    {
+      "id": "buddhist-sangha3-q198",
+      "prompt": "문장에서 설명하고 있는 책의 이름은 무엇인가? 이 책은 고려시대의 진각혜심스님(1178~1234)이 편찬한 선문공안집이다. 진각스님은 보조스님의 수제자로서 무의자(無衣子)라고 하였다. 이 책은 화두 1125칙(則)과 각 칙에 여러 조사의 염(拈)과 송(頌) 등 어록을 수집하여 만들었다. 그 뒤 진각스님의 제자 각운스님이 347칙의 화두를 첨가하여 1472칙으로 내용이 늘어났으며, 현재 유통되고 있는 본(本)이 이것이다. 이 책은 조선시대에 선종과 교종의 승과시험에서 선종의 시험과목이기도 했으며, 조선중기이후 근래까지 스님들의 이력과정 중 수의과(隨意科)의 교과목이기도 하다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 198
+      },
+      "graderRef": "buddhist-sangha3-q198"
+    },
+    {
+      "id": "buddhist-sangha3-q199",
+      "prompt": "의 석옥청공으로부터 임제종의 선맥을 이어 받고 귀국하여 고려에 선풍을 진작시켰다. 공민왕의 지원을 받아 광명사에 원융부를 신설하여 구산선문의 통합에 많은 노력을 기울였다. 치문경훈을 유포하기도 했고, 오늘날 대한불교조계종의 중흥조로 일컬어지는 스님은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 199
+      },
+      "graderRef": "buddhist-sangha3-q199"
+    },
+    {
+      "id": "buddhist-sangha3-q200",
+      "prompt": "불교조계종의 종헌(宗憲)은 서기 몇 년도에 제정되었는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 200
+      },
+      "graderRef": "buddhist-sangha3-q200"
+    },
+    {
+      "id": "buddhist-sangha3-q201",
+      "prompt": "은 대한불교조계종의 종지(宗旨)를 말하고 있는 종헌 제 2조의 내용이다. ( )에 들어갈 말을 차례대로 기술하시오. 본종은 석가세존의 자각각타 ( )한 근본교리를 봉체하며, 직지인심 견성성불 ( )함을 종지로 한다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 201
+      },
+      "graderRef": "buddhist-sangha3-q201"
+    },
+    {
+      "id": "buddhist-sangha3-q202",
+      "prompt": "불교조계종을 운영하는 법규로는 최상위법으로 ‘종헌(宗憲)’이 있고, 종헌을 시행하기 위한 법률로서 각종 ‘종법(宗法)’이 있다. 그러면 종법을 시행하기 위한 세부규정으로서 총무원의 종무회의를 거쳐 제·개정하는 시행령을 무엇이라 부르는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 202
+      },
+      "graderRef": "buddhist-sangha3-q202"
+    },
+    {
+      "id": "buddhist-sangha3-q203",
+      "prompt": "불교조계종 소속 승려의 자격, 권한, 의무, 징계 등에 대한 사항을 규정하고 있는 종법(宗法)의 명칭은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 203
+      },
+      "graderRef": "buddhist-sangha3-q203"
+    },
+    {
+      "id": "buddhist-sangha3-q204",
+      "prompt": ", 사찰 등에서 종사하는 주지, 국장 등 각종 종무원(소임자)의 자격, 권한, 의무 등에 대해 규정하고 있는 종법(宗法)의 명칭은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 204
+      },
+      "graderRef": "buddhist-sangha3-q204"
+    },
+    {
+      "id": "buddhist-sangha3-q205",
+      "prompt": "불교조계종 소속 사찰은 주지, 국장, 신도회 간부가 참여하는 사찰운영위원회를 구성하여 사찰의 예산, 결산, 각종 불사, 재산처분 등에 관한 사항을 심의하도록 의무화하고 있다. 이러한 내용을 규정하고 있는 종법(宗法)의 명칭은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 205
+      },
+      "graderRef": "buddhist-sangha3-q205"
+    },
+    {
+      "id": "buddhist-sangha3-q206",
+      "prompt": "의 중앙종무기관인 총무원의 설치, 조직, 직무범위 등을 정한 종법(宗法)의 명칭은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 206
+      },
+      "graderRef": "buddhist-sangha3-q206"
+    },
+    {
+      "id": "buddhist-sangha3-q207",
+      "prompt": "의 사법기관인 호계원(초심, 재심)의 조직 및 운영과 그 심판절차에 관한 사항을 정한 종법(宗法)의 명칭은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 207
+      },
+      "graderRef": "buddhist-sangha3-q207"
+    },
+    {
+      "id": "buddhist-sangha3-q208",
+      "prompt": "의 입법 및 대의기구인 중앙종회의 권한, 조직 및 의사처결에 관한 사항을 정한 종법(宗法)의 명칭은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 208
+      },
+      "graderRef": "buddhist-sangha3-q208"
+    },
+    {
+      "id": "buddhist-sangha3-q209",
+      "prompt": "은 각 교구별로 교구종회를 두어 교구의 예산, 결산, 규칙제정 등에 관한 사항을 처리하도록 하고 있다. 이러한 내용을 정하고 있는 종법(宗法)의 명칭은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 209
+      },
+      "graderRef": "buddhist-sangha3-q209"
+    },
+    {
+      "id": "buddhist-sangha3-q210",
+      "prompt": "은 1994년도에 ‘예산회계법’을 제정하여 총무원 등 중앙종무기관의 예산편성과 집행, 그리고 결산을 법적절차에 의해 시행하고 있다. 그리고 2012년에는 종단 소속 사찰의 예산, 결산, 회계처리에 대한 사항을 새롭게 종법으로 제정함으로서 사찰 재정의 엄정화와 투명화를 지향하고 있다. 2012년에 제정된 이 종법(宗法)의 명칭은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 210
+      },
+      "graderRef": "buddhist-sangha3-q210"
+    },
+    {
+      "id": "buddhist-sangha3-q211",
+      "prompt": "에는 국가의 헌법재판소와 유사한 기능을 하는 심판기구가 있는데, 이 기구는 ‘종법(宗法)이 종헌에 위배되는지 여부’, ‘종령과 규칙과 행정처분이 종헌 종법에 위배되는지 여부’ 등을 심판한다. 이 종단기구의 명칭은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 211
+      },
+      "graderRef": "buddhist-sangha3-q211"
+    },
+    {
+      "id": "buddhist-sangha3-q212",
+      "prompt": "은 사찰신도회, 교구신도회, 중앙신도회 등의 구성과 운영에 관한 사항을 규정하고 있는 종법(宗法)의 명칭은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 212
+      },
+      "graderRef": "buddhist-sangha3-q212"
+    },
+    {
+      "id": "buddhist-sangha3-q213",
+      "prompt": "은 2013년에 중앙종회의원, 총무원장을 선출하는 절차와 내용을 규정하고 있는 종법(宗法)을 제정하였다. 이 종법의 명칭은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 213
+      },
+      "graderRef": "buddhist-sangha3-q213"
+    },
+    {
+      "id": "buddhist-sangha3-q214",
+      "prompt": "문장에서 ( )에 들어갈 올바른 용어를 기술하시오. 종단의 법계법시행령에 의하면, 견덕법계 수지자는 7조의 가사를 수하며, 중덕법계 수지자는 9조의 가사를 수하며, 대덕법계 수지자는 ( )조의 가사를 수하며, 종덕법계 수지자는 19조 가사를 수하며, 종사는 21조의 가사를 수하며, 대종사는 25조의 가사를 수한다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 214
+      },
+      "graderRef": "buddhist-sangha3-q214"
+    },
+    {
+      "id": "buddhist-sangha3-q215",
+      "prompt": "은 수행기관으로 총림선원, 일반선원, 기본선원 등을 설치하여 운영하고 있다. 이러한 각종 선원의 운영에 대한 사항을 규정한 종법의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 215
+      },
+      "graderRef": "buddhist-sangha3-q215"
+    },
+    {
+      "id": "buddhist-sangha3-q216",
+      "prompt": "은 중앙종회의원의 출마자격에 관한 선거법의 내용이다. ( )에 들어갈 숫자를 차례대로 기술하시오. 승납 ( )년 이상, 연령 ( )세 이상의 종단 재적승은 중앙종회의원 피선거권이 있다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 216
+      },
+      "graderRef": "buddhist-sangha3-q216"
+    },
+    {
+      "id": "buddhist-sangha3-q217",
+      "prompt": "은 종단의 비구 법계를 위계 순으로 나열한 것이다. ( )에 들어갈 알맞은 말을 기술하시오. 견덕(見德), 중덕(中德), ( ), 종덕(宗德), 종사(宗師), 대종사(大宗師)",
+      "metadata": {
+        "period": null,
+        "questionNumber": 217
+      },
+      "graderRef": "buddhist-sangha3-q217"
+    },
+    {
+      "id": "buddhist-sangha3-q218",
+      "prompt": "의 비구법계는 견덕에서 대종사까지 여섯 단계가 있다. 이 중 교구본사주지를 할 수 있는 자격은 어느 법계부터 가능한지 기술하시오.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 218
+      },
+      "graderRef": "buddhist-sangha3-q218"
+    },
+    {
+      "id": "buddhist-sangha3-q219",
+      "prompt": "의 비구법계는 견덕에서 대종사까지 여섯 단계가 있다. 이 중 말사주지 임명자격 및 상좌를 둘 수 있는 자격은 어느 법계부터 가능한지 기술하시오.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 219
+      },
+      "graderRef": "buddhist-sangha3-q219"
+    },
+    {
+      "id": "buddhist-sangha3-q220",
+      "prompt": "의 문장에서 말하는 스님은 누구인가? 6세기말, 7세기 초의 신라스님으로 중국에 유학하여 대승불교를 수학하였고, 이후 귀국하여 많은 교화를 펼친 분이다. 특히 신라의 화랑들에게 설한 ‘세속오계(世俗五戒)’는 대승불교 정신에 입각한 현실적 윤리지침으로써 삼국이 전쟁을 치르던 시기에 당시 사회에 큰 영향을 끼쳤다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 220
+      },
+      "graderRef": "buddhist-sangha3-q220"
+    },
+    {
+      "id": "buddhist-sangha3-q221",
+      "prompt": "문장은 삼국유사에 있는 고구려의 불교 전래에 관한 내용이다. ( )에 들어갈 알맞은 말을 차례대로 쓰시오. 서력 372년(소수림왕 2)에 전진왕 부견이 사신과 승려 ( )를 보내 불상과 경문을 보내왔다. 이에 왕은 사신을 보내 답례하고 토산물을 바쳤다. 또 374년(소수림왕 4)에는 승려 ( )가 진(晉)나라에서 왔다. 이것이 고구려 불법의 처음이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 221
+      },
+      "graderRef": "buddhist-sangha3-q221"
+    },
+    {
+      "id": "buddhist-sangha3-q222",
+      "prompt": "문장은 삼국사기에 기록된 백제 불교 전래에 관한 내용이다. ( )에 들어갈 알맞은 말을 쓰시오. 서력 384년(침류왕 원년) 9월에 호승(胡僧) ( )가 진(晉)나라에서 왔다. 왕은 그를 맞아 궁내에 모시고 예배, 공경하였다. 백제의 불법이 이로부터 시작되었다. 385년 한산에 절을 창건하고 승려 10명을 출가시켰다. 아신왕은 392년(즉위 원년)에 불법을 숭신하여 복을 구하라고 교를 내렸다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 222
+      },
+      "graderRef": "buddhist-sangha3-q222"
+    },
+    {
+      "id": "buddhist-sangha3-q223",
+      "prompt": "문장에서 ( )에 들어갈 인물을 쓰시오. 신라는 5세기 초부터 고구려를 통해 불교가 전해진 것으로 보이지만 고구려나 백제처럼 쉽게 수용되지 못하다가, 법흥왕 14년(527)에 이르러서 불교가 공인되었다. 신라에서 불교가 공인되는 결정적 계기는 ( )의 순교가 있었기 때문이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 223
+      },
+      "graderRef": "buddhist-sangha3-q223"
+    },
+    {
+      "id": "buddhist-sangha3-q224",
+      "prompt": "문장에서 설명하는 논서는 무엇인가? 이 책은 원효 사상의 중요한 특징인 화쟁사상을 논한 저술로서 서로 대립되는 10가지 개념을 화쟁의 논리로 전개하였으며, 9세기 초에 세워진 고선사 <서당화상비>에서도 언급되고 있는 원효의 대표적 저술이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 224
+      },
+      "graderRef": "buddhist-sangha3-q224"
+    },
+    {
+      "id": "buddhist-sangha3-q225",
+      "prompt": "문장에서 설명하는 스님은 누구인가? 신라 스님으로 당나라에 들어가 장안의 종남산 지상사 지엄 문하에서 화엄을 공부하고, 670년에 귀국하여 화엄교학을 두루 펼쳤다. 신라에 화엄교학을 전함으로써 해동화엄의 초조로 추앙받고 있으며, 대표 저술로는 60권 화엄경 의 내용을 압축하여 요약한 화엄일승법계도(법성게)가 있다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 225
+      },
+      "graderRef": "buddhist-sangha3-q225"
+    },
+    {
+      "id": "buddhist-sangha3-q226",
+      "prompt": "문장에서 설명하는 스님은 누구인가? 신라 스님으로서 현장스님의 역장(譯場)에 참여한 스님이다. 중국은 물론 일본의 유식학에 많은 영향을 끼쳤으며, 그의 학설은 오늘날 티베트불교의 주류를 이루고 있는 쫑카파에 많은 영향을 끼쳤다. 중국에서는 그를 따르는 학자가 많아 그를 경모하는 탑이 서명사에 세워졌다. 그는 현장스님이 중국에서 신유식학을 펴기 전에 구유식학을 연구했다. 신라 유식학의 대가로 중국 규기의 ‘일천제는 성불할 수 없다’는 주장에 반대하여 ‘모든 중생은 누구나 성불할 수 있다’는 일성개불설(一性皆佛說)을 주장하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 226
+      },
+      "graderRef": "buddhist-sangha3-q226"
+    },
+    {
+      "id": "buddhist-sangha3-q227",
+      "prompt": "문장에서 설명하는 스님은 누구인가? 신라시대 스님으로서 구산선문이 형성되기 전에 최초로 선법(禪法)을 전래한 분으로, 선덕왕(632-647)대와 진덕왕(647-654)대에 당나라에 유학하여 중국 선종 제4조 쌍봉도신의 동산종을 처음으로 전해왔다. 귀국 후 청도 호거산에 은둔하며 전법에 힘썼으며 제자인 신행에게 법을 전하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 227
+      },
+      "graderRef": "buddhist-sangha3-q227"
+    },
+    {
+      "id": "buddhist-sangha3-q228",
+      "prompt": "은 구산선문 중 어느 산문에 대한 설명인가? 신라에 처음으로 선법을 전한 도의국사는 염거화상에게 법을 전하였으며, 염거화상은 설악산 억성사에 머물면서 보조체징에게 법을 전하였다. 보조체징은 염거화상에게 법을 받은 뒤 859년 왕의 요청으로 장흥에 보림사를 창건하고 이때부터 신라 진골 지배 세력의 후원을 받으며 선풍을 널리 펼쳤다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 228
+      },
+      "graderRef": "buddhist-sangha3-q228"
+    },
+    {
+      "id": "buddhist-sangha3-q229",
+      "prompt": "은 구산선문 중 어느 산문에 대한 설명인가? 개산조는 홍척(洪陟)으로 당나라 서당지장에게 법을 받고, 흥덕왕 원년(826)에 귀국하였다. 지리산에 자리를 잡고 편운(片雲), 수철(秀澈) 등의 많은 제자를 배출하여 선법을 크게 일으켰으며 가장 먼저 산문을 형성하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 229
+      },
+      "graderRef": "buddhist-sangha3-q229"
+    },
+    {
+      "id": "buddhist-sangha3-q230",
+      "prompt": "은 구산선문 중 어느 산문에 대한 설명인가? 마조도일의 제자인 염관제안의 법을 받아 846년에 귀국한 범일(梵日)에 의해 개창되었다. 범일은 명주(강릉)지역에 주석하며 선풍을 날렸으며, 고려시대에는 가자산문과 더불어 대표적인 산문을 형성하였다. 범일의 제자로는 개청, 행적, 신의 등이 있었다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 230
+      },
+      "graderRef": "buddhist-sangha3-q230"
+    },
+    {
+      "id": "buddhist-sangha3-q231",
+      "prompt": "은 구산선문 중 어느 산문에 대한 설명인가? 이 산문의 개산조는 지증도헌(智證道憲)이나 실제 개창조는 긍양(兢讓)이다. 도헌은 구산문을 개창한 다른 선사들과 달리 중국에 들어가지 않고 산문을 성립하였다. 도헌은 일찍이 출가하여 혜은으로부터 법을 받았는데, 이는 쌍봉 도신과 북종선의 법맥을 이었다고 할 수 있다. 그의 비문은 문경 봉암사에 남아 있는데 산문을 열지는 못하였다. 이후 긍양이 다시 절을 일으켜 도량을 새로이 열어 크게 선풍을 드날렸다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 231
+      },
+      "graderRef": "buddhist-sangha3-q231"
+    },
+    {
+      "id": "buddhist-sangha3-q232",
+      "prompt": "은 구산선문 중 어느 산문에 대한 설명인가? 진경심회(眞鏡審希)가 개창하였으나 개산조는 현욱(玄昱)이다. 현욱은 마조도일의 제자인 장경회휘의 법을 받아 837년 귀국한 뒤 신라 왕실의 존숭을 받았으며 경문왕의 요청으로 고달사에 주석하였다. 고달사에 머무는 동안 많은 제자들을 배출하였다. 그 가운데 심희가 대표적 인물로 김해지방의 가야계 김씨 세력과 연결하여 창원에 산문을 개창하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 232
+      },
+      "graderRef": "buddhist-sangha3-q232"
+    },
+    {
+      "id": "buddhist-sangha3-q233",
+      "prompt": "은 구산선문 중 어느 산문에 대한 설명인가? 낭혜무염(郎慧無染)에 의해 개창되었다. 그는 821년 당나라에 들어가 불광여만의 소개로 마조도일의 제자인 마곡보철으로부터 법을 받았다. 당시 그의 보시행은 ‘동방대보살’이라는 이름으로 널리 알려졌다. 845년 귀국한 그는 김흔과 김양의 도움으로 충남 보령에 산문을 개창하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 233
+      },
+      "graderRef": "buddhist-sangha3-q233"
+    },
+    {
+      "id": "buddhist-sangha3-q234",
+      "prompt": "은 구산선문 중 어느 산문에 대한 설명인가? 혜철(慧哲)에 의해 개창된 산문이다. 혜철은 입당하여 서당지장의 법을 받았으며 839년에 신라로 귀국하여 곡성 태안사에 주석하였다. 이후 왕성한 활동을 보이다가 861년에 열반에 들었다. 제자로는 도선이 유명했는데 그는 풍수지리설을 선종의 종지와 아울러 드날렸다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 234
+      },
+      "graderRef": "buddhist-sangha3-q234"
+    },
+    {
+      "id": "buddhist-sangha3-q235",
+      "prompt": "은 구산선문 중 어느 산문에 대한 설명인가? 실제 개창자는 절중(折中)이지만 산문의 개산조는 도윤(道允)이다. 도윤은 825년 입당하여 마도도일의 제자인 남전보원의 법을 받았으며, 남전이 열반에 들고서도 13년 동안이나 당나라에 머물러 있다가 847년에 귀국하여 무주 쌍봉사에 주석하며 선풍을 날렸다. 그의 제자인 절중은 이후 흥녕선원(興寧禪院)을 근본도량으로 산문을 개창하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 235
+      },
+      "graderRef": "buddhist-sangha3-q235"
+    },
+    {
+      "id": "buddhist-sangha3-q236",
+      "prompt": "은 구산선문 중 어느 산문에 대한 설명인가? 구산문 가운데 가장 늦게 개창한 산문으로 이엄(利嚴)이 개창하였다. 그는 12세에 출가한 이후 896년 입당하여 청원행사의 법맥을 이은 운거도응의 문하에서 공부하고 법인을 받았다. 911년 귀국하여 영동 영각산에 머물다가 고려 태조의 부름에 응해 스승의 예우를 받았으며, 932년에는 해주에 광조사를 세우고 선법을 펼쳤다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 236
+      },
+      "graderRef": "buddhist-sangha3-q236"
+    },
+    {
+      "id": "buddhist-sangha3-q237",
+      "prompt": "문장에서 설명하는 고려시대의 관청은 무엇인가? 고려시대의 불교와 관련된 업무를 주관하는 관청으로 승려들의 승적을 관리하고 승계(僧階) 및 주지 인사 등을 집행하는 것은 물론 왕사·국사의 임명, 입적한 고승의 장례 및 탑·비 건립 등 승려와 관계되는 제반 사항을 처리하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 237
+      },
+      "graderRef": "buddhist-sangha3-q237"
+    },
+    {
+      "id": "buddhist-sangha3-q238",
+      "prompt": "문장은 무엇에 대한 설명인가? 이 관청의 이름은 고려 공민왕 때에 태고보우스님의 건의로 만들어진 것으로 제종통할(諸宗統割)의 기구이다. 개경 광명사에 설치되었으며 오교홍통(五敎弘統), 구산통합(九山統合)을 이루고자 하였다. 관리를 두어 정3품의 예우를 하였으며, 왕사 직속의 독립된 부서로서 불교계를 총괄하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 238
+      },
+      "graderRef": "buddhist-sangha3-q238"
+    },
+    {
+      "id": "buddhist-sangha3-q239",
+      "prompt": "문장에서 설명하는 스님은 누구인가? 이 스님은 고려 초기 탄문과 함께 활약한 대표적 화엄종 승려로서 신라 이래의 화엄학을 깊이 연구하여 당대 최고의 화엄학자로 명성을 날렸다. 한편 일반인들의 신앙으로서 화엄신중경에 의거하여 화엄신중들의 가호를 비는 신중 신앙을 중시하였고, 보현보살의 중생구제를 노래한 보현십원가를 지어 일반인들에게 보현 신앙을 유포시키기도 하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 239
+      },
+      "graderRef": "buddhist-sangha3-q239"
+    },
+    {
+      "id": "buddhist-sangha3-q240",
+      "prompt": "문장에서 말하는 대장경의 이름은 무엇인가? 이 대장경은 의천국사가 조성한 대장경으로서 초조대장경을 만들 때 빠진 것을 모아서 간행한 것이다. 의천국사가 송나라, 요나라, 일본에서 수집한 경전 총 1,010종 4,857권을 집대성하여 목판으로 새겨 조성했다. 팔공산 부인사에 초조대장경과 함께 보관되었으나 불행히도 몽고의 병화로 불타버렸다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 240
+      },
+      "graderRef": "buddhist-sangha3-q240"
+    },
+    {
+      "id": "buddhist-sangha3-q241",
+      "prompt": "문장에서 설명하고 있는 스님은 누구인가? 고려 문종의 넷째 아들로 11세에 출가하여 경덕왕사 난원의 제자가 되었으며, 이후 화엄종 소속 승려로 이름을 떨쳤다. 13세에 승통이 되고, 23세부터 화엄경을 강의할 정도로 교단 내에서 빠른 성장을 하였다. 후에 송나라에 유학하여 교학을 배우고 귀국하여 1097년 국청사 완공과 함께 주지로 부임하면서 천태종을 개창하였으며, 초조대장경에서 누락된 경전을 송나라, 요나라, 일본 등지에서 수집하여 별도의 대장경인 ‘제종교장(諸宗敎藏:일명 속장경, 교장)’을 조성하여 판각하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 241
+      },
+      "graderRef": "buddhist-sangha3-q241"
+    },
+    {
+      "id": "buddhist-sangha3-q242",
+      "prompt": "문장은 보조스님의 저술에 대한 설명이다. 이 저술의 제목은 무엇인가? 보조지눌이 수행하는 모임을 결성하면서 팔공산 거조사(居祖寺)에서 선포한 글이다. 이 글의 취지는 당시 불교계가 자신의 본분보다는 세속의 명리를 탐하고 자파의 이익만을 구해 교종과 선종의 대립상이 심한 것을 개탄하고, 정(定)과 혜(慧)를 열심히 닦아 불법을 중흥하자는 주장을 담은 글이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 242
+      },
+      "graderRef": "buddhist-sangha3-q242"
+    },
+    {
+      "id": "buddhist-sangha3-q243",
+      "prompt": "문장에서 설명하고 있는 스님은 누구인가? 고려시대 천태종 승려로서 강진 백련사에서 신앙결사인 백련결사를 결성하여 수참(修懺)과 미타정토(彌陀淨土)의 수행을 하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 243
+      },
+      "graderRef": "buddhist-sangha3-q243"
+    },
+    {
+      "id": "buddhist-sangha3-q244",
+      "prompt": "에서 설명하고 있는 저술의 이름은 무엇인가? 이 책은 고려의 일연스님의 저술로서 우리나라의 대표적인 역사서이다. 고조선에서부터 고구려, 백제, 신라, 가야의 역사, 문화, 설화를 다루고 있으며 다른 전적에서는 없는 이두 향가 14수를 전하고 있다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 244
+      },
+      "graderRef": "buddhist-sangha3-q244"
+    },
+    {
+      "id": "buddhist-sangha3-q245",
+      "prompt": "문장에서 설명하고 있는 스님은 누구인가? 고려후기 스님으로 13세 때 양주 회암사 광지스님을 스승으로 득도 한 후 무자화두를 통한 간화선 수행을 하였다. 화두를 통한 깨달음을 얻은 후 46세 때 원나라에 가서 석옥청공에게 인가를 받았다. 고려시대 왕사와 국사를 지내며 현재 대한불교조계종의 중흥조로서 임제종의 선맥을 우리나라에 이어 준 대선사이자 고려에 간화선을 토착화시키는데 결정적 역할을 한 인물이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 245
+      },
+      "graderRef": "buddhist-sangha3-q245"
+    },
+    {
+      "id": "buddhist-sangha3-q246",
+      "prompt": "문장에서 설명하고 있는 스님은 누구인가? 이 스님은 태고보우, 백운경한과 더불어 고려 말의 대표적인 선승으로 양주 회암사에 출가하여 득도하였다. 이후 원나라에 가서 평산처림 문하에서 10년간 수행하였으며, 지공에게 법을 인가받고 귀국하였다. 수행에 있어서 간화선 뿐 만 아니라 칭명염불과 관상염불도 수용하여 일반 백성들에게 많은 호응을 얻었다. 공민왕의 왕사가 되었으며 상수제자로는 무학자초가 있었다. 여주 신륵사에서 입적하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 246
+      },
+      "graderRef": "buddhist-sangha3-q246"
+    },
+    {
+      "id": "buddhist-sangha3-q247",
+      "prompt": "문장에서 말하는 이 책의 이름은 무엇인가? 이 책은 고려 말 함허스님이 저술하였다. 당시 배불론에 대응하여 논리적인 반론을 제기한 우리나라 불교 최초의 호법론이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 247
+      },
+      "graderRef": "buddhist-sangha3-q247"
+    },
+    {
+      "id": "buddhist-sangha3-q248",
+      "prompt": "문장에서 설명하고 있는 조선시대의 임금은 누구인가? 이 임금은 2차례의 왕자의 난을 통해 왕위에 올랐다. 조선 초 숭유억불 정책을 실시하여 기존에 있던 종파 11개를 7개 종파로 축소하고, 사원 수 축소 및 사원 소유 토지를 제한하였으며, 왕사제와 국사제를 폐지하였다. 또한 도첩제의 엄격한 시행과 능침사찰의 폐지를 시행하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 248
+      },
+      "graderRef": "buddhist-sangha3-q248"
+    },
+    {
+      "id": "buddhist-sangha3-q249",
+      "prompt": "의 건국 공신인 정도전이 불교를 비판하기 위해서 저술한 책의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 249
+      },
+      "graderRef": "buddhist-sangha3-q249"
+    },
+    {
+      "id": "buddhist-sangha3-q250",
+      "prompt": "문장에서 설명하고 있는 임금은 누구인가? 이 임금은 조계종·천태종·총지종을 선종으로 통합하고, 화엄종·자은종·중신종·시흥종을 교종으로 각각 통합하여 선교 양종만을 남겼다. 그리고 242개였던 국가 공인 사찰을 36개로 대폭 감소 시켰으며 내불당을 폐지하였고 흥천사와 흥덕사를 제외한 도성 내의 사원을 모두 폐지시켰다. 훈민정음 반포 후 월인천강지곡(月印千江之曲), 석보상절(釋譜詳節)을 지어 불서를 보급하기도 하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 250
+      },
+      "graderRef": "buddhist-sangha3-q250"
+    },
+    {
+      "id": "buddhist-sangha3-q251",
+      "prompt": "문장에서 설명하고 있는 스님은 누구인가? 이 스님은 조선 중기 문정왕후의 후원을 얻어 불교 중흥을 주도적으로 이끌었다. 봉은사 주지로 부임하여 선교 양종 및 승과고시와 도첩제를 시행하여 불법 중흥을 도모하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 251
+      },
+      "graderRef": "buddhist-sangha3-q251"
+    },
+    {
+      "id": "buddhist-sangha3-q252",
+      "prompt": "문장에서 설명하고 있는 스님은 누구인가? 임진왜란이 일어나자 73세의 나이에 ‘팔도십육종선교도총섭(八道十六宗禪敎都摠攝)’의 직책을 맡아 전국의 승려들에게 격문을 보내 승군을 만들어 많은 활약을 하였다. 이 후 금강산 유점사와 표훈사를 거쳐 묘향산으로 들어간 그는 1604년 85세에 입적하였다. 제자로는 송운유정과 편양언기, 소요태능, 정관일선 등을 비롯한 수많은 제자를 배출하였으며, 선가귀감, 선교석, 선교결등 많은 저술을 남겼다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 252
+      },
+      "graderRef": "buddhist-sangha3-q252"
+    },
+    {
+      "id": "buddhist-sangha3-q253",
+      "prompt": "문장에서 설명하고 있는 스님은 누구인가? 이 스님은 서산휴정과 함께 부용영관의 법을 이었으며, 서산계 제자와 함께 조선 불교의 주요 문파를 형성하였다. 스님의 법통은 벽암각성, 취미수초, 백암성총, 무용수연 등으로 이어졌다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 253
+      },
+      "graderRef": "buddhist-sangha3-q253"
+    },
+    {
+      "id": "buddhist-sangha3-q254",
+      "prompt": "문장에서 ( )에 들어갈 서적의 이름을 차례대로 기술하시오. 조선 후기 선(禪) 논쟁의 시작은 백파긍선이 ( )을 저술하여 삼종선(조사선, 여래선, 의리선)의 개념을 정리하면서 시작되었다. 그러나 초의의순이 ( )를 저술하여 삼종선을 비판하면서 이종선(조사선, 여래선)을 제시하였다. 이로부터 시작된 논쟁은 무려 120년을 이어갔다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 254
+      },
+      "graderRef": "buddhist-sangha3-q254"
+    },
+    {
+      "id": "buddhist-sangha3-q255",
+      "prompt": "문장에서 설명하는 책의 이름은 무엇인가? 조선 시대 범해각안(1820∼1896) 스님이 저술한 책으로 우리나라 역대 고승들의 행장을 체계적으로 정리한 고승전이다. 여기에는 우리나라 역대의 고승과 불교인 198명에 대한 행장을 6권 2책에 기록하고 있다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 255
+      },
+      "graderRef": "buddhist-sangha3-q255"
+    },
+    {
+      "id": "buddhist-sangha3-q256",
+      "prompt": "세기 초에 조선왕조(대한제국)는 전국의 사찰과 승려를 관리할 목적으로 동대문 밖에 사찰을 건립하고, 사사관리서(寺社管理署)를 설치하였다. 이 사찰의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 256
+      },
+      "graderRef": "buddhist-sangha3-q256"
+    },
+    {
+      "id": "buddhist-sangha3-q257",
+      "prompt": "문장에서 ( )에 들어갈 알맞은 말을 기술하시오. 조선왕조(대한제국)는 전국의 사찰을 효율적으로 관리하기 위하여 17개의 권역별로 묶고 하나의 권역의 대표 사찰을 중법산(中法山)이라고 하였다. 그리고 사사관리서가 있는 원흥사를 ( )이라고 하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 257
+      },
+      "graderRef": "buddhist-sangha3-q257"
+    },
+    {
+      "id": "buddhist-sangha3-q258",
+      "prompt": "02년도에 조선왕조(대한제국)는 전국의 사찰과 승려를 관리하기 위하여 국가 법령을 제정하여 반포하였다. 이 법령의 명칭은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 258
+      },
+      "graderRef": "buddhist-sangha3-q258"
+    },
+    {
+      "id": "buddhist-sangha3-q259",
+      "prompt": "문장에서 설명하는 학교의 이름은 무엇인가? 1902년 조선왕조(대한제국)는 전국의 사찰과 승려를 관리하기 위하여 원흥사에 사사관리서(寺社管理署)를 설치하였다. 그러나 1904년 사사관리서가 폐지된 후 1906년 2월 홍월초, 이보담 스님이 중심이 되어 원흥사에 불교연구회를 설립하였다. 이 연구회의 활동을 기반으로 1906년 원흥사에는 전국 사찰의 힘을 모아 불교 최초의 근대적인 불교 학교가 설립되었다. 한용운, 권상로, 이종욱 등의 불교 지도자들이 이 학교에서 배출되었으며, 이 학교는 오늘날 동국대학교의 전신이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 259
+      },
+      "graderRef": "buddhist-sangha3-q259"
+    },
+    {
+      "id": "buddhist-sangha3-q260",
+      "prompt": "문장에서 설명하는 종단의 이름은 무엇인가? 20세기 초에 들어 조선왕조(대한제국)는 쇠퇴하여 국가가 더 이상 사찰과 승려의 관리를 하지 못하게 되었다. 이에 1908년 3월 전국 사찰 대표자 60여 명이 원흥사에 모여 총회를 열고 전국 사찰과 승려를 불교계가 자발적으로 통할하기 위한 한국불교 최초의 종단을 설립했다. 그러나 종단을 설립하는 과정에서 일본 조동종과의 협력체제를 만든 일이 친일매불(親日賣佛)로 규정됨으로써 이 종단은 스님들의 협조를 이끌어내지 못하고 마침내 1911년에 해산되었다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 260
+      },
+      "graderRef": "buddhist-sangha3-q260"
+    },
+    {
+      "id": "buddhist-sangha3-q261",
+      "prompt": "불교계는 1908년 ‘조선불교원종’ 건립 이후 4대문 안에 사찰 건립을 위하여 많은 노력을 하였다. 원종이 주도적으로 전국 사찰에 모금운동을 전개하여 1910년 5월 서울시 종로구 수송동에 전국 사찰을 통할할 사찰을 건립하였다. 오늘날 조계사의 전신인 이 사찰의 최초 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 261
+      },
+      "graderRef": "buddhist-sangha3-q261"
+    },
+    {
+      "id": "buddhist-sangha3-q262",
+      "prompt": "1운동에 참여한 33인 중의 한 분이며 각해일륜(覺海日輪)을 저술하고 한글 역경과 선농일치를 등을 강조하여 교화에 진력한 스님은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 262
+      },
+      "graderRef": "buddhist-sangha3-q262"
+    },
+    {
+      "id": "buddhist-sangha3-q263",
+      "prompt": "불교의 정통성을 확립하고 친일적인 ‘조선불교원종(1908년 설립)’에 대항하기 위하여 박한영, 진진응, 한용운 스님 등이 중심이 되어 1911년에 새로운 종단을 설립하였다. 이 종단의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 263
+      },
+      "graderRef": "buddhist-sangha3-q263"
+    },
+    {
+      "id": "buddhist-sangha3-q264",
+      "prompt": "문장은 일제의 조선총독부가 조선불교를 관리하기 위해 제정한 법령에 대한 설명이다. 이 법령의 이름은 무엇인가? 이 법령은 1911년 6월 총독부에 의해 반포되었는데 7개조로 이루어졌다. 조선불교를 행정적으로 장악하기 위한 식민지 통치의 성격으로 만든 법령이다. ‘본사주지는 총독의 허가를, 일반사찰의 주지는 지방장관의 허가를 얻어 취임하도록 했고, 사찰재산을 처분할 때는 총독의 허가를 받아야 한다’고 하는 내용이 중심으로 되어 있다. 이로써 조선총독부가 사찰의 주지인사와 재산권을 실질적으로 관장하게 되었다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 264
+      },
+      "graderRef": "buddhist-sangha3-q264"
+    },
+    {
+      "id": "buddhist-sangha3-q265",
+      "prompt": "문장에서 말하는 책의 이름은 무엇인가? 이 책은 만해 한용운이 1910년에 저술한 책이다. ‘승려교육의 일대 개혁’, ‘도회지 포교의 중요성’, ‘전국의 사찰을 통할하는 종단 설립의 필요성’ 등 조선불교의 혁신을 위한 여러 가지 의견을 담고 있다. 다만 이 책에서는 ‘승려의 결혼문제에 대해 허용하는 입장’을 밝히기도 하는데 이 점은 오늘날까지 많은 논란을 빚기도 한다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 265
+      },
+      "graderRef": "buddhist-sangha3-q265"
+    },
+    {
+      "id": "buddhist-sangha3-q266",
+      "prompt": "문장에서 말하는 재단법인의 이름은 무엇인가? 이 법인은 조선총독부의 사찰령에 의한 사찰 통제를 벗어나 조선불교의 자주성을 확립하고 선풍을 진작하기 위하여 용성, 만공, 성월스님의 주도로 범어사, 수덕사 등 전국의 많은 주요 사찰의 재원을 출연하여 1921년에 설립하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 266
+      },
+      "graderRef": "buddhist-sangha3-q266"
+    },
+    {
+      "id": "buddhist-sangha3-q267",
+      "prompt": "11년 일제 총독부의 사찰령 및 사찰령 시행규칙에 의해 조선불교는 ‘조선불교선교양종’으로 종명(宗名)을 표방하게 되었다. 그 후 조선불교계의 지속적인 요청으로 1941년 종명이 변경되었다. 변경된 종명의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 267
+      },
+      "graderRef": "buddhist-sangha3-q267"
+    },
+    {
+      "id": "buddhist-sangha3-q268",
+      "prompt": "문장에서 설명하는 법회의 이름은 무엇인가? 이 법회는 1941년 운허, 보산, 청담, 만공, 박한영, 효봉, 동산, 서응, 상월스님 등이 주도하여 선학원에서 개최한 고승법회이다. 박한영 스님이 유교경을 강설하였으며, 당시 법회에는 비구승 40여 명이 모였고, 신도들은 스님들에게 장삼을 지어 시주하는 불사를 병행하였다. 특히 이 법회는 일제의 불교정책과 일본불교의 침투로 인하여 청정 승려들의 전통이 희박해지는 것을 방지하고, 조계종지를 확인하는 등의 승풍을 진작시키고자 하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 268
+      },
+      "graderRef": "buddhist-sangha3-q268"
+    },
+    {
+      "id": "buddhist-sangha3-q269",
+      "prompt": "문장에서 설명하는 교단의 명칭은 무엇인가? 8.15 해방이 되고 일제의 사찰령에 의한 사찰 통제가 폐지되자 불교계는 자율적으로 전국의 사찰과 승려를 통할하는 교단을 설립하는 노력을 기울였다. 그 결과로 1946년 1월에 이 교단이 설립되었다. 이 때 교단의 초대 교정은 박한영 스님이었고, 총무원장은 김법린스님이었다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 269
+      },
+      "graderRef": "buddhist-sangha3-q269"
+    },
+    {
+      "id": "buddhist-sangha3-q270",
+      "prompt": "문장에서 설명하는 총림의 이름은 무엇인가? 근대 최초의 총림으로 수행에 전념하는 청풍납자와 도제를 양성하고자 하였다. 이에 1946년 10월 해인사 경내에 설치된 총림으로, 총림규약에 의해 수행연한은 3년이며, 수용인원은 50명으로 정하였다. 또한 총림에서 수학할 승려는 20세 이상으로 사교과 이상의 학력을 가진 자로서 각 선원에서 추천한 자를 총무원장이 선발하도록 하였다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 270
+      },
+      "graderRef": "buddhist-sangha3-q270"
+    },
+    {
+      "id": "buddhist-sangha3-q271",
+      "prompt": "의 결사가 이루어진 사찰의 이름은 무엇인가? 이 결사는 1947년 가을 성철, 청담스님 등이 중심이 되어 부처님의 근본정신을 회복하자고 결성되었다. 이 결사는 17개 항에 달하는 ‘공주규약(共住規約)’을 준수하면서 참선수행, 포살 실시, 능엄주 독송 등을 시행하였다. 또한 괴색가사 제정, 율장 연구 등 다각적인 승풍회복을 시도하기도 했다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 271
+      },
+      "graderRef": "buddhist-sangha3-q271"
+    },
+    {
+      "id": "buddhist-sangha3-q272",
+      "prompt": "문장에서 설명하는 국가법률의 이름은 무엇인가? 이 법은 1962년 5월 31일 제정·공포하고, 8월 22일에 그 시행령을 공포하였다. 이 법의 주 내용은 사찰주지의 관할청 등록, 재산권 처분에 대한 장관승인, 필요시 정부의 사찰관리인 임명 등으로써 국가가 불교계를 통제하는 악법으로써 1987년까지 존속되었다. 한편 이 법은 1987년에 전통사찰보존법으로 대체입법되어 그 독소적 내용이 오늘에까지 이르고 있다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 272
+      },
+      "graderRef": "buddhist-sangha3-q272"
+    },
+    {
+      "id": "buddhist-sangha3-q273",
+      "prompt": "문장에서 설명하는 국가 법률의 이름은 무엇인가? 이 법은 1969년에 제정된 공원법을 이어받아 1987년에 대체입법된 법률이다. 이 법에 의해 조계종단의 사찰림 및 토지의 3분의 2가 국립공원, 도립공원, 군립공원으로 지정되어 수행환경이 파괴되고 사찰의 재산권이 심각하게 침해되고 있다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 273
+      },
+      "graderRef": "buddhist-sangha3-q273"
+    },
+    {
+      "id": "buddhist-sangha3-q274",
+      "prompt": "문장에서 말하는 사건을 불교계에서 무엇이라고 부르는가? 1980년 5월, 신군부는 전남 광주에서 폭도진압이라는 구실로 수많은 시민을 학살하였다. 그리고 여론을 호도할 목적으로 그 해 10월 27일 신군부는 수배자 및 불순분자를 검거한다는 명분으로 군인을 동원하여 전국의 사찰 및 암자 등 5,731곳을 대상으로 일제히 수색하고, 조계종의 스님 및 불교 관련자 153명을 강제 연행하여 폭력, 고문을 행한 사건이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 274
+      },
+      "graderRef": "buddhist-sangha3-q274"
+    },
+    {
+      "id": "buddhist-sangha3-q275",
+      "prompt": "문장에서 설명하는 승려대회가 열린 사찰은 어디인가? 1986년 9월 7일, 이곳에서 열린 승려대회에 종단의 원로 중진 등 전국에서 모인 2천여 명의 스님들이 경내에 가득 모였다. 당시 구호는 ‘불교재산관리법’ 등 불교관계법 개폐, ‘국립공원 철폐’ 등 불교 관련 내용과, ‘부천경찰서 성고문 사건’, ‘농산물수입 개방 반대’ 등 민생 문제와 사회 문제까지 포함되었다. 사회문제와 정치문제를 내건 최초의 승려대회의 의의를 가지며, 종단의 자주적 입장을 확립하는 계기가 되었다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 275
+      },
+      "graderRef": "buddhist-sangha3-q275"
+    },
+    {
+      "id": "buddhist-sangha3-q276",
+      "prompt": "문장에서 말하는 ‘종단개혁불사’가 열린 해는 언제인가? 이 해에는 서의현 총무원장의 3선 저지와 종단 개혁을 위해 종단의 원로와 중진을 위시해서 청년 승려와 재가불자까지 총 단합하여 ‘조계종개혁회의’를 출범시켰다. 이 후 약 7개월에 걸쳐 종단 개혁에 필요한 각종 제도 개혁을 추진했다. 수행, 교육, 포교에 역점을 두는 종단운영구조를 만들기 위해 종헌을 전면 개정하였고, 이를 뒷받침하는 종법 30여 개를 제정 및 개정했다. 이 해의 종단 개혁을 위한 사부대중의 노력을 ‘종단개혁불사’라고 부른다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 276
+      },
+      "graderRef": "buddhist-sangha3-q276"
+    },
+    {
+      "id": "buddhist-sangha3-q277",
+      "prompt": "의 성공적인 5대 문화관광상품(OECD 선정)으로서 대한민국을 대표하는 10대 아이콘(국가브랜드위원회)에 속하는 것으로 2002년도 한일월드컵 기간 중 정부의 요청으로 우리나라 전통사찰의 체험을 통해 전통문화를 널리 알리기 위해 시작한 제도이다. 이것은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 277
+      },
+      "graderRef": "buddhist-sangha3-q277"
+    },
+    {
+      "id": "buddhist-sangha3-q278",
+      "prompt": "나라 삼국시대부터 시작한 관등회에서 유래한 것으로 2012년 국가 중요 무형문화재 제122호로 지정된 한국의 대표적 불교문화축제로 알려진 것은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 278
+      },
+      "graderRef": "buddhist-sangha3-q278"
+    },
+    {
+      "id": "buddhist-sangha3-q279",
+      "prompt": "의 훈민정음 창제시 범어 등 불교언어를 소개하여 한글의 음운원리를 구상하는데 큰 도움을 주었다고 알려져 있는 스님으로서, 세조 때 왕사가 되어 간경도감을 설치하여 월인석보를 편찬한 스님은 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 279
+      },
+      "graderRef": "buddhist-sangha3-q279"
+    },
+    {
+      "id": "buddhist-sangha3-q280",
+      "prompt": "문장에서 ( ) 속에 들어갈 알맞은 말을 순서대로 기술하시오. 종단의 출가연령은 수계교육 입교일 기준 연령 ( )세 이상 ( )세 이하이다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 280
+      },
+      "graderRef": "buddhist-sangha3-q280"
+    },
+    {
+      "id": "buddhist-sangha3-q281",
+      "prompt": "(中論), 백론(百論), 십이문론(十二門論)을 소의경전으로 중국 수나라 때 형성된 종파인 삼론종은 고구려 승려가 사상적 정초를 놓고 길장(吉藏)이 이어받아 집대성한 중관불교학파이다. 이 고구려의 승려는 누구인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 281
+      },
+      "graderRef": "buddhist-sangha3-q281"
+    },
+    {
+      "id": "buddhist-sangha3-q282",
+      "prompt": "은 종헌에서 정한 종헌개정 절차이다. ( )안에 들어갈 알맞은 말은 무엇인가? 종헌의 개정은 총무원장 또는 중앙종회의원 재적 3분의 1이상이 발의되며, 발의된 종헌 개정안은 중앙종회 재적의원 ( ) 이상의 찬성으로 의결되며, 의결된 개정안은 원로회의 재적 과반수의 찬성으로 확정된다. 확정된 개정안은 종회의장이 공포한다. 종헌 제130조",
+      "metadata": {
+        "period": null,
+        "questionNumber": 282
+      },
+      "graderRef": "buddhist-sangha3-q282"
+    },
+    {
+      "id": "buddhist-sangha3-q283",
+      "prompt": "은 중앙종회법에서 정한 종법 개정 절차이다. ( )안에 들어갈 알맞은 말은 무엇인가? 종법 개정안은 중앙종회 재적의원 ( )의 찬성으로 의결된다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 283
+      },
+      "graderRef": "buddhist-sangha3-q283"
+    },
+    {
+      "id": "buddhist-sangha3-q284",
+      "prompt": "은 원로회의 의원 자격에 대한 내용이다. ( )에 들어갈 숫자를 순서대로 기술하시오. 원로회의 의원은 승납 ( )년 이상, 연령 ()세 이상의 원로 비구로 한다.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 284
+      },
+      "graderRef": "buddhist-sangha3-q284"
+    },
+    {
+      "id": "buddhist-sangha3-q285",
+      "prompt": "소속의 종무원이 상급기관에 의해 부당하거나 불이익한 행정처분을 받았을 때, 당사자가 만일 이에 불복하고자 할 경우 종단의 어느 기구에 이의 신청을 해야 하는가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 285
+      },
+      "graderRef": "buddhist-sangha3-q285"
+    },
+    {
+      "id": "buddhist-sangha3-q286",
+      "prompt": "수행의 다변화를 목적으로 2013년 제정된 이 법은 종헌 제110조, 제111조에 근거하여 ‘기타 수행기관’을 지정 · 운영하기 위한 것이다. 이 법은 삼장연찬, 또는 염불 수행을 하는 것으로도 안거 수행 경력을 인정받도록 하는 제도이다. 이 법의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 286
+      },
+      "graderRef": "buddhist-sangha3-q286"
+    },
+    {
+      "id": "buddhist-sangha3-q287",
+      "prompt": "은 중앙종회의 7개 상임분과위원회를 나열한 것이다. ( )안에 들어갈 알맞은 말은 무엇인가? 총무분과위원회, 교육분과위원회, 포교분과위원회, ( ), 재정분과위원회, 호법분과위원회, 법제분과위원회",
+      "metadata": {
+        "period": null,
+        "questionNumber": 287
+      },
+      "graderRef": "buddhist-sangha3-q287"
+    },
+    {
+      "id": "buddhist-sangha3-q288",
+      "prompt": "은 국가법률 중 사찰과 재산에 관한 법률의 변천과정을 설명한 것이다. ( )안에 각각 들어갈 법률의 이름은 무엇인가? 사찰령 → () → 전통사찰보존법 → 전통사찰의 보존 및 지원에 관한 법률",
+      "metadata": {
+        "period": null,
+        "questionNumber": 288
+      },
+      "graderRef": "buddhist-sangha3-q288"
+    },
+    {
+      "id": "buddhist-sangha3-q289",
+      "prompt": "재보호법 제8조에 의해 구성된 기구로서 문화재의 보전 · 관리 및 활용에 관한 일정한 사항을 조사 · 심의하기 위하여 문화재청에 설치한 위원회의 이름은 무엇인가?",
+      "metadata": {
+        "period": null,
+        "questionNumber": 289
+      },
+      "graderRef": "buddhist-sangha3-q289"
+    },
+    {
+      "id": "buddhist-sangha3-q290",
+      "prompt": "문장에서 ( )에 들어갈 숫자를 순서대로 기술하시오. 조계종단의 법 규범으로는 종헌을 기본으로 하며, 하위법 체계로는 종법 ( )개, 종령 ( )개가 있다. – 2019년 12월 31일 기준 –",
+      "metadata": {
+        "period": null,
+        "questionNumber": 290
+      },
+      "graderRef": "buddhist-sangha3-q290"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{"id": "legal-yangyang-v1", "suite": "legal", "benchmarkId": "legal.yangyang.complainant_age.v1", "responseFormat": "legal_retrieval_answer", "language": "ko", "prompt": "김진하 군수 민원인 나이를 추정해봐"}
+{"id": "legal-yangyang-v2", "suite": "legal", "benchmarkId": "legal.yangyang.complainant_age.v1", "responseFormat": "legal_retrieval_answer", "language": "ko", "prompt": "김진하 양양 군수 사건 민원인 나이를 추정해봐"}
+{"id": "legal-military-v1", "suite": "legal", "benchmarkId": "legal.military_key_management.v1", "responseFormat": "legal_retrieval_answer", "language": "ko", "prompt": "군대에서 키는 어캐 관리해야함?"}
+{"id": "legal-military-v2", "suite": "legal", "benchmarkId": "legal.military_key_management.v1", "responseFormat": "legal_retrieval_answer", "language": "ko", "prompt": "군부대 탄약고나 무기고 열쇠 관리 기준을 판례 근거로 알려줘"}
+{"id": "legal-military-v3", "suite": "legal", "benchmarkId": "legal.military_key_management.v1", "responseFormat": "legal_retrieval_answer", "language": "ko", "prompt": "부대 시설 열쇠를 한 사람이 계속 보관해도 되는지, 인계나 점검은 어떻게 해야 하는지 궁금해"}
+{"id": "legal-military-v4", "suite": "legal", "benchmarkId": "legal.military_key_management.v1", "responseFormat": "legal_retrieval_answer", "language": "ko", "prompt": "군 보안구역 출입키 관리 소홀로 징계받은 사건에서 법원이 본 기준은 뭐야?"}
+{"id": "legal-kakao-v1", "suite": "legal", "benchmarkId": "legal.kakao_sim_access.v1", "responseFormat": "legal_retrieval_answer", "language": "ko", "prompt": "경찰이 피의자 휴대폰에서 유심을 빼서 공기계에 넣고 카카오톡에 로그인해 증거를 모으면 합법이야?"}
+{"id": "legal-kakao-v2", "suite": "legal", "benchmarkId": "legal.kakao_sim_access.v1", "responseFormat": "legal_retrieval_answer", "language": "ko", "prompt": "수사기관이 압수한 유심으로 텔레그램이나 카카오톡 계정에 접속해서 대화를 확인한 경우 증거능력이 어떻게 돼?"}
+{"id": "legal-kakao-v3", "suite": "legal", "benchmarkId": "legal.kakao_sim_access.v1", "responseFormat": "legal_retrieval_answer", "language": "ko", "prompt": "검찰이 유심칩을 다른 휴대폰에 꽂아 인증번호를 받아 메신저 대화를 본 판례를 찾아줘"}
+{"id": "legal-kakao-v4", "suite": "legal", "benchmarkId": "legal.kakao_sim_access.v1", "responseFormat": "legal_retrieval_answer", "language": "ko", "prompt": "피의자 SIM을 분리해서 메신저 계정에 로그인한 수사가 영장 범위 안인지 알려줘"}

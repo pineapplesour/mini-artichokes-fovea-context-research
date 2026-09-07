@@ -1,0 +1,588 @@
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275480,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"# universal-art","role":"assistant"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275481,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"ichoke beta-6 아키텍처 리뷰 및 \"컨텍스트 검색\" 설계 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275481,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"제안\n\n---\n\n## 1. 현재 상황 진단\n\n### 1.1 숫자부터 정리\n\n|"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275482,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 실행 | 결과 | 신뢰도 |\n|---|---|---|\n| Direct Gemma (검"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275482,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"색 없음) | 26/50 = 52% | 확정 baseline |\n| Product API | 22/50 = "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275483,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"44% | 확정, **baseline보다 나쁨** |\n| Graph (스크린샷) | 30/50 | **미재현"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275483,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":". 현재는 주장에 불과** |\n| Graph"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275483,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" (현재 rerun, 10문항) | 6/10 = 60% | n=10, 통계적 무의미 |"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275484,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"\n\nn=10에서 6/10은 52% baseline과 구별 불"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275485,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"가능합니다(이항검정으로 p ≈ 0.4 이상). **현"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275485,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 시점에서 graph가 이긴다는 증거는 없습니다.** 30/50이"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275485,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 재현될 때까지 graph 우위를 전제한"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275486,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 의사결정을 하면 안 됩니다.\n\n### 1.2 더 중요한 신호: Product "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275486,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"< Direct\n\nProduct 22/50 < Direct 26/50이고 selector status가 대부분 `fallback_no_selection`"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275487,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"이라는 것은:\n\n- **검색이 노이즈를 주입해 모델을 더 나쁘게 만들고 있다"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275487,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"**는 뜻입니다. selector가 아무것도 못 고르는데"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275488,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 그 과정에서 프롬프트가 오염되거나, fallback "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275488,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"경로가 direct보다 열등한 프롬프트를 만들고 있음.\n- 이것은 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275489,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"graph 이전의 문제입니다. **\"검색 결과가 없거나 나"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275489,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"쁠 때 direct와 동등하게 동작한다\"는 하한"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275490,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"선(do-no-harm floor)이 깨져 있음.** graph q5/q9 회"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275490,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"귀(direct 대비)도 같은 계열의 증상일 가능성이 높음"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275491,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":".\n\n### 1.3 무엇이 과적합/착시인가\n\nbe"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275491,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"ta-6-lawkey-graph-test1에 들어간 기능들을 일반"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275492,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"성 기준으로 분류하면:\n\n| 기능 | 일반 엔진 기여 | "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275492,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"벤치마크 형식 착취 |\n|---|---|---|\n| l"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275492,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"awkey_graph / tcm_graph 확장 | ○ (방향은 맞음) | |\n| domain_adapters | ○ | |\n| TCM"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275493,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" MCQ 파싱 | 중립 (I/O 계층) | |\n| **option-term search** | | ● "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275493,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"객관식 선지 문자열이 코퍼스에 존재할"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275494,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 때만 작동 |\n| **exact option lookup** | | ● 사실상 \"선지 = 사전 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275494,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"표제어\" 구조 착취 |\n| **option-balanced source selection** | | ● MCQ 4~"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275495,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"5지선다 구조 전제 |\n| selector local recovery, writer fallback | ○ (견"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275495,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"고성) | |\n\noption 계열 3종은 leakage는 아니지만 **벤치마크 형"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275496,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"식 과적합**입니다. 법률 벤치마크 A/B/C 같은 서술형 질"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275496,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"의에는 아예 적용 불가이고, \"gra"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275497,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"ph가 이겼다\"는 스크린샷의 이득이 실제로는"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275497,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" option lookup에서 왔을 가능성을 배제"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275498,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 못 합니다. → 5절 ablation에서 이걸 분"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275498,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"리해야 함.\n\n### 1.4 Graph가 옳은 방향인가\n\n**방"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275499,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"향은 옳지만 현재 구현은 아마 아"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275499,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"닙니다.** 현재 graph 확장이 용어 동시출현/"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275500,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"인접 청크 확장 수준이라면, 사용자가 지적한 핵심 문제 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275500,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"— \"첫 케이스에 답이 없으면 그 케이스 안에서 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275501,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"확장해봐야 소용없다, 케이스 **간** 관계로 이"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275501,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"동해야 한다\" — 를 해결하지 못합니다. Yangyang(C) 벤치마크가 정확히"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275502,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 이걸 검증하는 케이스입니다: 익명화된 1심 판결문은 키"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275502,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"워드로 도달 불가이고, 공개된 항소심/관련 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275503,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"사건에서 **관계 엣지를 타고** 넘어가"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275503,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"야 합니다.\n\n결론: graph 자체가 아니라 **"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275504,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"엣지의 의미론**이 문제. 지금 필요한 것은 \"이벤트 프"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275504,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"레임 기반의 케이스 간 유형 엣지\"입니다.\n\n---\n\n## 2. \""},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275505,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"컨텍스트 검색\" 아키텍처: Event Frame Graph\n\n### 2.1 단위(Units)\n\n```\nCor"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275505,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"pus → Document(판결문/경전/교재) → Case(사"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275505,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"건 단위, 법률에서만) \n       → Passage(청크, 512"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275506,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"~1024토큰) → EventFrame(청크에서 추출된 사"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275506,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"건 구조)\n       → Entity(정규화된 행위자/객체)\n```\n\n핵심 신"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275507,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"규 단위는 **EventFrame**: \"누가(역할) 무엇에(객체)"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275507,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 어떤 방식으로(수단) 무엇을 했고(행위), 어"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275508,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"떤 쟁점이 발생했고(issue), 법원/문헌의"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275508,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 판단은 무엇이었나(outcome)\".\n\n### 2.2 스키마 (SQLite/Postgres 기준)"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275509,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"\n\n```sql\nCREATE TABLE event_frames (\n  frame_id      TEXT PRIMARY KEY,\n  doc_id        TEXT NOT NULL,"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275509,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"\n  chunk_id      TEXT NOT NULL,\n  -- 정규화 필드 (택"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275510,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"소노미 노드 ID)\n  actor_class   TEXT,   -- 예"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275510,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":": LEGAL/STATE_ACTOR/INVESTIGATIVE/POLICE\n  action_class  TEXT,   -- 예: "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275511,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"ACCESS/TECHNICAL_INTERVENTION/DEVICE_LOGIN\n  object_class  TEXT,   -- 예: COMM/"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275511,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"DEVICE/SIM, COMM/ACCOUNT/MESSENGER\n  method_class  TEXT,   -- 예: PHYSICAL_S"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275512,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"EIZURE, CREDENTIAL_REUSE, HACK\n  patient_class TEXT,   -- 예: SUSPECT,"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275512,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" THIRD_PARTY\n  -- 원문 표층형 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275513,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"(감사/디버깅용)\n  actor_surface TEXT,"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275513,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" action_surface TEXT, object_surface TEXT,\n  -- 판단 구조\n  issue_tags    TEXT,   -- JSON array"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275514,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":": [\"WARRANT_SCOPE\",\"ELECTRONIC_EVIDENCE\"]\n  outcome       TEXT,   -- LAWFUL | UNLAWFUL | C"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275514,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"ONDITIONAL | NONE\n  outcome_condition TEXT, -- CONDITIONAL일 때 조건 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275514,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"요약\n  holding_quote TEXT,   -- 판시/근거 원문 인용 (writer가 그대"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275515,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"로 써야 함)\n  confidence    REAL,\n  extractor_ver TEXT\n);\n\nCREATE TABLE frame_ed"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275515,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"ges (\n  src_frame_id TEXT, dst_frame_id TEXT,\n  edge_type    TEXT,  -- 아래 2"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275516,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":".4 참조\n  weight       REAL,\n  evidence     TEXT,  -- 엣지 생성 근거 (인용문"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275516,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"구, 유사도 점수 등)\n  PRIMARY KEY (src_frame_id, dst_frame_id, edge_type)\n);\n\nC"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275517,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"REATE TABLE case_edges (        -- 케이스(문서) 레벨 엣지\n  src_doc_id TEXT, dst_doc_id TEXT,\n  edge"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275517,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"_type  TEXT,  -- CITES | APPEAL_OF | OVERRULED_BY | SAME_STATUTE | SHARED_"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275518,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"ENTITY\n  weight REAL, evidence TEXT,\n  PRIMARY KEY (src_doc_id, dst_doc_id, edge_type)\n);\n\nCRE"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275518,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"ATE TABLE taxonomy (\n  node_id TEXT PRIMARY KEY,     -- \"LEGAL/STATE_ACTOR/INVESTIGATI"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275519,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"VE/POLICE\"\n  parent_id TEXT, domain TEXT, aliases TEXT  -- JSON: "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275519,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"[\"경찰\",\"사법경찰관\",...]\n);\n```\n\n인덱스 4종"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275520,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":":\n1. **FTS** (기존 유지)\n2. **Dense chunk index** (기존/신규,"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275520,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 청크 임베딩)\n3. **Frame structured index**: `(actor_class, action_class, object_class, issue_t"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275521,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"ag)` 튜플에 대한 inverted index. 택소노미 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275521,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"조상 노드로 일반화한 튜플도 함께 색"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275522,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"인 (예: POLICE → INVESTIGATIVE → STATE_ACTOR 각 레벨).\n4. **Frame emb"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275522,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"edding index**: 프레임을 템플릿 직렬화한 텍스트의 벡터 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275522,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"(3절 참조).\n\n### 2.3 오프라인 프레임 추출\n\n- 비싼 모델(예: "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275523,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"대형 LLM) 배치로 청크당 0~N개"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275523,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 프레임 추출. JSON schema 강제, 택소노미 노"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275524,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"드 ID로만 분류 허용, 매핑 실패 시 surface만"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275524,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 남기고 `class=NULL`.\n- 택소노미는 도메인 어"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275525,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"댑터가 소유. **법률 도메인부터 시작** (행위자 ~30"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275525,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"노드, 행위 ~50, 객체 ~60, 쟁점 ~40이면 벤치마크 A/B"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275526,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"/C 커버 가능). TCM/종교는 나중에 이식(진단"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275526,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"→처방→약재 구조 등).\n- `holding_quote`는 반"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275527,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"드시 원문 span offset과 함께 저장 → 환각 인용 차단.\n\n### 2.4"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275527,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 엣지 타입과 생성 규칙\n\n| edge_type | 생성 방법 | 결정"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275528,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"적? |\n|---|---|---|\n| `CITES` | 판례번호 정"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275528,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"규식 파싱 (사건번호 패턴 확정적) | ✅ |\n| `APPEAL_"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275529,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"OF` / `OVERRULED_BY` | 사건번호 + 심급 메타데이터 | ✅ |\n| `SAME_"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275529,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"STATUTE` | 인용 조문 파싱 (형사소송법 §106 등) | ✅ |"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275530,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"\n| `SHARED_ENTITY` | 익명화 인지 entity resolution: 날짜/금"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275530,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"액/직위/지명 조합 매칭 (Yangyang bridge가 이것"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275531,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":") | 규칙+임계값 |\n| `ANALOGOUS_FR"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275531,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"AME` | 프레임 구조 유사도 ≥ τ (3절) — **케이스 간에"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275532,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"만** 생성 | 점수 기반 |\n| `SAME_ISSUE` | issue_tags 교집합"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275532,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" ≥ 1 | ✅ |\n\n**Yangyang용 SHARED_ENTITY 규칙 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275533,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"예시**: 두 문서에서 (사건 발생 연도, 뇌물 액수, 직위 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275533,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"클래스=지자체장, 죄명=뇌물수수"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275533,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":") 4-튜플이 일치하면 weight 0.9 엣지. \""},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275534,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"양양군수\" 문자열이 필요 없음.\n\n### 2.5 런"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275534,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"타임 순회 알고리즘\n\n```\ndef context_retrieve(query,"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275535,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" budget=40, hops=2, beam=8):\n    # 1. 쿼리 프레임 추출 (소형 LLM 1"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275535,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"콜, 실패 시 프레임 없이 진행)\n    q_frames = extract_query_frames"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275536,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"(query)      # 보통 1~2개\n\n    # 2. Seed: 하이브리드 (FTS "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275536,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"∪ dense) top-20 + frame structured index 매치\n    seeds = hybrid_se"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275537,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"ed(query) ∪ frame_index_match(q_frames, level=\"exact\")\n\n    # 3."},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275537,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 프레임 매치 실패 시 택소노미 일반화 사다"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275538,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"리\n    #    exact tuple → actor 1단계"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275538,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 상향 → action 상향 → issue-only\n    #    각 단계 결과 수가 min"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275539,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"_k 미만일 때만 다음 단계로 (과잉 일반화 방지)"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275539,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"\n\n    # 4. Beam search over frame_edges + case_edges:\n    frontier = seeds\n    for h in range"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275540,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"(hops):\n        candidates = expand(frontier, edge_types=[CITES, APPEAL_OF,\n                            SHARED_ENT"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275540,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"ITY, ANALOGOUS_FRAME, SAME_ISSUE])\n        # 케이스 내부 인"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275541,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"접 청크 확장은 답 프레임이 있는 청크 주변 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275541,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"±1로 제한\n        score(c) = α·frame_sim(q_frames, c.frame)\n                 + β·edge"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275542,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"_weight_path(c)\n                 + γ·text_relevance(query, c.chunk)\n                 - δ·generalization_penalty(c"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275542,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":")   # 일반화 단계당 감점\n        frontier = top(candidates, beam)\n    return top(all_visited, budget)  "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275542,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"# 청크 + 프레임 + 경로 증거 반환\n```\n\n핵심 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275543,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"설계 결정:\n- **케이스 간 이동은 반드시 유형 엣지를"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275543,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 통해서만** — \"같은 케이스 내 확장\"과 \"케이스 간 도"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275544,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"약\"의 예산을 분리 (예: 30/70). 사용자 지적(\"첫 케이스에 답이 없으면\") 직"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275544,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"접 대응.\n- 반환값에 **경로 증거**(어"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275545,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"떤 엣지를 왜 탔는지)를 포함 → selector와 claim card"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275545,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"가 사용, ablation과 디버깅에 필수."},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275546,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"\n\n---\n\n## 3. \"임베딩의 임베딩 / 관계 유사도\"의 실용적"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275546,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 구현\n\n사용자 직관의 본질: \"police removed S"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275547,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"IM ≈ prosecutors hacked password\"는 표층"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275547,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 임베딩 유사도가 아니라 **(행위자 역할, 행위 유"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275548,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"형, 객체 유형, 법적 쟁점) 구조의 유사도**. 세 가지 구현안:\n\n### 안 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275548,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"A — 고전적/구조적: 택소노미 격자 유사도 (추천 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275549,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"1순위)\n\n```\nframe_sim(f, g) = Σ_slot w_slot · tax"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275549,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"_sim(f.slot, g.slot)\ntax_sim(a, b) = 2·depth(LCA(a,b)) / (depth(a)+depth(b))   # Wu-Pal"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275550,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"mer\nw = {actor: 0.2, action: 0.25, object: 0.2, issue: 0.35}\n```\n\n-"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275550,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" POLICE와 PROSECUTOR는 LCA=INVESTIGATIVE이므로 tax_sim ≈ 0.86"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275550,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" → \"경찰 SIM 압수\"와 \"검찰 계정 접근\"이 iss"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275551,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"ue가 같으면 높은 점수.\n- 완전 결정적, 디버깅 가능, 점수"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275551,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 분해 가능. MAC/FAC 계열 유추 검색의 실"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275552,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"용 축소판.\n- 한계: 택소노미 미커버 개"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275552,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"념은 0점. 커버리지가 병"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275553,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"목.\n\n### 안 B — 신경망: Frame2Vec + 인용 그래프"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275553,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 약지도\n\n1. **베이"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275554,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"스라인 (학습 없음)**: 프레임을 템플릿 문장"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275554,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"으로 직렬화 후 instruction 임베더로 임베딩:\n   `\"An"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275555,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" investigative agency (police) performed technical access (SIM extraction and re-insertion) on a suspect's communication device, raising iss"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275555,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"ues of warrant scope and electronic evidence admissibility. Outcome: unlawful.\"` → 이 문장의 임베딩이 곧 \"관"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275556,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"계의 임베딩\". 표층이 아니라 정규화된 구조를 임"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275556,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"베딩하므로 사용자의 \"embedding of embeddings\" 직관과 동형"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275557,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":".\n2. **학습 (2주 이후)**: 서로 인"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275557,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"용하는 케이스 쌍의 프레임을 positive, 무관 케이스를"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275558,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" negative로 하는 contrastive projection head (임베딩 위 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275558,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"2층 MLP, 수 시간 학습). **인용 그래프가 무료 레이블** — \""},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275559,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"법원이 유사하다고 판단한 관계\"를 직접 학습.\n\n풀 p"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275559,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"airwise chunk-relation 임베딩(청크쌍 concat/diff 임베딩)은"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275559,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" O(n²)라 **비추천** — 프레임이 그 압"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275560,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"축입니다.\n\n### 하이브리드 권고 (구현 대상)\n\n```\n1단"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275560,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"계 (hard filter, 결정적): issue_tags 교집합 ≥1 A"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275561,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"ND actor가 동일 상위 클래스\n2단계 (rerank): 0"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275561,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":".5·안A + 0.5·안B(무학습 버전) \n3단계 (임계값): frame_sim < τ"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275562,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"=0.55 이면 ANALOGOUS_FRAME 엣지 미생성\n```\n\nhard filter가 \"신"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275562,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"장(腎) vs 열쇠(key)\" 같은 동형이"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275563,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"의어 실패(벤치마크 B)를 구조적으로 차단합니다 — 임베"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275563,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"딩이 아무리 비슷해도 issue class가 다르면 탈락"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275564,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":".\n\n---\n\n## 4. 기존 파이프라인 통합\n\n```\n[기존]  FTS → ad"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275564,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"apters → graph expansion → selector → claim cards → plan → writer\n[제안]  hybrid seed(FTS"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275565,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"∪dense∪frame-index) → adapters(택소노미 제공)\n        → frame-graph tra"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275565,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"versal(2.5) → selector → frame-claim cards\n        → de"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275566,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"terministic answer plan → writer\n```\n\n| 단계 | 결정적 / LLM | 변경점 |\n|---|---|---|\n| Query frame "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275566,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"추출 | 소형 LLM 1콜 (+실패 시 스킵) | 신규. "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275567,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"캐시 필수 |\n| Seed + traversal | **완전 결정적** | 점수식"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275567,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"·엣지·예산 전부 로그 |\n| Selector | LLM, 단 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275568,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"입력을 결정적 pre-filter로 top-15 캡 + 프레임 메타데이터("},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275568,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"issue/outcome/경로) 첨부 | `fallback_no_selection` 시 **결정적 top-5 사"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275569,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"용, direct 모드로 절대 프"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275569,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"롬프트 오염 금지** — 1.2 문제 수정 |\n| Claim cards | 오프라인 프"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275570,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"레임에서 결정적 생성 (frame → card 매핑"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275570,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":": claim = holding_quote, stance = outcome, provenance = span) | LLM 런타임 추출 제거"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275571,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 방향 |\n| Answer plan | **결정적 규칙**: (a) 쿼리 issue와 일치하는 카"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275571,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"드 ≥1 필수, (b) outcome 상충 시 심급/최"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275572,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"신성/OVERRULED_BY로 우선순위, 상충 자"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275572,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"체를 plan에 명시, (c) 조건 미충족 시 \"근"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275573,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"거 불충분\" 플랜 | 신규 규칙 3개 |\n| Writer | LLM + 기"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275573,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"존 결정적 fallback 유지. **인용은 holding_quote 원"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275574,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"문만 허용** | 환각 인용 차단 |\n| MCQ 경로 | option l"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275574,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"ookup류는 **별도 플래그 뒤로 격리** (`--enable-"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275575,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"mcq-heuristics`) | ablation 분리용 |\n\n---\n\n## 5. Ablation 매트릭스"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275575,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"와 벤치마크 프로토콜\n\n### 5.1 매트릭스\n\n| 축 | 값 |\n|---|---|\n| Se"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275576,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"ed | FTS only / dense only / hybrid |\n| Expansion | none / 기존 naive graph / frame graph |\n| MCQ heuristics ("},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275576,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"option lookup 등) | on / off |\n| Selector | LLM / 결정적 top-k |\n| Writer | LLM / 결정적 fallback |\n| +"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275576,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" Direct baseline | (전부 off) |\n\n전조합 대신:"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275577,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" baseline → +hybrid → +frame graph → ±MCQ heuristics → ±selector → ±writer의"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275577,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" **누적 사다리 + one-off ablation**. 각 셀 3회 반복 (tem"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275578,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"perature>0이면), TCM은 50문항 전체, **McNemar 검정으"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275578,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"로 direct 대비 유의성** 보고.\n\n### 5.2 성공 기준\n\n**법률 A"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275579,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" (SIM/카톡)** — 패러프레이"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275579,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"즈 10개(행위자·수단·메신저·"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275580,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"어순 변형) 자동 생성 후:\n- Retrieval: 3개 목"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275580,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"표 판례 중 ≥2개가 top-10 진입, 10개 변형 중 ≥8"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275581,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"개에서 성공\n- Answer: 2024구합65355 인"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275581,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"용 + 위법/적법 판단 방향 정답 + holding 인용이 원문 span"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275582,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"과 일치 + **존재하지 않는 판례 인용 0건**\n\n**법률 B (군"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275582,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 열쇠)**:\n- 2023구합75301 또는 동등 판례 인용, \"분리"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275583,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"/이중 관리\" 논지 포함\n- 최종 인용 목록에 신장(腎)"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275583,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 관련 문서 0건 (retrieval 후보에는 있어도 됨 — hard filter "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275584,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"검증)\n\n**법률 C (양양)**:\n- 익명화 1심 문"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275584,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"서가 **SHARED_ENTITY 또는 APPEAL_OF 엣지 경로**로 도달 (경로 로그로"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275584,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 검증), 나이 정답\n- 키워드-only ablation에서는 실패해야 정"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275585,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"상 (bridge 검증)\n\n**시험 벤치마크 (TCM/기독교"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275585,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"/이슬람/불교/심리)**:\n- full engine ≥ direct + 5pt (p<0"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275586,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":".05, McNemar)\n- **MCQ heuristics off에서도 이득의 ≥50% 유지** — 미"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275586,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"달 시 \"형식 착취\"로 판정\n- 5개 도메인 중"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275587,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" ≥4개에서 direct 이상 (일반성 조건)\n\n### 5.3 누"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275587,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"출/과적합 탐지\n\n1. 시험 유래"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275588,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 문서를 제거한 코퍼스로 재색인 후 재실행 (점수 유"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275588,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"지되면 코퍼스 오염 없음)\n2. 카나리아: 정답을"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275589,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 의도적으로 뒤바꾼 가짜 문항 5개 — 엔진이 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275589,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"뒤바뀐 \"정답\"을 내면 파싱/"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275590,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"키 누출\n3. 런타임 프로세스에서 `answer_key`"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275590,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":", `tcm81` 문자열 grep + 파일 open 트레"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275591,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"이스 (기존 감사의 자동화)\n4. 패러프레이즈 강건성"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275591,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":": 원문 대비 변형 질의 정답률 낙폭 >15pt이"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275592,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"면 키워드 과적합 경보\n\n---\n\n## 6. 2주 구현 계획\n\n**Week 1 — 구"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275592,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"조 계층 + 결정적 순회**\n\n| Day | 산출물 |\n|---|---|\n| 1 |"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275593,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" `taxonomy.py` + 법률 택소노미 YAML v0 (행위자/행위/"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275593,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"객체/쟁점, 벤치 A/B/C 커버 우선). 테스트: alias 매"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275594,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"핑, LCA/Wu-Palmer |\n| 2 | `event_frames`/`frame_edges`/`case_edges` 마이그레이"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275594,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"션 + `frame_extractor.py` (배치 LLM, JSON schema, span 검증). 골든 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275595,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"픽스처: A/B/C 관련 판결문 각 1"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275595,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"건 수동 정답 프레임 |\n| 3 | 결정적 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275596,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"엣지 빌더: `build_cites_edges()` (사건번호 정규식), `build_app"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275596,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"eal_edges()`, `build_shared_entity_edges()` (양양 4-튜플 규칙). 테스트: 양양 익"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275597,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"명화 픽스처 bridge 성립 |\n| 4 | `frame_sim()` (안A) + frame structured index + `AN"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275597,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"ALOGOUS_FRAME` 엣지 빌더 (hard filter + τ). 테스트: 경찰-SIM "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275597,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"↔ 검찰-계정 유사도 ≥ τ, 열쇠 ↔ 신장 < filter |\n| 5 |"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275598,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" `context_retrieve()` 순회 (2.5) + 경로 로깅. 통합: 기"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275598,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"존 graph expansion을 플래그로 교체 가능하게 |\n\n**Week 2 — 통"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275599,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"합 + 평가**\n\n| Day | 산출물 |\n|---|---|\n| 6 | `extract_query_frames()` (소형 LLM + "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275600,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"캐시), 실패 시 graceful skip. selector 입력에 프레임 메타 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275600,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"첨부 |\n| 7 | selector fallback 수정 (1.2/4절):"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275600,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" `fallback_no_selection` → 결정적 top-5, direct 프롬프트 무오염 보"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275601,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"장. 회귀 테스트: 빈 검색 결과 시 direct와 출력 동일 |\n| 8 | fr"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275601,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"ame → claim card 결정적 매핑 + answer plan 규칙 3종 (issue 일치 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275602,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"필수 / outcome 상충 처리 / 불충분 선언) |\n| 9 | ablation harness: 매"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275602,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"트릭스 실행기 + McNemar + 경로 로그 리포트. MCQ heuristics "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275603,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"플래그 격리 |\n| 10 | 법률 A/B/C 실행 + 패러프레이즈 10종. "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275603,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"실패 케이스 분석 |\n| 11 | TCM 50 전체 ×3회:"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275604,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" direct / product / frame-graph / frame-graph−MCQ-heuristics. **스크린샷 30/50 재현"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275604,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 시도 포함** |\n| 12 | 안B 무학습 버전 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275605,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"(frame 직렬화 임베딩) rerank 추가, on/off 비교 |"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275605,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"\n| 13–14 | 누출 감사 자동화(5.3), 결과 리포트, 다"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275606,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"음 스프린트 결정 |\n\n---\n\n## 7. 리스크 / 실패 모드\n\n1"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275606,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":". **결과 극성 반전 (최대 위험)**: \"경찰이 S"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275607,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"IM을 뽑아 로그인 → **위법**\" 판례"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275607,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"를 유추 검색이 가져왔는데 writer가 적법 근거로 인용."},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275607,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" → `outcome` 필드 필수화 + answer plan에서 극성 검"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275608,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"증 + holding 원문 인용 강제.\n2. **폐기/파기"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275608,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"된 판례 인용**: 유사도는 높지만 상급심에"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275609,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"서 뒤집힌 케이스. → `OVERRULED_BY`/`APPEAL_OF` 엣지로 우"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275609,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"선순위 강등, 상충 시 plan에 명시.\n3. **과잉 일반화 드"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275610,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"리프트**: 택소노미 사다리를 너무 올라가면 모든 프레임이"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275610,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 매치. → 단계당 감점(δ) + 단계별 최소결"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275611,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"과수 조건에서만 상향.\n4. **프레임 추출 오류의 복리 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275611,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"효과**: 추출이 틀리면 엣지·카드·플랜이 연쇄 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275612,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"오염. → confidence 필드, 저신뢰 프레임은 엣지 생성 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275612,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"제외, 골든 픽스처 회귀 테스트.\n5. **관할/"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275613,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"법령 불일치 유추**: 구조는 같지만 다"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275613,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"른 법령 체계의 케이스 (행정 vs 형사). → `SAME_STATUTE` 엣지 가중 +"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275614,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" issue tag에 법령 계열 포함.\n6. **비용/지연**"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275614,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":": 오프라인 추출은 배치라 무관, 런타임 추"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275615,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"가는 쿼리 프레임 LLM 1콜뿐. 순회는 결정적 — 예산 상수"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275615,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"로 상한.\n7. **택소노미가 새 병목**: 커버리지 "},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275616,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"부족 도메인에서 frame 경로가 침묵. → frame 매"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275616,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"치 0건 시 하이브리드 seed로 자동 강등 (never worse than ba"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275617,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"seline 설계).\n\n---\n\n## 8. 결론: 먼저 만들 것 / 아직 만들지 말"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275617,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 것\n\n**즉시 (이 순서대로):**\n1. **Selector fallback 수정"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275618,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"** — product가 direct보다 나쁜 것은 무엇을"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275618,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":" 만들든 먼저 고쳐야 할 버그"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275619,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"\n2. **Ablation harness + MCQ heuristics 격리** — graph 30/50 재현과 이"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275619,"model":"claude-fable-5","choices":[{"index":0,"delta":{"content":"득 출처 규명이 모든 판단의"},"finish_reason":null}]}
+
+data: {"id":"msg_013XEtRWDyjF1HbYx9oW3ocP","object":"chat.completion.chunk","created":1783275619,"model":"claude-fable-5","choices":[{"index":0,"delta":{},"finish_reason":"length"}],"usage":{"prompt_tokens":2430,"completion_tokens":12000,"total_tokens":14430}}
+
+data: [DONE]
+

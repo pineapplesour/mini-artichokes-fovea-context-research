@@ -1,0 +1,31 @@
+{
+  "periods": {
+    "1": {
+      "expected": 80,
+      "found": 80,
+      "missing": [],
+      "extra": []
+    },
+    "2": {
+      "expected": 100,
+      "found": 100,
+      "missing": [],
+      "extra": []
+    },
+    "3": {
+      "expected": 80,
+      "found": 80,
+      "missing": [],
+      "extra": []
+    },
+    "4": {
+      "expected": 80,
+      "found": 80,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "total": 340,
+  "included": 337,
+  "skipped": 3
+}

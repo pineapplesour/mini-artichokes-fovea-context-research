@@ -1,0 +1,2064 @@
+{
+  "schemaVersion": 1,
+  "ledgerId": "plain-codex-luna-subject-batch-results-20260720",
+  "updatedAt": "2026-07-20T05:08:00+09:00",
+  "freeze": {
+    "path": "docs/research/plain_codex_baseline_freeze_20260720.json",
+    "sha256": "468d11d764407a419f4bc85dac288c23730a0e672ff4ae7edff02e5d91fd44d7"
+  },
+  "policy": {
+    "appendOnlyAcceptedRuns": true,
+    "validFailuresRemainInBaseline": true,
+    "solverAndEvaluatorCostsReportedSeparately": true,
+    "subjectBatchesDoNotOverwriteHistoricalItemIsolatedDirectCoverage": true
+  },
+  "runs": [
+    {
+      "runId": "christian-bible100-batch01",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "caseIds": [
+        "christian-bible100-q006",
+        "christian-bible100-q008",
+        "christian-bible100-q009",
+        "christian-bible100-q010",
+        "christian-bible100-q014",
+        "christian-bible100-q015",
+        "christian-bible100-q016",
+        "christian-bible100-q017"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 13906,
+        "elapsedSec": 18.136,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-bible100-batch01/summary.json",
+        "summarySha256": "51732baa89d62e624a0fdd89c5baa82f9ea45a469f0cb333cf8cfa180affefa7",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-bible100-batch01/batches/batch-141de1d0361839ac.json",
+        "receiptSha256": "c38c5c3de35ef03ff75d3bd921958e7d220cab2b36c8aee035b4fc41b06c4b14"
+      },
+      "score": {
+        "passed": 8,
+        "failed": 0,
+        "unresolved": 0,
+        "accuracy": 1.0,
+        "deterministicPasses": 2,
+        "semanticPasses": 6,
+        "judgeCalls": 2,
+        "judgeTokens": 20559,
+        "judgeElapsedSec": 28.798,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-bible100-batch01/score-deterministic.json",
+        "deterministicSha256": "d1c48f8e7379ee6a05ff012dad32c87983d7f74aa1300ec39a3c9e2cb0901e3c",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-bible100-batch01/score-semantic-batch.json",
+        "semanticSha256": "703e5951d15ce3200832921269b0cd572874fddb623f8a3698470c5ee8c16704"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-bible100-batch02",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "caseIds": [
+        "christian-bible100-q018",
+        "christian-bible100-q019",
+        "christian-bible100-q020",
+        "christian-bible100-q021",
+        "christian-bible100-q022",
+        "christian-bible100-q023",
+        "christian-bible100-q025",
+        "christian-bible100-q026"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 14089,
+        "elapsedSec": 13.498,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-bible100-batch02/summary.json",
+        "summarySha256": "625444fb9c0d815de847e798e2ba7c5bf7bae096cc1411f5cf3a8603c96c0202",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-bible100-batch02/batches/batch-7ead94ed6962c86b.json",
+        "receiptSha256": "4cc6fee44c11c5fe02d879f60583a1ed9efa6ff7e654609557b8e9e9f2218fcc"
+      },
+      "score": {
+        "passed": 7,
+        "failed": 1,
+        "unresolved": 0,
+        "accuracy": 0.875,
+        "deterministicPasses": 2,
+        "semanticPasses": 5,
+        "semanticFailures": 1,
+        "failedCaseIds": [
+          "christian-bible100-q021"
+        ],
+        "judgeCalls": 2,
+        "judgeTokens": 19963,
+        "judgeElapsedSec": 31.581,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-bible100-batch02/score-deterministic.json",
+        "deterministicSha256": "be78abec6ad90c33f05136705cf5a0d2dfce845db41ad35f41a9eab83a35cd62",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-bible100-batch02/score-semantic-batch.json",
+        "semanticSha256": "2b6e5bc7e3baf4f344ec83a83c245684656ed921495dccfdf2e3a6c138a880c9"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-bible100-batch03",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "caseIds": [
+        "christian-bible100-q027",
+        "christian-bible100-q028",
+        "christian-bible100-q029",
+        "christian-bible100-q030",
+        "christian-bible100-q031",
+        "christian-bible100-q032",
+        "christian-bible100-q033",
+        "christian-bible100-q034"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 13876,
+        "elapsedSec": 15.503,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-bible100-batch03/summary.json",
+        "summarySha256": "8b11cd2896484e5d9bba58c86cd064bd23cdbddcd4f7d2a079bab6c2b508f86a",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-bible100-batch03/batches/batch-90a6093f54b7251c.json",
+        "receiptSha256": "3f3f432a8d84b70e115ada00485de9bea18758da2b07f5b7c58105ccc9150649"
+      },
+      "score": {
+        "passed": 8,
+        "failed": 0,
+        "unresolved": 0,
+        "accuracy": 1.0,
+        "deterministicPasses": 5,
+        "semanticPasses": 3,
+        "judgeCalls": 2,
+        "judgeTokens": 19447,
+        "judgeElapsedSec": 28.523,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-bible100-batch03/score-deterministic.json",
+        "deterministicSha256": "1524382e4d5f6ea209e23a6c439219a880816f552101981e5ab79ee38e5b8a21",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-bible100-batch03/score-semantic-batch.json",
+        "semanticSha256": "96f637584ad99452e6c210ff465199df1b0f32db4f1d164b33f2f0329fb05085"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-bible100-batch04",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "caseIds": [
+        "christian-bible100-q035",
+        "christian-bible100-q036",
+        "christian-bible100-q037",
+        "christian-bible100-q038",
+        "christian-bible100-q039",
+        "christian-bible100-q040",
+        "christian-bible100-q042",
+        "christian-bible100-q043"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 13894,
+        "elapsedSec": 15.531,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-bible100-batch04/summary.json",
+        "summarySha256": "59b4a43282c219673a9710923856feae404f26e526a1aa9145652532a05d9300",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-bible100-batch04/batches/batch-10c077f3a1297d07.json",
+        "receiptSha256": "feaffd3ae428dc2480cf0cffc0b945e05102464411f6c0f9bc8ccf4e8c3cc9c5"
+      },
+      "score": {
+        "passed": 7,
+        "failed": 1,
+        "unresolved": 0,
+        "accuracy": 0.875,
+        "deterministicPasses": 4,
+        "semanticPasses": 3,
+        "semanticFailures": 1,
+        "failedCaseIds": [
+          "christian-bible100-q043"
+        ],
+        "judgeCalls": 2,
+        "judgeTokens": 20171,
+        "judgeElapsedSec": 24.304,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-bible100-batch04/score-deterministic.json",
+        "deterministicSha256": "85bebe6be350feaef132df352222b803401d29050fa95ffea0e71a7edcd21266",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-bible100-batch04/score-semantic-batch.json",
+        "semanticSha256": "10853653997a6868706fa81bcb6ff557c3afa69928182e28f71324a31630537a"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-bible100-batch05",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "caseIds": [
+        "christian-bible100-q044",
+        "christian-bible100-q045",
+        "christian-bible100-q046",
+        "christian-bible100-q047",
+        "christian-bible100-q048",
+        "christian-bible100-q050",
+        "christian-bible100-q051",
+        "christian-bible100-q052"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 14027,
+        "elapsedSec": 17.86,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-bible100-batch05/summary.json",
+        "summarySha256": "260bc28d3f8fb3ee85fcd3a7a1601d2ebf6fecd7921f2b04f735bbbbdcbb8837",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-bible100-batch05/batches/batch-9add8db66dc82fb5.json",
+        "receiptSha256": "78b36176d5b64f2b84847547fdde95d9ed797eb57981c574fa85f0cb7d086701"
+      },
+      "score": {
+        "passed": 7,
+        "failed": 1,
+        "unresolved": 0,
+        "accuracy": 0.875,
+        "deterministicPasses": 7,
+        "semanticPasses": 0,
+        "semanticFailures": 1,
+        "failedCaseIds": [
+          "christian-bible100-q045"
+        ],
+        "judgeCalls": 2,
+        "judgeTokens": 18584,
+        "judgeElapsedSec": 15.343,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-bible100-batch05/score-deterministic.json",
+        "deterministicSha256": "8877889e931d5c7e0aa11a22f573f8fbb9deae261e6985ef3efa12cb7b190877",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-bible100-batch05/score-semantic-batch.json",
+        "semanticSha256": "3bd2411d6dab404a1cfbe1fb86f6783a5f355b203c1e5a8cc192939261ecec9b"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-bible100-batch06",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "caseIds": [
+        "christian-bible100-q053",
+        "christian-bible100-q054",
+        "christian-bible100-q056",
+        "christian-bible100-q057",
+        "christian-bible100-q058",
+        "christian-bible100-q059",
+        "christian-bible100-q060",
+        "christian-bible100-q061"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 13748,
+        "elapsedSec": 10.193,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-bible100-batch06/summary.json",
+        "summarySha256": "9b77ce163b3a64c0a5d733c415a7a565367695851e86206466f0ce871946d255",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-bible100-batch06/batches/batch-e99bc08f91903dbf.json",
+        "receiptSha256": "2f8cc06019a8cbaa976192843b29d069b442a7e5ea6d1bc7a625c8902dcc03f3"
+      },
+      "score": {
+        "passed": 8,
+        "failed": 0,
+        "unresolved": 0,
+        "accuracy": 1.0,
+        "deterministicPasses": 5,
+        "semanticPasses": 3,
+        "judgeCalls": 2,
+        "judgeTokens": 19534,
+        "judgeElapsedSec": 18.248,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-bible100-batch06/score-deterministic.json",
+        "deterministicSha256": "13560c91e6b12e4d30fe7c12140ff6ed8855102c91b660f99220558e143027c6",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-bible100-batch06/score-semantic-batch.json",
+        "semanticSha256": "0f0b0ed71d756f1d6cb201f080327b8ee05100a88aff674abacf2201381b5c28"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-bible100-batch07",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "caseIds": [
+        "christian-bible100-q063",
+        "christian-bible100-q065",
+        "christian-bible100-q066",
+        "christian-bible100-q067",
+        "christian-bible100-q068",
+        "christian-bible100-q069",
+        "christian-bible100-q070",
+        "christian-bible100-q071"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 13318,
+        "elapsedSec": 11.559,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-bible100-batch07/summary.json",
+        "summarySha256": "b536f962273b245273b64d6fdd1164a59046098a632c28eae26d9ad37ebd193a",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-bible100-batch07/batches/batch-0e8c3dbb38109435.json",
+        "receiptSha256": "455068a6bbb8798b1bfe002a6fc36b3b9289ab5cd1ed5cb51bdf8552dc988e87"
+      },
+      "score": {
+        "passed": 8,
+        "failed": 0,
+        "unresolved": 0,
+        "accuracy": 1.0,
+        "deterministicPasses": 3,
+        "semanticPasses": 5,
+        "judgeCalls": 2,
+        "judgeTokens": 19532,
+        "judgeElapsedSec": 23.151,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-bible100-batch07/score-deterministic.json",
+        "deterministicSha256": "97c4789ccfc8e235de7b705906be3fe54b48c094b1745a829283ad77c84ce599",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-bible100-batch07/score-semantic-batch.json",
+        "semanticSha256": "1ff688a321c79a76ef0465bd862e449c3de2a96207c825c7c25cf9cec74fb7e3"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-bible100-batch08",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "caseIds": [
+        "christian-bible100-q072",
+        "christian-bible100-q074",
+        "christian-bible100-q075",
+        "christian-bible100-q076",
+        "christian-bible100-q077",
+        "christian-bible100-q078",
+        "christian-bible100-q079",
+        "christian-bible100-q080"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 13785,
+        "elapsedSec": 14.127,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-bible100-batch08/summary.json",
+        "summarySha256": "70bc5d659cadd539eeb964820ae2078cf804cb9b07a25880598607666853bebd",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-bible100-batch08/batches/batch-7e1db90108f9526b.json",
+        "receiptSha256": "08f18ef9438f6251543439bf674560412cdf1b686958735bb6abdaad51832f76"
+      },
+      "score": {
+        "passed": 8,
+        "failed": 0,
+        "unresolved": 0,
+        "accuracy": 1.0,
+        "deterministicPasses": 5,
+        "semanticPasses": 3,
+        "judgeCalls": 2,
+        "judgeTokens": 19079,
+        "judgeElapsedSec": 19.952,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-bible100-batch08/score-deterministic.json",
+        "deterministicSha256": "e0f13fe0f5ca09ed9dd06fffb3174003a00278b570f7b962aead89e76c19d59d",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-bible100-batch08/score-semantic-batch.json",
+        "semanticSha256": "1ff15228e747e2f9cb2a30b3a515c2ce5fc0905cfe5d57e2de5a99d0c3a66624"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-bible100-batch09",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "caseIds": [
+        "christian-bible100-q082",
+        "christian-bible100-q083",
+        "christian-bible100-q084",
+        "christian-bible100-q085",
+        "christian-bible100-q086",
+        "christian-bible100-q087",
+        "christian-bible100-q089",
+        "christian-bible100-q090"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 13869,
+        "elapsedSec": 15.972,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-bible100-batch09/summary.json",
+        "summarySha256": "c563b527c92d047626f4c508cb39e100a64f3af7065a3d427ee02676c1c5771b",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-bible100-batch09/batches/batch-538b7c61431ca37a.json",
+        "receiptSha256": "d21efc9b5871bf652c176df2685f5e475eeb136c80e1a6e8bde66dfe3877e23c"
+      },
+      "score": {
+        "passed": 8,
+        "failed": 0,
+        "unresolved": 0,
+        "accuracy": 1.0,
+        "deterministicPasses": 6,
+        "semanticPasses": 2,
+        "judgeCalls": 2,
+        "judgeTokens": 18796,
+        "judgeElapsedSec": 20.678,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-bible100-batch09/score-deterministic.json",
+        "deterministicSha256": "d42bbf83c5b49f041671e5650922492b108777edc9001c4dd4470e018e69a7f2",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-bible100-batch09/score-semantic-batch.json",
+        "semanticSha256": "a0e02bf9ec81297758f8abd0b1d6e98c667efe6422ec97507344f1068ec8a20b"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-bible100-batch10",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "caseIds": [
+        "christian-bible100-q091",
+        "christian-bible100-q093",
+        "christian-bible100-q094",
+        "christian-bible100-q095",
+        "christian-bible100-q096",
+        "christian-bible100-q098",
+        "christian-bible100-q100"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 13640,
+        "elapsedSec": 10.159,
+        "predicted": 7,
+        "accepted": 7,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-bible100-batch10/summary.json",
+        "summarySha256": "f2347bd25da600f3000bf764939b3c8899a0ba5362368a5e342744ed04f6eefb",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-bible100-batch10/batches/batch-3e793d228fa3a733.json",
+        "receiptSha256": "beadfc244ab60fa94eae06f0a6d7c3d1ba34154e2d23ef8ba6b25518fb139356"
+      },
+      "score": {
+        "passed": 6,
+        "failed": 1,
+        "unresolved": 0,
+        "accuracy": 0.8571428571428571,
+        "deterministicPasses": 6,
+        "semanticPasses": 0,
+        "semanticFailures": 1,
+        "failedCaseIds": [
+          "christian-bible100-q094"
+        ],
+        "judgeCalls": 2,
+        "judgeTokens": 19153,
+        "judgeElapsedSec": 16.604,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-bible100-batch10/score-deterministic.json",
+        "deterministicSha256": "4d6bb8b340e18868cd3aec7a24a8cc611c8281e7df2140929c515cfa72034a58",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-bible100-batch10/score-semantic-batch.json",
+        "semanticSha256": "b69da103bd1618ca8ba06156b87c108f44e2162082755653a3195dd44e74d8e2"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-provao2012-batch01",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "caseIds": [
+        "christian-provao2012-q003",
+        "christian-provao2012-q006",
+        "christian-provao2012-q007",
+        "christian-provao2012-q008",
+        "christian-provao2012-q009",
+        "christian-provao2012-q011",
+        "christian-provao2012-q012",
+        "christian-provao2012-q013"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 13923,
+        "elapsedSec": 16.221,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch01/summary.json",
+        "summarySha256": "34482500db82d272b30c233775030da3877d99f8ad0b056faa0801dace94e734",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch01/batches/batch-cf8cbfb086d5abfb.json",
+        "receiptSha256": "6429d80038a303bd0b08758e4da394be123541542d9994e680013eec3cd9f921"
+      },
+      "score": {
+        "passed": 6,
+        "failed": 2,
+        "unresolved": 0,
+        "accuracy": 0.75,
+        "deterministicPasses": 0,
+        "semanticPasses": 6,
+        "semanticFailures": 2,
+        "failedCaseIds": [
+          "christian-provao2012-q008",
+          "christian-provao2012-q011"
+        ],
+        "judgeCalls": 3,
+        "judgeTokens": 29848,
+        "judgeElapsedSec": 42.3,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch01/score-deterministic.json",
+        "deterministicSha256": "69625edafa025961e264e450624232ec31082699558c2b99ec92126209f74205",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch01/score-semantic-batch.json",
+        "semanticSha256": "8d8a8221b8156fcc3c740bba67f84f8add1c8afc09b171dfbe63132eeb58bbdd"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-provao2012-batch02",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "caseIds": [
+        "christian-provao2012-q014",
+        "christian-provao2012-q015",
+        "christian-provao2012-q016",
+        "christian-provao2012-q017",
+        "christian-provao2012-q019",
+        "christian-provao2012-q020",
+        "christian-provao2012-q021",
+        "christian-provao2012-q023"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 13812,
+        "elapsedSec": 15.481,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch02/summary.json",
+        "summarySha256": "2d2d07f4a5ba63901d7bfa8402c95e4ca6deab77da3733d283c46c05dd803e6e",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch02/batches/batch-03dd4e2d5ddfc9de.json",
+        "receiptSha256": "e7ab5253125ec8b872d92119f8dccd8151405abe6362d62d4eb0561736059365"
+      },
+      "score": {
+        "passed": 6,
+        "failed": 2,
+        "unresolved": 0,
+        "accuracy": 0.75,
+        "deterministicPasses": 1,
+        "semanticPasses": 5,
+        "semanticFailures": 2,
+        "failedCaseIds": [
+          "christian-provao2012-q016",
+          "christian-provao2012-q020"
+        ],
+        "judgeCalls": 2,
+        "judgeTokens": 20775,
+        "judgeElapsedSec": 29.231,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch02/score-deterministic.json",
+        "deterministicSha256": "987b71f1dd2822746c54876679fb673d6021a6f8a775be3c1e7206b64de4ae9b",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch02/score-semantic-batch.json",
+        "semanticSha256": "b9c51695cd408a604598f9a35188cd8b76abd372e0b26f1ed4513b2daf72456b"
+      },
+      "invalidEvaluatorSelectionAudit": {
+        "solverOrJudgeCallsUsed": 0,
+        "disposition": "quarantined_and_superseded_by_explicit_case_id_evaluation",
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch02/score-deterministic-invalid-selection.json",
+        "deterministicSha256": "72c475a1bb6197fe3a98006e008bec9fc7d522293f886f5715036ff5a25bcad6",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch02/score-semantic-batch-invalid-selection.json",
+        "semanticSha256": "d0ac24abab4259f8bc7a451bd03dccc5ada647137d807d1a6e552d7865480bae",
+        "reason": "the first evaluator invocation omitted explicit batch02 case IDs and therefore selected the first manifest slice, which had no predictions in this results directory"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-provao2012-batch03",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "caseIds": [
+        "christian-provao2012-q024",
+        "christian-provao2012-q026",
+        "christian-provao2012-q027",
+        "christian-provao2012-q028",
+        "christian-provao2012-q029",
+        "christian-provao2012-q031",
+        "christian-provao2012-q032",
+        "christian-provao2012-q033"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 14005,
+        "elapsedSec": 17.563,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch03/summary.json",
+        "summarySha256": "f5e72d05476b5217f20445ffc0154089e1127d949d823c4a45f8e5d6ed1549d8",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch03/batches/batch-0c6d83ff5b74276f.json",
+        "receiptSha256": "2e458e03f8e6c0a90210e4db59fb190ad4c96b7ab2275d16b232042da6c815ce"
+      },
+      "score": {
+        "passed": 2,
+        "failed": 6,
+        "unresolved": 0,
+        "accuracy": 0.25,
+        "deterministicPasses": 0,
+        "semanticPasses": 2,
+        "semanticFailures": 6,
+        "failedCaseIds": [
+          "christian-provao2012-q024",
+          "christian-provao2012-q028",
+          "christian-provao2012-q029",
+          "christian-provao2012-q031",
+          "christian-provao2012-q032",
+          "christian-provao2012-q033"
+        ],
+        "judgeCalls": 2,
+        "judgeTokens": 20857,
+        "judgeElapsedSec": 41.836,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch03/score-deterministic.json",
+        "deterministicSha256": "5d968f6118fd448fc0c038e4b44a01fd963f4871540c17e40642aaf13729e38a",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch03/score-semantic-batch.json",
+        "semanticSha256": "463535f8fa4435fda0f067f169131ffc9b4a253d2dfc3698ca5f0cd0f9e50a95"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-provao2012-batch04",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "caseIds": [
+        "christian-provao2012-q034",
+        "christian-provao2012-q035",
+        "christian-provao2012-q036",
+        "christian-provao2012-q038",
+        "christian-provao2012-q040",
+        "christian-provao2012-q041",
+        "christian-provao2012-q042",
+        "christian-provao2012-q043"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 13811,
+        "elapsedSec": 20.201,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch04/summary.json",
+        "summarySha256": "9c7c43e726b3a7a29b50ebf4f7beab5aad1676616dd76167706c39479660dc37",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch04/batches/batch-068ab426c997a52b.json",
+        "receiptSha256": "2a09c977101ff95b4298e77a4ce48b4d80025b0122aea8f2505ae937860af6de"
+      },
+      "score": {
+        "passed": 3,
+        "failed": 5,
+        "unresolved": 0,
+        "accuracy": 0.375,
+        "deterministicPasses": 0,
+        "semanticPasses": 3,
+        "semanticFailures": 5,
+        "failedCaseIds": [
+          "christian-provao2012-q034",
+          "christian-provao2012-q036",
+          "christian-provao2012-q038",
+          "christian-provao2012-q040",
+          "christian-provao2012-q042"
+        ],
+        "judgeCalls": 3,
+        "judgeTokens": 31163,
+        "judgeElapsedSec": 50.132,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch04/score-deterministic.json",
+        "deterministicSha256": "a3109ac087b63928aa1919db6949a6f840df28b17a1d89ad5557494f5be91db2",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch04/score-semantic-batch.json",
+        "semanticSha256": "b531d376b1f2d3a06571d9f1aae74e5633fc4b734f5352300d0f32a230a8a983"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-provao2012-batch05",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "caseIds": [
+        "christian-provao2012-q044",
+        "christian-provao2012-q045",
+        "christian-provao2012-q046",
+        "christian-provao2012-q047",
+        "christian-provao2012-q048",
+        "christian-provao2012-q049",
+        "christian-provao2012-q050",
+        "christian-provao2012-q051"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 31587,
+        "elapsedSec": 23.192,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 1,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "antiCheatingAuditPassed": true,
+        "webQueryAudit": {
+          "query": "teologia pacto aspectos relacionais vertical horizontal",
+          "rawQuestionUsedAsSearchQuery": false,
+          "repackagedQuestionCore": false,
+          "forbiddenExamOrAnswerLookup": false,
+          "publicQuestionTermCoverage": 0.0291
+        },
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch05/summary.json",
+        "summarySha256": "d2a4569df2e77331d581cc712773baec1ab468d385dfcc38bba5f22196a61577",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch05/batches/batch-53a922012cb1c16d.json",
+        "receiptSha256": "4f7a58f74e125e74ddd9de02b5c1b97422c44c1ee0b6087ab7df64e9a2f34559"
+      },
+      "score": {
+        "passed": 6,
+        "failed": 2,
+        "unresolved": 0,
+        "accuracy": 0.75,
+        "deterministicPasses": 1,
+        "semanticPasses": 5,
+        "semanticFailures": 2,
+        "failedCaseIds": [
+          "christian-provao2012-q044",
+          "christian-provao2012-q049"
+        ],
+        "judgeCalls": 2,
+        "judgeTokens": 20709,
+        "judgeElapsedSec": 40.371,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch05/score-deterministic.json",
+        "deterministicSha256": "ed2941d8844a0cc49447fee8b1ce4f5ec351a4c74412ec7dbbbbb398bfa4caa8",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch05/score-semantic-batch.json",
+        "semanticSha256": "ccd0feff1563668d5bb8698ccfcd4c6446e1858ec1a13bc0d1fae9b930af249c"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-provao2012-batch06",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "caseIds": [
+        "christian-provao2012-q052",
+        "christian-provao2012-q053",
+        "christian-provao2012-q054",
+        "christian-provao2012-q055",
+        "christian-provao2012-q056",
+        "christian-provao2012-q057",
+        "christian-provao2012-q058",
+        "christian-provao2012-q059"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 13851,
+        "elapsedSec": 12.712,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch06/summary.json",
+        "summarySha256": "65143b304238f8720acb3451ae1fca952d27a9bba83cc5794b69e156f510a79b",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch06/batches/batch-e6a5fb4c3eef1f44.json",
+        "receiptSha256": "c13263a45b5db3695755a7d3e012019601dc5de4079bc5483a4b26ca64cb8da6"
+      },
+      "score": {
+        "passed": 5,
+        "failed": 3,
+        "unresolved": 0,
+        "accuracy": 0.625,
+        "deterministicPasses": 1,
+        "semanticPasses": 4,
+        "semanticFailures": 3,
+        "failedCaseIds": [
+          "christian-provao2012-q054",
+          "christian-provao2012-q055",
+          "christian-provao2012-q058"
+        ],
+        "judgeCalls": 2,
+        "judgeTokens": 20434,
+        "judgeElapsedSec": 30.091,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch06/score-deterministic.json",
+        "deterministicSha256": "50818882e7c8b9031d71b60e061e0fc1688da374f6bcd6f6029e24f3cb9b3135",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch06/score-semantic-batch.json",
+        "semanticSha256": "c716d5c26ebb7ef309ab0bb3c9d1884de08217bd446a1a9c1ccef1ada3a6469e"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-provao2012-batch07",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "caseIds": [
+        "christian-provao2012-q060",
+        "christian-provao2012-q061",
+        "christian-provao2012-q062",
+        "christian-provao2012-q063",
+        "christian-provao2012-q064",
+        "christian-provao2012-q065",
+        "christian-provao2012-q066",
+        "christian-provao2012-q067"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 13953,
+        "elapsedSec": 12.577,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch07/summary.json",
+        "summarySha256": "663fbde14a90599c4c33d27a64f57ad88cde979fbe5b7eb4f4c73605a3bff135",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch07/batches/batch-14c2f053037e750c.json",
+        "receiptSha256": "615709d12f6cac8a8f35808ab18c57a50b89c7d8353e54cb31630a6418ae2223"
+      },
+      "score": {
+        "passed": 6,
+        "failed": 2,
+        "unresolved": 0,
+        "accuracy": 0.75,
+        "deterministicPasses": 3,
+        "semanticPasses": 3,
+        "semanticFailures": 2,
+        "failedCaseIds": [
+          "christian-provao2012-q060",
+          "christian-provao2012-q067"
+        ],
+        "judgeCalls": 2,
+        "judgeTokens": 19611,
+        "judgeElapsedSec": 27.327,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch07/score-deterministic.json",
+        "deterministicSha256": "08a604aa60f567783c29f2947468c23d642d56793c2984ab56ad39ed73d12288",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch07/score-semantic-batch.json",
+        "semanticSha256": "9f8adab7853ad9bbf805b33be8d5e45f860e222104df195717b71a2eafb556eb"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-provao2012-batch08",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "caseIds": [
+        "christian-provao2012-q068",
+        "christian-provao2012-q069",
+        "christian-provao2012-q070",
+        "christian-provao2012-q071",
+        "christian-provao2012-q072",
+        "christian-provao2012-q073",
+        "christian-provao2012-q074",
+        "christian-provao2012-q075"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 13931,
+        "elapsedSec": 18.099,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch08/summary.json",
+        "summarySha256": "2093847a33d6abd1e4803a45d0e1a94bb0b8847850245eccf15bb22c39c91c30",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch08/batches/batch-a3b6b3bbb9dd2a6e.json",
+        "receiptSha256": "3724cdcb139080874c8f31cb86d4a625b14dc861603a623e0e25e6de35706dff"
+      },
+      "score": {
+        "passed": 5,
+        "failed": 3,
+        "unresolved": 0,
+        "accuracy": 0.625,
+        "deterministicPasses": 3,
+        "semanticPasses": 2,
+        "semanticFailures": 3,
+        "failedCaseIds": [
+          "christian-provao2012-q068",
+          "christian-provao2012-q072",
+          "christian-provao2012-q075"
+        ],
+        "judgeCalls": 2,
+        "judgeTokens": 20325,
+        "judgeElapsedSec": 25.801,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch08/score-deterministic.json",
+        "deterministicSha256": "59aefadd7e6211d31e9e64c706ced1388e80da12df1bd03c4c8dea65597fdbee",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch08/score-semantic-batch.json",
+        "semanticSha256": "c50e5c969df6f426be5d742684fa366374c49767d3b9bdb2e230bb359ba9a753"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-provao2012-batch09",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "caseIds": [
+        "christian-provao2012-q076",
+        "christian-provao2012-q077",
+        "christian-provao2012-q078",
+        "christian-provao2012-q079",
+        "christian-provao2012-q086",
+        "christian-provao2012-q088",
+        "christian-provao2012-q091",
+        "christian-provao2012-q092"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 14004,
+        "elapsedSec": 19.032,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch09/summary.json",
+        "summarySha256": "9b176f535038440af284865b9dbbbad5089286d9ab9dc34c8dde32dfe5aa9ac3",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch09/batches/batch-808a1be3f31b75ec.json",
+        "receiptSha256": "7fc7470ae53ec7135c233d9c81993c95b12be2a12ccb3deca12b3372fa5c3664"
+      },
+      "score": {
+        "passed": 5,
+        "failed": 3,
+        "unresolved": 0,
+        "accuracy": 0.625,
+        "deterministicPasses": 1,
+        "semanticPasses": 4,
+        "semanticFailures": 3,
+        "failedCaseIds": [
+          "christian-provao2012-q079",
+          "christian-provao2012-q091",
+          "christian-provao2012-q092"
+        ],
+        "judgeCalls": 2,
+        "judgeTokens": 20287,
+        "judgeElapsedSec": 32.369,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch09/score-deterministic.json",
+        "deterministicSha256": "3129a1f5c01e73dbdb565ccb036a7709f7527b17c46c287c1d8b3b07c9052d80",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch09/score-semantic-batch.json",
+        "semanticSha256": "47299713c646698b96f81117c9df2d91899eddb2f131c030b90cf5f0afe14c97"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "christian-provao2012-batch10",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "caseIds": [
+        "christian-provao2012-q093",
+        "christian-provao2012-q094",
+        "christian-provao2012-q095",
+        "christian-provao2012-q096",
+        "christian-provao2012-q097",
+        "christian-provao2012-q098"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 103792,
+        "elapsedSec": 32.521,
+        "predicted": 6,
+        "accepted": 0,
+        "errors": 6,
+        "webEvents": 3,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "antiCheatingAuditPassed": false,
+        "policyViolations": [
+          "batch_token_budget_exceeded",
+          "batch_web_search_budget_exceeded",
+          "web_search_anti_cheating_audit_failed"
+        ],
+        "forbiddenQueryEvidence": {
+          "query": "'candidatos ao Sagrado Ministério'",
+          "rawQuestionUsedAsSearchQuery": true,
+          "violation": "long_contiguous_question_copy"
+        },
+        "summaryPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch10/summary.json",
+        "summarySha256": "5a25c5da55b6753b4386f0a71e066ff0f660e1473a41a42d73991d625f3262a9",
+        "receiptPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch10/batches/batch-3ebc40fca501a776.json",
+        "receiptSha256": "b233ab2ac3f2819b6595161d21c17005b458c3b0d29af47a9f8c40b0383b49e4"
+      },
+      "score": {
+        "passed": 0,
+        "failed": 0,
+        "unresolved": 6,
+        "accuracy": 0.0,
+        "deterministicPasses": 0,
+        "semanticPasses": 0,
+        "semanticFailures": 0,
+        "quarantinedCaseIds": [
+          "christian-provao2012-q093",
+          "christian-provao2012-q094",
+          "christian-provao2012-q095",
+          "christian-provao2012-q096",
+          "christian-provao2012-q097",
+          "christian-provao2012-q098"
+        ],
+        "judgeCalls": 0,
+        "judgeTokens": 0,
+        "judgeElapsedSec": 0.0,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch10/score-deterministic-quarantined.json",
+        "deterministicSha256": "f00f96af646239c1c66b132641ab0e8c116d0d88b643f655b2cf74706652c6f7",
+        "semanticPath": "runs/plain-codex-freeze-v1/christian-provao2012-batch10/score-semantic-batch-quarantined.json",
+        "semanticSha256": "5eaa46b2fa20a8af227602938825c8fffccd04725722ba8c211ffeab2a656c6c"
+      },
+      "quarantineDisposition": "entire_batch_excluded_from_accuracy_and_answers_not_judged_or_retried",
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_catholic_20260720.json",
+        "sha256": "1f738bcde602294a3683cf462d04293af8597875f8369c81196ee426d8957cc2"
+      }
+    },
+    {
+      "runId": "islam-cisi100-batch01",
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "caseIds": [
+        "islam-cisi-q003",
+        "islam-cisi-q004",
+        "islam-cisi-q005",
+        "islam-cisi-q007",
+        "islam-cisi-q009",
+        "islam-cisi-q011",
+        "islam-cisi-q012",
+        "islam-cisi-q013"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 14174,
+        "elapsedSec": 24.558,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "antiCheatingAuditPassed": true,
+        "summaryPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch01/summary.json",
+        "summarySha256": "591f550b240ee8d0c2bf098757ac466ac2983dc59c865ec107cf57fb3f162c32",
+        "receiptPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch01/batches/batch-919f66affe501ab7.json",
+        "receiptSha256": "ecd19b49837a8877331e560f01ba561ab306d97f08012b526c848871583a4b7b"
+      },
+      "score": {
+        "passed": 5,
+        "failed": 3,
+        "unresolved": 0,
+        "accuracy": 0.625,
+        "deterministicPasses": 0,
+        "semanticPasses": 5,
+        "semanticFailures": 3,
+        "failedCaseIds": [
+          "islam-cisi-q004",
+          "islam-cisi-q007",
+          "islam-cisi-q009"
+        ],
+        "judgeCalls": 2,
+        "judgeTokens": 21150,
+        "judgeElapsedSec": 70.855,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch01/score-deterministic.json",
+        "deterministicSha256": "185fea97f73bbd268290aef0e8a3efee047425383ffce84f9e155e2fb9167c8e",
+        "semanticPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch01/score-semantic-batch.json",
+        "semanticSha256": "16c73acb40594f2237049361f3dda1c38398426d2104798c13b706be77d65021"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_islam_20260720.json",
+        "sha256": "8646794899a785cebc29485369400beac3119f87a5794ebadda914378ffac608"
+      }
+    },
+    {
+      "runId": "islam-cisi100-batch02",
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "caseIds": [
+        "islam-cisi-q014",
+        "islam-cisi-q016",
+        "islam-cisi-q017",
+        "islam-cisi-q018",
+        "islam-cisi-q021",
+        "islam-cisi-q022",
+        "islam-cisi-q023",
+        "islam-cisi-q025"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 14066,
+        "elapsedSec": 13.813,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "antiCheatingAuditPassed": true,
+        "summaryPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch02/summary.json",
+        "summarySha256": "199107589285ef9bfdb8ad941326f661604ccd1ee2813638ed9f3cdda2cd3ae7",
+        "receiptPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch02/batches/batch-0cfe2538dd8ed375.json",
+        "receiptSha256": "5ef16fb41029c88fc64567edb4a6b26c959b28d28e50206c405cdf979067250d"
+      },
+      "score": {
+        "passed": 3,
+        "failed": 5,
+        "unresolved": 0,
+        "accuracy": 0.375,
+        "deterministicPasses": 1,
+        "semanticPasses": 2,
+        "semanticFailures": 5,
+        "failedCaseIds": [
+          "islam-cisi-q014",
+          "islam-cisi-q016",
+          "islam-cisi-q017",
+          "islam-cisi-q018",
+          "islam-cisi-q021"
+        ],
+        "judgeCalls": 2,
+        "judgeTokens": 21280,
+        "judgeElapsedSec": 39.258,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch02/score-deterministic.json",
+        "deterministicSha256": "499967d672b8fc9982d0fb562763e0d5f4ff9a2fae8e72e2c0098c43cc421d68",
+        "semanticPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch02/score-semantic-batch.json",
+        "semanticSha256": "b76e78ce7120b0e3c211f9fed2dd401e7db66358d357fa66e81ba983b50f6e1d"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_islam_20260720.json",
+        "sha256": "8646794899a785cebc29485369400beac3119f87a5794ebadda914378ffac608"
+      }
+    },
+    {
+      "runId": "islam-cisi100-batch03",
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "caseIds": [
+        "islam-cisi-q026",
+        "islam-cisi-q028",
+        "islam-cisi-q030",
+        "islam-cisi-q033",
+        "islam-cisi-q035",
+        "islam-cisi-q037",
+        "islam-cisi-q039",
+        "islam-cisi-q042"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 14485,
+        "elapsedSec": 22.321,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "antiCheatingAuditPassed": true,
+        "summaryPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch03/summary.json",
+        "summarySha256": "d38a573aeabf64a78bc858eb89762bad0de5969f182e17c7a3a6e9431863e21b",
+        "receiptPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch03/batches/batch-6f7782b1e0394dee.json",
+        "receiptSha256": "c9d9a5e6c97f78d0605b28b9b721d83979dff5ccf4dd3440f81f90b587a83214"
+      },
+      "score": {
+        "passed": 3,
+        "failed": 5,
+        "unresolved": 0,
+        "accuracy": 0.375,
+        "deterministicPasses": 0,
+        "semanticPasses": 3,
+        "semanticFailures": 5,
+        "failedCaseIds": [
+          "islam-cisi-q030",
+          "islam-cisi-q033",
+          "islam-cisi-q035",
+          "islam-cisi-q037",
+          "islam-cisi-q042"
+        ],
+        "judgeCalls": 3,
+        "judgeTokens": 31687,
+        "judgeElapsedSec": 56.237,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch03/score-deterministic.json",
+        "deterministicSha256": "7d930eafba4efa8ab0d5d27e458d642014e08249aadcae56b1a676243c62ea4c",
+        "semanticPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch03/score-semantic-batch.json",
+        "semanticSha256": "09355f76938598d13ed6f98312cef41ea89e1829b903eac4d3e1eb1da4246851"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_islam_20260720.json",
+        "sha256": "8646794899a785cebc29485369400beac3119f87a5794ebadda914378ffac608"
+      }
+    },
+    {
+      "runId": "islam-cisi100-batch04",
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "caseIds": [
+        "islam-cisi-q043",
+        "islam-cisi-q046",
+        "islam-cisi-q048",
+        "islam-cisi-q049",
+        "islam-cisi-q050",
+        "islam-cisi-q053",
+        "islam-cisi-q054",
+        "islam-cisi-q058"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 13941,
+        "elapsedSec": 17.957,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "antiCheatingAuditPassed": true,
+        "summaryPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch04/summary.json",
+        "summarySha256": "7bafc0b9be90e9a1cbe97054ad2d67bed34b507f0937942bed06ee11eddc9c0e",
+        "receiptPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch04/batches/batch-24bc8c134d5200b1.json",
+        "receiptSha256": "40d2d4fe6ede66d8c6c64e74847b210d853bbc7f3ccf0316fb6a7829b110a1d5"
+      },
+      "score": {
+        "passed": 2,
+        "failed": 6,
+        "unresolved": 0,
+        "accuracy": 0.25,
+        "deterministicPasses": 0,
+        "semanticPasses": 2,
+        "semanticFailures": 6,
+        "failedCaseIds": [
+          "islam-cisi-q043",
+          "islam-cisi-q046",
+          "islam-cisi-q049",
+          "islam-cisi-q053",
+          "islam-cisi-q054",
+          "islam-cisi-q058"
+        ],
+        "judgeCalls": 3,
+        "judgeTokens": 31221,
+        "judgeElapsedSec": 47.999,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch04/score-deterministic.json",
+        "deterministicSha256": "d3374647e609426ee6224c6a54810b004e9ba36727c27e883254200a43f30f1a",
+        "semanticPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch04/score-semantic-batch.json",
+        "semanticSha256": "6a68fb6222058e424f7ebe2ad917d9948c841463ca21fdc7fdee9f3e2b0860fe"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_islam_20260720.json",
+        "sha256": "8646794899a785cebc29485369400beac3119f87a5794ebadda914378ffac608"
+      }
+    },
+    {
+      "runId": "islam-cisi100-batch05",
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "caseIds": [
+        "islam-cisi-q059",
+        "islam-cisi-q060",
+        "islam-cisi-q063",
+        "islam-cisi-q065",
+        "islam-cisi-q068",
+        "islam-cisi-q070",
+        "islam-cisi-q071",
+        "islam-cisi-q072"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 14074,
+        "elapsedSec": 15.346,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "antiCheatingAuditPassed": true,
+        "summaryPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch05/summary.json",
+        "summarySha256": "7a7c41968ac9563a8dc275079bd48e36855580fba7c3c2869f3cf0dc40016795",
+        "receiptPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch05/batches/batch-84fe3080234f79b0.json",
+        "receiptSha256": "5e75085bd32278720c6f49e27da599b1a65ef5b3c106be17cd67276ff0a01edd"
+      },
+      "score": {
+        "passed": 4,
+        "failed": 4,
+        "unresolved": 0,
+        "accuracy": 0.5,
+        "deterministicPasses": 0,
+        "semanticPasses": 4,
+        "semanticFailures": 4,
+        "failedCaseIds": [
+          "islam-cisi-q059",
+          "islam-cisi-q060",
+          "islam-cisi-q068",
+          "islam-cisi-q071"
+        ],
+        "judgeCalls": 2,
+        "judgeTokens": 21749,
+        "judgeElapsedSec": 40.449,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch05/score-deterministic.json",
+        "deterministicSha256": "a75a066a5b831f2ab98351081d0ae4fd4b75a2442e6c08a90ef04f59f11fe28b",
+        "semanticPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch05/score-semantic-batch.json",
+        "semanticSha256": "4397ddd7dd2296cacedaaa66400420f4e9f659fbd44d2d9ef32c38dd47002bb3"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_islam_20260720.json",
+        "sha256": "8646794899a785cebc29485369400beac3119f87a5794ebadda914378ffac608"
+      }
+    },
+    {
+      "runId": "islam-cisi100-batch06",
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "caseIds": [
+        "islam-cisi-q074",
+        "islam-cisi-q075",
+        "islam-cisi-q076",
+        "islam-cisi-q077",
+        "islam-cisi-q080",
+        "islam-cisi-q082",
+        "islam-cisi-q083",
+        "islam-cisi-q084"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 14179,
+        "elapsedSec": 20.766,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "antiCheatingAuditPassed": true,
+        "summaryPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch06/summary.json",
+        "summarySha256": "c34ce9eed2017d772830dd6dddf7e9e461efc22817f1d79ba54d89126727102b",
+        "receiptPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch06/batches/batch-a7b5225305310413.json",
+        "receiptSha256": "41fdaad873c55f51ebef7571804d07f700dc76ac8a131777242d8e4ed1d7b4dc"
+      },
+      "score": {
+        "passed": 4,
+        "failed": 4,
+        "unresolved": 0,
+        "accuracy": 0.5,
+        "deterministicPasses": 0,
+        "semanticPasses": 4,
+        "semanticFailures": 4,
+        "failedCaseIds": [
+          "islam-cisi-q076",
+          "islam-cisi-q077",
+          "islam-cisi-q082",
+          "islam-cisi-q083"
+        ],
+        "judgeCalls": 3,
+        "judgeTokens": 30781,
+        "judgeElapsedSec": 42.782,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch06/score-deterministic.json",
+        "deterministicSha256": "63d4a623d88394298e0ef8efbc6933046efff942177dbac3c4ef712e47dd769a",
+        "semanticPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch06/score-semantic-batch.json",
+        "semanticSha256": "57b34131408b17dad369426ae86bbc969b9fd2d10ea66cb30a653625ce8f6b98"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_islam_20260720.json",
+        "sha256": "8646794899a785cebc29485369400beac3119f87a5794ebadda914378ffac608"
+      }
+    },
+    {
+      "runId": "islam-cisi100-batch07",
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "caseIds": [
+        "islam-cisi-q088",
+        "islam-cisi-q089",
+        "islam-cisi-q091",
+        "islam-cisi-q093",
+        "islam-cisi-q094",
+        "islam-cisi-q095",
+        "islam-cisi-q098",
+        "islam-cisi-q100"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 14037,
+        "elapsedSec": 16.848,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "antiCheatingAuditPassed": true,
+        "summaryPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch07/summary.json",
+        "summarySha256": "1a17cf96c23d71b5db7d38f7ea9e0a9e3e9bb70941726af2cce7ab0a6b962757",
+        "receiptPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch07/batches/batch-80406086f29226ce.json",
+        "receiptSha256": "43a7199a6b19b755641977386a011958bda0dd527d8511ae3cd554ef972aaf69"
+      },
+      "score": {
+        "passed": 5,
+        "failed": 3,
+        "unresolved": 0,
+        "accuracy": 0.625,
+        "deterministicPasses": 1,
+        "semanticPasses": 4,
+        "semanticFailures": 3,
+        "failedCaseIds": [
+          "islam-cisi-q091",
+          "islam-cisi-q095",
+          "islam-cisi-q098"
+        ],
+        "judgeCalls": 3,
+        "judgeTokens": 30353,
+        "judgeElapsedSec": 44.397,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch07/score-deterministic.json",
+        "deterministicSha256": "6d04694978c15a0e993f472537b94cdeb7e210ae8febb375ff92ae7f09a80ff8",
+        "semanticPath": "runs/plain-codex-freeze-v1/islam-cisi100-batch07/score-semantic-batch.json",
+        "semanticSha256": "fd825e92426529c6a4f442c12f35ab7a2b262086232f70ca98f215bdf1c1051a"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_islam_20260720.json",
+        "sha256": "8646794899a785cebc29485369400beac3119f87a5794ebadda914378ffac608"
+      }
+    },
+    {
+      "runId": "psych-mit-sangmyung-batch01",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q001",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q002",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q005",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q006",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q009",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q010",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q011",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q001"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 32556,
+        "elapsedSec": 27.693,
+        "predicted": 8,
+        "accepted": 0,
+        "errors": 8,
+        "webEvents": 1,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "antiCheatingAuditPassed": false,
+        "quarantineReasons": [
+          "web_search_anti_cheating_audit_failed",
+          "query_too_long",
+          "too_many_query_tokens"
+        ],
+        "forbiddenExamOrAnswerLookup": false,
+        "rawQuestionUsedAsSearchQuery": false,
+        "repackagedQuestionCore": false,
+        "summaryPath": "runs/plain-codex-freeze-v1/psych-mit-sangmyung-batch01/summary.json",
+        "summarySha256": "20c268edc141eac2d59e5156456963e207924299e1103cf85f85286ca4c7af00",
+        "receiptPath": "runs/plain-codex-freeze-v1/psych-mit-sangmyung-batch01/batches/batch-1d4157778f785ec3.json",
+        "receiptSha256": "97273360e7ef58ed04c6d1274fb3bafde5ae3178c4d21bf3710e35aa4bd33fc7"
+      },
+      "score": {
+        "passed": 0,
+        "failed": 0,
+        "unresolved": 8,
+        "accuracy": 0.0,
+        "deterministicPasses": 0,
+        "semanticPasses": 0,
+        "semanticFailures": 0,
+        "quarantinedCaseIds": [
+          "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q001",
+          "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q002",
+          "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q005",
+          "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q006",
+          "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q009",
+          "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q010",
+          "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q011",
+          "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q001"
+        ],
+        "judgeCalls": 0,
+        "judgeTokens": 0,
+        "judgeElapsedSec": 0.0,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/psych-mit-sangmyung-batch01/score-deterministic-quarantined.json",
+        "deterministicSha256": "0d7365db5e549dab4918d55828a986b4dba89c3e4092ecee169e72e44e558f48",
+        "semanticPath": "runs/plain-codex-freeze-v1/psych-mit-sangmyung-batch01/score-semantic-batch-quarantined.json",
+        "semanticSha256": "1ff8de140cbac1e2b626fbfa3b9f76ff01d9a7f23057845f9a97a5ba79d3872a"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_simli_20260720.json",
+        "sha256": "b8c2f24302e6be9d406cf4d14b44b77949b64928514b11a449f0ddb1cf2a1a9a"
+      }
+    },
+    {
+      "runId": "psych-mit-sangmyung-batch02",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q002",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q003",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q005",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q006",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q007",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q008",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q010",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q011"
+      ],
+      "solver": {
+        "model": "gpt-5.6-luna",
+        "calls": 1,
+        "tokens": 13910,
+        "elapsedSec": 29.549,
+        "predicted": 8,
+        "accepted": 8,
+        "errors": 0,
+        "webEvents": 0,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6FrontierEnabled": false,
+        "skillsAvailable": 0,
+        "antiCheatingAuditPassed": true,
+        "summaryPath": "runs/plain-codex-freeze-v1/psych-mit-sangmyung-batch02/summary.json",
+        "summarySha256": "a43987dafedc3d263d2968c413db771efa77385cf218b173b50b66cc9da8c308",
+        "receiptPath": "runs/plain-codex-freeze-v1/psych-mit-sangmyung-batch02/batches/batch-3d0ea4e006392115.json",
+        "receiptSha256": "f3405bf8211a77d1badd0fe3731c27d5636fdf6d4f9b8c148cd0112a2df7dfe8"
+      },
+      "score": {
+        "passed": 2,
+        "failed": 6,
+        "unresolved": 0,
+        "accuracy": 0.25,
+        "deterministicPasses": 1,
+        "semanticPasses": 1,
+        "semanticFailures": 6,
+        "failedCaseIds": [
+          "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q005",
+          "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q006",
+          "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q007",
+          "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q008",
+          "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q010",
+          "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q011"
+        ],
+        "judgeCalls": 3,
+        "judgeTokens": 30847,
+        "judgeElapsedSec": 61.857,
+        "allJudgeTracesClosedAndValid": true,
+        "deterministicPath": "runs/plain-codex-freeze-v1/psych-mit-sangmyung-batch02/score-deterministic.json",
+        "deterministicSha256": "bf483de12cfcd6c32b53a788dbead807434bb5f6df66447373c16eca584ed07b",
+        "semanticPath": "runs/plain-codex-freeze-v1/psych-mit-sangmyung-batch02/score-semantic-batch.json",
+        "semanticSha256": "98dbd0cf216dc094b92221845e490feafd257189a59a3333823a2d3eff3956a3"
+      },
+      "databaseAttestation": {
+        "path": "docs/research/plain_codex_db_attestation_simli_20260720.json",
+        "sha256": "b8c2f24302e6be9d406cf4d14b44b77949b64928514b11a449f0ddb1cf2a1a9a"
+      }
+    }
+  ],
+  "totals": {
+    "runs": 29,
+    "solverCalls": 29,
+    "cases": 229,
+    "accepted": 215,
+    "passed": 147,
+    "failed": 68,
+    "unresolved": 14,
+    "solverTokens": 530243,
+    "judgeCalls": 61,
+    "judgeTokens": 617895
+  },
+  "subjectProgress": {
+    "open_response.psych.mit_sangmyung.v2": {
+      "status": "in_progress_after_quarantined_batch",
+      "readyCases": 225,
+      "historicalItemIsolatedDirectCases": 2,
+      "postFreezeSolverExecutions": 16,
+      "postFreezeAccepted": 8,
+      "postFreezeQuarantined": 8,
+      "postFreezePassed": 2,
+      "postFreezeFailed": 6,
+      "postFreezeUnresolved": 8,
+      "remainingPostFreezeCases": 207,
+      "failedCaseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q005",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q006",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q007",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q008",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q010",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q011"
+      ],
+      "quarantinedCaseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q001",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q002",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q005",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q006",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q009",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q010",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q011",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q001"
+      ],
+      "nextAction": "continue the 207 unexecuted ready cases under the unchanged freeze, then reconcile the two historical Direct artifacts without solver reruns"
+    }
+  },
+  "subjectCompletions": {
+    "open_response.lawkey.leet2026.v2": {
+      "status": "complete_current_ready_subset_remaining_cases_require_semantic_rewrite",
+      "totalConvertedCases": 70,
+      "readyCases": 1,
+      "needsSemanticRewriteCases": 69,
+      "exactCurrentPromptExecutions": 1,
+      "passed": 1,
+      "failed": 0,
+      "unresolved": 0,
+      "accuracyOnReadyCases": 1.0,
+      "solverReruns": 0,
+      "solverCost": {
+        "calls": 1,
+        "tokens": 9236,
+        "elapsedSec": 5.659
+      },
+      "evaluatorCost": {
+        "judgeCalls": 0,
+        "judgeTokens": 0
+      },
+      "toolUsage": {
+        "webEvents": 0,
+        "mcpEvents": 0,
+        "commandEvents": 0,
+        "beta6OrUniversalExposures": 0
+      },
+      "completionPath": "docs/research/plain_codex_law_ready_completion_20260720.json",
+      "completionSha256": "5f6dedad04159ae99c91183679a222264f65a8a991bdb676f909df6384ef08cb",
+      "interpretation": "The only currently valid ready case is exactly prompt-bound and passed. The other 69 converted LEET cases are rewrite-required and are excluded rather than counted. Older custom legal10 execution records are a different artifact class and do not inflate this official ready score."
+    },
+    "open_response.islam.cisi100.v2": {
+      "status": "complete_with_separately_reported_historical_source_equivalent_cases",
+      "readyCases": 69,
+      "currentExactHarness": {
+        "solverExecutions": 56,
+        "passed": 26,
+        "failed": 30,
+        "unresolved": 0,
+        "accuracy": 0.4642857142857143,
+        "remainingCases": 0,
+        "failedCaseIds": [
+          "islam-cisi-q004",
+          "islam-cisi-q007",
+          "islam-cisi-q009",
+          "islam-cisi-q014",
+          "islam-cisi-q016",
+          "islam-cisi-q017",
+          "islam-cisi-q018",
+          "islam-cisi-q021",
+          "islam-cisi-q030",
+          "islam-cisi-q033",
+          "islam-cisi-q035",
+          "islam-cisi-q037",
+          "islam-cisi-q042",
+          "islam-cisi-q043",
+          "islam-cisi-q046",
+          "islam-cisi-q049",
+          "islam-cisi-q053",
+          "islam-cisi-q054",
+          "islam-cisi-q058",
+          "islam-cisi-q059",
+          "islam-cisi-q060",
+          "islam-cisi-q068",
+          "islam-cisi-q071",
+          "islam-cisi-q076",
+          "islam-cisi-q077",
+          "islam-cisi-q082",
+          "islam-cisi-q083",
+          "islam-cisi-q091",
+          "islam-cisi-q095",
+          "islam-cisi-q098"
+        ]
+      },
+      "historicalItemIsolatedDirect": {
+        "cases": 13,
+        "passed": 6,
+        "failed": 7,
+        "unresolved": 0,
+        "accuracy": 0.46153846153846156,
+        "solverReruns": 0,
+        "promptByteIdentityProven": false,
+        "sourceCaseEquivalenceProven": true,
+        "failedCaseIds": [
+          "islam-cisi-q006",
+          "islam-cisi-q010",
+          "islam-cisi-q027",
+          "islam-cisi-q044",
+          "islam-cisi-q047",
+          "islam-cisi-q067",
+          "islam-cisi-q087"
+        ],
+        "reconciliationPath": "docs/research/plain_codex_islam_historical_reconciliation_20260720.json",
+        "reconciliationSha256": "a197066936d72a096bd641848296e8507a5a672185af6b646912f7e5d352fb22"
+      },
+      "combinedReferenceScore": {
+        "cases": 69,
+        "passed": 32,
+        "failed": 37,
+        "unresolved": 0,
+        "accuracy": 0.463768115942029,
+        "provenanceMixed": true
+      },
+      "solverCost": {
+        "currentExactHarnessCalls": 7,
+        "currentExactHarnessTokens": 98956,
+        "historicalDirectCalls": 13,
+        "historicalDirectTokens": 118876,
+        "combinedCalls": 20,
+        "combinedTokens": 217832
+      },
+      "evaluatorCost": {
+        "currentExactHarnessJudgeCalls": 18,
+        "currentExactHarnessJudgeTokens": 188221,
+        "historicalReconciliationJudgeCalls": 13,
+        "historicalReconciliationJudgeTokens": 124816,
+        "combinedJudgeCalls": 31,
+        "combinedJudgeTokens": 313037
+      },
+      "toolUsage": {
+        "currentExactHarnessWebEvents": 0,
+        "currentExactHarnessDatabaseEvents": 0,
+        "currentExactHarnessCommandEvents": 0,
+        "historicalDirectWebOrMcpOrCommandEvents": 0,
+        "beta6OrUniversalExposures": 0
+      },
+      "interpretation": "The 56 post-freeze cases use the exact frozen subject-batch harness. The 13 earlier item-isolated Direct artifacts were not rerun and are source-case equivalent, but their older schema lacks promptIdentity; they are therefore reported separately. The 32/69 combined score is a mixed-provenance reference only."
+    },
+    "open_response.tcm.kuksiwon81.unique92.v2": {
+      "status": "complete_historical_source_equivalent_only",
+      "readyCases": 17,
+      "exactCurrentPromptExecutions": 0,
+      "historicalItemIsolatedDirect": {
+        "cases": 17,
+        "passed": 14,
+        "failed": 3,
+        "unresolved": 0,
+        "accuracy": 0.8235294117647058,
+        "solverReruns": 0,
+        "promptByteIdentityProven": false,
+        "sourceCaseEquivalenceProven": true,
+        "failedCaseIds": [
+          "tcm81-p1-q014",
+          "tcm81-p1-q016",
+          "tcm81-p2-q010"
+        ],
+        "reconciliationPath": "docs/research/plain_codex_tcm_historical_reconciliation_20260720.json",
+        "reconciliationSha256": "0f3d98c09e469c1ec6844ab362aae01b78ad05a1ded1f7fb09e9fdd9c1af6a6c"
+      },
+      "solverCost": {
+        "historicalDirectCalls": 17,
+        "historicalDirectTokens": 155607
+      },
+      "evaluatorCost": {
+        "currentReconciliationJudgeCalls": 9,
+        "currentReconciliationJudgeTokens": 88997
+      },
+      "toolUsage": {
+        "historicalDirectWebOrMcpOrCommandEvents": 0,
+        "beta6OrUniversalExposures": 0
+      },
+      "interpretation": "All 17 ready cases have item-isolated plain Luna artifacts and current closed-consensus verdicts. Their older schema lacks promptIdentity, so the completed subject score is source-case-equivalent historical Direct evidence rather than an exact post-freeze prompt aggregate."
+    },
+    "open_response.christian.provao2012.v2": {
+      "status": "complete_with_quarantined_cases",
+      "readyCases": 78,
+      "solverExecutions": 78,
+      "acceptedCases": 72,
+      "quarantinedCases": 6,
+      "passed": 44,
+      "failed": 28,
+      "unresolved": 6,
+      "accuracyOnAllReadyCases": 0.5641025641025641,
+      "accuracyOnAcceptedCases": 0.6111111111111112,
+      "failedCaseIds": [
+        "christian-provao2012-q008",
+        "christian-provao2012-q011",
+        "christian-provao2012-q016",
+        "christian-provao2012-q020",
+        "christian-provao2012-q024",
+        "christian-provao2012-q028",
+        "christian-provao2012-q029",
+        "christian-provao2012-q031",
+        "christian-provao2012-q032",
+        "christian-provao2012-q033",
+        "christian-provao2012-q034",
+        "christian-provao2012-q036",
+        "christian-provao2012-q038",
+        "christian-provao2012-q040",
+        "christian-provao2012-q042",
+        "christian-provao2012-q044",
+        "christian-provao2012-q049",
+        "christian-provao2012-q054",
+        "christian-provao2012-q055",
+        "christian-provao2012-q058",
+        "christian-provao2012-q060",
+        "christian-provao2012-q067",
+        "christian-provao2012-q068",
+        "christian-provao2012-q072",
+        "christian-provao2012-q075",
+        "christian-provao2012-q079",
+        "christian-provao2012-q091",
+        "christian-provao2012-q092"
+      ],
+      "quarantinedCaseIds": [
+        "christian-provao2012-q093",
+        "christian-provao2012-q094",
+        "christian-provao2012-q095",
+        "christian-provao2012-q096",
+        "christian-provao2012-q097",
+        "christian-provao2012-q098"
+      ],
+      "solverCost": {
+        "calls": 10,
+        "tokens": 246669
+      },
+      "evaluatorCost": {
+        "judgeCalls": 20,
+        "judgeTokens": 204009
+      },
+      "toolUsage": {
+        "acceptedBatchWebEvents": 1,
+        "quarantinedBatchWebEvents": 3,
+        "databaseEvents": 0,
+        "commandEvents": 0,
+        "beta6Events": 0
+      },
+      "interpretation": "Every ready case received exactly one solver opportunity. The final six predictions are excluded, not scored as answers, because their shared batch exceeded web and token budgets and copied a contiguous question phrase into search. No solver rerun or evaluator laundering was performed."
+    },
+    "open_response.christian.bible100.v2": {
+      "status": "complete_with_historical_direct_reconciliation",
+      "readyCases": 83,
+      "solverExecutions": 83,
+      "frozenSubjectBatchCases": 79,
+      "historicalItemIsolatedDirectCases": 4,
+      "passed": 79,
+      "failed": 4,
+      "unresolved": 0,
+      "accuracy": 0.9518072289156626,
+      "failedCaseIds": [
+        "christian-bible100-q021",
+        "christian-bible100-q043",
+        "christian-bible100-q045",
+        "christian-bible100-q094"
+      ],
+      "solverCost": {
+        "frozenSubjectBatchCalls": 10,
+        "frozenSubjectBatchTokens": 138152,
+        "historicalDirectCalls": 4,
+        "historicalDirectTokens": 36200,
+        "combinedCalls": 14,
+        "combinedTokens": 174352
+      },
+      "evaluatorCost": {
+        "frozenSubjectBatchJudgeCalls": 20,
+        "frozenSubjectBatchJudgeTokens": 194818,
+        "q004CurrentReconciliationJudgeCalls": 2,
+        "q004CurrentReconciliationJudgeTokens": 19102,
+        "combinedJudgeCalls": 22,
+        "combinedJudgeTokens": 213920
+      },
+      "historicalDirectEvidence": [
+        {
+          "caseId": "christian-bible100-q001",
+          "resultPath": "runs/luna-pilot/christian-bible100-q001-direct-v1/results/christian-bible100-q001.json",
+          "resultSha256": "c0d3d78533d3f4d1c0c07f9df6207d1589158069b764642b08b260312b30ae23",
+          "scorePath": "runs/luna-pilot/christian-bible100-q001-direct-v1/score-deterministic.json",
+          "scoreSha256": "f893f3866af3a366dcb6f263b6f2b0e8693520eacafa3eb51f250ff03baf1974",
+          "verdict": "pass"
+        },
+        {
+          "caseId": "christian-bible100-q002",
+          "resultPath": "runs/luna-pilot/christian-bible100-q002-direct-v1/results/christian-bible100-q002.json",
+          "resultSha256": "8835333bd87d96192abefbfdcc897cf1c40d07920987dd26f663ca4d01a1629f",
+          "scorePath": "runs/luna-pilot/christian-bible100-q002-direct-v1/score-deterministic.json",
+          "scoreSha256": "515396065083c8c93e35afc60b91545fe417677e359498708007d8c67d0dddc0",
+          "verdict": "pass"
+        },
+        {
+          "caseId": "christian-bible100-q003",
+          "resultPath": "runs/luna-pilot/christian-bible100-q003-direct-v1/results/christian-bible100-q003.json",
+          "resultSha256": "bc9f66bca33b6193998cb99d3814d95245edbdcd41a4eb2487babf43ffb09649",
+          "scorePath": "runs/luna-pilot/christian-bible100-q003-direct-v1/score-deterministic.json",
+          "scoreSha256": "d16233ec7ef3793e983bcc084d2fac31530723fb913abee6a07410adc511dbfc",
+          "verdict": "pass"
+        },
+        {
+          "caseId": "christian-bible100-q004",
+          "resultPath": "runs/luna-pilot/christian-bible100-q004-direct-v1/results/christian-bible100-q004.json",
+          "resultSha256": "2eded4e78b1d3172feefd98827f275799a585f484e313d44ea14db5618e06df4",
+          "scorePath": "runs/luna-pilot/christian-bible100-q004-direct-v1/score-semantic-batch-current-v1.json",
+          "scoreSha256": "f602c381006259710ff7a819d5f4187d829790b76274014bab5982c18361de6d",
+          "verdict": "pass",
+          "scorePolicy": "strict-subject-batch-equivalence-consensus-v1-closed-trace",
+          "judgeAgreement": "2_of_2"
+        }
+      ],
+      "interpretation": "The 79 post-freeze subject-batch cases use the exact frozen plain-v1 harness. Q001-Q004 are earlier item-isolated plain Codex executions, retained without solver reruns and reconciled only through artifact identity and current scoring; they are reported separately rather than relabeled as post-freeze calls."
+    }
+  }
+}

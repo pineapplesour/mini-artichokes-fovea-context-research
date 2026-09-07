@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "registryId": "plain-codex-visible-options-full-source-v1",
+  "protocol": "one_solver_agent_file_output_then_one_grader_agent_file_output",
+  "canonicalExamAggregate": {
+    "expectedUniqueCases": 1299,
+    "entries": [
+      {
+        "publicManifest": "unified/mcq_lawkey_leet2026_70.public.json",
+        "privateManifest": "unified/mcq_lawkey_leet2026_70.private.json",
+        "expectedCases": 70
+      },
+      {
+        "publicManifest": "unified/mcq_tcm_kuksiwon81_unique92.public.json",
+        "privateManifest": "unified/mcq_tcm_kuksiwon81_unique92.private.json",
+        "expectedCases": 92
+      },
+      {
+        "publicManifest": "unified/mcq_christian_bible100.public.json",
+        "privateManifest": "unified/mcq_christian_bible100.private.json",
+        "expectedCases": 100
+      },
+      {
+        "publicManifest": "unified/mcq_christian_provao2012.public.json",
+        "privateManifest": "unified/mcq_christian_provao2012.private.json",
+        "expectedCases": 92
+      },
+      {
+        "publicManifest": "unified/mcq_islam_cisi100.public.json",
+        "privateManifest": "unified/mcq_islam_cisi100.private.json",
+        "expectedCases": 100
+      },
+      {
+        "publicManifest": "unified/official_islam_aqa20.public.json",
+        "privateManifest": "unified/official_islam_aqa20.private.json",
+        "expectedCases": 20
+      },
+      {
+        "publicManifest": "unified/official_islam_byu16.public.json",
+        "privateManifest": "unified/official_islam_byu16.private.json",
+        "expectedCases": 16
+      },
+      {
+        "publicManifest": "unified/official_islam_cambridge32.public.json",
+        "privateManifest": "unified/official_islam_cambridge32.private.json",
+        "expectedCases": 32
+      },
+      {
+        "publicManifest": "unified/mcq_psych_mit_sangmyung.public.json",
+        "privateManifest": "unified/mcq_psych_mit_sangmyung.private.json",
+        "expectedCases": 487
+      },
+      {
+        "publicManifest": "unified/short_answer_buddhist_sangha3_290.public.json",
+        "privateManifest": "unified/short_answer_buddhist_sangha3_290.private.json",
+        "expectedCases": 290
+      }
+    ]
+  },
+  "legalEndToEnd": {
+    "expectedTasks": 3,
+    "expectedVariants": 10,
+    "variantInclusionPolicy": "all_nonempty_public_variants_including_flagged_ambiguity_cases",
+    "entries": [
+      {
+        "publicManifest": "unified/legal_kakao_sim_access.public.json",
+        "privateManifest": "unified/legal_kakao_sim_access.private.json"
+      },
+      {
+        "publicManifest": "unified/legal_military_key_management.public.json",
+        "privateManifest": "unified/legal_military_key_management.private.json"
+      },
+      {
+        "publicManifest": "unified/legal_yangyang_complainant_age.public.json",
+        "privateManifest": "unified/legal_yangyang_complainant_age.private.json"
+      }
+    ]
+  },
+  "solver": {
+    "semanticInvocations": 1,
+    "answerArtifact": "answers.jsonl",
+    "expectedRows": 1309,
+    "historicalAnswerReuse": false
+  },
+  "grader": {
+    "semanticInvocations": 1,
+    "gradeArtifact": "grades.jsonl",
+    "expectedRows": 1309
+  }
+}

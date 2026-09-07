@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "registryId": "universal-engine-open-response-v2",
+  "sourceRegistryId": "universal-engine-official-v1",
+  "totalConvertedMcqCases": 945,
+  "readyHideOptionsCases": 473,
+  "needsSemanticRewriteCases": 472,
+  "entries": [
+    {
+      "benchmarkId": "open_response.lawkey.leet2026.v2",
+      "sourceBenchmarkId": "mcq.lawkey.leet2026.v1",
+      "publicManifest": "open_response_lawkey_leet2026_70.public.json",
+      "privateManifest": "open_response_lawkey_leet2026_70.private.json",
+      "cases": 70,
+      "statusCounts": {
+        "needs_semantic_rewrite": 69,
+        "ready_semantic_rewrite": 1
+      }
+    },
+    {
+      "benchmarkId": "open_response.tcm.kuksiwon81.unique92.v2",
+      "sourceBenchmarkId": "mcq.tcm.kuksiwon81.unique92.v1",
+      "publicManifest": "open_response_tcm_kuksiwon81_unique92.public.json",
+      "privateManifest": "open_response_tcm_kuksiwon81_unique92.private.json",
+      "cases": 92,
+      "statusCounts": {
+        "needs_semantic_rewrite": 75,
+        "ready_hide_options": 17
+      }
+    },
+    {
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "sourceBenchmarkId": "mcq.christian.bible100.v1",
+      "publicManifest": "open_response_christian_bible100.public.json",
+      "privateManifest": "open_response_christian_bible100.private.json",
+      "cases": 100,
+      "statusCounts": {
+        "needs_semantic_rewrite": 17,
+        "ready_hide_options": 83
+      }
+    },
+    {
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "sourceBenchmarkId": "mcq.christian.provao2012.v1",
+      "publicManifest": "open_response_christian_provao2012.public.json",
+      "privateManifest": "open_response_christian_provao2012.private.json",
+      "cases": 92,
+      "statusCounts": {
+        "needs_semantic_rewrite": 14,
+        "ready_hide_options": 78
+      }
+    },
+    {
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "sourceBenchmarkId": "mcq.islam.cisi100.v1",
+      "publicManifest": "open_response_islam_cisi100.public.json",
+      "privateManifest": "open_response_islam_cisi100.private.json",
+      "cases": 100,
+      "statusCounts": {
+        "needs_semantic_rewrite": 31,
+        "ready_hide_options": 69
+      }
+    },
+    {
+      "benchmarkId": "open_response.islam.aqa4.v2",
+      "sourceBenchmarkId": "mcq.islam.aqa4.v1",
+      "publicManifest": "open_response_islam_aqa4.public.json",
+      "privateManifest": "open_response_islam_aqa4.private.json",
+      "cases": 4,
+      "statusCounts": {
+        "needs_semantic_rewrite": 4
+      }
+    },
+    {
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "sourceBenchmarkId": "mcq.psych.mit_sangmyung.v1",
+      "publicManifest": "open_response_psych_mit_sangmyung.public.json",
+      "privateManifest": "open_response_psych_mit_sangmyung.private.json",
+      "cases": 487,
+      "statusCounts": {
+        "needs_semantic_rewrite": 262,
+        "ready_hide_options": 225
+      }
+    }
+  ]
+}

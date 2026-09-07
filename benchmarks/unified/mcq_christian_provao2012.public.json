@@ -1,0 +1,837 @@
+{
+  "schemaVersion": 1,
+  "benchmarkId": "mcq.christian.provao2012.v1",
+  "taskType": "mcq",
+  "product": "catholic",
+  "language": "en",
+  "cases": [
+    {
+      "id": "christian-provao2012-q001",
+      "prompt": "1. Com respeito à santificação é correto dizer que:\n\n① Conforme a tradição calvinista é uma obra da graça de Deus independente do ser humano.\n② Pode ser distinguida em definitiva e progressiva, a primeira acontecendo na conversão quando o crente é declarado plenamente santo diante de Deus, e a segunda desenvolvida a partir daí até a morte.\n③ O ser humano se esforça para ser santo e Deus o auxilia.\n④ Santificação progressiva é uma obra da graça de Deus através da qual somos plenamente renovados segundo a imagem daquele que nos criou no exato momento da conversão.\n⑤ A santidade não pode ser considerada uma evidência da salvação.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 1
+      },
+      "graderRef": "christian-provao2012-q001"
+    },
+    {
+      "id": "christian-provao2012-q002",
+      "prompt": "2. Sobre o Espírito Santo é correto afirmar que:\n\n① É a segunda pessoa da Trindade.\n② É um poder que emana do Pai e do Filho.\n③ Ele procede apenas do Pai.\n④ Sua função é regenerar o ser humano.\n⑤ Os principais símbolos são: fogo, água, pomba e nuvem.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 2
+      },
+      "graderRef": "christian-provao2012-q002"
+    },
+    {
+      "id": "christian-provao2012-q003",
+      "prompt": "3. De acordo com o Concílio de Calcedônia e com o ensino bíblico teológico reformado podemos dizer que Maria é a Mãe de Deus?\n\n① Sim, porque ela é a mãe do ser humano-Deus, Jesus de Nazaré, que é uma pessoa indivisível, muito embora seja “Mãe de Deus” apenas segundo a natureza humana de Jesus.\n② Sim, mas ela é a mãe apenas da natureza humana de Jesus, que não tem qualquer ligação com a sua divindade.\n③ Sim, ela é a mãe de Deus, portanto, merece ser chamada de mediadora.\n④ Não. pois ela gerou apenas a natureza física de Jesus.\n⑤ Não, e isso é uma heresia católica.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 3
+      },
+      "graderRef": "christian-provao2012-q003"
+    },
+    {
+      "id": "christian-provao2012-q005",
+      "prompt": "5. Marque a única alternativa abaixo contendo a expressão correta que está faltando na afirmação cristológica: “O Filho de Deus, a Segunda Pessoa da Trindade, sendo verdadeiro e eterno Deus, da mesma substância do Pai e igual a ele, quando chegou o cumprimento do tempo, tomou sobre si a natureza humana com todas as suas propriedades essenciais e enfermidades comuns, contudo sem pecado, sendo concebido pelo poder do Espírito Santo no ventre da Virgem Maria e da substância dela. As duas naturezas, inteiras, perfeitas e distintas - a Divindade e a humanidade - foram inseparavelmente unidas em uma só - Sem conversão, composição ou confusão; essa é verdadeiro Deus e verdadeiro homem, porém, um só Cristo. o único Mediador entre Deus e o homem.”\n\n① Pessoa:\n② Dimensão;\n③ Aparência;\n④ Categoria divina;\n⑤ Maneira de ser espiritual.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 5
+      },
+      "graderRef": "christian-provao2012-q005"
+    },
+    {
+      "id": "christian-provao2012-q006",
+      "prompt": "6. Segundo a doutrina dos reformadores qual a base da Justificação?\n\n① A justiça de Cristo, a nós imputada.\n② O perdão de pecados.\n③ A fé.\n④ As boas obras.\n⑤ A santificação pessoal.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 6
+      },
+      "graderRef": "christian-provao2012-q006"
+    },
+    {
+      "id": "christian-provao2012-q007",
+      "prompt": "7. Qual seita dos primeiros séculos defendia que o corpo de Jesus Cristo era uma ilusão e que sua crucificação foi apenas aparente.\n\n① O Docetismo\n② O Arianismo\n③ O Sabilianismo\n④ O Ebionismo\n⑤ O Montanismo",
+      "metadata": {
+        "period": null,
+        "questionNumber": 7
+      },
+      "graderRef": "christian-provao2012-q007"
+    },
+    {
+      "id": "christian-provao2012-q008",
+      "prompt": "8. Qual das teorias abaixo, sobre a expiação realizada por Cristo, foi desenvolvida pelos reformadores.\n\n① Teoria da recapitulação\n② Teoria do resgate\n③ Teoria da satisfação da honra de Deus\n④ Teoria da influência moral\n⑤ Teoria da satisfação da justiça divina",
+      "metadata": {
+        "period": null,
+        "questionNumber": 8
+      },
+      "graderRef": "christian-provao2012-q008"
+    },
+    {
+      "id": "christian-provao2012-q009",
+      "prompt": "9. Através de quais ofícios Deus exercia sua liderança na Igreja na antiga aliança?\n\n① Sacerdote, anciãos e profetas.\n② Sacerdote, anciãos, profetas e reis.\n③ Sacerdote, profetas e reis.\n④ Levitas e sacerdote.\n⑤ Juízes, profetas e reis.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 9
+      },
+      "graderRef": "christian-provao2012-q009"
+    },
+    {
+      "id": "christian-provao2012-q010",
+      "prompt": "10. Como a Soberania de Deus e a responsabilidade humana são encontradas na Bíblia quanto a doutrina da salvação? Assinale a resposta correta.\n\n① À responsabilidade humana conflita com a soberania de Deus.\n② A Soberania de Deus na salvação ensinada na Escritura elimina qualquer responsabilidade humana.\n③ São encontradas lado a lado e precisam ser mantidas juntas e não lançadas uma contra a outra.\n④ O homem toma a iniciativa indo em direção a Deus e, Deus, então, vem ao seu encontro.\n⑤ O homem é totalmente responsável nesse processo, uma vez que lhe fora conferido o livre arbítrio.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 10
+      },
+      "graderRef": "christian-provao2012-q010"
+    },
+    {
+      "id": "christian-provao2012-q011",
+      "prompt": "11. Para Agostinho, a salvação do homem somente seria possível através da determinação soberana e graciosa de Deus, através da eleição. Este posicionamento ficou conhecido como:\n\n① Monergismo, pois Deus começa e termina a obra de salvação.\n② Sinergismo, pois Deus começa e o homem termina a obra de salvação.\n③ Semi-Agostinianismo, pois o homem começa e Deus termina a obra de salvação.\n④ Determinismo, pois Deus determina o que ocorre com o homem e este não é responsável pelos seus erros.\n⑤ Nepotismo, pois Deus acaba favorecendo seus filhos e não os filhos do diabo.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 11
+      },
+      "graderRef": "christian-provao2012-q011"
+    },
+    {
+      "id": "christian-provao2012-q012",
+      "prompt": "12. A capacidade que todos os seres racionais têm de agir espontaneamente, sem serem coagidos de fora, a caminharem para qualquer lado, fazendo o que querem e o que lhes agrada, sendo, contudo, levados a fazer aquilo que combina com a natureza deles, também é conhecida como:\n\n① Livre-arbitrio\n② Livre-agência\n③ Livre-resposta\n④ Livre-ação\n⑤ Livre-graça",
+      "metadata": {
+        "period": null,
+        "questionNumber": 12
+      },
+      "graderRef": "christian-provao2012-q012"
+    },
+    {
+      "id": "christian-provao2012-q013",
+      "prompt": "13. A infinitude de deus em relação ao tempo e ao espaço é chamada de:\n\n① Soberania e imensidade\n② Eternidade e onipotência\n③ Eternidade e imensidade\n④ Imutabilidade e eternidade\n⑤ Existência e soberania",
+      "metadata": {
+        "period": null,
+        "questionNumber": 13
+      },
+      "graderRef": "christian-provao2012-q013"
+    },
+    {
+      "id": "christian-provao2012-q014",
+      "prompt": "14. Doutrina que ensinava que Cristo era apenas uma manifestação de Deus-Pai\n\n① Alogianismo\n② Ebionismo\n③ Sabelianismo\n④ Nestorianismo\n⑤ Gnosticismo",
+      "metadata": {
+        "period": null,
+        "questionNumber": 14
+      },
+      "graderRef": "christian-provao2012-q014"
+    },
+    {
+      "id": "christian-provao2012-q015",
+      "prompt": "15. “Deus sustenta, dirige e governa todas as suas criaturas”. Isto se refere a:\n\n① Predestinação\n② Decreto\n③ Providência\n④ Existência de Deus\n⑤ Sabedoria de Deus",
+      "metadata": {
+        "period": null,
+        "questionNumber": 15
+      },
+      "graderRef": "christian-provao2012-q015"
+    },
+    {
+      "id": "christian-provao2012-q016",
+      "prompt": "16. Qual das frases abaixo define com mais precisão a relação entre lei e graça na Soteriologia reformada?\n\n① A lei é uma instituição totalmente separada da graça de Deus. Ela perdurou como norma durante o Antigo Testamento.\n② A lei é uma instituição totalmente separada da graça de Deus, mas continua valendo no Novo Testamento.\n③ A lei tem uma função em relação à graça de Deus, como subserviente aos propósitos da promessa.\n④ A lei e a graça são harmônicas, por isso é possível dizer que somos salvos pela lei.\n⑤ A lei e a graça trabalham juntas para tornar o homem indesculpável diante de Deus.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 16
+      },
+      "graderRef": "christian-provao2012-q016"
+    },
+    {
+      "id": "christian-provao2012-q017",
+      "prompt": "17. “É a graça de Deus pela qual Ele dá às pessoas bênçãos inumeráveis que não são partes da salvação”. Estamos falando da:\n\n① Regeneração.\n② Graça especial.\n③ Graça comum.\n④ Vocação externa.\n⑤ Vocação interna.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 17
+      },
+      "graderRef": "christian-provao2012-q017"
+    },
+    {
+      "id": "christian-provao2012-q019",
+      "prompt": "19. Qual das cosmovisões abaixo se encaixa melhor no trecho de Francis Schaeffer: *... negação de todas as raizões objetivas para a verdade. Uma crença de que a existência é basicamente sem sentido e inúti, levando, muitas vezes, para tendências destrutivas na sociedade ou no indivíduo\"?\n\n① Deismo\n② Existencialismo\n③ Niilismo\n④ Calvinismo\n⑤ Naturalismo",
+      "metadata": {
+        "period": null,
+        "questionNumber": 19
+      },
+      "graderRef": "christian-provao2012-q019"
+    },
+    {
+      "id": "christian-provao2012-q020",
+      "prompt": "20. Na evangelização, a confiança demasiada nos métodos, nas formas e na contextualização caracteriza qual! linha teológica?\n\n① O Calvinismo\n② O Arminianismo\n③ A Neo-ortodoxia\n④ O Liberalismo clássico\n⑤ O Perfeccionismo",
+      "metadata": {
+        "period": null,
+        "questionNumber": 20
+      },
+      "graderRef": "christian-provao2012-q020"
+    },
+    {
+      "id": "christian-provao2012-q021",
+      "prompt": "21. Qual é o objetivo para o trabalho de visitação do pastor, segundo Richard Baxter?\n\n① Aconselhamento — aconselhar ao rebanho\n② Discipulado — averiguar e ensino pastoral\n③ Observação — supervisionar o andamento da vida do rebanho.\n④ Comunhão — fortalecer os vínculos com o rebanho\n⑤ Solidário — venficar se o rebanho está precisando da ajuda pastoral",
+      "metadata": {
+        "period": null,
+        "questionNumber": 21
+      },
+      "graderRef": "christian-provao2012-q021"
+    },
+    {
+      "id": "christian-provao2012-q022",
+      "prompt": "22. Sobre a doutrina da vocação e espiritualidade dentro de uma ótica biblico-reformada é correto afirmar.\n\n① A verdadeira espiritualidade não atinge todas as áreas da existência humana, mas apenas a área espintual.\n② Não podem ser consideradas como disciplinas espirituais: leitura e meditação da Palavra, oração, participação nos sacramentos, ouvir e ler sermões, exercer a mordomia, evangelizar e praticar a misericórdia.\n③ À vocação pastoral não carece da testificação interior do Espírito Santo, mas apenas do reconhecimento da Igreja.\n④ A espiritualidade bíblica está em íntima relação e dependência com a união com Cristo, sem a qual não poderá haver verdadeira espiritualidade.\n⑤ O vocacionado não deve se ocupar em confirmar a sua vocação, pois esta confirmação se dará, necessariamente, por meio dos resultados do seu trabalho.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 22
+      },
+      "graderRef": "christian-provao2012-q022"
+    },
+    {
+      "id": "christian-provao2012-q023",
+      "prompt": "23. Por que não é indicado, no aconselhamento bíblico, visar o Comportamento, ou os Sentimentos ou ainda as Atitudes, tão somente?\n\n① Porque é preciso confiança da parte do aconselhado para tanto.\n② Porque todos eles são apenas indicadores daquilo que reside no coração.\n③ Porque é preciso coragem e ousadia da parte do conselheiro para tanto.\n④ Porque assim podemos fazer o aconselhado sentir-se mal consigo mesmo.\n⑤ Porque o aconselhamento bíblico só se preocupa com o que a Bíblia diz, não com o que o aconselhado diz.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 23
+      },
+      "graderRef": "christian-provao2012-q023"
+    },
+    {
+      "id": "christian-provao2012-q024",
+      "prompt": "24. Qual das alternativas abaixo não corresponde aos pressupostos da teologia reformada de evangelização?\n\n① A consciência de que todos são pecadores.\n② À graça soberania de Deus.\n③ O planejamento estratégico da igreja\n④ A obra irresistível do Espírito Santo.\n⑤ A pregação da palavra.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 24
+      },
+      "graderRef": "christian-provao2012-q024"
+    },
+    {
+      "id": "christian-provao2012-q026",
+      "prompt": "26. Qual das caracteristicas abaixo diz respeito ao sermão expositivo?\n\n① É elaborado a partir de um tema.\n② Obrigatoriamente deve conter 3 divisões principais.\n③ Deve conter texto prova em cada divisão principal.\n④ Deve conter no mínimo 4 páginas.\n⑤ É elaborado a partir de uma perícope.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 26
+      },
+      "graderRef": "christian-provao2012-q026"
+    },
+    {
+      "id": "christian-provao2012-q027",
+      "prompt": "27. Método de Aconselhamento cristão que estabelece a primazia da revelação bíblica no tratamento das necessidades humanas:\n\n① Paraciético\n② Integracionista\n③ Noutético\n④ Psíquico-Bíblico\n⑤ Terapêutico",
+      "metadata": {
+        "period": null,
+        "questionNumber": 27
+      },
+      "graderRef": "christian-provao2012-q027"
+    },
+    {
+      "id": "christian-provao2012-q028",
+      "prompt": "28. Quais as consequências do movimento ecumênico liderado pelo Conselho Mundial de Igrejas (CMI) no contexto missionário da Igreja.\n\n① Tem promovido uma crescente abertura entre as igrejas cristãs mundiais diminuindo diferenças teológicas e elevando a cooperação entre elas.\n② Resultou no diálogo consistente entre o catolicismo romano e o protestantismo histórico de modo a promover a reunificação do cristianismo.\n③ À crescente relativização das Escrituras, de Cristo e do evangelho, levou ao entendimento da missão da igreja não em termos de reconciliação com Deus, mas de libertação social e política de pessoas e grupos marginalizados das situações de sofrimento e opressão em que vivem.\n④ Tomou público o repúdio de todas as igrejas cristãs quanto ao envolvimento nas questões sociais modernas como as teologias da Libertação, o Feminismo e o Homossexualismo.\n⑤ Promoveu a quebra de diálogo entre todas as igrejas protestantes.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 28
+      },
+      "graderRef": "christian-provao2012-q028"
+    },
+    {
+      "id": "christian-provao2012-q029",
+      "prompt": "29. Sobre a oração. qua! resposta está incorreta?\n\n① A oração é uma parte especial do culto religioso.\n② A oração deve ser feita com fé, seja ela inteligível ou não.\n③ A oração é exigida de todos os homens.\n④ Para que seja aceita, a oração deve ser feita em o nome do Filho, pelo auxílio de seu Espírko. segundo a vontade de Deus.\n⑤ Se a oração for vocal, deve ser proferida em uma língua conhecida dos presentes.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 29
+      },
+      "graderRef": "christian-provao2012-q029"
+    },
+    {
+      "id": "christian-provao2012-q031",
+      "prompt": "31. Poimênica é o exercício do ministério pastoral que inclui as seguintes atividades ministeriais, exceto:\n\n① Pregação da Palavra de Deus.\n② Administração eclesiástica.\n③ Assistência social.\n④ Ensino.\n⑤ Aconselhamento pastoral.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 31
+      },
+      "graderRef": "christian-provao2012-q031"
+    },
+    {
+      "id": "christian-provao2012-q032",
+      "prompt": "32. Qual postura abaixo reflete o pensamento reformado sobre o resultado esperado da missão?\n\n① Cristo versus cultura.\n② O Cristo da cultura.\n③ Cristo acima da cultura.\n④ Cristo e cultura em paradoxo.\n⑤ Cristo transformando a cultura.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 32
+      },
+      "graderRef": "christian-provao2012-q032"
+    },
+    {
+      "id": "christian-provao2012-q033",
+      "prompt": "33. Qual é o alvo principal do aconselhamento bíblico?\n\n① O comportamento.\n② As emoções.\n③ O coração.\n④ A mente.\n⑤ A consciência.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 33
+      },
+      "graderRef": "christian-provao2012-q033"
+    },
+    {
+      "id": "christian-provao2012-q034",
+      "prompt": "34. Qual é o objetivo principal da obra missionária?\n\n① Demonstrar amor aos perdidos.\n② Ganhar almas para Cristo.\n③ Glorificar a Deus.\n④ Salvar almas.\n⑤ Derrotar o diabo.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 34
+      },
+      "graderRef": "christian-provao2012-q034"
+    },
+    {
+      "id": "christian-provao2012-q035",
+      "prompt": "35. Em um contexto missionário, o que o pastor deve fazer na administração da Ceia. caso não haja pão e vinho?\n\n① Adiar a celebração até que pão e vinho sejam providenciados.\n② Celebrar a Ceia utilizando outros alimentos para substituir os que faltam.\n③ Celebrar a Ceia mesmo sem quaisquer elementos.\n④ Celebrar a Ceia, apenas se o elemento faltante for o pão.\n⑤ Celebrar a Ceia, apenas se o elemento faltante for o vinho.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 35
+      },
+      "graderRef": "christian-provao2012-q035"
+    },
+    {
+      "id": "christian-provao2012-q036",
+      "prompt": "36. Quanto à prática da piedade do pastor, no tocante ao domingo. qual deve ser o seu comportamento?\n\n① Deve fazer suas atividades normais, pois é um dia como outro qualquer.\n② Deve guardar um santo descanso e se ocupar de exercícios cúlticos e de necessidade e misericórdia.\n③ Deve dedicar-se às atividades da igreja, ao lazer e à comunhão com sua família.\n④ Deve envolver-se ao máximo com os trabalhos cúlticos e proporcionar lazer e descanso aos seus familiares.\n⑤ Deve descansar e passar O dia em oração.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 36
+      },
+      "graderRef": "christian-provao2012-q036"
+    },
+    {
+      "id": "christian-provao2012-q038",
+      "prompt": "38. Qual deve ser o procedimento do pastor diante de uma crítica grave de um membro da igreja quanto ao seu pastorado?\n\n① Deve escrever uma denúncia e apresentá-la ao Conselho da Igreja.\n② Deve ignorar, pois é impossível agradar a todos.\n③ Deve chamá-lo para uma conversa, visando cumprir os passos ensinados em Mateus 18).\n④ Deve convocar a assembleia da igreja, imediatamente, para tratar do assunto.\n⑤ Deve sentir-se à vontade para solicitar ao crítico que saia da igreja.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 38
+      },
+      "graderRef": "christian-provao2012-q038"
+    },
+    {
+      "id": "christian-provao2012-q040",
+      "prompt": "40. O movimento eclesiástico americano denominado de “seeker -sensitive”, ou “sensivel aos interessados” concentra seus esforços em atender aos de fora da igreja, mudando a forma, o conteúdo e a linguagem do culto para atingi-los. Qual das proposições abaixo não tem relação com o movimento?\n\n① O alvo da pregação bíblica é a comunicabilidade da mensagem.\n② As questões culturais devem prevalecer sobre as doutrinárias.\n③ A pós-modernidade exige que as formas eclesiásticas sejam alteradas.\n④ A palavra da cruz é loucura para os que se perdem.\n⑤ A forma e a linguagem da mensagem são essenciais para a aceitabilidade do Evangelho.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 40
+      },
+      "graderRef": "christian-provao2012-q040"
+    },
+    {
+      "id": "christian-provao2012-q041",
+      "prompt": "41. Qual nome foi dado à região onde aconteceu quase toda a revelação bíblica do AT & boa parte da revelação bíblica do NT?\n\n① Crescente Fértil\n② Extremo Oriente\n③ Região Desértica Oriental\n④ Região Mediterrânea Oriental\n⑤ Ásia Ocidental",
+      "metadata": {
+        "period": null,
+        "questionNumber": 41
+      },
+      "graderRef": "christian-provao2012-q041"
+    },
+    {
+      "id": "christian-provao2012-q042",
+      "prompt": "42. Quanto ao verbo hebraico, qual resposta está errada:\n\n① a conjugação de Qal é a conjugação básica do verbo hebraico.\n② a conjugação Nifal pode acrescentar a nuance de passivo ao verbo.\n③ a conjugação do Piel pode acrescentar a nuance intensiva ao verbo.\n④ a conjugação do Pual acrescenta a nuance de passiva ao Piel.\n⑤ O Hifil acrescenta a nuance reflexiva ao verbo.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 42
+      },
+      "graderRef": "christian-provao2012-q042"
+    },
+    {
+      "id": "christian-provao2012-q043",
+      "prompt": "43. Qual a principal ocupação da exegese bíblica?\n\n① Intencionalidade\n② Historicidade\n③ Cronicidade\n④ Intertextualidade\n⑤ Praticidade",
+      "metadata": {
+        "period": null,
+        "questionNumber": 43
+      },
+      "graderRef": "christian-provao2012-q043"
+    },
+    {
+      "id": "christian-provao2012-q044",
+      "prompt": "44. Quanto aos aspectos relacionais o pacto é:\n\n① Bilateral\n② Unilateral\n③ Tridimensional\n④ Cooparticipativo\n⑤ Substanciado no homem.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 44
+      },
+      "graderRef": "christian-provao2012-q044"
+    },
+    {
+      "id": "christian-provao2012-q045",
+      "prompt": "45. “Recurso estilístico que consiste numa estrutura cruzada entre dois grupos de palavras ou expressões, em que a ordem das palavras do primeiro grupo é inversa à do segundo”. Esta definição que também pode se aplicara passagens e até livros inteiros da Bíblia, define que recurso exegético?\n\n① Paralelismo\n② Eufemismo\n③ Quiasmo\n④ Ironia\n⑤ Simbolismo",
+      "metadata": {
+        "period": null,
+        "questionNumber": 45
+      },
+      "graderRef": "christian-provao2012-q045"
+    },
+    {
+      "id": "christian-provao2012-q046",
+      "prompt": "46. Qual a divisão da Bíblia Hebraica?\n\n① Lei e Profetas\n② Lei e Salmos\n③ Lei, Profetas e Escritos\n④ Lei, Históricos. poéticos e proféticos\n⑤ Lei, poéticos e proféticos",
+      "metadata": {
+        "period": null,
+        "questionNumber": 46
+      },
+      "graderRef": "christian-provao2012-q046"
+    },
+    {
+      "id": "christian-provao2012-q047",
+      "prompt": "47. Na língua hebraica, assim como na portuguesa, há o uso de conjunções para conectar palavras na construção de suas frases. Na língua hebraica, essas conjunções aparecem prefixadas por meio da consoante:\n\n① vav\n② yod\n③ nun\n④ he\n⑤ bet",
+      "metadata": {
+        "period": null,
+        "questionNumber": 47
+      },
+      "graderRef": "christian-provao2012-q047"
+    },
+    {
+      "id": "christian-provao2012-q048",
+      "prompt": "48. Com respeito aos verbos da língua hebraica, alguns se comportam de forma irregular por serem caracterizados como verbos fracos. Das opções listadas abaixo, qual não expressa verbos nessa categoria?\n\n① Verbos cuja raiz começa com a consoante vav.\n② Verbos cuja raiz começa com uma consoante nun.\n③ Verbos cuja raiz possui uma gutural.\n④ Verbos cuja raiz possui uma consoante do BeGaD KeFaT\n⑤ Verbos cuja raiz começa com a consoante yod.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 48
+      },
+      "graderRef": "christian-provao2012-q048"
+    },
+    {
+      "id": "christian-provao2012-q049",
+      "prompt": "49. Qual dessas propostas de hermenêutica não tem relação com a hermenêutica reformada?\n\n① 7 regras de Hillel\n② Quadriga\n③ Questio\n④ Tipologia\n⑤ Método sintático-teológico",
+      "metadata": {
+        "period": null,
+        "questionNumber": 49
+      },
+      "graderRef": "christian-provao2012-q049"
+    },
+    {
+      "id": "christian-provao2012-q050",
+      "prompt": "50. Na exegese, a crítica textual é recomendável devido...\n\n① às divergências presentes nos manuscritos disponíveis.\n② às diferentes fontes que compuseram o texto bíbiico.\n③ à tradição oral por detrás dos textos.\n④ à variedade de traduções e versões.\n⑤ à inerrância do texto biblico.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 50
+      },
+      "graderRef": "christian-provao2012-q050"
+    },
+    {
+      "id": "christian-provao2012-q051",
+      "prompt": "51. Quais os modos verbais da língua grega?\n\n① Indicativo, subjuntivo, imperativo, optativo\n② Indicativo e subjuntivo\n③ Subjuntivo e imperativo\n④ Indicativo, subjuntivo, imperativo, optativo, aoristo\n⑤ Indicativo e aoristo",
+      "metadata": {
+        "period": null,
+        "questionNumber": 51
+      },
+      "graderRef": "christian-provao2012-q051"
+    },
+    {
+      "id": "christian-provao2012-q052",
+      "prompt": "52. Quais os tempos verbais da língua grega?\n\n① Presente e futuro\n② Presente, futuro, imperfeito, aoristo, perfeito, mais-que-perfetto\n③ Presente, subjuntivo, aoristo, perfeito\n④ Presente, futuro, imperfeito, mais-que-pereito, imperativo\n⑤ Presente, futuro, perfeito",
+      "metadata": {
+        "period": null,
+        "questionNumber": 52
+      },
+      "graderRef": "christian-provao2012-q052"
+    },
+    {
+      "id": "christian-provao2012-q053",
+      "prompt": "53. O adjetivo grego sempre concorda com o substantivo em:\n\n① Gênero, número e grau\n② Gênero e número\n③ Gênero e grau\n④ Número e caso\n⑤ Gênero, número e caso",
+      "metadata": {
+        "period": null,
+        "questionNumber": 53
+      },
+      "graderRef": "christian-provao2012-q053"
+    },
+    {
+      "id": "christian-provao2012-q054",
+      "prompt": "54. A chamada Escola Alegórica de interpretação das Escrituras é também conhecida como:\n\n① Escola Antioquiana\n② Escola Patrística\n③ Escola Medieval\n④ Escola Ocidental\n⑤ Escola Reformada",
+      "metadata": {
+        "period": null,
+        "questionNumber": 54
+      },
+      "graderRef": "christian-provao2012-q054"
+    },
+    {
+      "id": "christian-provao2012-q055",
+      "prompt": "55. A estrutura dispensacionalista das Escrituras ensina que Deus se relaciona:\n\n① De forma pactua! e soberana com o homem.\n② De forma bilateral com o homem, em todas as dispensações.\n③ De forma única com o homem, em cada dispensação.\n④ Com base no amor, por meio do esvaziamento da Tandade.\n⑤ Com o homem por meio do Espírito Santo e somente por ele.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 55
+      },
+      "graderRef": "christian-provao2012-q055"
+    },
+    {
+      "id": "christian-provao2012-q056",
+      "prompt": "56. Na Escatologia Realizada, o reino é uma realidade:\n\n① Presente\n② Futura\n③ Presente e futura\n④ Apocalíptica\n⑤ Presente e apocalíptica",
+      "metadata": {
+        "period": null,
+        "questionNumber": 56
+      },
+      "graderRef": "christian-provao2012-q056"
+    },
+    {
+      "id": "christian-provao2012-q057",
+      "prompt": "57. O método que busca o significado de uma da passagem da Bíblia segundo as regras da gramática e da forma literária, os fatos da história e a estrutura do contexto é chamado:\n\n① Estruturalista\n② Fundamentalista\n③ Gramático-histórico\n④ Histórico-crítico\n⑤ Semidiscursivo",
+      "metadata": {
+        "period": null,
+        "questionNumber": 57
+      },
+      "graderRef": "christian-provao2012-q057"
+    },
+    {
+      "id": "christian-provao2012-q058",
+      "prompt": "58. O nome de Rudolf Bultmann está ligado a que metodologia exegética?\n\n① Histórico-gramatical.\n② Literária.\n③ Sociológica.\n④ Crítica da forma.\n⑤ Linguística.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 58
+      },
+      "graderRef": "christian-provao2012-q058"
+    },
+    {
+      "id": "christian-provao2012-q059",
+      "prompt": "59. Do que Paulo foi chamado em Atenas, pelos filósofos epicureus?\n\n① Criptologos.\n② Teólogos.\n③ Spermólogos.\n④ Cristólogos.\n⑤ Pneumólogos",
+      "metadata": {
+        "period": null,
+        "questionNumber": 59
+      },
+      "graderRef": "christian-provao2012-q059"
+    },
+    {
+      "id": "christian-provao2012-q060",
+      "prompt": "60. Qual destas não é uma das denominadas “cartas da prisão\"?\n\n① Colossenses\n② Efésios\n③ Filemom\n④ Filipenses\n⑤ Tito",
+      "metadata": {
+        "period": null,
+        "questionNumber": 60
+      },
+      "graderRef": "christian-provao2012-q060"
+    },
+    {
+      "id": "christian-provao2012-q061",
+      "prompt": "61. A assembleia realizada de 1545 a 1563 que deu à Igreja Católica Romana uma declaração completa de sua doutrina, dentro do princípio de franca oposição ao protestantismo foi:\n\n① Concílio de Trento\n② Sinodo de Sevilha\n③ Concílio de Latrão\n④ Concílio de Piza\n⑤ Sínodo de Roma",
+      "metadata": {
+        "period": null,
+        "questionNumber": 61
+      },
+      "graderRef": "christian-provao2012-q061"
+    },
+    {
+      "id": "christian-provao2012-q062",
+      "prompt": "62. A Questão Religiosa brasileira, no final do século 19, foi basicamente:\n\n① Um conflito entre os poderes do papado e do império.\n② Um movimento visando eliminar os artigos da Constituição de 1824 favoráveis à liberdade religiosa.\n③ Uma discussão entre as autoridades religiosas sobre o celibato clerical no Brasil.\n④ Uma tentativa de o clero secular assumir as escolas que estavam na esfera do clero regular.\n⑤ Uma disputa entre os bispos de Olinda e Belém sobre a nova diocese de São Luis.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 62
+      },
+      "graderRef": "christian-provao2012-q062"
+    },
+    {
+      "id": "christian-provao2012-q063",
+      "prompt": "63. William Carey, considerado por muitos o pai das missões modernas, foi precedido por qual importante movimento missionário protestante?\n\n① Metodistas\n② Morávios\n③ Lollardos\n④ Filipistas\n⑤ Jesuítas",
+      "metadata": {
+        "period": null,
+        "questionNumber": 63
+      },
+      "graderRef": "christian-provao2012-q063"
+    },
+    {
+      "id": "christian-provao2012-q064",
+      "prompt": "64. Movimento dentro da Igreja Católica Apostólica Romana no século 19 que se opunha à descentralização conciliar e nacionalista e defendia a centralização do poder no papado a fim de restaurar o vigor espiritual da Igreja.\n\n① Contrareforma\n② Dispensacionalismo\n③ Ultramontanismo\n④ Sionismo\n⑤ Socnianismo",
+      "metadata": {
+        "period": null,
+        "questionNumber": 64
+      },
+      "graderRef": "christian-provao2012-q064"
+    },
+    {
+      "id": "christian-provao2012-q065",
+      "prompt": "65. Advogado convertido em 1821 tomou-se publicamente conhecido em sua campanha de reavivamento de 1830 e 1831 em Rochester, Nova Iorque. Responsável pelas “novas medidas” de reavivamento, tornou-se reitor da faculdade de Oberlin. Suas preleções sobre o reavivamento e teologia sistemática tiveram enorme influência em sua época.\n\n① Jeremiah Lampier.\n② John Wesley.\n③ Jonanthan Edwards.\n④ Charles Grandison Finney.\n⑤ D. L. Moody.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 65
+      },
+      "graderRef": "christian-provao2012-q065"
+    },
+    {
+      "id": "christian-provao2012-q066",
+      "prompt": "66. O Edito de Milão, assinado em 313 pelos imperadores Constantino e Licínio...\n\n① Pós fim às perseguições imperiais e concedeu liberdade religiosa apenas aos cristãos.\n② Pôs fim às perseguições e concedeu liberdade religiosa a todos, independente da religião seguida.\n③ Declarou o Cristianismo como religião oficial do Império Romano.\n④ Garantiu aos cristãos a devolução de todos os imóveis e bens confiscados.\n⑤ Garantiu aos cristãos a devolução dos imóveis e o dos pergaminhos confiscados pelo",
+      "metadata": {
+        "period": null,
+        "questionNumber": 66
+      },
+      "graderRef": "christian-provao2012-q066"
+    },
+    {
+      "id": "christian-provao2012-q067",
+      "prompt": "67. A Reforma Protestante do Século 16 foi precedida por teólogos e movimentos questionadores liderados por...\n\n① Wyclif, Hus e Calvino.\n② Lutero, Zwingão e Calvino.\n③ Wycif, Hus e Wesley\n④ Wyclif, Hus e Jerônimo Savonarola;\n⑤ Franciscanos, Dominicanos e Jesuítas",
+      "metadata": {
+        "period": null,
+        "questionNumber": 67
+      },
+      "graderRef": "christian-provao2012-q067"
+    },
+    {
+      "id": "christian-provao2012-q068",
+      "prompt": "68. Os “Cinco Pontos do Calvinismo” foram elaborados após a Reforma Protesta nte e foram escritos...\n\n① Pelo próprio João Calvino em Genebra.\n② Pelos calvinistas durante o Sínodo de Dort.\n③ Pelos calvinistas durante o surgimento do puritanismo na Inglaterra.\n④ Pelos calvinistas franceses após o massacre que ficou conhecido como “A note de São Bartolomeu”.\n⑤ Pelo concílio de Trento.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 68
+      },
+      "graderRef": "christian-provao2012-q068"
+    },
+    {
+      "id": "christian-provao2012-q069",
+      "prompt": "69. O imperador que oficializou o Cristianismo como religião do império fot:\n\n① Constantino\n② Herodes\n③ Valêncio\n④ Teodósio\n⑤ Licínio",
+      "metadata": {
+        "period": null,
+        "questionNumber": 69
+      },
+      "graderRef": "christian-provao2012-q069"
+    },
+    {
+      "id": "christian-provao2012-q070",
+      "prompt": "70. O fundador da irmandade moraviana foi:\n\n① J. Knox\n② Zinzendorf\n③ J. Wesley\n④ J. Spener\n⑤ Meno Simons",
+      "metadata": {
+        "period": null,
+        "questionNumber": 70
+      },
+      "graderRef": "christian-provao2012-q070"
+    },
+    {
+      "id": "christian-provao2012-q071",
+      "prompt": "71. Raciocínio dedutivo é um discurso no qual, dadas certas premissas, alguma conclusão decorre delas necessariamente, diferente dessas premissas. mas nelas fundamentada (Aristóteles, Tópicos, Livro 1. 1005). Este tipo de raciocínio também é\n\n① Raciocínio indutivo\n② Argumento retórico\n③ Silogismo\n④ Argumento abdutivo\n⑤ Paralogismo",
+      "metadata": {
+        "period": null,
+        "questionNumber": 71
+      },
+      "graderRef": "christian-provao2012-q071"
+    },
+    {
+      "id": "christian-provao2012-q072",
+      "prompt": "72. O homem indiferente não se apega a nada, não tem certeza absoluta, adapta-se 3 tudo, suas opiniões são suscetíveis de modificações rápidas: para atingir esse grau de socialização, os burocratas do saber e do poder têm a oferecer verdadeiros tesouros de imaginação e toneladas de informações (Gilles Lipovetsky, A era do vazio). Neste pequeno excerto, o filósofo Gilles Lipovetsky apresenta algumas das principais características do...\n\n① Homem pós-moderno ou hipermoderno.\n② Homem moderno europeu.\n③ Homem moderno norte-americano.\n④ Homem pré-moderno medieval.\n⑤ Homem da antiguidade clássica.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 72
+      },
+      "graderRef": "christian-provao2012-q072"
+    },
+    {
+      "id": "christian-provao2012-q073",
+      "prompt": "73. Em plena Escolástica, seu expositor maior, Tomás de Aquino, precisou fazer uma síntese entre Filosofia e Teologia. Essa síntese foi em parte necessária pelo fato de que os pensamentos de um filósofo do período clássico foram novamente introduzidos na Europa com o avanço do Islã. Esse pensador clássico foi:\n\n① Sócrates\n② Platão\n③ Epicuro\n④ Aristóteles\n⑤ Zenão",
+      "metadata": {
+        "period": null,
+        "questionNumber": 73
+      },
+      "graderRef": "christian-provao2012-q073"
+    },
+    {
+      "id": "christian-provao2012-q074",
+      "prompt": "74. Qual filósofo escreveu o “Mito da Caverna”?\n\n① Aristóteles\n② Platão\n③ Sócrates\n④ Agostinho\n⑤ Kant",
+      "metadata": {
+        "period": null,
+        "questionNumber": 74
+      },
+      "graderRef": "christian-provao2012-q074"
+    },
+    {
+      "id": "christian-provao2012-q075",
+      "prompt": "75. Qual destes filósofos não pode ser considerado parte do existencialismo?\n\n① Kierkegaard\n② Schopenhauer\n③ Heidegger\n④ Sartre\n⑤ Comte",
+      "metadata": {
+        "period": null,
+        "questionNumber": 75
+      },
+      "graderRef": "christian-provao2012-q075"
+    },
+    {
+      "id": "christian-provao2012-q076",
+      "prompt": "76. De acordo com a tradição histórica, a fase inaugural da filosofia grega é conhecida como:\n\n① Período helenístico com a expansão da cultura grega.\n② Período clássico, incluindo Sócrates com sua problemática do ser humano.\n③ Período pré-socrático, em que abrange o conjunto de reflexões a partir de Tales de Mileto.\n④ Período ético com o surgimento do Estoicismo e Epicurismo.\n⑤ Período sistemático com Aristóteles e o surgimento da lógica.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 76
+      },
+      "graderRef": "christian-provao2012-q076"
+    },
+    {
+      "id": "christian-provao2012-q077",
+      "prompt": "77. Maiêutica é o método de chegar ao conhecimento, de acordo com:\n\n① Os mitos gregos.\n② Os ensinos de Sócrates.\n③ Orientação da lógica.\n④ Escritos de Platão.\n⑤ Os ensinos de Epicuro.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 77
+      },
+      "graderRef": "christian-provao2012-q077"
+    },
+    {
+      "id": "christian-provao2012-q078",
+      "prompt": "78. No Criticismo a premissa filosófica é a de que “embora o conhecimento se dé na experiência, ele não nasce justamente nela”. O expoente máximo do Criticismo é:\n\n① David Hume.\n② René Descartes.\n③ Tomás de Aquino.\n④ Agostinho.\n⑤ Immanuel Kant.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 78
+      },
+      "graderRef": "christian-provao2012-q078"
+    },
+    {
+      "id": "christian-provao2012-q079",
+      "prompt": "79. Qual critério supremo da moralidade adota o hedonismo, identificando-o como o bem\n\n① O fazer imanente.\n② O pensar em termos de futuro.\n③ O praizer sensível.\n④ O praizer somente estético.\n⑤ O realizar apenas espiritual.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 79
+      },
+      "graderRef": "christian-provao2012-q079"
+    },
+    {
+      "id": "christian-provao2012-q080",
+      "prompt": "80. Assinale a única alternativa que corresponde corretamente ao conceito de racionalismo:\n\n① Posição filosófica que toma a experiência como guia e critério de validade de suas afirmações.\n② Posição filosófica que privilegia formas argumentativas, dedutivas do conhecimento, como meios para compreensão da realidade, em detrimento da fé, do misticismo e da revelação bíblica.\n③ Posição filosófica que afirma que tudo o que conhecemos depende, em última instância, de dados dos sentidos, pois deles deriva direta e indiretamente.\n④ Posição filosófica moderna segundo a qual o conhecimento procede principalmente da experiência.\n⑤ Posição filosófica que considera como fonte de todas as nossas representações os dados fornecidos pelos sentidos.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 80
+      },
+      "graderRef": "christian-provao2012-q080"
+    },
+    {
+      "id": "christian-provao2012-q081",
+      "prompt": "81. Cada sentença abaixo possui uma figura de linguagem. Marque aquela que não está classificada corretamente.\n\n① “O céu vai se tornando roxo e a cidade aos poucos agoniza” - Prosopopeia.\n② “E ele riu longamente um riso sem alegria” - Pleonasmo\n③ “Peço-lhe mil desculpas pelo que aconteceu” - Metáfora\n④ “Toda vida se tece de mil mortes” - Antítese\n⑤ “Ele entregou hoje a alma a Deus” - Eufemismo",
+      "metadata": {
+        "period": null,
+        "questionNumber": 81
+      },
+      "graderRef": "christian-provao2012-q081"
+    },
+    {
+      "id": "christian-provao2012-q082",
+      "prompt": "82. O plural dos substantivos compostos não está correto em qual alternativa?\n\n① Cartões-postais, terças-feiras.\n② Sempre-vivas, guardas-volumes.\n③ Gentis-homens, autoestradas.\n④ Porta-vozes, guardas-municipais.\n⑤ Amigos-da-onça, abaixo-assinados.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 82
+      },
+      "graderRef": "christian-provao2012-q082"
+    },
+    {
+      "id": "christian-provao2012-q083",
+      "prompt": "83. Indique a opção onde a regência verbal não está correta.\n\n① Prefiro doce a salgados.\n② Aspiro o odor das flores.\n③ Obedeça às leis de trânsito.\n④ Assistiu ao noticiário.\n⑤ Aspiro o cargo de diretor.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 83
+      },
+      "graderRef": "christian-provao2012-q083"
+    },
+    {
+      "id": "christian-provao2012-q084",
+      "prompt": "84. “No princípio criou Deus os céus e a terra. E a terra era sem forma e vazia; e havia trevas sobre a face do abismo; e o Espírito de Deus se movia sobre a face das águas. E disse Deus: Haja luz: e houve luz. E viu Deus que era boa a luz; e fez Deus separação entre a luz e as trevas. E Deus chamou à luz Dia; e às trevas chamou Noite. E foi a tarde e a manhã, o dia primeiro”. (Gn 1:1-6) Assinale a alternativa correta a respeito da Tipologia textual do trecho acima:\n\n① O texto é narrativo, mas possui traços descritivos.\n② O texto é dissertativo, pois debate a respeito da criação do mundo.\n③ O texto é descritivo, pois apenas descreve como o mundo era antes da criação.\n④ O texto é dissertativo-argumentativo, mas possui traços descritivos.\n⑤ O texto não é narrativo, pois seu objetivo é apenas descrever.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 84
+      },
+      "graderRef": "christian-provao2012-q084"
+    },
+    {
+      "id": "christian-provao2012-q085",
+      "prompt": "85. A língua portuguesa possui quatro formas para a escrita dos porquês. Na fala os sons são todos iguais, mas a escrita difere de acordo com o caso. No exemplo abaixo, marque a sequência que preenche corretamente os espaços do diálogo: - ____ não veio para a reunião? - Não vim ____ não sabia o horário. - Não sabia o horário, ____? - Eu não sei o ____.\n\n① por que, porque, por quê, porquê\n② porque, por que, porquê, por quê\n③ porquê, por quê, porque, por que\n④ por quê, porquê, porque, por que\n⑤ por que, por quê, por que, porque",
+      "metadata": {
+        "period": null,
+        "questionNumber": 85
+      },
+      "graderRef": "christian-provao2012-q085"
+    },
+    {
+      "id": "christian-provao2012-q086",
+      "prompt": "86. Leia os versos com atenção e, a seguir, responda. “A outra alma, pérola rara, Dentro da concha tranquila, Profunda, eterna e tão cara Que poucos podem possuí-la” O pronome oblíquo “a” destacado no trecho refere-se a:\n\n① pérola rara.\n② concha tranquila.\n③ tão cara.\n④ eterna.\n⑤ outra alma.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 86
+      },
+      "graderRef": "christian-provao2012-q086"
+    },
+    {
+      "id": "christian-provao2012-q087",
+      "prompt": "87. Observe os substantivos abaixo e marque aquele que está corretamente classificado.\n\n① jornalismo: composto, concreto, comum, primitivo, masculino.\n② cidade: simples, concreto, próprio, derivado, feminino.\n③ aguardente: composto, concreto, próprio. primitivo, masculino.\n④ relógio: simples, abstrato, comum, derivado, masculino.\n⑤ cegueira: simples, abstrato, comum, derivado, feminino.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 87
+      },
+      "graderRef": "christian-provao2012-q087"
+    },
+    {
+      "id": "christian-provao2012-q088",
+      "prompt": "88. Leia e responda que tipo de oração subordinada existe nesta frase: “Júlia! O Bruno disse que viu você caindo num buraco!”\n\n① substantiva objetiva direta.\n② adjetiva restritiva.\n③ adjetiva explicativa\n④ substantiva completiva nominal.\n⑤ substantiva predicativa",
+      "metadata": {
+        "period": null,
+        "questionNumber": 88
+      },
+      "graderRef": "christian-provao2012-q088"
+    },
+    {
+      "id": "christian-provao2012-q089",
+      "prompt": "89. Assinale a opção que expressa uma oração subordinada substantiva subjetiva.\n\n① Estou certo de que você passará de ano.\n② Eles admitiram que fizeram besteiras.\n③ O problema foi que ele nunca estudou muito.\n④ Era fundamental que você tivesse tirado suas dúvidas.\n⑤ O sucesso depende de que você estude mais.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 89
+      },
+      "graderRef": "christian-provao2012-q089"
+    },
+    {
+      "id": "christian-provao2012-q090",
+      "prompt": "90. Indique a opção que completa corretamente a frase abaixo. Ela fez ____ críticas à nova lei, pois ____, no artigo 1º, a exigência de cursos de especialização, e o artigo 2º recomenda que ____ treinamentos anuais.\n\n① bastantes / está implícito / se façam\n② bastantes / está implícita / se façam\n③ bastante / está implícita / se faça\n④ bastante / está implícito / se faça\n⑤ bastante / está implícita / se façam",
+      "metadata": {
+        "period": null,
+        "questionNumber": 90
+      },
+      "graderRef": "christian-provao2012-q090"
+    },
+    {
+      "id": "christian-provao2012-q091",
+      "prompt": "91. As funções de presbítero ou de diácono cessam quando...\n\n① Ficar doente.\n② Divorciar-se\n③ Terminar o mandato.\n④ Mudar-se para longe.\n⑤ Aposentar-se.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 91
+      },
+      "graderRef": "christian-provao2012-q091"
+    },
+    {
+      "id": "christian-provao2012-q092",
+      "prompt": "92. Qual das ações mencionadas a seguir não é função privativa do Conselho da Igreja?\n\n① Exercer o governo espiritual e administrativo da Igreja sob sua jurisdição, velando atentamente pela fé e comportamento dos crentes, de modo que não negligencem os seus privilégios e deveres.\n② Encaminhar a escolha e eleição de pastores.\n③ Julgar a legalidade e conveniência das eleições de pastores, promovendo a respectiva instalação.\n④ Impor penas e relevá-as.\n⑤ Admitir, disciplinar, transferir e demitir membros.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 92
+      },
+      "graderRef": "christian-provao2012-q092"
+    },
+    {
+      "id": "christian-provao2012-q093",
+      "prompt": "93. Quanto aos candidatos ao Sagrado Ministério, a CI/IPB estabelece que:\n\n① Ninguém poderá apresentar-se para licenciatura sem que tenha completado o estudo das matérias dos cursos regulares de qualquer dos seminários da Igreja Presbiteriana do Brasil.\n② A idade mínima para a ordenação é 25 anos.\n③ Candidatos divorciados não poderão ser ordenados ao Sagrado Ministério.\n④ A licenciatura não pode ser cassada, a menos que o candidato tenha sido disciplinado pelo Conselho da Igreja de que é membro.\n⑤ Para ser licenciado, o candidato deve ter concluído o curso de Teologia em um seminário evangélico.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 93
+      },
+      "graderRef": "christian-provao2012-q093"
+    },
+    {
+      "id": "christian-provao2012-q094",
+      "prompt": "94. Os oficiais da Igreja Presbiteriana do Brasil se classificam em:\n\n① Pastores e presbíteros.\n② Ministros e presbíteros.\n③ Presbíteros e diáconos.\n④ Ministros do evangelho ou presbíteros docentes; presbíteros regentes e diáconos.\n⑤ Presbíteros docentes, presbíteros leigos e diáconos.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 94
+      },
+      "graderRef": "christian-provao2012-q094"
+    },
+    {
+      "id": "christian-provao2012-q095",
+      "prompt": "95. Não configura atribuição da Assembléia da igreja:\n\n① Eleger pastores e oficiais.\n② Aprovar os estatutos.\n③ Pronunciar-se sobre questões orçamentárias, quando solicitada pelo Conselho.\n④ Nomear presidentes de sociedades internas e superintendente da ED.\n⑤ Conferir a dignidade de pastor emérito, presbítero emérito e diácono emérito.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 95
+      },
+      "graderRef": "christian-provao2012-q095"
+    },
+    {
+      "id": "christian-provao2012-q096",
+      "prompt": "96. Sobre o tema “transferência e admissão de membros”, não é permitido:\n\n① Assumir jurisdição ex officio sobre membro de outra comunidade evangélica.\n② Conceder carta de transferência para qualquer igreja evangélica a membros comungantes e não comungantes.\n③ Exercer a jurisdição sobre o crente transferido, até que sua carta seja recebida pelo Conselho ou igreja destinada.\n④ A qualquer tempo, assumir a jurisdição sobre o crente que deu motivos ao Conselho para sua disciplina.\n⑤ Aceitar carta de transferência de membro oriundo de outra igreja evangélica.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 96
+      },
+      "graderRef": "christian-provao2012-q096"
+    },
+    {
+      "id": "christian-provao2012-q097",
+      "prompt": "97. A assembléia poderá conceder o título de emerência aos presbíteros e diáconos que tenham servido satisfatoriamente a igreja por um período superior a:\n\n① 15 anos\n② 35 anos\n③ 25 anos\n④ 5 anos\n⑤ 10 anos",
+      "metadata": {
+        "period": null,
+        "questionNumber": 97
+      },
+      "graderRef": "christian-provao2012-q097"
+    },
+    {
+      "id": "christian-provao2012-q098",
+      "prompt": "98. “O presbítero regente é o representante imediato do povo, por ser este eleito e ordenado pelo Conselho, para, juntamente com o pastor, exercer o governo e a disciplina, e zelar pelos interesses da Igreja a que pertencer, bem como pelos de toda a comunidade, quando para isso eleito ou designado”. (Art. 50 da CI/IPB) Não ocorrendo a reeleição do presbítero regente:\n\n① Sofrerá a perda do ofício.\n② Ficará proibido de distribuir os elementos da santa ceia.\n③ Não perderá o ofício, pois esse é perpétuo.\n④ O mesmo será deposto.\n⑤ Ficará proibido de exercer a autoridade na igreja.",
+      "metadata": {
+        "period": null,
+        "questionNumber": 98
+      },
+      "graderRef": "christian-provao2012-q098"
+    }
+  ]
+}

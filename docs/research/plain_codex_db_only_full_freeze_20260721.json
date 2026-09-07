@@ -1,0 +1,1337 @@
+{
+  "schemaVersion": 1,
+  "freezeId": "plain-codex-db-only-full-v2-20260721",
+  "status": "frozen_before_solver_calls",
+  "createdAt": "2026-07-21T01:40:35+0900",
+  "model": "gpt-5.6-luna",
+  "reasoningEffort": "low",
+  "mode": "codex_native_subject_batch_plain_v7_db_only_optional",
+  "builderId": "subject_batch_open_response_query_v7_db_only_optional",
+  "registryPath": "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/runs/luna-pilot/semantic-rewrite-all-v1/combined/evaluation_registry.open_response.staging.json",
+  "registrySha256": "9102c91556c2caa6ece407776b4dcb8174c3255952e079149265759f088c0221",
+  "canonicalInputs": {
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/runs/luna-pilot/semantic-rewrite-all-v1/combined/evaluation_registry.open_response.staging.json": "9102c91556c2caa6ece407776b4dcb8174c3255952e079149265759f088c0221",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/runs/luna-pilot/semantic-rewrite-all-v1/combined/open_response_christian_bible100.private.json": "0c886d37b6938f3e9a3079394728466c9330732a7ce3a0f631fca7af19461317",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/runs/luna-pilot/semantic-rewrite-all-v1/combined/open_response_christian_bible100.public.json": "ea03e132db8e1a01b61398a2aec23b5f9f61fdd9feb6d4142cb740bc23916c7c",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/runs/luna-pilot/semantic-rewrite-all-v1/combined/open_response_christian_provao2012.private.json": "9e93aebcbe29b960fc45a1311a0a2cca81aa48f7a01366a3f4a0e1927bf69596",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/runs/luna-pilot/semantic-rewrite-all-v1/combined/open_response_christian_provao2012.public.json": "bc075fef8d8c21259a79b4ac40e18482f3e18c26ef1e1afb14724ac1947fd422",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/runs/luna-pilot/semantic-rewrite-all-v1/combined/open_response_islam_aqa4.private.json": "d907405f4c96b43e1faab83d916ae5c7a4b0ee0451e58d4da29ea26bd8ea34a0",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/runs/luna-pilot/semantic-rewrite-all-v1/combined/open_response_islam_aqa4.public.json": "1ed4c82490b2c323e743d237597ebfbbdaec3cdad8e1d76c6e7843be7056d3f2",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/runs/luna-pilot/semantic-rewrite-all-v1/combined/open_response_islam_cisi100.private.json": "4801e77bf22cef74a5f61a42edeb1ca80972edafbcddd4cf3cacde77c4428dc6",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/runs/luna-pilot/semantic-rewrite-all-v1/combined/open_response_islam_cisi100.public.json": "ec90d626873cbdc33e8cef05906fe4b2fd51f89177186e95a3e8b3c538ed955e",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/runs/luna-pilot/semantic-rewrite-all-v1/combined/open_response_lawkey_leet2026_70.private.json": "38a64ecb03334c4567be1c9a396f8d10c0720dac013b8bd0b097f4f1883f04fa",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/runs/luna-pilot/semantic-rewrite-all-v1/combined/open_response_lawkey_leet2026_70.public.json": "bd7bce5cf84e2500d089ea90dc791db3b5a9f558d39e381606c115d9a0de01b3",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/runs/luna-pilot/semantic-rewrite-all-v1/combined/open_response_psych_mit_sangmyung.private.json": "af62115dd51a227331cb67e3b2cd9c5c323e331eaf44ec4f241f4e565e6c7d7c",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/runs/luna-pilot/semantic-rewrite-all-v1/combined/open_response_psych_mit_sangmyung.public.json": "2bfd03285a91f2ed544c3afd53d6b1b53cd15c7f0bf2c902a3a5714d0f2dd9c1",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/runs/luna-pilot/semantic-rewrite-all-v1/combined/open_response_tcm_kuksiwon81_unique92.private.json": "64a24537e0fbe09f7e6800a860ecf263749aadfacfec984f3dcac0514f6676d5",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/runs/luna-pilot/semantic-rewrite-all-v1/combined/open_response_tcm_kuksiwon81_unique92.public.json": "b7e2ea7bd0668caa14f8ab0386d01354a7dcae0a3fac42338c0636df4c1b0800"
+  },
+  "databaseIdentities": {
+    "catholic": {
+      "path": "/home/pineapple/bunjum2/religion/corpus/catholic/catholic.sqlite3",
+      "sizeBytes": 1139322880,
+      "identity": {
+        "mode": "sampled_sha256_v1",
+        "sampleBytes": 262144,
+        "sampleOffsets": [
+          0,
+          379774293,
+          759548586,
+          1139060736
+        ],
+        "sha256": "3c3a36f4749b94ad428dd5716737910550f8992e4ad8917bbb02dbe6a4c8f000"
+      },
+      "fixtureWarning": false
+    },
+    "islam": {
+      "path": "/home/pineapple/bunjum2/religion/corpus/islam/islam.sqlite3",
+      "sizeBytes": 2065780736,
+      "identity": {
+        "mode": "sampled_sha256_v1",
+        "sampleBytes": 262144,
+        "sampleOffsets": [
+          0,
+          688593578,
+          1377187157,
+          2065518592
+        ],
+        "sha256": "36a3ddfa9134fb5dd21f56de01788b20ae03fd2e4924b9ff14329bd9e4ce7770"
+      },
+      "fixtureWarning": false
+    },
+    "lawkey": {
+      "path": "/home/pineapple/bunjum2/work16/저장파일/unified_precedent_db_2026-04-10_run3/precedents.sqlite3",
+      "sizeBytes": 7733616640,
+      "identity": {
+        "mode": "sampled_sha256_v1",
+        "sampleBytes": 262144,
+        "sampleOffsets": [
+          0,
+          2577872213,
+          5155744426,
+          7733354496
+        ],
+        "sha256": "bdaf54e42ec6832b9f19cb933468fa3592ab9a9a425d2776e4c030f64ee3f8ec"
+      },
+      "fixtureWarning": false
+    },
+    "simli": {
+      "path": "/home/pineapple/bunjum2/simli/data/db/psych.sqlite",
+      "sizeBytes": 12357181440,
+      "identity": {
+        "mode": "sampled_sha256_v1",
+        "sampleBytes": 262144,
+        "sampleOffsets": [
+          0,
+          4119060480,
+          8238120960,
+          12356919296
+        ],
+        "sha256": "efbc1440d998afd58c811298472a98eab76447864eac1ccaa792fd58befe6c21"
+      },
+      "fixtureWarning": false
+    },
+    "tcm": {
+      "path": "/home/pineapple/bunjum2/tcm/corpus/tcm/tcm.sqlite3",
+      "sizeBytes": 17287352320,
+      "identity": {
+        "mode": "sampled_sha256_v1",
+        "sampleBytes": 262144,
+        "sampleOffsets": [
+          0,
+          5762450773,
+          11524901546,
+          17287090176
+        ],
+        "sha256": "460f6faa0668639d5e803cc8d8fb26a06a91e48ccd01ed47259f1b6f75f2fa72"
+      },
+      "fixtureWarning": false
+    }
+  },
+  "implementationFiles": {
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/tools/run_plain_db_only_full_benchmark.py": "085012b5e71aac2788d348f9454820197e8166ebcb6d1839f375bf3c5f2f0524",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/tools/benchmark_provider.py": "8c54b4915ae534dc083e23efa6b21495b9995b6c8b910406034653d639aede2c",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/tools/codex_home_failover.py": "da706fd23c0a3208b3a5dc2922d7cda9541c65cb13752b607c5fec46fdee9619",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/tools/database_attestation.py": "cd6329f58cdebcafe1f0bf9403746c8b6705ca2539d9a0095108218368d0206e",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/tools/domain_evidence_mcp_server.py": "3a5c7084d8190b429615687baf12fa9d6ed27531e51ba90fa5d9fc58d238e4a8",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/tools/luna_host_prefetch.py": "01c7c64dac70c24442afec5057dfeca85a48578f67d369f6fb6683fb7736a0b4",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/tools/prompt_identity.py": "bcffdb261196527d72a1b66fb9dfc871d1823c1f0489bbf9d71e8f8664e4fc6e",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/tools/run_codex_home_pool.py": "324d701a6d074467ca343dd76cfdf2cea4bcbef1fbdd37b996c260ac48ab30c4",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/tools/run_plain_no_db_full_benchmark.py": "03e57fa04a579e36571c1599bb12432c8d4565ac4f11d553fceaa4dea5396647",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/tools/run_subject_batch_benchmark.py": "727c950f972bcd56204f0dbd7faf9944cf97bc0f668b9a1d313392092563f005",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/tools/score_open_responses.py": "20f445d09b90f4c3f65b8b87cc1932938ee739becaf9c3167051fbc651256081",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/tools/score_plain_no_db_full_benchmark.py": "e5fdcc07d34d5fab8d2be27e738753c95b4f622e6e356df8e6dba71b25efeac7",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/tools/score_subject_batch_semantic.py": "f44eff28ee8d2dc69cd11288623362df27608fbe172b4a85ee17a9c6d1cf2f0c",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/tools/score_plain_db_only_full_benchmark.py": "ea363523e355b671cbe1663ba5226f316768ef1622c667251d9e4f96616ede60",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/.agents/skills/solve-with-domain-evidence/scripts/search_domain_evidence.py": "88f0ac7105f87f60e9fcc08ac8a4e4ad8bbb40102b6675b2aa8618c350d55452",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/shared_platform/domain_adapters.py": "c4e7e9af630b12922e3ab4b8ec56896f8d329ff350be97240cbb6142913b7b2e",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/shared_platform/products.py": "664b9ad09630701867bf481a53958508153bccbb5f58d5637ef7aabc58d3b100",
+    "/home/pineapple/.config/superpowers/worktrees/universal-artichoke/context-frame-engine-20260706/shared_platform/search.py": "d4acd02d4005f09b823f3163a7aafe61bd51d1e184c0c6ee81132f995ba7015d"
+  },
+  "inventory": {
+    "readyCases": 619,
+    "totalCases": 945,
+    "batches": 80
+  },
+  "batchPolicy": {
+    "batchSize": 8,
+    "maximumPromptCharacters": 24000,
+    "maximumBatchTokens": 80000,
+    "maximumDatabaseCalls": 2,
+    "databaseUseOptional": true,
+    "sequentialCallsOnly": true,
+    "freshSolverOpportunityPerCase": true,
+    "priorSolverResultsReused": false
+  },
+  "toolBoundary": {
+    "webSearch": false,
+    "shellOrCode": false,
+    "mcpOtherThanReadOnlySubjectDatabase": false,
+    "readOnlySubjectDatabase": true,
+    "customSkills": false,
+    "universalEngine": false,
+    "beta6Engine": false
+  },
+  "planSha256": "45657a9219627595658d0732a4d4c9dd4f3b2be6826a0877b88c20fee6dc8536",
+  "plan": [
+    {
+      "batchId": "plaindb2-c55ad3da5f7fd6221e8d",
+      "benchmarkId": "open_response.lawkey.leet2026.v2",
+      "databaseProduct": "lawkey",
+      "caseIds": [
+        "lawkey-leet2026-language-q004",
+        "lawkey-leet2026-language-q012",
+        "lawkey-leet2026-language-q013",
+        "lawkey-leet2026-language-q022",
+        "lawkey-leet2026-language-q023",
+        "lawkey-leet2026-language-q029",
+        "lawkey-leet2026-reasoning-q005",
+        "lawkey-leet2026-reasoning-q009"
+      ]
+    },
+    {
+      "batchId": "plaindb2-813a7744bfa1cdaab0e4",
+      "benchmarkId": "open_response.lawkey.leet2026.v2",
+      "databaseProduct": "lawkey",
+      "caseIds": [
+        "lawkey-leet2026-reasoning-q010",
+        "lawkey-leet2026-reasoning-q011",
+        "lawkey-leet2026-reasoning-q027",
+        "lawkey-leet2026-reasoning-q028",
+        "lawkey-leet2026-reasoning-q031",
+        "lawkey-leet2026-reasoning-q034",
+        "lawkey-leet2026-reasoning-q037",
+        "lawkey-leet2026-reasoning-q039"
+      ]
+    },
+    {
+      "batchId": "plaindb2-0dedc6b8910fc57999cf",
+      "benchmarkId": "open_response.tcm.kuksiwon81.unique92.v2",
+      "databaseProduct": "tcm",
+      "caseIds": [
+        "tcm81-p1-q005",
+        "tcm81-p1-q006",
+        "tcm81-p1-q008",
+        "tcm81-p1-q009",
+        "tcm81-p1-q010",
+        "tcm81-p1-q012",
+        "tcm81-p1-q013",
+        "tcm81-p1-q014"
+      ]
+    },
+    {
+      "batchId": "plaindb2-36335daa9487c12bc4cc",
+      "benchmarkId": "open_response.tcm.kuksiwon81.unique92.v2",
+      "databaseProduct": "tcm",
+      "caseIds": [
+        "tcm81-p1-q016",
+        "tcm81-p1-q022",
+        "tcm81-p1-q029",
+        "tcm81-p1-q030",
+        "tcm81-p1-q033",
+        "tcm81-p2-q001",
+        "tcm81-p2-q003",
+        "tcm81-p2-q004"
+      ]
+    },
+    {
+      "batchId": "plaindb2-0f84de91aa413e0acf12",
+      "benchmarkId": "open_response.tcm.kuksiwon81.unique92.v2",
+      "databaseProduct": "tcm",
+      "caseIds": [
+        "tcm81-p2-q006",
+        "tcm81-p2-q008",
+        "tcm81-p2-q009",
+        "tcm81-p2-q010",
+        "tcm81-p2-q033",
+        "tcm81-p2-q036",
+        "tcm81-p2-q037",
+        "tcm81-p3-q001"
+      ]
+    },
+    {
+      "batchId": "plaindb2-c40245a9d45f15d93fe5",
+      "benchmarkId": "open_response.tcm.kuksiwon81.unique92.v2",
+      "databaseProduct": "tcm",
+      "caseIds": [
+        "tcm81-p3-q007",
+        "tcm81-p3-q017",
+        "tcm81-p3-q018",
+        "tcm81-p3-q019",
+        "tcm81-p3-q020",
+        "tcm81-p3-q021",
+        "tcm81-p4-q001",
+        "tcm81-p4-q002"
+      ]
+    },
+    {
+      "batchId": "plaindb2-7cb837a9ce1846b40477",
+      "benchmarkId": "open_response.tcm.kuksiwon81.unique92.v2",
+      "databaseProduct": "tcm",
+      "caseIds": [
+        "tcm81-p4-q004",
+        "tcm81-p4-q008",
+        "tcm81-p4-q009",
+        "tcm81-p4-q010",
+        "tcm81-p4-q012"
+      ]
+    },
+    {
+      "batchId": "plaindb2-afc92ef6752225baf86c",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-bible100-q001",
+        "christian-bible100-q002",
+        "christian-bible100-q003",
+        "christian-bible100-q004",
+        "christian-bible100-q005",
+        "christian-bible100-q006",
+        "christian-bible100-q008",
+        "christian-bible100-q009"
+      ]
+    },
+    {
+      "batchId": "plaindb2-3686d46a5cf859bb8342",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-bible100-q010",
+        "christian-bible100-q011",
+        "christian-bible100-q013",
+        "christian-bible100-q014",
+        "christian-bible100-q015",
+        "christian-bible100-q016",
+        "christian-bible100-q017",
+        "christian-bible100-q018"
+      ]
+    },
+    {
+      "batchId": "plaindb2-cb223705eb57847d7bc3",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-bible100-q019",
+        "christian-bible100-q020",
+        "christian-bible100-q021",
+        "christian-bible100-q022",
+        "christian-bible100-q023",
+        "christian-bible100-q024",
+        "christian-bible100-q025",
+        "christian-bible100-q026"
+      ]
+    },
+    {
+      "batchId": "plaindb2-17a272f3db83b2f052d0",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-bible100-q027",
+        "christian-bible100-q028",
+        "christian-bible100-q029",
+        "christian-bible100-q030",
+        "christian-bible100-q031",
+        "christian-bible100-q032",
+        "christian-bible100-q033",
+        "christian-bible100-q034"
+      ]
+    },
+    {
+      "batchId": "plaindb2-ef26b530c62c7274217b",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-bible100-q035",
+        "christian-bible100-q036",
+        "christian-bible100-q037",
+        "christian-bible100-q038",
+        "christian-bible100-q039",
+        "christian-bible100-q040",
+        "christian-bible100-q041",
+        "christian-bible100-q042"
+      ]
+    },
+    {
+      "batchId": "plaindb2-cb4829818238b5c2c070",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-bible100-q043",
+        "christian-bible100-q044",
+        "christian-bible100-q045",
+        "christian-bible100-q046",
+        "christian-bible100-q047",
+        "christian-bible100-q048",
+        "christian-bible100-q050",
+        "christian-bible100-q051"
+      ]
+    },
+    {
+      "batchId": "plaindb2-28ee5ac54dc27bd7b3ed",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-bible100-q052",
+        "christian-bible100-q053",
+        "christian-bible100-q054",
+        "christian-bible100-q056",
+        "christian-bible100-q057",
+        "christian-bible100-q058",
+        "christian-bible100-q059",
+        "christian-bible100-q060"
+      ]
+    },
+    {
+      "batchId": "plaindb2-4295e3a60ce441835a4f",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-bible100-q061",
+        "christian-bible100-q063",
+        "christian-bible100-q064",
+        "christian-bible100-q065",
+        "christian-bible100-q066",
+        "christian-bible100-q067",
+        "christian-bible100-q068",
+        "christian-bible100-q069"
+      ]
+    },
+    {
+      "batchId": "plaindb2-6c175c68f930cde05384",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-bible100-q070",
+        "christian-bible100-q071",
+        "christian-bible100-q072",
+        "christian-bible100-q074",
+        "christian-bible100-q075",
+        "christian-bible100-q076",
+        "christian-bible100-q077",
+        "christian-bible100-q078"
+      ]
+    },
+    {
+      "batchId": "plaindb2-4e300e35429142b7d7d8",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-bible100-q079",
+        "christian-bible100-q080",
+        "christian-bible100-q082",
+        "christian-bible100-q083",
+        "christian-bible100-q084",
+        "christian-bible100-q085",
+        "christian-bible100-q086",
+        "christian-bible100-q087"
+      ]
+    },
+    {
+      "batchId": "plaindb2-0e961ff1009e30f6ab17",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-bible100-q089",
+        "christian-bible100-q090",
+        "christian-bible100-q091",
+        "christian-bible100-q092",
+        "christian-bible100-q093",
+        "christian-bible100-q094",
+        "christian-bible100-q095",
+        "christian-bible100-q096"
+      ]
+    },
+    {
+      "batchId": "plaindb2-2d56fcaa1d179ea3d382",
+      "benchmarkId": "open_response.christian.bible100.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-bible100-q098",
+        "christian-bible100-q099",
+        "christian-bible100-q100"
+      ]
+    },
+    {
+      "batchId": "plaindb2-ebe3974f03686c231d9c",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-provao2012-q001",
+        "christian-provao2012-q003",
+        "christian-provao2012-q006",
+        "christian-provao2012-q007",
+        "christian-provao2012-q008",
+        "christian-provao2012-q009",
+        "christian-provao2012-q010",
+        "christian-provao2012-q011"
+      ]
+    },
+    {
+      "batchId": "plaindb2-eded44036f758f06476a",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-provao2012-q012",
+        "christian-provao2012-q013",
+        "christian-provao2012-q014",
+        "christian-provao2012-q015",
+        "christian-provao2012-q016",
+        "christian-provao2012-q017",
+        "christian-provao2012-q019",
+        "christian-provao2012-q020"
+      ]
+    },
+    {
+      "batchId": "plaindb2-6972d64f43c48774474d",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-provao2012-q021",
+        "christian-provao2012-q022",
+        "christian-provao2012-q023",
+        "christian-provao2012-q024",
+        "christian-provao2012-q026",
+        "christian-provao2012-q027",
+        "christian-provao2012-q028",
+        "christian-provao2012-q029"
+      ]
+    },
+    {
+      "batchId": "plaindb2-45266f37411207e0e3bf",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-provao2012-q031",
+        "christian-provao2012-q032",
+        "christian-provao2012-q033",
+        "christian-provao2012-q034",
+        "christian-provao2012-q035",
+        "christian-provao2012-q036",
+        "christian-provao2012-q038",
+        "christian-provao2012-q040"
+      ]
+    },
+    {
+      "batchId": "plaindb2-d027f6260cd4a2eef0d4",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-provao2012-q041",
+        "christian-provao2012-q042",
+        "christian-provao2012-q043",
+        "christian-provao2012-q044",
+        "christian-provao2012-q045",
+        "christian-provao2012-q046",
+        "christian-provao2012-q047",
+        "christian-provao2012-q048"
+      ]
+    },
+    {
+      "batchId": "plaindb2-daf3acd0a0429a44849e",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-provao2012-q049",
+        "christian-provao2012-q050",
+        "christian-provao2012-q051",
+        "christian-provao2012-q052",
+        "christian-provao2012-q053",
+        "christian-provao2012-q054",
+        "christian-provao2012-q055",
+        "christian-provao2012-q056"
+      ]
+    },
+    {
+      "batchId": "plaindb2-4cd8e33e90a72502a692",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-provao2012-q057",
+        "christian-provao2012-q058",
+        "christian-provao2012-q059",
+        "christian-provao2012-q060",
+        "christian-provao2012-q061",
+        "christian-provao2012-q062",
+        "christian-provao2012-q063",
+        "christian-provao2012-q064"
+      ]
+    },
+    {
+      "batchId": "plaindb2-de764c80309d15f8745c",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-provao2012-q065",
+        "christian-provao2012-q066",
+        "christian-provao2012-q067",
+        "christian-provao2012-q068",
+        "christian-provao2012-q069",
+        "christian-provao2012-q070",
+        "christian-provao2012-q071",
+        "christian-provao2012-q072"
+      ]
+    },
+    {
+      "batchId": "plaindb2-77e17960531a7be253a0",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-provao2012-q073",
+        "christian-provao2012-q074",
+        "christian-provao2012-q075",
+        "christian-provao2012-q076",
+        "christian-provao2012-q077",
+        "christian-provao2012-q078",
+        "christian-provao2012-q079",
+        "christian-provao2012-q080"
+      ]
+    },
+    {
+      "batchId": "plaindb2-ef6f6a160f937bda4d13",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-provao2012-q084",
+        "christian-provao2012-q085",
+        "christian-provao2012-q086",
+        "christian-provao2012-q088",
+        "christian-provao2012-q089",
+        "christian-provao2012-q091",
+        "christian-provao2012-q092",
+        "christian-provao2012-q093"
+      ]
+    },
+    {
+      "batchId": "plaindb2-fd09d1daa0c32ad92113",
+      "benchmarkId": "open_response.christian.provao2012.v2",
+      "databaseProduct": "catholic",
+      "caseIds": [
+        "christian-provao2012-q094",
+        "christian-provao2012-q095",
+        "christian-provao2012-q096",
+        "christian-provao2012-q097",
+        "christian-provao2012-q098"
+      ]
+    },
+    {
+      "batchId": "plaindb2-5ecd14679c268b750532",
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "databaseProduct": "islam",
+      "caseIds": [
+        "islam-cisi-q002",
+        "islam-cisi-q003",
+        "islam-cisi-q004",
+        "islam-cisi-q005",
+        "islam-cisi-q006",
+        "islam-cisi-q007",
+        "islam-cisi-q009",
+        "islam-cisi-q010"
+      ]
+    },
+    {
+      "batchId": "plaindb2-4746eaef9855350e5a29",
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "databaseProduct": "islam",
+      "caseIds": [
+        "islam-cisi-q011",
+        "islam-cisi-q012",
+        "islam-cisi-q013",
+        "islam-cisi-q014",
+        "islam-cisi-q016",
+        "islam-cisi-q017",
+        "islam-cisi-q018",
+        "islam-cisi-q020"
+      ]
+    },
+    {
+      "batchId": "plaindb2-b077c88488c08da011b8",
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "databaseProduct": "islam",
+      "caseIds": [
+        "islam-cisi-q021",
+        "islam-cisi-q022",
+        "islam-cisi-q023",
+        "islam-cisi-q024",
+        "islam-cisi-q025",
+        "islam-cisi-q026",
+        "islam-cisi-q027",
+        "islam-cisi-q028"
+      ]
+    },
+    {
+      "batchId": "plaindb2-359bc74d99fe8e35b9a9",
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "databaseProduct": "islam",
+      "caseIds": [
+        "islam-cisi-q029",
+        "islam-cisi-q030",
+        "islam-cisi-q031",
+        "islam-cisi-q033",
+        "islam-cisi-q035",
+        "islam-cisi-q036",
+        "islam-cisi-q037",
+        "islam-cisi-q038"
+      ]
+    },
+    {
+      "batchId": "plaindb2-21ba4e9bb3e3d7e21f95",
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "databaseProduct": "islam",
+      "caseIds": [
+        "islam-cisi-q039",
+        "islam-cisi-q040",
+        "islam-cisi-q042",
+        "islam-cisi-q043",
+        "islam-cisi-q044",
+        "islam-cisi-q046",
+        "islam-cisi-q047",
+        "islam-cisi-q048"
+      ]
+    },
+    {
+      "batchId": "plaindb2-8ef25d592805c2b37f51",
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "databaseProduct": "islam",
+      "caseIds": [
+        "islam-cisi-q049",
+        "islam-cisi-q050",
+        "islam-cisi-q051",
+        "islam-cisi-q052",
+        "islam-cisi-q053",
+        "islam-cisi-q054",
+        "islam-cisi-q055",
+        "islam-cisi-q056"
+      ]
+    },
+    {
+      "batchId": "plaindb2-1b1e54161492cdd38818",
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "databaseProduct": "islam",
+      "caseIds": [
+        "islam-cisi-q057",
+        "islam-cisi-q058",
+        "islam-cisi-q059",
+        "islam-cisi-q060",
+        "islam-cisi-q062",
+        "islam-cisi-q063",
+        "islam-cisi-q064",
+        "islam-cisi-q065"
+      ]
+    },
+    {
+      "batchId": "plaindb2-46c0dbb8fcb5bb30361c",
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "databaseProduct": "islam",
+      "caseIds": [
+        "islam-cisi-q067",
+        "islam-cisi-q068",
+        "islam-cisi-q069",
+        "islam-cisi-q070",
+        "islam-cisi-q071",
+        "islam-cisi-q072",
+        "islam-cisi-q073",
+        "islam-cisi-q074"
+      ]
+    },
+    {
+      "batchId": "plaindb2-667e2af86c452802b70a",
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "databaseProduct": "islam",
+      "caseIds": [
+        "islam-cisi-q075",
+        "islam-cisi-q076",
+        "islam-cisi-q077",
+        "islam-cisi-q079",
+        "islam-cisi-q080",
+        "islam-cisi-q082",
+        "islam-cisi-q083",
+        "islam-cisi-q084"
+      ]
+    },
+    {
+      "batchId": "plaindb2-25745b79d1d7a853939c",
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "databaseProduct": "islam",
+      "caseIds": [
+        "islam-cisi-q085",
+        "islam-cisi-q086",
+        "islam-cisi-q087",
+        "islam-cisi-q088",
+        "islam-cisi-q089",
+        "islam-cisi-q090",
+        "islam-cisi-q091",
+        "islam-cisi-q093"
+      ]
+    },
+    {
+      "batchId": "plaindb2-a5d8831ef2c6962334b9",
+      "benchmarkId": "open_response.islam.cisi100.v2",
+      "databaseProduct": "islam",
+      "caseIds": [
+        "islam-cisi-q094",
+        "islam-cisi-q095",
+        "islam-cisi-q096",
+        "islam-cisi-q097",
+        "islam-cisi-q098",
+        "islam-cisi-q100"
+      ]
+    },
+    {
+      "batchId": "plaindb2-a564c935dfe45cd761e9",
+      "benchmarkId": "open_response.islam.aqa4.v2",
+      "databaseProduct": "islam",
+      "caseIds": [
+        "islam-aqa-q002",
+        "islam-aqa-q003",
+        "islam-aqa-q004"
+      ]
+    },
+    {
+      "batchId": "plaindb2-ecd84fa5feecf7da86eb",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q001",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q002",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q004",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q005",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q006",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q007",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q008",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q009"
+      ]
+    },
+    {
+      "batchId": "plaindb2-9ff1a144f350517729e3",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q010",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam1_문제_정답-q011",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q001",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q002",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q003",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q004",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q005",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q006"
+      ]
+    },
+    {
+      "batchId": "plaindb2-568d3630c5f6b7f4d276",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q007",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q008",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q009",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q010",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q011",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q014",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q016",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q017"
+      ]
+    },
+    {
+      "batchId": "plaindb2-e59c8b54b141a1726866",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q018",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q019",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q020",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q023",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q024",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q025",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q027",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q028"
+      ]
+    },
+    {
+      "batchId": "plaindb2-1397b84009f87692aaee",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q029",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q030",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q031",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q033",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q035",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q036",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q037",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q039"
+      ]
+    },
+    {
+      "batchId": "plaindb2-54b354b53e0a7fc589ff",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q040",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q043",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q044",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q045",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q046",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q048",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam2_문제_정답-q049",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q001"
+      ]
+    },
+    {
+      "batchId": "plaindb2-e97cb62e29f450f64f5b",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q002",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q004",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q005",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q006",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q007",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q008",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q009",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q010"
+      ]
+    },
+    {
+      "batchId": "plaindb2-62bb419372a3fb2cd4d8",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q011",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q012",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q013",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q014",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q015",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q016",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q017",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q018"
+      ]
+    },
+    {
+      "batchId": "plaindb2-3945324ef651c34189af",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q020",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q021",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q022",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q024",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q025",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q027",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q028",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q029"
+      ]
+    },
+    {
+      "batchId": "plaindb2-fd81729a9065b72a3110",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q030",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q034",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q036",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q037",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q038",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q039",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q040",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q043"
+      ]
+    },
+    {
+      "batchId": "plaindb2-20066bae19574512eeb2",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q044",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q046",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q047",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q048",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q049",
+        "psych-mit-sangmyung-MIT_IntroPsych_2009_Practice_Exam3_문제_정답-q050",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q001",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q002"
+      ]
+    },
+    {
+      "batchId": "plaindb2-8bbc9d2023aaa0aa2d15",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q003",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q004",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q005",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q006",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q007",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q008",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q010",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q011"
+      ]
+    },
+    {
+      "batchId": "plaindb2-32772d965cff64d05376",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q012",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q014",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q015",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q016",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q017",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q018",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q020",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q021"
+      ]
+    },
+    {
+      "batchId": "plaindb2-a5ab6f9578330b750874",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q022",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q023",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q024",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q027",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q028",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q030",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q031",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q033"
+      ]
+    },
+    {
+      "batchId": "plaindb2-238fd46cf33c19bce740",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q034",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q035",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q036",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q038",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q039",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q040",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam1_문제_정답-q041",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q001"
+      ]
+    },
+    {
+      "batchId": "plaindb2-d4c55221ec226a1309e7",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q002",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q004",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q005",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q006",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q008",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q009",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q010",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q011"
+      ]
+    },
+    {
+      "batchId": "plaindb2-198fa8670323fd92d3f2",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q012",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q013",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q014",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q018",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q019",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q020",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q021",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q023"
+      ]
+    },
+    {
+      "batchId": "plaindb2-fbc3c96187b6d8dca7fe",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q024",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q025",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q026",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q027",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q028",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q029",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q030",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q031"
+      ]
+    },
+    {
+      "batchId": "plaindb2-20cf85ecd6a6f284c933",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q032",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q033",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q034",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q035",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q036",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q037",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q038",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q040"
+      ]
+    },
+    {
+      "batchId": "plaindb2-4a7e35400a06d5523fa5",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q043",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q044",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q046",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q047",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q048",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam2_문제_정답-q049",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q002",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q004"
+      ]
+    },
+    {
+      "batchId": "plaindb2-043c42f17e3edcd21293",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q007",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q008",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q009",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q010",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q011",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q012",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q013",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q014"
+      ]
+    },
+    {
+      "batchId": "plaindb2-c18e1155d5e42408ed40",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q015",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q018",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q019",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q021",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q022",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q023",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q024",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q025"
+      ]
+    },
+    {
+      "batchId": "plaindb2-02a7f301070e577d09bb",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q026",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q028",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q030",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q031",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q033",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q034",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q035",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q036"
+      ]
+    },
+    {
+      "batchId": "plaindb2-4c1c5c595245238e0c8f",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q037",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q038",
+        "psych-mit-sangmyung-MIT_IntroPsych_2010_Practice_Exam3_문제_정답-q039",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q001",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q007",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q008",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q013",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q015"
+      ]
+    },
+    {
+      "batchId": "plaindb2-c7e033ddb0cd4e687655",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q020",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q021",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q022",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q026",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q027",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q028",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q032",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q033"
+      ]
+    },
+    {
+      "batchId": "plaindb2-bca4c95643058131e7c2",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q035",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q039",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q040",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q041",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q042",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q044",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q047",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q050"
+      ]
+    },
+    {
+      "batchId": "plaindb2-8495c923af08db3405cc",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q051",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q052",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q053",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q055",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q056",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q057",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q061",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q062"
+      ]
+    },
+    {
+      "batchId": "plaindb2-198dd50abdc2193c3d61",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q063",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q066",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q068",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q069",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q070",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q072",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q073",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q076"
+      ]
+    },
+    {
+      "batchId": "plaindb2-667053477ecdeb3fa908",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q079",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q080",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q082",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q083",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q089",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q091",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q094",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q095"
+      ]
+    },
+    {
+      "batchId": "plaindb2-f1c4e63bcebb8adc2fb4",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q096",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q098",
+        "psych-mit-sangmyung-상명대_가족복지학과_가족상담분야_졸업시험문제은행_2023_문제_정답-q099",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q001",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q003",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q004",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q005",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q008"
+      ]
+    },
+    {
+      "batchId": "plaindb2-90ff1086e95b77d22ec3",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q009",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q010",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q011",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q012",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q013",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q021",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q023",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q026"
+      ]
+    },
+    {
+      "batchId": "plaindb2-f39ff26c8b1a8ce6e9b7",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q028",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q034",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q035",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q036",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q037",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q039",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q043",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q045"
+      ]
+    },
+    {
+      "batchId": "plaindb2-25b843432e6d843f377b",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q055",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q057",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q060",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q061",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q065",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q066",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q069",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q070"
+      ]
+    },
+    {
+      "batchId": "plaindb2-1f6412e084cc13d47cd0",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q073",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q077",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q078",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q079",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q080",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q082",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q084",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q086"
+      ]
+    },
+    {
+      "batchId": "plaindb2-a470c317c7d62e0143a6",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q087",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q091",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q092",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q096",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q097",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q098",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q100",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q102"
+      ]
+    },
+    {
+      "batchId": "plaindb2-c17192b1c6d04dfe4914",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q104",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q105",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q107",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q110",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q111",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q112",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q113",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q114"
+      ]
+    },
+    {
+      "batchId": "plaindb2-f10e2641215c06c631f5",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q120",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q121",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q126",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q129",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q131",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q132",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q134",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q136"
+      ]
+    },
+    {
+      "batchId": "plaindb2-27902409f073aec7c59f",
+      "benchmarkId": "open_response.psych.mit_sangmyung.v2",
+      "databaseProduct": "simli",
+      "caseIds": [
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q137",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q138",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q139",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q141",
+        "psych-mit-sangmyung-상명대_아동청소년상담연계전공_졸업시험문제은행_2025_문제_정답_CURRENT_BACKUP_20260617_192540-q145"
+      ]
+    }
+  ]
+}

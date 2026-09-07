@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "benchmarkId": "official.islam.byu_mcq16.v1",
+  "taskType": "mcq",
+  "product": "islam",
+  "language": "en",
+  "cases": [
+    {
+      "id": "islam-byu-q001",
+      "prompt": "In Islam, the supreme central focus and authority is\n\nA. Allah\nB. Caliph\nC. Muhammad\nD. Imam",
+      "metadata": {
+        "sourceFamily": "BYU official Islam multiple-choice quiz",
+        "questionNumber": 1,
+        "responseFormat": "mcq",
+        "multipleSelection": false,
+        "maxMarks": 1
+      },
+      "graderRef": "islam-byu-q001"
+    },
+    {
+      "id": "islam-byu-q002",
+      "prompt": "What is the most populous Muslim country in the world?\n\nA. Saudi Arabia\nB. Indonesia\nC. Pakistan\nD. Iraq",
+      "metadata": {
+        "sourceFamily": "BYU official Islam multiple-choice quiz",
+        "questionNumber": 2,
+        "responseFormat": "mcq",
+        "multipleSelection": false,
+        "maxMarks": 1
+      },
+      "graderRef": "islam-byu-q002"
+    },
+    {
+      "id": "islam-byu-q003",
+      "prompt": "The word “Islam” means\n\nA. Those who follow Muhammad\nB. Surrender to God\nC. Recitations\nD. Sons of Allah",
+      "metadata": {
+        "sourceFamily": "BYU official Islam multiple-choice quiz",
+        "questionNumber": 3,
+        "responseFormat": "mcq",
+        "multipleSelection": false,
+        "maxMarks": 1
+      },
+      "graderRef": "islam-byu-q003"
+    },
+    {
+      "id": "islam-byu-q004",
+      "prompt": "What is the Shari’ah?\n\nA. A religious school\nB. A native dance\nC. A style of calligraphy\nD. A form of Muslim law",
+      "metadata": {
+        "sourceFamily": "BYU official Islam multiple-choice quiz",
+        "questionNumber": 4,
+        "responseFormat": "mcq",
+        "multipleSelection": false,
+        "maxMarks": 1
+      },
+      "graderRef": "islam-byu-q004"
+    },
+    {
+      "id": "islam-byu-q005",
+      "prompt": "Muslims calculate time from the migration of Muhammad and his followers to Medina, called the hijrah , which took place in which year?\n\nA. 587\nB. 612\nC. 622\nD. 266",
+      "metadata": {
+        "sourceFamily": "BYU official Islam multiple-choice quiz",
+        "questionNumber": 5,
+        "responseFormat": "mcq",
+        "multipleSelection": false,
+        "maxMarks": 1
+      },
+      "graderRef": "islam-byu-q005"
+    },
+    {
+      "id": "islam-byu-q006",
+      "prompt": "What is not one of the five pillars of Islam?\n\nA. Pray five times daily\nB. Profess Allah as the only God\nC. Make a pilgrimage to Mecca\nD. Read the Quran every day\nE. Give alms to the poor",
+      "metadata": {
+        "sourceFamily": "BYU official Islam multiple-choice quiz",
+        "questionNumber": 6,
+        "responseFormat": "mcq",
+        "multipleSelection": false,
+        "maxMarks": 1
+      },
+      "graderRef": "islam-byu-q006"
+    },
+    {
+      "id": "islam-byu-q007",
+      "prompt": "What is the prayer (or religious) leader in a mosque called?\n\nA. Shaykh\nB. Caliph\nC. Imam\nD. Mufti",
+      "metadata": {
+        "sourceFamily": "BYU official Islam multiple-choice quiz",
+        "questionNumber": 7,
+        "responseFormat": "mcq",
+        "multipleSelection": false,
+        "maxMarks": 1
+      },
+      "graderRef": "islam-byu-q007"
+    },
+    {
+      "id": "islam-byu-q008",
+      "prompt": "What is something that is lawful and permitted in Islam called?\n\nA. Hajj\nB. Halal\nC. Kosher\nD. Jihad",
+      "metadata": {
+        "sourceFamily": "BYU official Islam multiple-choice quiz",
+        "questionNumber": 8,
+        "responseFormat": "mcq",
+        "multipleSelection": false,
+        "maxMarks": 1
+      },
+      "graderRef": "islam-byu-q008"
+    },
+    {
+      "id": "islam-byu-q009",
+      "prompt": "The Qur’an acknowledges which prophet(s) from Judaism and Christianity?\n\nA. Abraham\nB. Adam\nC. Jesus\nD. All of these",
+      "metadata": {
+        "sourceFamily": "BYU official Islam multiple-choice quiz",
+        "questionNumber": 9,
+        "responseFormat": "mcq",
+        "multipleSelection": false,
+        "maxMarks": 1
+      },
+      "graderRef": "islam-byu-q009"
+    },
+    {
+      "id": "islam-byu-q010",
+      "prompt": "What is the holy month of fasting for Muslims called?\n\nA. Eid\nB. Rajab\nC. Ramadan\nD. Muharram",
+      "metadata": {
+        "sourceFamily": "BYU official Islam multiple-choice quiz",
+        "questionNumber": 10,
+        "responseFormat": "mcq",
+        "multipleSelection": false,
+        "maxMarks": 1
+      },
+      "graderRef": "islam-byu-q010"
+    },
+    {
+      "id": "islam-byu-q011",
+      "prompt": "Which area(s) of science did the Muslims contribute to the world?\n\nA. Algebra\nB. Chemistry\nC. Medicine\nD. Astronomy",
+      "metadata": {
+        "sourceFamily": "BYU official Islam multiple-choice quiz",
+        "questionNumber": 11,
+        "responseFormat": "mcq",
+        "multipleSelection": true,
+        "maxMarks": 1
+      },
+      "graderRef": "islam-byu-q011"
+    },
+    {
+      "id": "islam-byu-q012",
+      "prompt": "Which of the following cities is not a sacred city for Muslims?\n\nA. Jerusalem\nB. Mecca\nC. Cairo\nD. Medina",
+      "metadata": {
+        "sourceFamily": "BYU official Islam multiple-choice quiz",
+        "questionNumber": 12,
+        "responseFormat": "mcq",
+        "multipleSelection": false,
+        "maxMarks": 1
+      },
+      "graderRef": "islam-byu-q012"
+    },
+    {
+      "id": "islam-byu-q013",
+      "prompt": "Which of the following sects are considered “Islamic”?\n\nA. Shi’a\nB. Kharijites\nC. Sunni\nD. Sufi",
+      "metadata": {
+        "sourceFamily": "BYU official Islam multiple-choice quiz",
+        "questionNumber": 13,
+        "responseFormat": "mcq",
+        "multipleSelection": true,
+        "maxMarks": 1
+      },
+      "graderRef": "islam-byu-q013"
+    },
+    {
+      "id": "islam-byu-q014",
+      "prompt": "Which state in the United States has the most Muslim residents?\n\nA. California\nB. Michigan\nC. New York\nD. Texas",
+      "metadata": {
+        "sourceFamily": "BYU official Islam multiple-choice quiz",
+        "questionNumber": 14,
+        "responseFormat": "mcq",
+        "multipleSelection": false,
+        "maxMarks": 1
+      },
+      "graderRef": "islam-byu-q014"
+    },
+    {
+      "id": "islam-byu-q015",
+      "prompt": "What does Jihad mean?\n\nA. Holy war\nB. Struggle\nC. Cleanse\nD. Gain freedom",
+      "metadata": {
+        "sourceFamily": "BYU official Islam multiple-choice quiz",
+        "questionNumber": 15,
+        "responseFormat": "mcq",
+        "multipleSelection": false,
+        "maxMarks": 1
+      },
+      "graderRef": "islam-byu-q015"
+    },
+    {
+      "id": "islam-byu-q016",
+      "prompt": "Who were the founders of the Ottoman Empire?\n\nA. Arabs\nB. Russians\nC. Turks\nD. Mongols",
+      "metadata": {
+        "sourceFamily": "BYU official Islam multiple-choice quiz",
+        "questionNumber": 16,
+        "responseFormat": "mcq",
+        "multipleSelection": false,
+        "maxMarks": 1
+      },
+      "graderRef": "islam-byu-q016"
+    }
+  ]
+}

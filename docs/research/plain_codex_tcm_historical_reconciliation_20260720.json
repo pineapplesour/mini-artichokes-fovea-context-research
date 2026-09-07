@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "benchmarkId": "open_response.tcm.kuksiwon81.unique92.v2",
+  "classification": "historical_source_case_equivalent_not_prompt_byte_identical",
+  "freeze": {
+    "path": "docs/research/plain_codex_baseline_freeze_20260720.json",
+    "sha256": "468d11d764407a419f4bc85dac288c23730a0e672ff4ae7edff02e5d91fd44d7"
+  },
+  "frozenCoverageInventory": {
+    "path": "docs/research/plain_codex_open_response_coverage_20260720.json",
+    "sha256": "b040f802930cf3c8f74a30c6b8c3db896faf26eb105d690a7b1ec6db567f6459"
+  },
+  "sourceManifestEvidence": {
+    "publicPath": "benchmarks/unified/mcq_tcm_kuksiwon81_unique92.public.json",
+    "publicSha256": "186f6e26f433e1f341dad51dcd871c57fc6e2366f93018e9f00dd1d7b34d5b4f",
+    "privatePath": "benchmarks/unified/mcq_tcm_kuksiwon81_unique92.private.json",
+    "privateSha256": "d2304a184ee5e1ef24c28b021358139bcebf444a9020cf863f18a4ad0e4e7df8",
+    "sourceBenchmarkId": "mcq.tcm.kuksiwon81.unique92.v1"
+  },
+  "currentConversionEvidence": {
+    "publicPath": "benchmarks/open_response_v2/open_response_tcm_kuksiwon81_unique92.public.json",
+    "publicSha256": "6bd6a9a978dd4fd09add2d9686978e17a1c5c020296959ce7d7fc35e954de986",
+    "privatePath": "benchmarks/open_response_v2/open_response_tcm_kuksiwon81_unique92.private.json",
+    "privateSha256": "c2521364e125c6952a4270a5783e722cb6c146bf1ea56c7e068831d6ed045a7d",
+    "deterministicallyDerivedFromSourceManifests": true
+  },
+  "directArtifactAudit": {
+    "caseIds": [
+      "tcm81-p1-q005",
+      "tcm81-p1-q014",
+      "tcm81-p1-q016",
+      "tcm81-p2-q001",
+      "tcm81-p2-q003",
+      "tcm81-p2-q006",
+      "tcm81-p2-q010",
+      "tcm81-p3-q007",
+      "tcm81-p3-q019",
+      "tcm81-p3-q020",
+      "tcm81-p3-q021",
+      "tcm81-p4-q002",
+      "tcm81-p4-q004",
+      "tcm81-p4-q008",
+      "tcm81-p4-q009",
+      "tcm81-p4-q010",
+      "tcm81-p4-q012"
+    ],
+    "artifacts": 17,
+    "artifactHashesMatchFrozenCoverageInventory": true,
+    "benchmarkAndSourceAndCaseIdsMatch": true,
+    "model": "gpt-5.6-luna",
+    "oneCompletedModelTracePerCase": true,
+    "solverCalls": 17,
+    "solverTokens": 155607,
+    "solverElapsedSec": 115.48,
+    "webSearchEnabled": false,
+    "domainEvidenceMcpEnabled": false,
+    "webOrMcpOrCommandTraceEvents": 0,
+    "invalidCodexJsonlLines": 0,
+    "traceOnlyCleanCases": 17,
+    "promptIdentityPresentCases": 0
+  },
+  "identityDecision": {
+    "exactCurrentPromptIdentityProven": false,
+    "reason": "The historical result schema did not persist promptIdentity. Stable source benchmark and case IDs, deterministic current conversion, frozen result hashes, clean direct traces, and current semantic grading support source-case equivalence but not byte-identical prompt provenance.",
+    "eligibleForPostFreezeExactHarnessAggregate": false,
+    "eligibleForSeparatelyReportedHistoricalDirectCompatibility": true
+  },
+  "currentClosedConsensusScore": {
+    "total": 17,
+    "passed": 14,
+    "failed": 3,
+    "unresolved": 0,
+    "accuracy": 0.8235294117647058,
+    "failedCaseIds": [
+      "tcm81-p1-q014",
+      "tcm81-p1-q016",
+      "tcm81-p2-q010"
+    ],
+    "judgeModel": "gpt-5.6-luna",
+    "judgeCalls": 9,
+    "judgeTokens": 88997,
+    "judgeElapsedSec": 97.495,
+    "allJudgeTracesClosedAndValid": true,
+    "solverReruns": 0
+  },
+  "scoreGroups": [
+    {
+      "group": 1,
+      "caseIds": [
+        "tcm81-p1-q005",
+        "tcm81-p1-q014",
+        "tcm81-p1-q016",
+        "tcm81-p2-q001",
+        "tcm81-p2-q006",
+        "tcm81-p2-q010",
+        "tcm81-p3-q020",
+        "tcm81-p3-q021"
+      ],
+      "passed": 5,
+      "failed": 3,
+      "judgeCalls": 3,
+      "judgeTokens": 31061,
+      "deterministicPath": "runs/plain-codex-freeze-v1/tcm-kuksiwon81-historical-reconciliation/group01-deterministic.json",
+      "deterministicSha256": "0e910a3895003db21c718797d02625bb92f49ca2ba5d56bc2f756eddb3cc88e8",
+      "semanticPath": "runs/plain-codex-freeze-v1/tcm-kuksiwon81-historical-reconciliation/group01-semantic.json",
+      "semanticSha256": "653e54e9e8c56b5e6bd34556c39819bcb42f721ba5b521e2e708999c217919dd"
+    },
+    {
+      "group": 2,
+      "caseIds": [
+        "tcm81-p4-q002",
+        "tcm81-p4-q008",
+        "tcm81-p4-q010"
+      ],
+      "passed": 3,
+      "failed": 0,
+      "judgeCalls": 2,
+      "judgeTokens": 19510,
+      "deterministicPath": "runs/plain-codex-freeze-v1/tcm-kuksiwon81-historical-reconciliation/group02-deterministic.json",
+      "deterministicSha256": "71711efae15cbfc82c204bef9610edd9ffd3c632aea4faa36d88850908ce146c",
+      "semanticPath": "runs/plain-codex-freeze-v1/tcm-kuksiwon81-historical-reconciliation/group02-semantic.json",
+      "semanticSha256": "b9dfbc3ad9e0baa027bf736be98f365da2f966293da670b047558deae79d8ba4"
+    },
+    {
+      "group": 3,
+      "caseIds": [
+        "tcm81-p2-q003",
+        "tcm81-p3-q007",
+        "tcm81-p3-q019",
+        "tcm81-p4-q009"
+      ],
+      "passed": 4,
+      "failed": 0,
+      "judgeCalls": 2,
+      "judgeTokens": 19267,
+      "deterministicPath": "runs/plain-codex-freeze-v1/tcm-kuksiwon81-historical-reconciliation/group03-deterministic.json",
+      "deterministicSha256": "310016fa0f6f27427e62ff766922e0244c0e98387e63a1f1d89d05d1f7f23c7a",
+      "semanticPath": "runs/plain-codex-freeze-v1/tcm-kuksiwon81-historical-reconciliation/group03-semantic.json",
+      "semanticSha256": "12828b6f3824e5da0f78be88c92af2f18c718ee968f5d02a2addeb18f423e304"
+    },
+    {
+      "group": 4,
+      "caseIds": [
+        "tcm81-p4-q004",
+        "tcm81-p4-q012"
+      ],
+      "passed": 2,
+      "failed": 0,
+      "judgeCalls": 2,
+      "judgeTokens": 19159,
+      "deterministicPath": "runs/plain-codex-freeze-v1/tcm-kuksiwon81-historical-reconciliation/group04-deterministic.json",
+      "deterministicSha256": "cea706291983c603e11a82d0fa8fae544ba0f0ebaec79549e967dd60b553ff70",
+      "semanticPath": "runs/plain-codex-freeze-v1/tcm-kuksiwon81-historical-reconciliation/group04-semantic.json",
+      "semanticSha256": "6d49880501489afeb7d1408d9af5f12f12141d224f78301afe2b2e6a490d4903"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "benchmarkSourceId": "kuksiwon.tcm.81.period1",
+  "officialSource": {
+    "pageUrl": "https://www.kuksiwon.or.kr/CollectOfQuestions/brd/m_116/view.do?seq=186",
+    "downloadUrl": "https://www.kuksiwon.or.kr/CollectOfQuestions/brd/m_116/down.do?brd_id=CollectOfQuestions&seq=186&data_tp=A&file_seq=1",
+    "fileName": "2026년도 제81회 한의사 국가시험 1교시.pdf",
+    "sha256": "a15b75296d6bbfd2bf71bb9c657daf20360b9c847fe4847be40894e3da8b723b",
+    "retrievedAt": "2026-07-14"
+  },
+  "visualCorrections": [
+    {
+      "caseId": "tcm81-p1-q043",
+      "pdfPhysicalPage": 8,
+      "printedPage": "7/16",
+      "reason": "OCR omitted the first option and shifted the visible option order; the public prompt was restored from the official page without consulting the answer key.",
+      "verifiedOptionIds": ["1", "2", "3", "4", "5"]
+    }
+  ]
+}

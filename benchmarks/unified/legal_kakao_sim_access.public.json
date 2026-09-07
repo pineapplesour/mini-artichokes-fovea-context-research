@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "benchmarkId": "legal.kakao_sim_access.v1",
+  "taskType": "legal_retrieval_answer",
+  "product": "lawkey",
+  "cases": [
+    {
+      "id": "kakao-sim-access-legality",
+      "language": "ko",
+      "variants": [
+        {
+          "id": "v1",
+          "query": "경찰이 피의자 휴대폰에서 유심을 빼서 공기계에 넣고 카카오톡에 로그인해 증거를 모으면 합법이야?"
+        },
+        {
+          "id": "v2",
+          "query": "수사기관이 압수한 유심으로 텔레그램이나 카카오톡 계정에 접속해서 대화를 확인한 경우 증거능력이 어떻게 돼?"
+        },
+        {
+          "id": "v3",
+          "query": "검찰이 유심칩을 다른 휴대폰에 꽂아 인증번호를 받아 메신저 대화를 본 판례를 찾아줘"
+        },
+        {
+          "id": "v4",
+          "query": "피의자 SIM을 분리해서 메신저 계정에 로그인한 수사가 영장 범위 안인지 알려줘"
+        }
+      ],
+      "runtime": {
+        "candidateLimit": 50
+      },
+      "graderRef": "kakao-sim-access-legality"
+    }
+  ]
+}

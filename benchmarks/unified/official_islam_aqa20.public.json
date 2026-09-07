@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "benchmarkId": "official.islam.aqa8062_15.2022_2023.v1",
+  "taskType": "mixed_official_assessment",
+  "product": "islam",
+  "language": "en",
+  "cases": [
+    {
+      "id": "islam-aqa-2022-11",
+      "prompt": "Which one of the following is not a holy book in Islam?\n\nA. Jibril\nB. Qur’an\nC. Scrolls of Abraham\nD. Torah",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2022,
+        "questionPart": "01.1",
+        "responseFormat": "mcq",
+        "maxMarks": 1,
+        "contentMarks": 1,
+        "spagMarks": 0
+      },
+      "graderRef": "islam-aqa-2022-11"
+    },
+    {
+      "id": "islam-aqa-2022-12",
+      "prompt": "Give two beliefs about the Imamate in Shi’a Islam. [2 marks]",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2022,
+        "questionPart": "01.2",
+        "responseFormat": "constructed_response",
+        "maxMarks": 2,
+        "contentMarks": 2,
+        "spagMarks": 0
+      },
+      "graderRef": "islam-aqa-2022-12"
+    },
+    {
+      "id": "islam-aqa-2022-13",
+      "prompt": "Explain two ways in which the belief in God’s mercy influences Muslims today. [4 marks]",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2022,
+        "questionPart": "01.3",
+        "responseFormat": "constructed_response",
+        "maxMarks": 4,
+        "contentMarks": 4,
+        "spagMarks": 0
+      },
+      "graderRef": "islam-aqa-2022-13"
+    },
+    {
+      "id": "islam-aqa-2022-14",
+      "prompt": "Explain two reasons why angels are important in Islam. Refer to sacred writings or another source of Muslim belief and teaching in your answer. [5 marks]",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2022,
+        "questionPart": "01.4",
+        "responseFormat": "constructed_response",
+        "maxMarks": 5,
+        "contentMarks": 5,
+        "spagMarks": 0
+      },
+      "graderRef": "islam-aqa-2022-14"
+    },
+    {
+      "id": "islam-aqa-2022-15",
+      "prompt": "'In Islam, the Prophet Muhammad is the most important of all the prophets.' Evaluate this statement. In your answer you should: • refer to Muslim teaching • give reasoned arguments to support this statement • give reasoned arguments to support a different point of view • reach a justified conclusion. [12 marks] [SPaG 3 marks]",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2022,
+        "questionPart": "01.5",
+        "responseFormat": "constructed_response",
+        "maxMarks": 15,
+        "contentMarks": 12,
+        "spagMarks": 3
+      },
+      "graderRef": "islam-aqa-2022-15"
+    },
+    {
+      "id": "islam-aqa-2022-21",
+      "prompt": "Which one of the following words describes the struggle against evil in Islam?\n\nA. Ashura\nB. Jihad\nC. Rak’ah\nD. Wudu",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2022,
+        "questionPart": "02.1",
+        "responseFormat": "mcq",
+        "maxMarks": 1,
+        "contentMarks": 1,
+        "spagMarks": 0
+      },
+      "graderRef": "islam-aqa-2022-21"
+    },
+    {
+      "id": "islam-aqa-2022-22",
+      "prompt": "Give two reasons why Muslims give Zakah. [2 marks]",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2022,
+        "questionPart": "02.2",
+        "responseFormat": "constructed_response",
+        "maxMarks": 2,
+        "contentMarks": 2,
+        "spagMarks": 0
+      },
+      "graderRef": "islam-aqa-2022-22"
+    },
+    {
+      "id": "islam-aqa-2022-23",
+      "prompt": "Explain two contrasting religious practices Muslims perform during Hajj. [4 marks]",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2022,
+        "questionPart": "02.3",
+        "responseFormat": "constructed_response",
+        "maxMarks": 4,
+        "contentMarks": 4,
+        "spagMarks": 0
+      },
+      "graderRef": "islam-aqa-2022-23"
+    },
+    {
+      "id": "islam-aqa-2022-24",
+      "prompt": "Explain two reasons why Salah is important for Muslims. Refer to sacred writings or another source of Muslim belief and teaching in your answer. [5 marks]",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2022,
+        "questionPart": "02.4",
+        "responseFormat": "constructed_response",
+        "maxMarks": 5,
+        "contentMarks": 5,
+        "spagMarks": 0
+      },
+      "graderRef": "islam-aqa-2022-24"
+    },
+    {
+      "id": "islam-aqa-2022-25",
+      "prompt": "‘For Muslims, the most important festival is Id-ul-Fitr.’ Evaluate this statement. In your answer you should: • refer to Muslim teaching • give reasoned arguments to support this statement • give reasoned arguments to support a different point of view • reach a justified conclusion. [12 marks]",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2022,
+        "questionPart": "02.5",
+        "responseFormat": "constructed_response",
+        "maxMarks": 12,
+        "contentMarks": 12,
+        "spagMarks": 0
+      },
+      "graderRef": "islam-aqa-2022-25"
+    },
+    {
+      "id": "islam-aqa-2023-11",
+      "prompt": "Which one of the following terms means that God is involved in the world?\n\nA. Eternal\nB. Immanent\nC. Transcendent\nD. Unchanging",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2023,
+        "questionPart": "01.1",
+        "responseFormat": "mcq",
+        "maxMarks": 1,
+        "contentMarks": 1,
+        "spagMarks": 0
+      },
+      "graderRef": "islam-aqa-2023-11"
+    },
+    {
+      "id": "islam-aqa-2023-12",
+      "prompt": "Give two Muslim beliefs about angels. [2 marks]",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2023,
+        "questionPart": "01.2",
+        "responseFormat": "constructed_response",
+        "maxMarks": 2,
+        "contentMarks": 2,
+        "spagMarks": 0
+      },
+      "graderRef": "islam-aqa-2023-12"
+    },
+    {
+      "id": "islam-aqa-2023-13",
+      "prompt": "Explain two ways in which the revelation of the Qur’an influences Muslims today. [4 marks]",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2023,
+        "questionPart": "01.3",
+        "responseFormat": "constructed_response",
+        "maxMarks": 4,
+        "contentMarks": 4,
+        "spagMarks": 0
+      },
+      "graderRef": "islam-aqa-2023-13"
+    },
+    {
+      "id": "islam-aqa-2023-14",
+      "prompt": "Explain two Muslim beliefs about the Day of Judgement. Refer to sacred writings or another source of Muslim belief and teaching in your answer. [5 marks]",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2023,
+        "questionPart": "01.4",
+        "responseFormat": "constructed_response",
+        "maxMarks": 5,
+        "contentMarks": 5,
+        "spagMarks": 0
+      },
+      "graderRef": "islam-aqa-2023-14"
+    },
+    {
+      "id": "islam-aqa-2023-15",
+      "prompt": "‘Tawhid (the Oneness of God) is the most important Muslim belief.’ Evaluate this statement. In your answer you should: • refer to Muslim teaching • give reasoned arguments to support this statement • give reasoned arguments to support a different point of view • reach a justified conclusion. [12 marks] [Plus SPaG 3 marks]",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2023,
+        "questionPart": "01.5",
+        "responseFormat": "constructed_response",
+        "maxMarks": 15,
+        "contentMarks": 12,
+        "spagMarks": 3
+      },
+      "graderRef": "islam-aqa-2023-15"
+    },
+    {
+      "id": "islam-aqa-2023-21",
+      "prompt": "Which one of the following is the name for Friday prayers in Islam?\n\nA. Ashura\nB. Hajj\nC. Id-ul-Fitr\nD. Jummah",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2023,
+        "questionPart": "02.1",
+        "responseFormat": "mcq",
+        "maxMarks": 1,
+        "contentMarks": 1,
+        "spagMarks": 0
+      },
+      "graderRef": "islam-aqa-2023-21"
+    },
+    {
+      "id": "islam-aqa-2023-22",
+      "prompt": "Give two ways in which a Muslim prepares for Salah (prayer). [2 marks]",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2023,
+        "questionPart": "02.2",
+        "responseFormat": "constructed_response",
+        "maxMarks": 2,
+        "contentMarks": 2,
+        "spagMarks": 0
+      },
+      "graderRef": "islam-aqa-2023-22"
+    },
+    {
+      "id": "islam-aqa-2023-23",
+      "prompt": "Explain two contrasting ways in which Muslims celebrate Id-ul-Adha. [4 marks]",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2023,
+        "questionPart": "02.3",
+        "responseFormat": "constructed_response",
+        "maxMarks": 4,
+        "contentMarks": 4,
+        "spagMarks": 0
+      },
+      "graderRef": "islam-aqa-2023-23"
+    },
+    {
+      "id": "islam-aqa-2023-24",
+      "prompt": "Explain two reasons why Muslims give Zakah. Refer to sacred writings or another source of Muslim belief and teaching in your answer. [5 marks]",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2023,
+        "questionPart": "02.4",
+        "responseFormat": "constructed_response",
+        "maxMarks": 5,
+        "contentMarks": 5,
+        "spagMarks": 0
+      },
+      "graderRef": "islam-aqa-2023-24"
+    },
+    {
+      "id": "islam-aqa-2023-25",
+      "prompt": "‘Following Muslim practices is difficult in the modern world.’ Evaluate this statement. In your answer you should: • refer to Muslim teaching • give reasoned arguments to support this statement • give reasoned arguments to support a different point of view • reach a justified conclusion. [12 marks]",
+      "metadata": {
+        "sourceFamily": "AQA GCSE Religious Studies A 8062/15 Islam",
+        "year": 2023,
+        "questionPart": "02.5",
+        "responseFormat": "constructed_response",
+        "maxMarks": 12,
+        "contentMarks": 12,
+        "spagMarks": 0
+      },
+      "graderRef": "islam-aqa-2023-25"
+    }
+  ]
+}

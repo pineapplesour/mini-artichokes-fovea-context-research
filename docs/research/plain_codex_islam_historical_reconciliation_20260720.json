@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "benchmarkId": "open_response.islam.cisi100.v2",
+  "classification": "historical_source_case_equivalent_not_prompt_byte_identical",
+  "freeze": {
+    "path": "docs/research/plain_codex_baseline_freeze_20260720.json",
+    "sha256": "468d11d764407a419f4bc85dac288c23730a0e672ff4ae7edff02e5d91fd44d7"
+  },
+  "frozenCoverageInventory": {
+    "path": "docs/research/plain_codex_open_response_coverage_20260720.json",
+    "sha256": "b040f802930cf3c8f74a30c6b8c3db896faf26eb105d690a7b1ec6db567f6459"
+  },
+  "sourceManifestEvidence": {
+    "publicPath": "benchmarks/unified/mcq_islam_cisi100.public.json",
+    "publicSha256": "228d5aba41c0c9a5c5f4a00e6bfe06bd9e71fb84f61f1db19a9aa2596e4b3c69",
+    "privatePath": "benchmarks/unified/mcq_islam_cisi100.private.json",
+    "privateSha256": "78fcbe7bab7c6a9731af9cea00ba29536127c4b0a0318e4ff92b4302575621dd",
+    "sourceBenchmarkId": "mcq.islam.cisi100.v1"
+  },
+  "currentConversionEvidence": {
+    "publicPath": "benchmarks/open_response_v2/open_response_islam_cisi100.public.json",
+    "publicSha256": "67de87ae5feaba6f8619264c4d882de32905ddb0f63ce9f5a9a8c3fb4b7c8947",
+    "privatePath": "benchmarks/open_response_v2/open_response_islam_cisi100.private.json",
+    "privateSha256": "a246adb788a6ccbaff9e4c56630852c46e65fdd42139c3e0027d526eeeb41141",
+    "deterministicallyDerivedFromSourceManifests": true
+  },
+  "directArtifactAudit": {
+    "caseIds": [
+      "islam-cisi-q002",
+      "islam-cisi-q006",
+      "islam-cisi-q010",
+      "islam-cisi-q027",
+      "islam-cisi-q036",
+      "islam-cisi-q044",
+      "islam-cisi-q047",
+      "islam-cisi-q055",
+      "islam-cisi-q056",
+      "islam-cisi-q067",
+      "islam-cisi-q073",
+      "islam-cisi-q087",
+      "islam-cisi-q097"
+    ],
+    "artifacts": 13,
+    "artifactHashesMatchFrozenCoverageInventory": true,
+    "benchmarkAndSourceAndCaseIdsMatch": true,
+    "model": "gpt-5.6-luna",
+    "oneModelCallPerCase": true,
+    "solverCalls": 13,
+    "solverTokens": 118876,
+    "solverElapsedSec": 107.129,
+    "webSearchEnabled": false,
+    "domainEvidenceMcpEnabled": false,
+    "webOrMcpOrCommandTraceEvents": 0,
+    "invalidCodexJsonlLines": 0,
+    "explicitToolBoundaryAuditPassedCases": 12,
+    "traceOnlyCleanCases": [
+      "islam-cisi-q087"
+    ],
+    "promptIdentityPresentCases": 0
+  },
+  "identityDecision": {
+    "exactCurrentPromptIdentityProven": false,
+    "reason": "The historical result schema did not persist promptIdentity, and the current open-response files were regenerated after these results. The stable source benchmark, source case IDs, current deterministic conversion, frozen result hashes, and current semantic grading support source-case equivalence but not byte-identical prompt provenance.",
+    "eligibleForPostFreezeExactHarnessAggregate": false,
+    "eligibleForSeparatelyReportedHistoricalDirectCompatibility": true
+  },
+  "currentClosedConsensusScore": {
+    "total": 13,
+    "passed": 6,
+    "failed": 7,
+    "unresolved": 0,
+    "accuracy": 0.46153846153846156,
+    "failedCaseIds": [
+      "islam-cisi-q006",
+      "islam-cisi-q010",
+      "islam-cisi-q027",
+      "islam-cisi-q044",
+      "islam-cisi-q047",
+      "islam-cisi-q067",
+      "islam-cisi-q087"
+    ],
+    "judgeModel": "gpt-5.6-luna",
+    "judgeCalls": 13,
+    "judgeTokens": 124816,
+    "judgeElapsedSec": 147.9,
+    "allJudgeTracesClosedAndValid": true,
+    "solverReruns": 0
+  },
+  "scoreGroups": [
+    {
+      "group": 1,
+      "caseIds": [
+        "islam-cisi-q002",
+        "islam-cisi-q036",
+        "islam-cisi-q097"
+      ],
+      "passed": 3,
+      "failed": 0,
+      "judgeCalls": 3,
+      "judgeTokens": 28876,
+      "deterministicPath": "runs/plain-codex-freeze-v1/islam-cisi100-historical-reconciliation/group01-deterministic.json",
+      "deterministicSha256": "b88311548b60e64e49362337c096541dbf73b4059321596067154d469c5875aa",
+      "semanticPath": "runs/plain-codex-freeze-v1/islam-cisi100-historical-reconciliation/group01-semantic.json",
+      "semanticSha256": "7ad4ea5bf920adaf490b51fbf9a87ecfd3b995e9828715ccb91a73750a7b50b6"
+    },
+    {
+      "group": 2,
+      "caseIds": [
+        "islam-cisi-q006",
+        "islam-cisi-q056",
+        "islam-cisi-q073"
+      ],
+      "passed": 2,
+      "failed": 1,
+      "judgeCalls": 2,
+      "judgeTokens": 20074,
+      "deterministicPath": "runs/plain-codex-freeze-v1/islam-cisi100-historical-reconciliation/group02-deterministic.json",
+      "deterministicSha256": "a4044413aad540412fd6c2e9c648f123ca2c2b828692a9a8cc50fc22f079a9a4",
+      "semanticPath": "runs/plain-codex-freeze-v1/islam-cisi100-historical-reconciliation/group02-semantic.json",
+      "semanticSha256": "64c8e081e33deb7657441de799ad16f06183b3447551ed56ee3d825e310ad9f1"
+    },
+    {
+      "group": 3,
+      "caseIds": [
+        "islam-cisi-q010",
+        "islam-cisi-q044",
+        "islam-cisi-q067"
+      ],
+      "passed": 0,
+      "failed": 3,
+      "judgeCalls": 2,
+      "judgeTokens": 19092,
+      "deterministicPath": "runs/plain-codex-freeze-v1/islam-cisi100-historical-reconciliation/group03-deterministic.json",
+      "deterministicSha256": "532dd663870a55afeff5402ad5356cf9e9afe1ced3fd206ed9a04eada198aeb0",
+      "semanticPath": "runs/plain-codex-freeze-v1/islam-cisi100-historical-reconciliation/group03-semantic.json",
+      "semanticSha256": "5c6856778d61a663d3434338d6763bfe05c7607a30ba04dcee632e541acdbfa4"
+    },
+    {
+      "group": 4,
+      "caseIds": [
+        "islam-cisi-q047",
+        "islam-cisi-q055"
+      ],
+      "passed": 1,
+      "failed": 1,
+      "judgeCalls": 2,
+      "judgeTokens": 19414,
+      "deterministicPath": "runs/plain-codex-freeze-v1/islam-cisi100-historical-reconciliation/group04-deterministic.json",
+      "deterministicSha256": "5425e95ed22e0e53b27244d432154c265358587c07ab2ee2dcbe12844a4ed885",
+      "semanticPath": "runs/plain-codex-freeze-v1/islam-cisi100-historical-reconciliation/group04-semantic.json",
+      "semanticSha256": "ec9b526dcf4b9ba560ad94c78f7ed9cad844b8c3d0d6eac73d950c4dacad8261"
+    },
+    {
+      "group": 5,
+      "caseIds": [
+        "islam-cisi-q027"
+      ],
+      "passed": 0,
+      "failed": 1,
+      "judgeCalls": 2,
+      "judgeTokens": 18652,
+      "deterministicPath": "runs/plain-codex-freeze-v1/islam-cisi100-historical-reconciliation/group05-deterministic.json",
+      "deterministicSha256": "755b50037ea37573d176fd6aac3a19925183b370a41d677a0cf4993086c08251",
+      "semanticPath": "runs/plain-codex-freeze-v1/islam-cisi100-historical-reconciliation/group05-semantic.json",
+      "semanticSha256": "dfe412c32caf1d298d14361027f2d4633af0d36b788980a23a2484deab951076"
+    },
+    {
+      "group": 6,
+      "caseIds": [
+        "islam-cisi-q087"
+      ],
+      "passed": 0,
+      "failed": 1,
+      "judgeCalls": 2,
+      "judgeTokens": 18708,
+      "deterministicPath": "runs/plain-codex-freeze-v1/islam-cisi100-historical-reconciliation/group06-deterministic.json",
+      "deterministicSha256": "5142bfe6e2a8c9f0db997d7bc4ca4db363f353daa0eb7acb415ec3f74a2f57d5",
+      "semanticPath": "runs/plain-codex-freeze-v1/islam-cisi100-historical-reconciliation/group06-semantic.json",
+      "semanticSha256": "f892ed41f60baade2ff88de17eb9ae877d6db2ff785d9a7b71096e47bd1b2c60"
+    }
+  ]
+}

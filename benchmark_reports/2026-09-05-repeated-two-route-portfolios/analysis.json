@@ -1,0 +1,1788 @@
+{
+  "scope": "exhaustive post-hoc finite-draw sensitivity, not prospective replication",
+  "newModelCalls": 0,
+  "freshlyExecutedMergedWorkspaces": 0,
+  "independentSessionsAreNotPairCombinations": true,
+  "modelCallsPerDerivedSystem": {
+    "sharedHistoricalPrefix": 3,
+    "finalRoutes": 2
+  },
+  "knownDeviations": [
+    "Python: prior ledger-order deviations remain included",
+    "C++ overlap rep1: forbidden a.out remains included, not excused"
+  ],
+  "tracks": {
+    "python34": {
+      "taskIds": [
+        "aider-python/variable-length-quantity",
+        "aider-python/grep",
+        "aider-python/tree-building",
+        "aider-python/grade-school",
+        "aider-python/bowling",
+        "aider-python/forth",
+        "aider-python/pov",
+        "aider-python/bottle-song",
+        "aider-python/rest-api",
+        "aider-python/dominoes",
+        "aider-python/beer-song",
+        "aider-python/go-counting",
+        "aider-python/two-bucket",
+        "aider-python/wordy",
+        "aider-python/transpose",
+        "aider-python/scale-generator",
+        "aider-python/connect",
+        "aider-python/food-chain",
+        "aider-python/poker",
+        "aider-python/proverb",
+        "aider-python/paasio",
+        "aider-python/react",
+        "aider-python/affine-cipher",
+        "aider-python/zipper",
+        "aider-python/dot-dsl",
+        "aider-python/sgf-parsing",
+        "aider-python/list-ops",
+        "aider-python/robot-name",
+        "aider-python/pig-latin",
+        "aider-python/book-store",
+        "aider-python/simple-linked-list",
+        "aider-python/phone-number",
+        "aider-python/hangman",
+        "aider-python/zebra-puzzle"
+      ],
+      "taskCount": 34,
+      "draws": {
+        "overlap": [
+          {
+            "id": "semantic_overlap_verified_union_rep1",
+            "vector": [
+              true,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true
+            ],
+            "resultSha256": "2a342edf8fbfa3ceec719a62d2a28b91143a8c83bc0333134c61ecdde149b239",
+            "seedSha256": "69c2d479fbd82fd7f71d6d9bcfe7e300b4f466ffcffbf5c89a0bebc1b40e838c",
+            "agentSeconds": 425.4148560980102,
+            "verifierSeconds": 19.150179370946717,
+            "forbiddenFiles": []
+          },
+          {
+            "id": "semantic_overlap_verified_union_rep2",
+            "vector": [
+              true,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true
+            ],
+            "resultSha256": "9636ed67cf4f6cc6720642523c9611411a1b9cae3ed01f0cfd363a18d5fca95f",
+            "seedSha256": "69c2d479fbd82fd7f71d6d9bcfe7e300b4f466ffcffbf5c89a0bebc1b40e838c",
+            "agentSeconds": 478.0423185679829,
+            "verifierSeconds": 20.582692885014694,
+            "forbiddenFiles": []
+          },
+          {
+            "id": "semantic_overlap_verified_union_rep3",
+            "vector": [
+              true,
+              false,
+              false,
+              false,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true
+            ],
+            "resultSha256": "b9ed22dfa77d6e5364d210471252161a002d923f9ea361ec40fe6165d913d6b5",
+            "seedSha256": "69c2d479fbd82fd7f71d6d9bcfe7e300b4f466ffcffbf5c89a0bebc1b40e838c",
+            "agentSeconds": 502.7911675759824,
+            "verifierSeconds": 21.485024642024655,
+            "forbiddenFiles": []
+          },
+          {
+            "id": "semantic_overlap_verified_union_rep4",
+            "vector": [
+              true,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true
+            ],
+            "resultSha256": "d436f117d8a3c0cacda091de0147f58ffbd3e126579c0df9d162370664b00771",
+            "seedSha256": "69c2d479fbd82fd7f71d6d9bcfe7e300b4f466ffcffbf5c89a0bebc1b40e838c",
+            "agentSeconds": 449.1359559040284,
+            "verifierSeconds": 21.101221851014998,
+            "forbiddenFiles": []
+          },
+          {
+            "id": "semantic_overlap_verified_union_rep5",
+            "vector": [
+              true,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true
+            ],
+            "resultSha256": "341bc0ce78f7aa6ac1cbbc7c9a2dc84724e866bd24f360bf80df9e5a2b6d1b25",
+            "seedSha256": "69c2d479fbd82fd7f71d6d9bcfe7e300b4f466ffcffbf5c89a0bebc1b40e838c",
+            "agentSeconds": 466.93300267797895,
+            "verifierSeconds": 19.28698161698412,
+            "forbiddenFiles": []
+          }
+        ],
+        "direct": [
+          {
+            "id": "semantic_free_structured_verified_union_rep1",
+            "vector": [
+              true,
+              false,
+              false,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true
+            ],
+            "resultSha256": "f0a3f3130d7caead779c459afbfc8d2ed11e309b9bb000ba53f15bb9172f0466",
+            "seedSha256": "69c2d479fbd82fd7f71d6d9bcfe7e300b4f466ffcffbf5c89a0bebc1b40e838c",
+            "agentSeconds": 372.7768790679984,
+            "verifierSeconds": 21.868493514019065,
+            "forbiddenFiles": []
+          },
+          {
+            "id": "semantic_free_structured_verified_union_rep2",
+            "vector": [
+              true,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true
+            ],
+            "resultSha256": "75c80fde324ec0eee912e8f55f960cc0321b9faa4b93149bfd6b36505369d5e4",
+            "seedSha256": "69c2d479fbd82fd7f71d6d9bcfe7e300b4f466ffcffbf5c89a0bebc1b40e838c",
+            "agentSeconds": 492.1650310360128,
+            "verifierSeconds": 20.53019606601447,
+            "forbiddenFiles": []
+          },
+          {
+            "id": "semantic_free_structured_verified_union_rep3",
+            "vector": [
+              true,
+              false,
+              false,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true
+            ],
+            "resultSha256": "08602396e0de9844a3b40f3e06c236b90802bace8e1b872f1a4d18287157bd24",
+            "seedSha256": "69c2d479fbd82fd7f71d6d9bcfe7e300b4f466ffcffbf5c89a0bebc1b40e838c",
+            "agentSeconds": 525.1057931850082,
+            "verifierSeconds": 20.772376285982318,
+            "forbiddenFiles": []
+          },
+          {
+            "id": "semantic_free_structured_verified_union_rep4",
+            "vector": [
+              true,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true
+            ],
+            "resultSha256": "5759fb5d102cdd01d5db18a8fd0a7ea04a6f2be203e0a316b57e73f8d7e192be",
+            "seedSha256": "69c2d479fbd82fd7f71d6d9bcfe7e300b4f466ffcffbf5c89a0bebc1b40e838c",
+            "agentSeconds": 416.2456636519637,
+            "verifierSeconds": 22.11430678499164,
+            "forbiddenFiles": []
+          },
+          {
+            "id": "semantic_free_structured_verified_union_rep5",
+            "vector": [
+              true,
+              false,
+              false,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true
+            ],
+            "resultSha256": "19463a14904a83f1ca2dfb4d4a980fac1dfdd02ba2085a4f70f6d31a92b5fac4",
+            "seedSha256": "69c2d479fbd82fd7f71d6d9bcfe7e300b4f466ffcffbf5c89a0bebc1b40e838c",
+            "agentSeconds": 551.5235830470338,
+            "verifierSeconds": 17.811410085007083,
+            "forbiddenFiles": []
+          }
+        ]
+      },
+      "portfolios": {
+        "overlapPlusDirect": {
+          "combinations": 25,
+          "meanSolved": 23.52,
+          "minimumSolved": 22,
+          "maximumSolved": 25,
+          "meanFinalAgentSeconds": 936.0268501623999,
+          "meanFinalVerifierSeconds": 40.94057662039995,
+          "pairs": [
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep1",
+                "semantic_free_structured_verified_union_rep1"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 798.1917351660086,
+              "finalVerifierSeconds": 41.01867288496578
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep1",
+                "semantic_free_structured_verified_union_rep2"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 917.579887134023,
+              "finalVerifierSeconds": 39.680375436961185
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep1",
+                "semantic_free_structured_verified_union_rep3"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 950.5206492830184,
+              "finalVerifierSeconds": 39.922555656929035
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep1",
+                "semantic_free_structured_verified_union_rep4"
+              ],
+              "solved": 25,
+              "finalAgentSeconds": 841.6605197499739,
+              "finalVerifierSeconds": 41.26448615593836
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep1",
+                "semantic_free_structured_verified_union_rep5"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 976.938439145044,
+              "finalVerifierSeconds": 36.9615894559538
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep2",
+                "semantic_free_structured_verified_union_rep1"
+              ],
+              "solved": 22,
+              "finalAgentSeconds": 850.8191976359813,
+              "finalVerifierSeconds": 42.45118639903376
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep2",
+                "semantic_free_structured_verified_union_rep2"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 970.2073496039957,
+              "finalVerifierSeconds": 41.11288895102916
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep2",
+                "semantic_free_structured_verified_union_rep3"
+              ],
+              "solved": 23,
+              "finalAgentSeconds": 1003.1481117529911,
+              "finalVerifierSeconds": 41.35506917099701
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep2",
+                "semantic_free_structured_verified_union_rep4"
+              ],
+              "solved": 23,
+              "finalAgentSeconds": 894.2879822199466,
+              "finalVerifierSeconds": 42.696999670006335
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep2",
+                "semantic_free_structured_verified_union_rep5"
+              ],
+              "solved": 22,
+              "finalAgentSeconds": 1029.5659016150166,
+              "finalVerifierSeconds": 38.39410297002178
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep3",
+                "semantic_free_structured_verified_union_rep1"
+              ],
+              "solved": 23,
+              "finalAgentSeconds": 875.5680466439808,
+              "finalVerifierSeconds": 43.35351815604372
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep3",
+                "semantic_free_structured_verified_union_rep2"
+              ],
+              "solved": 25,
+              "finalAgentSeconds": 994.9561986119952,
+              "finalVerifierSeconds": 42.015220708039124
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep3",
+                "semantic_free_structured_verified_union_rep3"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 1027.8969607609906,
+              "finalVerifierSeconds": 42.25740092800697
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep3",
+                "semantic_free_structured_verified_union_rep4"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 919.0368312279461,
+              "finalVerifierSeconds": 43.599331427016295
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep3",
+                "semantic_free_structured_verified_union_rep5"
+              ],
+              "solved": 23,
+              "finalAgentSeconds": 1054.3147506230162,
+              "finalVerifierSeconds": 39.29643472703174
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep4",
+                "semantic_free_structured_verified_union_rep1"
+              ],
+              "solved": 23,
+              "finalAgentSeconds": 821.9128349720268,
+              "finalVerifierSeconds": 42.96971536503406
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep4",
+                "semantic_free_structured_verified_union_rep2"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 941.3009869400412,
+              "finalVerifierSeconds": 41.63141791702947
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep4",
+                "semantic_free_structured_verified_union_rep3"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 974.2417490890366,
+              "finalVerifierSeconds": 41.873598136997316
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep4",
+                "semantic_free_structured_verified_union_rep4"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 865.3816195559921,
+              "finalVerifierSeconds": 43.21552863600664
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep4",
+                "semantic_free_structured_verified_union_rep5"
+              ],
+              "solved": 23,
+              "finalAgentSeconds": 1000.6595389510621,
+              "finalVerifierSeconds": 38.91263193602208
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep5",
+                "semantic_free_structured_verified_union_rep1"
+              ],
+              "solved": 22,
+              "finalAgentSeconds": 839.7098817459773,
+              "finalVerifierSeconds": 41.155475131003186
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep5",
+                "semantic_free_structured_verified_union_rep2"
+              ],
+              "solved": 25,
+              "finalAgentSeconds": 959.0980337139918,
+              "finalVerifierSeconds": 39.81717768299859
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep5",
+                "semantic_free_structured_verified_union_rep3"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 992.0387958629872,
+              "finalVerifierSeconds": 40.05935790296644
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep5",
+                "semantic_free_structured_verified_union_rep4"
+              ],
+              "solved": 23,
+              "finalAgentSeconds": 883.1786663299426,
+              "finalVerifierSeconds": 41.40128840197576
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep5",
+                "semantic_free_structured_verified_union_rep5"
+              ],
+              "solved": 22,
+              "finalAgentSeconds": 1018.4565857250127,
+              "finalVerifierSeconds": 37.098391701991204
+            }
+          ]
+        },
+        "directPlusDirect": {
+          "combinations": 10,
+          "meanSolved": 23.0,
+          "minimumSolved": 20,
+          "maximumSolved": 25,
+          "meanFinalAgentSeconds": 943.1267799952068,
+          "meanFinalVerifierSeconds": 41.23871309440583,
+          "pairs": [
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep1",
+                "semantic_free_structured_verified_union_rep2"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 864.9419101040112,
+              "finalVerifierSeconds": 42.39868958003353
+            },
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep1",
+                "semantic_free_structured_verified_union_rep3"
+              ],
+              "solved": 22,
+              "finalAgentSeconds": 897.8826722530066,
+              "finalVerifierSeconds": 42.64086980000138
+            },
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep1",
+                "semantic_free_structured_verified_union_rep4"
+              ],
+              "solved": 23,
+              "finalAgentSeconds": 789.0225427199621,
+              "finalVerifierSeconds": 43.982800299010705
+            },
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep1",
+                "semantic_free_structured_verified_union_rep5"
+              ],
+              "solved": 20,
+              "finalAgentSeconds": 924.3004621150321,
+              "finalVerifierSeconds": 39.67990359902615
+            },
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep2",
+                "semantic_free_structured_verified_union_rep3"
+              ],
+              "solved": 23,
+              "finalAgentSeconds": 1017.270824221021,
+              "finalVerifierSeconds": 41.30257235199679
+            },
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep2",
+                "semantic_free_structured_verified_union_rep4"
+              ],
+              "solved": 25,
+              "finalAgentSeconds": 908.4106946879765,
+              "finalVerifierSeconds": 42.64450285100611
+            },
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep2",
+                "semantic_free_structured_verified_union_rep5"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 1043.6886140830466,
+              "finalVerifierSeconds": 38.34160615102155
+            },
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep3",
+                "semantic_free_structured_verified_union_rep4"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 941.3514568369719,
+              "finalVerifierSeconds": 42.88668307097396
+            },
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep3",
+                "semantic_free_structured_verified_union_rep5"
+              ],
+              "solved": 22,
+              "finalAgentSeconds": 1076.629376232042,
+              "finalVerifierSeconds": 38.5837863709894
+            },
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep4",
+                "semantic_free_structured_verified_union_rep5"
+              ],
+              "solved": 23,
+              "finalAgentSeconds": 967.7692466989974,
+              "finalVerifierSeconds": 39.92571686999872
+            }
+          ]
+        },
+        "overlapPlusOverlap": {
+          "combinations": 10,
+          "meanSolved": 24.1,
+          "minimumSolved": 22,
+          "maximumSolved": 25,
+          "meanFinalAgentSeconds": 928.9269203295931,
+          "meanFinalVerifierSeconds": 40.64244014639407,
+          "pairs": [
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep1",
+                "semantic_overlap_verified_union_rep2"
+              ],
+              "solved": 25,
+              "finalAgentSeconds": 903.4571746659931,
+              "finalVerifierSeconds": 39.73287225596141
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep1",
+                "semantic_overlap_verified_union_rep3"
+              ],
+              "solved": 25,
+              "finalAgentSeconds": 928.2060236739926,
+              "finalVerifierSeconds": 40.63520401297137
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep1",
+                "semantic_overlap_verified_union_rep4"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 874.5508120020386,
+              "finalVerifierSeconds": 40.251401221961714
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep1",
+                "semantic_overlap_verified_union_rep5"
+              ],
+              "solved": 25,
+              "finalAgentSeconds": 892.3478587759892,
+              "finalVerifierSeconds": 38.43716098793084
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep2",
+                "semantic_overlap_verified_union_rep3"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 980.8334861439653,
+              "finalVerifierSeconds": 42.06771752703935
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep2",
+                "semantic_overlap_verified_union_rep4"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 927.1782744720113,
+              "finalVerifierSeconds": 41.68391473602969
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep2",
+                "semantic_overlap_verified_union_rep5"
+              ],
+              "solved": 22,
+              "finalAgentSeconds": 944.9753212459618,
+              "finalVerifierSeconds": 39.869674501998816
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep3",
+                "semantic_overlap_verified_union_rep4"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 951.9271234800108,
+              "finalVerifierSeconds": 42.58624649303965
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep3",
+                "semantic_overlap_verified_union_rep5"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 969.7241702539613,
+              "finalVerifierSeconds": 40.772006259008776
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep4",
+                "semantic_overlap_verified_union_rep5"
+              ],
+              "solved": 24,
+              "finalAgentSeconds": 916.0689585820073,
+              "finalVerifierSeconds": 40.38820346799912
+            }
+          ]
+        }
+      },
+      "leaveOneOriginalPairOutMeanDifference": [
+        0.0625,
+        1.1666666666666679,
+        0.20833333333333215,
+        0.9375,
+        0.25
+      ]
+    },
+    "cpp26": {
+      "taskIds": [
+        "aider-cpp/all-your-base",
+        "aider-cpp/allergies",
+        "aider-cpp/bank-account",
+        "aider-cpp/binary-search-tree",
+        "aider-cpp/circular-buffer",
+        "aider-cpp/clock",
+        "aider-cpp/complex-numbers",
+        "aider-cpp/crypto-square",
+        "aider-cpp/diamond",
+        "aider-cpp/dnd-character",
+        "aider-cpp/gigasecond",
+        "aider-cpp/grade-school",
+        "aider-cpp/kindergarten-garden",
+        "aider-cpp/knapsack",
+        "aider-cpp/linked-list",
+        "aider-cpp/meetup",
+        "aider-cpp/parallel-letter-frequency",
+        "aider-cpp/perfect-numbers",
+        "aider-cpp/phone-number",
+        "aider-cpp/queen-attack",
+        "aider-cpp/robot-name",
+        "aider-cpp/space-age",
+        "aider-cpp/spiral-matrix",
+        "aider-cpp/sublist",
+        "aider-cpp/yacht",
+        "aider-cpp/zebra-puzzle"
+      ],
+      "taskCount": 26,
+      "draws": {
+        "overlap": [
+          {
+            "id": "semantic_overlap_verified_union_rep1",
+            "vector": [
+              false,
+              false,
+              true,
+              false,
+              false,
+              false,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "resultSha256": "39983a95cb279fd69178f68c73174e68c68d664addd80ba0cd6c75cefd32f56f",
+            "seedSha256": "9bc24d7c031e3591a377512d456883303359aac6cafbdd85dd601d54e3471a10",
+            "agentSeconds": 467.6916918409988,
+            "verifierSeconds": 269.7997174920165,
+            "forbiddenFiles": [
+              "a.out"
+            ]
+          },
+          {
+            "id": "semantic_overlap_verified_union_rep2",
+            "vector": [
+              false,
+              false,
+              true,
+              false,
+              false,
+              true,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true
+            ],
+            "resultSha256": "96d95b8609470900dc55c8c35e45e6ad73bae8f114234f7ececc476d29107adc",
+            "seedSha256": "9bc24d7c031e3591a377512d456883303359aac6cafbdd85dd601d54e3471a10",
+            "agentSeconds": 334.70520423998823,
+            "verifierSeconds": 263.0579220490181,
+            "forbiddenFiles": []
+          },
+          {
+            "id": "semantic_overlap_verified_union_rep3",
+            "vector": [
+              false,
+              false,
+              true,
+              false,
+              false,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "resultSha256": "02fa300f07717d346a1cce10244c555838cce64196ecc8d961e0d8366ab1a457",
+            "seedSha256": "9bc24d7c031e3591a377512d456883303359aac6cafbdd85dd601d54e3471a10",
+            "agentSeconds": 488.4590633469634,
+            "verifierSeconds": 264.52144867001334,
+            "forbiddenFiles": []
+          },
+          {
+            "id": "semantic_overlap_verified_union_rep4",
+            "vector": [
+              false,
+              false,
+              true,
+              false,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "resultSha256": "f7286904338164e2487245fa70f734dacff7a6566d062d325047da0dca2ea0be",
+            "seedSha256": "9bc24d7c031e3591a377512d456883303359aac6cafbdd85dd601d54e3471a10",
+            "agentSeconds": 504.68764695402933,
+            "verifierSeconds": 246.7006271330174,
+            "forbiddenFiles": []
+          },
+          {
+            "id": "semantic_overlap_verified_union_rep5",
+            "vector": [
+              false,
+              false,
+              true,
+              false,
+              true,
+              false,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "resultSha256": "1f41d6a55ed8a1d894f4cf0f5908095007aa17edc68508e1956adb051e921dff",
+            "seedSha256": "9bc24d7c031e3591a377512d456883303359aac6cafbdd85dd601d54e3471a10",
+            "agentSeconds": 487.81660763395485,
+            "verifierSeconds": 255.53608506103046,
+            "forbiddenFiles": []
+          }
+        ],
+        "direct": [
+          {
+            "id": "semantic_free_structured_verified_union_rep1",
+            "vector": [
+              false,
+              false,
+              true,
+              false,
+              false,
+              false,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true
+            ],
+            "resultSha256": "49808f6a3e8a6913bab5936516512b09b5102b2906ffb422d75d4ecda46e032b",
+            "seedSha256": "9bc24d7c031e3591a377512d456883303359aac6cafbdd85dd601d54e3471a10",
+            "agentSeconds": 457.73449111002265,
+            "verifierSeconds": 245.83385323401308,
+            "forbiddenFiles": []
+          },
+          {
+            "id": "semantic_free_structured_verified_union_rep2",
+            "vector": [
+              false,
+              false,
+              true,
+              false,
+              true,
+              false,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              false,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "resultSha256": "7070c894ca43291b7841e9c7a2440cbb9f073ccfb1e17d0b4188f01ea842b06c",
+            "seedSha256": "9bc24d7c031e3591a377512d456883303359aac6cafbdd85dd601d54e3471a10",
+            "agentSeconds": 383.9281747979694,
+            "verifierSeconds": 279.0869605980115,
+            "forbiddenFiles": []
+          },
+          {
+            "id": "semantic_free_structured_verified_union_rep3",
+            "vector": [
+              false,
+              false,
+              true,
+              false,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "resultSha256": "7a79fe806bf160707f6e3db1a786dd6a163e64e4a9997c8d636fc00cf8d135e4",
+            "seedSha256": "9bc24d7c031e3591a377512d456883303359aac6cafbdd85dd601d54e3471a10",
+            "agentSeconds": 431.7318053439958,
+            "verifierSeconds": 268.7015751900035,
+            "forbiddenFiles": []
+          },
+          {
+            "id": "semantic_free_structured_verified_union_rep4",
+            "vector": [
+              false,
+              false,
+              true,
+              false,
+              false,
+              false,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true
+            ],
+            "resultSha256": "3d782615ba38045f1a1c490fc17d850b0545ca62377427cfa93665dfff270bde",
+            "seedSha256": "9bc24d7c031e3591a377512d456883303359aac6cafbdd85dd601d54e3471a10",
+            "agentSeconds": 518.2919169329689,
+            "verifierSeconds": 260.17241738102166,
+            "forbiddenFiles": []
+          },
+          {
+            "id": "semantic_free_structured_verified_union_rep5",
+            "vector": [
+              false,
+              false,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "resultSha256": "2a9cdc73c8a84fb36c23dd2504937bed2779f731c2c21088fab6137dba3ff241",
+            "seedSha256": "9bc24d7c031e3591a377512d456883303359aac6cafbdd85dd601d54e3471a10",
+            "agentSeconds": 477.20500542398077,
+            "verifierSeconds": 347.029765031999,
+            "forbiddenFiles": []
+          }
+        ]
+      },
+      "portfolios": {
+        "overlapPlusDirect": {
+          "combinations": 25,
+          "meanSolved": 18.36,
+          "minimumSolved": 15,
+          "maximumSolved": 21,
+          "meanFinalAgentSeconds": 910.4503215249745,
+          "meanFinalVerifierSeconds": 540.0880743680289,
+          "pairs": [
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep1",
+                "semantic_free_structured_verified_union_rep1"
+              ],
+              "solved": 16,
+              "finalAgentSeconds": 925.4261829510215,
+              "finalVerifierSeconds": 515.6335707260296
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep1",
+                "semantic_free_structured_verified_union_rep2"
+              ],
+              "solved": 17,
+              "finalAgentSeconds": 851.6198666389682,
+              "finalVerifierSeconds": 548.886678090028
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep1",
+                "semantic_free_structured_verified_union_rep3"
+              ],
+              "solved": 19,
+              "finalAgentSeconds": 899.4234971849946,
+              "finalVerifierSeconds": 538.50129268202
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep1",
+                "semantic_free_structured_verified_union_rep4"
+              ],
+              "solved": 16,
+              "finalAgentSeconds": 985.9836087739677,
+              "finalVerifierSeconds": 529.9721348730382
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep1",
+                "semantic_free_structured_verified_union_rep5"
+              ],
+              "solved": 20,
+              "finalAgentSeconds": 944.8966972649796,
+              "finalVerifierSeconds": 616.8294825240155
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep2",
+                "semantic_free_structured_verified_union_rep1"
+              ],
+              "solved": 16,
+              "finalAgentSeconds": 792.4396953500109,
+              "finalVerifierSeconds": 508.89177528303117
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep2",
+                "semantic_free_structured_verified_union_rep2"
+              ],
+              "solved": 17,
+              "finalAgentSeconds": 718.6333790379576,
+              "finalVerifierSeconds": 542.1448826470296
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep2",
+                "semantic_free_structured_verified_union_rep3"
+              ],
+              "solved": 20,
+              "finalAgentSeconds": 766.437009583984,
+              "finalVerifierSeconds": 531.7594972390216
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep2",
+                "semantic_free_structured_verified_union_rep4"
+              ],
+              "solved": 15,
+              "finalAgentSeconds": 852.9971211729571,
+              "finalVerifierSeconds": 523.2303394300397
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep2",
+                "semantic_free_structured_verified_union_rep5"
+              ],
+              "solved": 20,
+              "finalAgentSeconds": 811.910209663969,
+              "finalVerifierSeconds": 610.0876870810171
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep3",
+                "semantic_free_structured_verified_union_rep1"
+              ],
+              "solved": 18,
+              "finalAgentSeconds": 946.193554456986,
+              "finalVerifierSeconds": 510.3553019040264
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep3",
+                "semantic_free_structured_verified_union_rep2"
+              ],
+              "solved": 19,
+              "finalAgentSeconds": 872.3872381449328,
+              "finalVerifierSeconds": 543.6084092680248
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep3",
+                "semantic_free_structured_verified_union_rep3"
+              ],
+              "solved": 19,
+              "finalAgentSeconds": 920.1908686909592,
+              "finalVerifierSeconds": 533.2230238600168
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep3",
+                "semantic_free_structured_verified_union_rep4"
+              ],
+              "solved": 18,
+              "finalAgentSeconds": 1006.7509802799323,
+              "finalVerifierSeconds": 524.693866051035
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep3",
+                "semantic_free_structured_verified_union_rep5"
+              ],
+              "solved": 20,
+              "finalAgentSeconds": 965.6640687709441,
+              "finalVerifierSeconds": 611.5512137020123
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep4",
+                "semantic_free_structured_verified_union_rep1"
+              ],
+              "solved": 19,
+              "finalAgentSeconds": 962.422138064052,
+              "finalVerifierSeconds": 492.5344803670305
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep4",
+                "semantic_free_structured_verified_union_rep2"
+              ],
+              "solved": 19,
+              "finalAgentSeconds": 888.6158217519987,
+              "finalVerifierSeconds": 525.7875877310289
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep4",
+                "semantic_free_structured_verified_union_rep3"
+              ],
+              "solved": 19,
+              "finalAgentSeconds": 936.4194522980251,
+              "finalVerifierSeconds": 515.4022023230209
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep4",
+                "semantic_free_structured_verified_union_rep4"
+              ],
+              "solved": 19,
+              "finalAgentSeconds": 1022.9795638869982,
+              "finalVerifierSeconds": 506.87304451403907
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep4",
+                "semantic_free_structured_verified_union_rep5"
+              ],
+              "solved": 20,
+              "finalAgentSeconds": 981.8926523780101,
+              "finalVerifierSeconds": 593.7303921650164
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep5",
+                "semantic_free_structured_verified_union_rep1"
+              ],
+              "solved": 18,
+              "finalAgentSeconds": 945.5510987439775,
+              "finalVerifierSeconds": 501.36993829504354
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep5",
+                "semantic_free_structured_verified_union_rep2"
+              ],
+              "solved": 17,
+              "finalAgentSeconds": 871.7447824319242,
+              "finalVerifierSeconds": 534.623045659042
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep5",
+                "semantic_free_structured_verified_union_rep3"
+              ],
+              "solved": 20,
+              "finalAgentSeconds": 919.5484129779506,
+              "finalVerifierSeconds": 524.237660251034
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep5",
+                "semantic_free_structured_verified_union_rep4"
+              ],
+              "solved": 17,
+              "finalAgentSeconds": 1006.1085245669237,
+              "finalVerifierSeconds": 515.7085024420521
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep5",
+                "semantic_free_structured_verified_union_rep5"
+              ],
+              "solved": 21,
+              "finalAgentSeconds": 965.0216130579356,
+              "finalVerifierSeconds": 602.5658500930294
+            }
+          ]
+        },
+        "directPlusDirect": {
+          "combinations": 10,
+          "meanSolved": 18.5,
+          "minimumSolved": 15,
+          "maximumSolved": 20,
+          "meanFinalAgentSeconds": 907.556557443575,
+          "meanFinalVerifierSeconds": 560.3298285740195,
+          "pairs": [
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep1",
+                "semantic_free_structured_verified_union_rep2"
+              ],
+              "solved": 17,
+              "finalAgentSeconds": 841.662665907992,
+              "finalVerifierSeconds": 524.9208138320246
+            },
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep1",
+                "semantic_free_structured_verified_union_rep3"
+              ],
+              "solved": 19,
+              "finalAgentSeconds": 889.4662964540184,
+              "finalVerifierSeconds": 514.5354284240166
+            },
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep1",
+                "semantic_free_structured_verified_union_rep4"
+              ],
+              "solved": 15,
+              "finalAgentSeconds": 976.0264080429915,
+              "finalVerifierSeconds": 506.00627061503474
+            },
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep1",
+                "semantic_free_structured_verified_union_rep5"
+              ],
+              "solved": 20,
+              "finalAgentSeconds": 934.9394965340034,
+              "finalVerifierSeconds": 592.863618266012
+            },
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep2",
+                "semantic_free_structured_verified_union_rep3"
+              ],
+              "solved": 19,
+              "finalAgentSeconds": 815.6599801419652,
+              "finalVerifierSeconds": 547.788535788015
+            },
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep2",
+                "semantic_free_structured_verified_union_rep4"
+              ],
+              "solved": 16,
+              "finalAgentSeconds": 902.2200917309383,
+              "finalVerifierSeconds": 539.2593779790332
+            },
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep2",
+                "semantic_free_structured_verified_union_rep5"
+              ],
+              "solved": 20,
+              "finalAgentSeconds": 861.1331802219502,
+              "finalVerifierSeconds": 626.1167256300105
+            },
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep3",
+                "semantic_free_structured_verified_union_rep4"
+              ],
+              "solved": 19,
+              "finalAgentSeconds": 950.0237222769647,
+              "finalVerifierSeconds": 528.8739925710252
+            },
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep3",
+                "semantic_free_structured_verified_union_rep5"
+              ],
+              "solved": 20,
+              "finalAgentSeconds": 908.9368107679766,
+              "finalVerifierSeconds": 615.7313402220025
+            },
+            {
+              "draws": [
+                "semantic_free_structured_verified_union_rep4",
+                "semantic_free_structured_verified_union_rep5"
+              ],
+              "solved": 20,
+              "finalAgentSeconds": 995.4969223569497,
+              "finalVerifierSeconds": 607.2021824130206
+            }
+          ]
+        },
+        "overlapPlusOverlap": {
+          "combinations": 10,
+          "meanSolved": 18.8,
+          "minimumSolved": 17,
+          "maximumSolved": 20,
+          "meanFinalAgentSeconds": 913.3440856063738,
+          "meanFinalVerifierSeconds": 519.8463201620383,
+          "pairs": [
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep1",
+                "semantic_overlap_verified_union_rep2"
+              ],
+              "solved": 17,
+              "finalAgentSeconds": 802.3968960809871,
+              "finalVerifierSeconds": 532.8576395410346
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep1",
+                "semantic_overlap_verified_union_rep3"
+              ],
+              "solved": 18,
+              "finalAgentSeconds": 956.1507551879622,
+              "finalVerifierSeconds": 534.3211661620298
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep1",
+                "semantic_overlap_verified_union_rep4"
+              ],
+              "solved": 19,
+              "finalAgentSeconds": 972.3793387950282,
+              "finalVerifierSeconds": 516.5003446250339
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep1",
+                "semantic_overlap_verified_union_rep5"
+              ],
+              "solved": 18,
+              "finalAgentSeconds": 955.5082994749537,
+              "finalVerifierSeconds": 525.335802553047
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep2",
+                "semantic_overlap_verified_union_rep3"
+              ],
+              "solved": 19,
+              "finalAgentSeconds": 823.1642675869516,
+              "finalVerifierSeconds": 527.5793707190314
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep2",
+                "semantic_overlap_verified_union_rep4"
+              ],
+              "solved": 20,
+              "finalAgentSeconds": 839.3928511940176,
+              "finalVerifierSeconds": 509.7585491820355
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep2",
+                "semantic_overlap_verified_union_rep5"
+              ],
+              "solved": 18,
+              "finalAgentSeconds": 822.5218118739431,
+              "finalVerifierSeconds": 518.5940071100486
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep3",
+                "semantic_overlap_verified_union_rep4"
+              ],
+              "solved": 19,
+              "finalAgentSeconds": 993.1467103009927,
+              "finalVerifierSeconds": 511.22207580303075
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep3",
+                "semantic_overlap_verified_union_rep5"
+              ],
+              "solved": 20,
+              "finalAgentSeconds": 976.2756709809182,
+              "finalVerifierSeconds": 520.0575337310438
+            },
+            {
+              "draws": [
+                "semantic_overlap_verified_union_rep4",
+                "semantic_overlap_verified_union_rep5"
+              ],
+              "solved": 20,
+              "finalAgentSeconds": 992.5042545879842,
+              "finalVerifierSeconds": 502.23671219404787
+            }
+          ]
+        }
+      },
+      "leaveOneOriginalPairOutMeanDifference": [
+        -0.25,
+        -0.14583333333333215,
+        -0.0625,
+        -0.6041666666666679,
+        0.375
+      ]
+    }
+  }
+}

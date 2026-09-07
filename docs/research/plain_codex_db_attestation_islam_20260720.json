@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "attestationId": "plain-codex-islam-db-pre-run-20260720",
+  "createdAt": "2026-07-20T04:45:30+09:00",
+  "freezeId": "plain-codex-luna-subject-batch-v1-20260720",
+  "freezeSha256": "468d11d764407a419f4bc85dac288c23730a0e672ff4ae7edff02e5d91fd44d7",
+  "product": "islam",
+  "database": {
+    "path": "/home/pineapple/bunjum2/religion/corpus/islam/islam.sqlite3",
+    "sizeBytes": 2065780736,
+    "identity": {
+      "mode": "sampled_sha256_v1",
+      "sampleBytes": 262144,
+      "sampleOffsets": [
+        0,
+        688593578,
+        1377187157,
+        2065518592
+      ],
+      "sha256": "36a3ddfa9134fb5dd21f56de01788b20ae03fd2e4924b9ff14329bd9e4ce7770"
+    },
+    "fixtureWarning": false
+  },
+  "authorization": "may be mounted read-only only for public islam subject batches under the pinned plain freeze"
+}

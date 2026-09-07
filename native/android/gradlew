@@ -1,0 +1,51 @@
+#!/usr/bin/env sh
+set -eu
+
+APP_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+GRADLE_VERSION="${GRADLE_VERSION:-8.10.2}"
+# Default distribution: gradle-8.10.2-bin.zip
+DIST_URL="${GRADLE_DISTRIBUTION_URL:-https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip}"
+GRADLE_HOME="${GRADLE_USER_HOME:-${HOME:-/tmp}/.gradle}"
+CACHE_DIR="${GRADLE_HOME}/wrapper/dists/bunjum-beta6"
+DIST_DIR="${CACHE_DIR}/gradle-${GRADLE_VERSION}"
+GRADLE_BIN="${DIST_DIR}/bin/gradle"
+
+if [ ! -x "${GRADLE_BIN}" ]; then
+  mkdir -p "${CACHE_DIR}"
+  python3 - "${DIST_URL}" "${CACHE_DIR}" "${DIST_DIR}" <<'PY'
+import pathlib
+import shutil
+import sys
+import tempfile
+import urllib.request
+import zipfile
+
+url = sys.argv[1]
+cache_dir = pathlib.Path(sys.argv[2])
+dist_dir = pathlib.Path(sys.argv[3])
+cache_dir.mkdir(parents=True, exist_ok=True)
+if dist_dir.joinpath("bin", "gradle").exists():
+    raise SystemExit(0)
+
+with tempfile.TemporaryDirectory(dir=str(cache_dir)) as tmp:
+    tmp_path = pathlib.Path(tmp)
+    archive = tmp_path / "gradle.zip"
+    urllib.request.urlretrieve(url, archive)
+    extract_dir = tmp_path / "extract"
+    with zipfile.ZipFile(archive) as zf:
+        zf.extractall(extract_dir)
+    roots = [p for p in extract_dir.iterdir() if p.is_dir()]
+    if len(roots) != 1:
+        raise SystemExit(f"unexpected Gradle distribution layout from {url}")
+    if dist_dir.exists():
+        shutil.rmtree(dist_dir)
+    shutil.move(str(roots[0]), str(dist_dir))
+PY
+fi
+
+if [ ! -x "${GRADLE_BIN}" ]; then
+  chmod u+x "${GRADLE_BIN}"
+fi
+
+cd "${APP_DIR}"
+exec "${GRADLE_BIN}" "$@"

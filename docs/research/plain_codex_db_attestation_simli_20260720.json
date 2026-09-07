@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "attestationId": "plain-codex-simli-db-pre-run-20260720",
+  "createdAt": "2026-07-20T05:33:05+09:00",
+  "freezeId": "plain-codex-luna-subject-batch-v1-20260720",
+  "freezeSha256": "468d11d764407a419f4bc85dac288c23730a0e672ff4ae7edff02e5d91fd44d7",
+  "product": "simli",
+  "database": {
+    "path": "/home/pineapple/bunjum2/simli/data/db/psych.sqlite",
+    "sizeBytes": 12357181440,
+    "identity": {
+      "mode": "sampled_sha256_v1",
+      "sampleBytes": 262144,
+      "sampleOffsets": [
+        0,
+        4119060480,
+        8238120960,
+        12356919296
+      ],
+      "sha256": "efbc1440d998afd58c811298472a98eab76447864eac1ccaa792fd58befe6c21"
+    },
+    "fixtureWarning": false
+  },
+  "authorization": "may be mounted read-only only for public simli subject batches under the pinned plain freeze"
+}

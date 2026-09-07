@@ -1,0 +1,26 @@
+{
+  "protocol": "mini_artichokes_mmlu_pro_confirmation_base_v1",
+  "benchmarkId": "mcq.mmlu_pro.stratified1000.v1",
+  "rows": 1000,
+  "categories": {
+    "biology": 60,
+    "business": 66,
+    "chemistry": 94,
+    "computer science": 34,
+    "economics": 70,
+    "engineering": 81,
+    "health": 68,
+    "history": 32,
+    "law": 91,
+    "math": 112,
+    "other": 77,
+    "philosophy": 41,
+    "physics": 108,
+    "psychology": 66
+  },
+  "publicSha256": "b7f7962ea0b3da74257c69f68e05116a54c11b96308040e692f725d5f31301f6",
+  "privateSha256": "c87d2722fc332493d18b4f0d46e1f89be850348a5f1b5f6b1a9b7aec6fa22697",
+  "freezeSha256": "10d8cc983810dbed0c66ac522a8552f7da5e33cf11ac1fd76b1e4f7c56bb9888",
+  "selectionSeed": "mini-artichokes-mmlu-pro-confirmation-v1-20260901",
+  "excludedPriorOrDuplicateRows": 0
+}
